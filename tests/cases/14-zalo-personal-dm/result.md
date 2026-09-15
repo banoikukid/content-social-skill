@@ -13,7 +13,7 @@ flow: A (Conversion DM)
 tone: 1 (Thân mật)
 evidence: brief [USER_CLAIM]
 claims: [mon: "Trà Đào" [USER_CLAIM], gia: "39k" [USER_CLAIM]]
-cta: "Nhắn mình nha."
+cta: "Muốn lấy thì nhắn mình nha."
 risk_flags: none (LOW)
 
 Verdict: PASS
