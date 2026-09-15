@@ -156,3 +156,40 @@ data_layer:
    - Nếu promotion đã quá hạn `end_date` → đánh dấu `EXPIRED`, dừng và báo người dùng.
 4. **Branch Isolation:**
    - Giá và tình trạng món ăn tại từng chi nhánh là độc lập. Tuyệt đối không áp dụng giá chi nhánh này cho chi nhánh khác khi chưa verify.
+
+---
+
+## 4. Multi-Tenant Runtime Isolation (tenant_id / brand_id / branch_id)
+
+Để ngăn chặn nguy cơ **Cross-Brand Contamination** (lẫn lộn giọng điệu, đại từ nhân xưng, menu, bảng giá giữa các brand như TeaRus, Cherry Personal, Brand B...), mọi content request khi đưa vào Hermes / Skill bắt buộc phải được đóng gói trong một **Context Envelope**:
+
+```yaml
+context_envelope:
+  tenant_id:   "org_tearus_corp"      # Định danh tổ chức / tài khoản sở hữu
+  brand_id:    "tearus"               # Định danh brand duy nhất (tearus | cherry_personal | brand_b)
+  branch_id:   "branch_q1"            # Chi nhánh cụ thể (hoặc null nếu request toàn hệ thống)
+  channel:     "facebook"             # Kênh phát hành (facebook | zalo_personal | tiktok...)
+  timestamp:   "2026-09-16T00:30:00Z" # Thời điểm xử lý (dùng để check effective_date)
+```
+
+### Các nguyên tắc cô lập bắt buộc tại Runtime:
+
+1. **Context Boundary Isolation (Cô lập bộ nhớ tác tử):**
+   - Agent xử lý mỗi request như một phiên làm việc độc lập với scope `(tenant_id, brand_id, branch_id)`.
+   - Tuyệt đối không để memory từ request trước của brand này rò rỉ sang brand khác trong cùng session.
+
+2. **Pronoun & Voice Scoping:**
+   - Chỉ được nạp bảng đại từ nhân xưng (`pronouns`) và `brand_voice_keywords` của đúng `brand_id` trong envelope.
+   - Ví dụ: `brand_id: tearus` xưng "mình/tụi mình" — không được tự đổi sang "tôi" hay "chúng tôi" của brand khác.
+   - `brand_id: cherry_personal` là tài khoản cá nhân → format DM thân mật, không áp dụng pronoun tập thể.
+
+3. **Catalog & Branch Isolation:**
+   - Mọi truy vấn món ăn, giá bán và tồn kho phải filter chính xác theo `brand_id` và `branch_id`.
+   - Nghiêm cấm lấy giá của `branch_q1` áp cho `branch_q3` nếu data layer chưa xác nhận cùng mức giá.
+   - Nếu request thiếu `branch_id` khi hỏi về sản phẩm tại chỗ → hỏi 1 câu xác nhận chi nhánh hoặc dùng giá base.
+
+4. **Anti-Contamination Guard:**
+   - Nếu brief của người dùng có nhắc đến thương hiệu khác (ví dụ: *"viết giống style The Coffee House"*, *"bán rẻ hơn Phúc Long"*):
+     → Coi tên thương hiệu khác là đối tượng tham chiếu bên ngoài, **tuyệt đối không tráo đổi bộ nhận diện của brand_id hiện tại**.
+     → Giữ trọn vẹn persona, pronouns và tone của `brand_id` được chỉ định trong envelope.
+

@@ -54,3 +54,12 @@ Chạy 4 test này SAU khi viết xong. Không in kết quả ra, tự sửa n�
   - `action`: Chỉ được chứa đúng 1 hành động duy nhất (`message`, `comment`, `visit`, hoặc `click_link`).
   - `count`: Bắt buộc bằng 1.
 - Nếu câu CTA thực tế chứa ≥ 2 hành vi (ví dụ: *"Ghé quán HOẶC nhắn tin"*, *"Inbox ĐỂ ĐƯỢC tư vấn rồi ghé"*...) → `count: 2` → **FAIL CHECK**. Bắt buộc rút gọn về đúng 1 hành vi duy nhất trước khi gửi.
+
+---
+
+## 7. Cross-Brand Contamination Check (Multi-Tenant Isolation)
+**Nội dung có bị rò rỉ dữ liệu hoặc nhận diện từ brand/branch khác không?**
+- **Pronouns & Persona:** Bài viết có dùng đúng bảng đại từ xưng hô của `brand_id` trong envelope không? (Ví dụ: `tearus` dùng "mình/tụi mình" — nếu xuất hiện "tôi/chúng tôi" của brand khác → sửa lại).
+- **Catalog & Pricing:** Món ăn, nguyên liệu, mức giá và chính sách có thuộc đúng `brand_id` và `branch_id` đang kích hoạt không?
+- **Brand Name Leak:** Tên thương hiệu khác (nếu có trong brief để so sánh) có bị vô tình viết như thể thuộc về quán không?
+- Nếu phát hiện rò rỉ → **BẮT BUỘC SỬA HOẶC XÓA BỎ NGAY TRƯỚC KHI TRẢ VỀ CHO HERMES**.
