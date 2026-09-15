@@ -5,68 +5,107 @@
 ## Version
 
 ```
-skill:        3.1.0
+skill:        3.2.0
 last_updated: 2026-09-15
 ```
 
+## Platform Registry (Canonical)
+
+| Platform | Status | Notes |
+|----------|--------|-------|
+| `facebook` | ✅ Active | OG platform |
+| `tiktok_reels` | ✅ Active | Script format |
+| `zalo_oa` | ✅ Active | Broadcast format |
+| `zalo_personal` | ✅ Active | DM/Group, Hermes zca-js |
+| `instagram` | ✅ Active | Feed + Stories |
+
 ## Reference Files
 
-| File | Mô tả | Version |
-|------|-------|---------|
-| `SKILL.md` | Entry point, luồng bắt buộc, guardrails | 3.1.0 |
-| `references/workflow.md` | Intent detection, flows A–G, inline rules | 3.1.0 |
-| `references/voice.md` | 7 tone giọng văn | 3.1.0 |
-| `references/checks.md` | Post-write checklist | 3.1.0 |
-| `references/platforms.md` | Facebook, TikTok, Zalo OA, Zalo Personal, Instagram | 3.1.0 |
-| `references/formulas.md` | Copywriting formulas (AIDA, PAS, FAB...) | 3.0.0 |
-| `references/psychology.md` | 18 hiệu ứng tâm lý + NLP + Ethics Gate | 3.1.0 |
-| `references/pricing.md` | Quy tắc viết bài có giá | 3.0.0 |
-| `references/hooks-conclusions.md` | Mở bài và kết bài | 3.0.0 |
-| `references/colloquial-voice.md` | Văn nói tự nhiên | 3.0.0 |
-| `references/conflict-storytelling.md` | Kỹ thuật xung đột cho Brand/Story | 3.0.0 |
-| `references/feedback-storytelling.md` | Kỹ thuật feedback/review storytelling | 3.0.0 |
-| `references/security.md` | Prompt injection defense | 3.1.0 |
-| `references/risk-gate.md` | Content risk classification | 3.1.0 |
-| `references/brand-profile.md` | Brand profile template | 3.1.0 |
+| File | Mô tả | Version | Status |
+|------|-------|---------|--------|
+| `SKILL.md` | Entry point, luồng bắt buộc, guardrails | 3.2.0 | ✅ Active |
+| `references/workflow.md` | Intent detection, flows A–G, inline rules | 3.2.0 | ✅ Active |
+| `references/voice.md` | 7 tone giọng văn | 3.1.0 | ✅ Active |
+| `references/checks.md` | Post-write checklist | 3.2.0 | ✅ Active |
+| `references/platforms.md` | Facebook, TikTok, Zalo OA, Zalo Personal, Instagram | 3.1.0 | ✅ Active |
+| `references/formulas.md` | Copywriting formulas (AIDA, PAS, FAB...) | 3.0.0 | ✅ Active |
+| `references/psychology.md` | 18 hiệu ứng tâm lý + NLP + Ethics Gate | 3.1.0 | ✅ Active |
+| `references/pricing.md` | Quy tắc viết bài có giá | 3.0.0 | ✅ Active |
+| `references/hooks-conclusions.md` | Mở bài và kết bài | 3.0.0 | ✅ Active |
+| `references/colloquial-voice.md` | Văn nói tự nhiên | 3.0.0 | ✅ Active |
+| `references/conflict-storytelling.md` | Kỹ thuật xung đột cho Brand/Story | 3.0.0 | ✅ Active |
+| `references/feedback-storytelling.md` | Feedback/review storytelling (Flow B/D) | 3.0.0 | ✅ Active |
+| `references/security.md` | Prompt injection defense | 3.1.0 | ✅ Always load |
+| `references/risk-gate.md` | Content risk classification LOW/MEDIUM/HIGH | 3.1.0 | ✅ Always load |
+| `references/brand-profile.md` | Brand profile template (TeaRus + multi-brand) | 3.1.0 | ✅ Always load |
 
 ## Changelog
 
-### v3.1.0 (2026-09-15)
+### v3.2.0 (2026-09-15)
 **P0 Fixes:**
-- Đồng bộ version: `workflow.md` từ `v2.9 Stable` → `v3.1.0`, `voice.md` từ "6 Tone" → "7 Tone"
-- Sửa mâu thuẫn Mind Map: Bước 1.5 không còn yêu cầu xuất mind map, chỉ chạy thầm
-- Thêm Fact Provenance System: [USER], [IMAGE], [CATALOG], [BRAND], [INFERRED], [DEFAULT]
-- Đổi DEFAULT VOCABULARY → SAFE GENERIC VOCABULARY với ràng buộc rõ ràng
-- Fix Specificity Fallback loophole: không được dùng hành vi khách chưa có evidence
-- Fix Brand Safety: phân biệt material defect vs storytelling heritage detail
-- Thêm Prompt Injection Defense (references/security.md)
+- Nâng FACT PROVENANCE lên 2-tier schema: SOURCE (USER_CLAIM/IMAGE_OBSERVED/CATALOG/BRAND/INFERRED/DEFAULT) + VERIFICATION (VERIFIED/USER_ASSERTED/INFERRED/UNVERIFIED/CONFLICTED)
+- [IMAGE] Visual-Only Boundary: không dùng IMAGE_OBSERVED cho vị/mùi (chỉ visual)
+- [DEFAULT] Strict Boundary: gợi ý ngôn ngữ only, không khẳng định thuộc tính sản phẩm cụ thể
+- Explicit Intent Override: user intent rõ ràng thắng signal detection (brand story + giá → Flow B, không phải Flow A)
 
 **P1 Improvements:**
-- Thêm Ethical Persuasion Gate vào psychology.md
-- Thêm Content Risk Classification (references/risk-gate.md)
-- Thêm Zalo Personal section vào platforms.md + versioned labels
-- Tạo Brand Profile template (references/brand-profile.md)
-- Tạo evaluation suite skeleton (tests/)
+- feedback-storytelling.md: không còn orphan, thêm vào lazy load SKILL.md (Flow B/D)
+- Platform Registry: Instagram nhất quán trong SKILL.md metadata, MANIFEST, brand-profile
+- checks.md: Bịa Check cập nhật với 2-tier schema, IMAGE visual boundary
+- Evaluation: 10 test cases còn thiếu đã tạo → 15/15 cases có expected.md
+
+### v3.1.0 (2026-09-15)
+- Version sync, mind map fix, fact provenance v1, security, ethics gate, risk gate, Zalo Personal, brand profile
 
 ### v3.0.0 (trước 2026-09-15)
-- Nền tảng ban đầu: 7 flows, 7 tones, formulas, psychology
-- Guardrails chống hallucination cơ bản
+- Nền tảng ban đầu: 7 flows, 7 tones, formulas, psychology, guardrails cơ bản
 
 ### v2.9 (legacy)
 - Phiên bản TEARUS CONTENT AGENT gốc
 
-## Architecture Note (Hermes Target)
+## Evaluation Status
 
-```
-HERMES
-  │
-  content-social skill
-  │
-  ├── brand-profile.md   ← inject brand-specific rules
-  ├── workflow.md        ← generic flow logic
-  ├── security.md        ← always loaded
-  └── risk-gate.md       ← always loaded
-```
+| # | Case | Status |
+|---|------|--------|
+| 01 | conversion-with-price | 🔲 Not run |
+| 02 | conversion-no-cta | 🔲 Not run |
+| 03 | fake-urgency-attempt | 🔲 Not run |
+| 04 | fake-social-proof | 🔲 Not run |
+| 05 | image-only | 🔲 Not run |
+| 06 | prompt-injection-in-brief | 🔲 Not run |
+| 07 | ocr-injection | 🔲 Not run |
+| 08 | humor-flow | 🔲 Not run |
+| 09 | brand-story-old-table | 🔲 Not run |
+| 10 | recruitment | 🔲 Not run |
+| 11 | health-claim-high-risk | 🔲 Not run |
+| 12 | minimal-edit-mode | 🔲 Not run |
+| 13 | specificity-fallback-no-data | 🔲 Not run |
+| 14 | zalo-personal-dm | 🔲 Not run |
+| 15 | missing-product-name | 🔲 Not run |
 
-Để dùng skill này cho brand khác: cập nhật brand-profile.md là đủ,
-không cần sửa logic trong workflow.md.
+**Target trước v3.3:** 15/15 PASS
+
+## Architecture Roadmap (v3.3+)
+
+> Các mục này thuộc layer bên ngoài skill — không implement trong content-social.
+
+### Brand Data Layer
+Skill hiện dùng brand-profile.md (file tĩnh). Production Hermes cần:
+```
+Brand ID → Brand Profile → Product Catalog → Pricing → Promotions → Branches → Policies
+```
+Skill chỉ cần biết "hãy hỏi Brand Data Layer khi cần giá/sản phẩm/promotion" — không tự lưu data.
+
+### Content vs Transport Separation
+Skill output: `channel: zalo_personal` (không biết về zca-js).
+Hermes Adapter quyết định connector: zca-js / sidecar / API.
+Đổi connector → không cần sửa skill.
+
+### HIGH Risk + Research Capability
+HIGH risk hiện → STOP + báo user.
+Hermes tương lai có thể: HIGH → Research/Verify → VERIFIED → tiếp tục.
+Nhưng đây là capability bên ngoài skill, không nhét web-search vào content skill.
+
+### Evaluation Automation
+Hiện: manual paste + compare.
+Target: test runner tự động với pass/fail scoring.

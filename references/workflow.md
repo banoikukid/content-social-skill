@@ -15,7 +15,31 @@
 
 ## BƯỚC 0: DETECT INTENT
 
-### Phần A — Nhận diện Conversion (ưu tiên check trước)
+### EXPLICIT INTENT OVERRIDE (Kiểm tra trước tất cả)
+
+Nếu người dùng chỉ rõ flow/mục tiêu trong brief → dùng luôn, bỏ qua signal detection bên dưới:
+
+| Explicit phrase | Flow |
+|----------------|------|
+| "viết brand story", "câu chuyện thương hiệu", "kể về quán" | → Flow B |
+| "tuyển dụng", "tìm nhân viên", "cần barista" | → Flow F |
+| "mini-game", "đố vui", "bắt trend", "kéo comment" | → Flow C |
+| "kể chuyện", "storytelling", "ký ức", "khoảnh khắc" | → Flow D |
+| "hài hước", "vui vui", "meme", "troll nhẹ" | → Flow E |
+| "thông báo", "nghỉ lễ", "sự kiện", "khai trương" | → Flow G |
+| "bán", "promotion", "deal", "combo" (khi không có phrase flow khác) | → Flow A |
+
+**Ví dụ override:**
+- *"Viết brand story cho món Trà Đào Cam Sả 39k."*
+  → Có "brand story" → **Flow B**, dù có giá + tên món (conversion signals)
+- *"Làm bài hài hước về trà sữa 45k hôm nay."*
+  → Có "hài hước" → **Flow E**, không chạy Conversion
+
+Nếu không có explicit phrase → mới chạy signal detection bên dưới.
+
+---
+
+### Phần A — Nhận diện Conversion (ưu tiên check trước khi không có explicit intent)
 
 Nếu brief có ≥ 2 trong các signal sau → chạy **Chế độ Conversion** ngay, bỏ qua flow 3 tone:
 - Giá cụ thể (45k, 99k...)
@@ -111,24 +135,87 @@ Ngoại lệ: Chỉ cho phép giữ lại nếu brief yêu cầu viết bài Hà
 
 ---
 
-## FACT SOURCE CLASSIFICATION
+## FACT PROVENANCE — 2-TIER SCHEMA
 
-Mọi claim/detail trong bài phải có nguồn xác định trước khi viết:
+Mọi claim/detail trong bài phải có SOURCE + VERIFICATION xác định trước khi viết.
 
-| Label | Nguồn | Được dùng cho |
-|-------|-------|---------------|
-| `[USER]` | Người dùng cung cấp trong brief | Mọi commercial claim |
-| `[IMAGE]` | Quan sát trực tiếp từ ảnh | Sensory observation |
-| `[CATALOG]` | Dữ liệu sản phẩm chính thức | Product-specific claim |
-| `[BRAND]` | Brand profile | Xưng hô, USP, giọng điệu |
-| `[INFERRED]` | Suy luận hợp lý từ bối cảnh | Chỉ sensory/không gian, không commercial |
-| `[DEFAULT]` | Safe Generic Vocabulary | Cảm giác chung, không phải claim sản phẩm |
+### Tier 1 — SOURCE (lấy từ đâu)
 
-**Quy tắc cứng:**
-- Commercial claim → chỉ `[USER]`, `[CATALOG]`, `[BRAND]` — không dùng `[DEFAULT]` làm product claim
-- `[INFERRED]` không được biến thành factual claim về sản phẩm
-- Không có nhãn → không được đưa vào bài
+| Label | Nguồn | Ghi chú |
+|-------|-------|---------|
+| `USER_CLAIM` | Người dùng nói trong brief | Chưa verify độc lập |
+| `IMAGE_OBSERVED` | Quan sát trực tiếp từ ảnh | **Visual only** — xem ràng buộc bên dưới |
+| `CATALOG` | Dữ liệu sản phẩm chính thức | Nguồn đáng tin nhất |
+| `BRAND` | Brand profile | Xưng hô, tone, USP |
+| `INFERRED` | Suy luận từ bối cảnh | Không gian/thời tiết — không phải sản phẩm |
+| `DEFAULT` | Safe Generic Vocabulary | **Gợi ý ngôn ngữ only** — xem ràng buộc bên dưới |
 
+### Tier 2 — VERIFICATION (mức độ tin cậy)
+
+| Label | Nghĩa |
+|-------|-------|
+| `VERIFIED` | CATALOG hoặc official source xác nhận |
+| `USER_ASSERTED` | Người dùng nói, chưa verify độc lập |
+| `INFERRED` | Suy luận hợp lý, không verify được |
+| `UNVERIFIED` | Không rõ nguồn |
+| `CONFLICTED` | Nhiều nguồn mâu thuẫn nhau |
+
+### Quy tắc theo loại claim
+
+| Loại claim | SOURCE cần | VERIFICATION cần |
+|------------|-----------|-----------------|
+| Giá, deal | `USER_CLAIM` hoặc `CATALOG` | `USER_ASSERTED` trở lên |
+| Achievement ("số 1", "giải thưởng") | `CATALOG` | `VERIFIED` — thiếu → HIGH risk |
+| Comparative ("ngon hơn", "organic", "không chất bảo quản") | `CATALOG` hoặc `USER_CLAIM` | `VERIFIED` → OK; `USER_ASSERTED` → MEDIUM |
+| Sensory sản phẩm cụ thể ("ly này có hậu ngọt") | `USER_CLAIM`, `IMAGE_OBSERVED` (visual), `CATALOG` | `USER_ASSERTED` trở lên |
+| Sensory chung ("ô long thường có vị trầm") | `DEFAULT` | N/A — gợi ý ngôn ngữ, không claim |
+
+**Ví dụ đúng:**
+```
+price: 39k          → SOURCE: USER_CLAIM  | VERIFICATION: USER_ASSERTED  ✅
+"pha từng ly"       → SOURCE: USER_CLAIM  | VERIFICATION: USER_ASSERTED  ✅
+"màu cam trong ảnh" → SOURCE: IMAGE_OBSERVED | VERIFICATION: VERIFIED     ✅
+"không chất BQ"     → SOURCE: USER_CLAIM  | VERIFICATION: USER_ASSERTED  → MEDIUM risk ⚠️
+"đạt giải X"        → SOURCE: CATALOG     | VERIFICATION: VERIFIED        ✅ (nếu có)
+                    → thiếu VERIFIED → HIGH risk, dừng
+```
+
+### [IMAGE] — Visual-Only Boundary
+
+`IMAGE_OBSERVED` chỉ bao gồm những thứ **nhìn thấy được trong ảnh**:
+
+✅ Được dùng với `[IMAGE]`:
+- Màu sắc, hình dạng, kết cấu bề mặt
+- Độ trong/đục, bọt, đá, kem, khói nhìn thấy
+- Bố cục, góc chụp, bối cảnh không gian
+- Text, số, logo nhìn thấy trong ảnh
+
+❌ Không được dùng với `[IMAGE]`:
+- Vị (ngọt, đắng, béo, chua) — không nhìn thấy được
+- Mùi (thơm, nồng) — không nhìn thấy được
+- Nhiệt độ chính xác — không thể xác định từ ảnh
+- Texture miệng (mịn, dai, giòn) — không nhìn thấy từ ảnh tĩnh
+
+→ Sensory vị/mùi phải có `USER_CLAIM` hoặc `CATALOG`.
+
+### [DEFAULT] — Gợi Ý Ngôn Ngữ, Không Claim Sản Phẩm
+
+`DEFAULT` (Safe Generic Vocabulary) chỉ dùng để gợi ý nhóm từ có thể dùng.
+**Không được dùng để khẳng định thuộc tính của sản phẩm cụ thể.**
+
+❌ SAI: *"Ly ô long TeaRus có hậu ngọt."*
+→ Đây là product-specific claim — cần `USER_CLAIM` hoặc `CATALOG`
+
+❌ SAI: *"Ly trà ô long này hậu ngọt đọng lại."*
+→ Dù không nói tên brand, vẫn là claim về ly cụ thể đang bán
+
+✅ ĐÚNG: Nếu không có sensory source → bỏ sensory claim, hoặc hỏi 1 câu:
+*"Trà ô long này có vị gì đặc trưng không? (mình mô tả đúng hơn)"*
+
+✅ ĐÚNG (chỉ khi dùng như gợi ý ngôn ngữ chung, không về sản phẩm):
+*"[Viết về ô long nói chung, không specific tới sản phẩm] — ô long thường được mô tả là trầm, thanh..."*
+
+**Quy tắc cứng: thiếu sensory source → bỏ sensory claim hoặc hỏi, không tự điền [DEFAULT].**
 
 
 ## MINIMAL EDIT MODE (Check trước khi áp Tone Guide)

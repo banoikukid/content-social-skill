@@ -21,11 +21,14 @@ Chạy 4 test này SAU khi viết xong. Không in kết quả ra, tự sửa n�
 ---
 
 ## 3. Bịa Check
-**Có detail không có trong brief hoặc ảnh không?**
+**Có claim không có SOURCE + VERIFICATION hợp lệ không?**
 - Không bịa: số lượng khách, hành vi khách, giải thưởng, thứ hạng, thành phần chưa được confirm
-- Safe Generic Vocabulary `[DEFAULT]` được phép dùng như **cảm giác chung** — không phải claim sản phẩm cụ thể
-- Ví dụ ĐÚNG: "hậu ngọt đọng lại" (cảm giác chung) ✅
-- Ví dụ SAI: "TeaRus nổi tiếng với hậu ngọt" (product claim không có [CATALOG]/[USER]) ❌
+- Comparative claims ("ngon hơn", "organic", "không chất bảo quản") cần `CATALOG/VERIFIED` — `USER_ASSERTED` → MEDIUM risk, báo người dùng
+- Achievement claims ("số 1", "giải thưởng") cần `CATALOG/VERIFIED` — thiếu → HIGH risk, dừng
+- `DEFAULT` chỉ dùng như gợi ý ngôn ngữ chung, **không** khẳng định thuộc tính sản phẩm cụ thể
+- `IMAGE_OBSERVED` chỉ dùng cho visual (màu, hình dạng, kết cấu nhìn thấy) — không dùng cho vị/mùi
+- Ví dụ ĐÚNG: "màu cam trong ảnh" `[IMAGE_OBSERVED/VERIFIED]` ✅
+- Ví dụ SAI: "vị ngọt thơm" từ ảnh → không verify được từ ảnh ❌
 
 ---
 
