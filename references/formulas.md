@@ -2,6 +2,8 @@
 
 Tài liệu cung cấp 4 công thức viết bài kinh điển, được tinh gọn cho ngành F&B để tạo ra nội dung thu hút, tự nhiên và chuyển đổi cao.
 
+> **LƯU Ý:** Các công thức này là **công cụ gợi ý (Soft Guidance)**, không phải khuôn mẫu bắt buộc. Nếu bài viết viết tự nhiên, ngắn gọn mà truyền tải được thông điệp thì không cần cố ép đủ các bước của công thức.
+
 ---
 
 ## 1. Công Thức Hook - Value - CTA (Mặc định cho bán hàng nhanh)

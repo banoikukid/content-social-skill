@@ -1,39 +1,50 @@
-# Nghệ Thuật Kể Chuyện Quán Xá (F&B Storytelling)
+# Nghệ Thuật Kể Chuyện & Khai Thác Hình Ảnh (Storytelling & Image Angles)
 
 Kể chuyện trong ngành F&B không phải là viết tiểu thuyết kịch tính hay rao giảng đạo lý. Đó là việc ghi lại những **khoảnh khắc mộc mạc, chân thật** của không gian quán, con người và tách nước, nhằm tạo sự đồng điệu cảm xúc với khách hàng.
 
 ---
 
-## 4 Chủ Đề Kể Chuyện Tự Nhiên & Dễ Đồng Cảm
+## 1. Khai Thác Hình Ảnh: 4 Góc Nhìn Tự Nhiên (Tránh Cliché AI)
 
-### 1. Khoảnh khắc pha chế & Nghề làm quán
-Kể về sự chăm chút cho từng ly nước một cách giản dị, không tô vẽ thần thánh hóa.
-- **Chi tiết gợi ý:** Canh nhiệt độ nước ủ trà, sàng lọc từng hạt cà phê, mẻ trân châu thủ công vừa nấu xong còn ấm nóng.
-- **Ví dụ:**  
-  *Mỗi sáng tụi mình mở cửa từ 7 giờ, việc đầu tiên là ủ thử một mẻ trà nhỏ để thử vị. Có những ngày thời tiết ẩm hơn, vị trà lên hơi đậm một chút là phải canh chỉnh lại lượng nước ngay. Người làm quán có thể hơi kỹ tính, nhưng chỉ mong khi ly trà đến tay bạn, đó luôn là hương vị tròn trịa và êm ái nhất.*
+Khi nhận một bức ảnh (ly nước, góc quán, ánh nắng), **tuyệt đối không ép mọi bức ảnh vào văn mẫu AI quen thuộc: "mệt mỏi, deadline dí, cần trốn khỏi cuộc sống để chữa lành"**. Thay vào đó, hãy quan sát chi tiết thị giác và chọn 1 trong 4 góc nhìn sau:
 
-### 2. Không gian & Nhịp sống quán xá
-Miêu tả góc quán qua từng thời điểm trong ngày hoặc sự thay đổi của thời tiết.
-- **Chi tiết gợi ý:** Nắng sớm rọi qua tán lá, góc bàn nhỏ cạnh cửa kính, tiếng nhạc jazz trầm chậm, tiếng mưa rào trên mái tôn.
+### Góc 1: Góc Sản Phẩm & Trực Giác (Product & Sensory Angle)
+- **Tập trung vào:** Màu sắc lớp nước, độ sánh mịn của lớp kem bọt, giọt nước đá đọng ngoài thành ly, topping tươi rói.
+- **Văn phong:** Đánh thức cảm giác khát và thèm thưởng thức ngay lập tức.
 - **Ví dụ:**  
-  *Góc bàn số 4 cạnh cửa sổ luôn là chỗ có nhiều vệt nắng đẹp nhất vào buổi sáng. Ngồi ở đây, vừa nghe tiếng đá rơi lách cách trong ly cà phê, vừa nhìn dòng xe vội vã lướt qua dưới phố. Giữa một thành phố lúc nào cũng hối hả, thỉnh thoảng cho phép mình ngồi thảnh thơi 30 phút cũng là một cách sạc lại năng lượng.*
+  *Màu vàng óng ả của xoài tươi quyện cùng sắc đỏ của trà hoa dâm bụt, bên ngoài là lớp sương đá mát lạnh đọng lăn tăn. Giữa một ngày hè oi nồng, chỉ nhìn ly nước thôi là đã thấy cổ họng dịu mát lại rồi.*
 
-### 3. Những vị khách dễ thương (Observational Moments)
-Quan sát những hành vi, thói quen đáng yêu của khách mà không làm lộ thông tin riêng tư.
-- **Chi tiết gợi ý:** Vị khách quen gọi món không cần nhìn menu, bạn sinh viên cặm cụi gõ phím bên ly trà vơi nửa, hay một cặp đôi cùng nhau đọc sách.
+### Góc 2: Góc Không Gian & Ánh Sáng (Space & Lifestyle Angle)
+- **Tập trung vào:** Vệt nắng sớm xiên qua ô cửa kính, bóng cây in trên mặt bàn gỗ, kệ sách cũ, góc hiên ngày mưa.
+- **Văn phong:** Êm đềm, thư thái, gợi mở một chốn dừng chân dễ chịu.
 - **Ví dụ:**  
-  *Có những vị khách ghé quán đều đặn đến mức vừa thấy bóng dáng ngoài cửa, tụi mình đã biết ngay là "Cà phê sữa ít ngọt, nhiều đá". Không cần nói nhiều lời, chỉ cần gật đầu chào nhau một cái rồi trao ly nước mát lạnh. Những kết nối giản dị như vậy là lý do khiến tụi mình yêu công việc đứng quầy mỗi ngày.*
+  *Vệt nắng sớm 8 giờ rọi qua tán lá khế trước hiên, in những đốm sáng nhảy nhót trên chiếc bàn gỗ số 2. Không gian buổi sáng luôn có một sự tĩnh lặng vừa đủ để bạn vừa nhấp ngụm cà phê, vừa nghe trọn vẹn một bản nhạc mình yêu thích.*
 
-### 4. Nguồn gốc nguyên liệu mộc mạc
-Chia sẻ về hành trình tìm kiếm lá trà, hạt cà phê, trái cây tươi sạch.
-- **Chi tiết gợi ý:** Quả chanh vàng được vắt tay trong ngày, lá trà mộc từ vùng cao, sữa tươi tiệt trùng từ nông trại địa phương.
+### Góc 3: Góc Đời Thường & Nghề Quán (Moment & Craft Angle)
+- **Tập trung vào:** Tiếng máy pha xì xì hơi nước, mẻ trà mới ủ xong còn bốc khói, nụ cười chào khách của bạn đứng quầy.
+- **Văn phong:** Chân thật, gần gũi, tôn trọng từng thao tác chăm chút tỉ mỉ cho món nước.
 - **Ví dụ:**  
-  *Tụi mình chọn dùng trà lá nguyên bản thay vì bột trà hòa tan, dù thời gian ủ và lọc tốn gấp ba lần. Đổi lại, bạn sẽ cảm nhận được vị chát nhẹ đầu lưỡi rồi đọng lại hậu ngọt thanh sâu thẳm. Thứ gì làm vội thì nhanh tan, còn hương vị tỉ mỉ thì luôn để lại dư vị đáng nhớ.*
+  *Mỗi sáng tụi mình bắt đầu bằng việc ủ thử một mẻ trà nhỏ. Chỉ cần nhiệt độ nước chênh lệch một chút là hương trà đã đổi khác. Đứng quầy tỉ mẩn từng chút một, chỉ mong ly trà trao tận tay bạn luôn là hương vị vừa vặn nhất.*
+
+### Góc 4: Góc Tối Giản (Minimalist Caption Angle)
+- **Tập trung vào:** Bức ảnh đẹp tự nó đã kể câu chuyện. Không cần viết dài.
+- **Văn phong:** 1–2 câu ngắn, sâu lắng hoặc dí dỏm.
+- **Ví dụ:**  
+  *Một buổi chiều dịu dàng, một ly trà vừa ý. Thế là đủ cho ngày hôm nay.*
 
 ---
 
-## 3 Nguyên Tắc Cốt Lõi Khi Kể Chuyện
+## 2. Quy Tắc CTA Cho Bài Kể Chuyện: Tùy Chọn & Mềm Mại (Soft/Optional CTA)
 
-1. **Không giảng đạo lý cuộc sống:** Tránh tuyệt đối các câu kết kiểu *"Hãy nhớ rằng cuộc đời như tách cà phê đắng, sau đắng sẽ đến ngọt"*. Hãy để cảm xúc tự nhiên chạm đến người đọc.
-2. **Không kịch tính hóa giả trân:** Không tự bịa ra những câu chuyện giật gân, mâu thuẫn gia đình hay drama để câu tương tác.
-3. **Lời mời ghé quán nhẹ nhàng:** Kết bài không cần ép khách mua hàng gắt gao. Một lời chào *"Quán mở cửa tới 22h, hẹn bạn ghé chơi"* luôn mang lại thiện cảm lớn hơn.
+- **Không chốt sale thô bạo:** Tuyệt đối không kết thúc một bài viết giàu cảm xúc bằng những câu như: *"👉 Hãy nhanh tay đặt bàn ngay!", "Inbox liền tay kẻo lỡ!"*.
+- **Cách kết thúc phù hợp:**
+  - Hoặc **không cần CTA**, để người đọc tự cảm nhận trọn vẹn câu chuyện.
+  - Hoặc dùng **lời chào thân tình**: *"Tụi mình vẫn mở cửa tới 22h, hẹn bạn ghé chơi nha.", "Chúc bạn một buổi chiều thật bình yên."*
+
+---
+
+## 3. 3 Điều Cấm Kỵ Khi Kể Chuyện Quán Xá
+
+1. **Không rao giảng đạo lý:** Tránh các câu kết triết lý cuộc đời khiên cưỡng kiểu *"Cuộc đời như tách cà phê, sau đắng cay là ngọt bùi"*.
+2. **Không tự bịa chuyện drama:** Không bịa chuyện gia đình, xung đột khách hàng hay các biến cố giả tạo để giật tương tác.
+3. **Không tự bịa danh tính/hành vi khách hàng:** Không viết *"Anh khách quen bàn số 1 vừa thất tình..."* trừ khi người dùng cung cấp câu chuyện có thật đó.
