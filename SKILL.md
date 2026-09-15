@@ -68,7 +68,7 @@ User Input (Text / Image)
    [4] Hook có Promise và Thân bài có Payoff trọn vẹn?
    [5] Caption có làm hơn việc chỉ tả ảnh (Caption ≠ Image Description)?
    [6] Có ít nhất một chi tiết cụ thể đáng nhớ (Specificity > Adjective)?
-   [7] Claim Check: Mỗi câu factual/vật lý có nguồn từ input đã xác nhận không? (Cấm bịa fact bán chạy, công thức, hiệu ứng cơ thể).
+   [7] Claim Check: Câu factual/vật lý có nguồn xác nhận không? (1. Có factual claim không? 2. Nguồn từ đâu? 3. Ảnh có vượt visual evidence? 4. Sensory có được cung cấp? 5. Creative có đọc như fact? 6. Giả định có framing phù hợp?).
    [8] Có mùi AI / dịch tiếng Anh / sáo ngữ (AI-slop) không?
    [9] Voice + Tone + Nền tảng có phù hợp?
    [10] CTA / Emoji / Hashtag có thực sự cần thiết và tự nhiên không?

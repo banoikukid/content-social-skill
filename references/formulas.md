@@ -43,14 +43,14 @@ Thích hợp cho bài ra mắt món mới, nguyên liệu độc đáo hoặc k�
 
 - **Features (Đặc điểm):** Thành phần hoặc cách pha chế thực tế (ví dụ: trà ủ lạnh, sữa hạt).
 - **Advantages (Ưu thế):** Điểm khác biệt so với món thông thường đã được quán xác nhận.
-- **Benefits (Lợi ích):** Trải nghiệm thưởng thức ngon miệng, thanh mát.  
-  *🔴 LƯU Ý:* Ưu thế (Advantages) và Lợi ích (Benefits) bắt buộc phải xuất phát từ dữ kiện được cung cấp; tuyệt đối không tự suy diễn công dụng sức khỏe từ thành phần hay công thức.
+- **Benefits (Lợi ích):** Trải nghiệm thưởng thức thực tế đã được cung cấp.  
+  *🔴 LƯU Ý:* Ưu thế (Advantages) và Lợi ích (Benefits) bắt buộc phải xuất phát từ dữ kiện được cung cấp; nếu chưa có dữ kiện vị giác/cảm quan, không tự tạo benefit cảm quan như sự thật khách quan; tuyệt đối không tự suy diễn công dụng sức khỏe từ thành phần hay công thức.
 
 > **Ví dụ mẫu:**  
 > [Tên món nước] phiên bản mới đã sẵn sàng phục vụ bạn:  
 > • [Thành phần chính đã được cung cấp] kết hợp cùng [nguyên liệu/kỹ thuật pha chế]. *(Features)*  
-> • [Điểm khác biệt trong cách làm giúp vị trà/cà phê giữ được độ thơm mộc]. *(Advantages)*  
-> • [Trải nghiệm thưởng thức mát mẻ/thanh nhẹ cho buổi chiều]. *(Benefits)*  
+> • [Điểm khác biệt trong cách làm đã được quán xác nhận]. *(Advantages)*  
+> • [Lợi ích / trải nghiệm thưởng thức đã được user/menu cung cấp]. *(Benefits)*  
 > Nhắn tin cho tụi mình để thử ngay ly trà đầu tuần này nhé!
 
 ---

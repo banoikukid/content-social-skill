@@ -8,13 +8,13 @@ Tài liệu chọn lọc **7 kỹ thuật tâm lý thực chiến** dành riêng
 
 ### 1. Khoảng Trống Tò Mò (Curiosity Gap)
 Kích thích mong muốn tìm hiểu bằng cách hé lộ một phần thông tin thú vị.
-- **Cách dùng:** Đặt câu hỏi về cách pha chế hoặc một điều bất ngờ của quán.
-- **Ví dụ:** *"Có một lý do khiến tụi mình kiên quyết ủ lạnh trà suốt 12 tiếng thay vì nấu nhanh trong 15 phút..."*
+- **Cách dùng:** Đặt câu hỏi về một điểm đặc biệt của món nước hoặc quán.
+- **Ví dụ:** *"Nếu quán có quy trình pha chế đặc thù đã được xác nhận, có thể mở đầu: 'Có một chi tiết trong cách ủ mẻ trà này khá thú vị...' [chỉ dùng khi quán cung cấp dữ liệu quy trình]"*
 
 ### 2. Phá Vỡ Khuôn Mẫu (Pattern Interrupt)
 Mở đầu bằng một phát biểu đi ngược lại định kiến thông thường trên mạng xã hội.
 - **Cách dùng:** Biến điểm "bất lợi" thành điểm độc đáo đáng yêu.
-- **Ví dụ:** *"Món trà nhìn 'mộc' và kém màu mè nhất menu, nhưng tuần nào cũng là món hết sạch sớm nhất."*
+- **Ví dụ:** *"Món trà nhìn mộc mạc nhất menu, nhưng lại là lựa chọn quen thuộc của những ai thích vị trà đậm [chỉ dùng khi quán xác nhận thông tin này]."*
 
 ### 3. Bằng Chứng Thực Tế (Social Proof — Quy tắc chặt chẽ)
 Tạo niềm tin thông qua phản hồi thực tế của khách hàng hoặc số liệu có thật.
@@ -24,7 +24,7 @@ Tạo niềm tin thông qua phản hồi thực tế của khách hàng hoặc s
 ### 4. Giá Trị Mỏ Neo (Anchoring & Value Contrast)
 Giúp khách hàng cảm nhận được giá trị xứng đáng của món nước khi so sánh với một trải nghiệm quen thuộc.
 - **Cách dùng:** So sánh mức giá với một niềm vui nho nhỏ trong ngày.
-- **Ví dụ:** *"Chỉ bằng một phần ăn sáng nhẹ nhàng, bạn đã có ngay một ly trà trái cây mát lạnh sạc lại năng lượng cho cả buổi chiều làm việc."*
+- **Ví dụ:** *"Chỉ bằng một phần ăn sáng nhẹ nhàng, bạn đã có ngay một ly trà trái cây để ngồi nhâm nhi suốt buổi chiều làm việc."*
 
 ### 5. Tưởng Tượng Giả Định (Hypothetical Future Pacing)
 Giúp người đọc hình dung trải nghiệm thưởng thức hoặc khoảnh khắc thư giãn tại quán.

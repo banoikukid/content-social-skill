@@ -71,16 +71,16 @@ Tone giọng trong F&B không chỉ là thay đổi đại từ xưng hô, mà t
 - **Đặc trưng:** Khơi gợi không gian, giác quan và kỷ niệm. Nhịp điệu chậm, câu chữ giàu hình ảnh và sự tĩnh lặng.
 - **Ví dụ:**
   > Có những buổi chiều tan tầm, chỉ muốn tìm một góc quen ngồi nhìn phố xá chậm lại một chút.  
-  > Cầm trên tay ly Ô Long Sữa Nướng, nghe mùi khói rang mộc mạc quyện cùng vị ngọt dịu của sữa. Ngồi nhấp từng ngụm chậm rãi, thấy lòng tự nhiên nhẹ nhõm hơn hẳn.  
+  > Ly Ô Long Sữa Nướng mát trên bàn gỗ, ngoài hiên đón gió, không gian chỉ có tiếng nhạc nhẹ êm êm.  
   > Tụi mình vẫn luôn mở cửa chờ bạn ghé qua.
 
 ---
 
 ### Tone 5: Tinh tế / Chuyên môn
-- **Đặc trưng:** Tập trung vào hương vị gốc, kỹ thuật pha chế và trải nghiệm thưởng thức. Lời văn trang nhã, thể hiện sự am hiểu và tôn trọng khách hàng.
+- **Đặc trưng:** Tập trung vào thành phần thực tế, kỹ thuật pha chế đã được cung cấp và trải nghiệm thưởng thức. Lời văn trang nhã, thể hiện sự am hiểu và tôn trọng khách hàng.
 - **Ví dụ:**
-  > Một tách Ô Long Sữa Nướng được chuẩn bị tỉ mỉ từ những búp trà ô long sấy lửa kỹ, giữ trọn tầng hương trầm ấm và hậu vị ngọt sâu. Khi kết hợp cùng sữa tươi béo thanh, ly trà mang đến sự cân bằng êm ái cho vị giác.  
-  > Kính mời bạn ghé trải nghiệm hương vị mộc mạc và nguyên bản này tại quán vào chiều nay.
+  > Một tách Ô Long Sữa Nướng kết hợp giữa nền trà ô long và sữa tươi béo thanh theo công thức của quán. Vị trà đậm đà, vị sữa dịu nhẹ, tạo nên tổng thể mộc mạc và chỉn chu.  
+  > Kính mời bạn ghé trải nghiệm thức uống này tại quán vào chiều nay.
 
 ---
 

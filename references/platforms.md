@@ -9,7 +9,7 @@
   - **Thân bài:** Tách mỗi ý thành một đoạn ngắn (1–2 câu). Xuống dòng thoáng.
   - **Giá/Ưu đãi:** Để riêng 1 dòng rõ ràng, dùng số thật (ví dụ: *39k*, *45k*).
   - **CTA:** Đúng 1 hành động ở cuối (Ví dụ: *"Nhắn tin cho tụi mình nha."* hoặc *"Ghé quán lấy liền nha."*).
-  - **Emoji:** Xu hướng điểm xuyết nhẹ nhàng (1–3 icon tự nhiên nếu phù hợp), không gò bó số lượng và không spam đầu mỗi dòng.
+  - **Emoji:** Điểm xuyết mức vừa phải, tùy bài và tùy cảm xúc, không ép số lượng và không spam đầu mỗi dòng.
 
 ## 2. Instagram (Feed & Carousel)
 - **Đặc thù:** Hình ảnh là số 1. Caption ngắn, súc tích, thẩm mỹ.
@@ -17,7 +17,7 @@
   - **Hook:** 1–2 câu thật gãy gọn, gợi cảm quan.
   - **Thân bài:** 1 đoạn ngắn kể nhẹ về ly nước hoặc khoảnh khắc.
   - **CTA:** *"Xem menu ở bio nhé."* hoặc *"Ghé tiệm chiều nay nhé."*
-  - **Hashtag:** Xu hướng chọn lọc ngắn gọn (3–5 tags liên quan: #tearus #saigoncoffee #tradao), đặt dưới cùng; bỏ qua nếu người dùng yêu cầu bài tối giản.
+  - **Hashtag:** Chọn lọc mức vừa phải, tùy bài (#tearus #saigoncoffee #tradao), đặt dưới cùng; bỏ qua nếu người dùng yêu cầu bài tối giản.
 
 ## 3. TikTok / Reels (Dạng Script Kịch Bản)
 - **Đặc thù:** Không phải caption thông thường, mà là kịch bản video hoặc text hiển thị trên video ngắn.
