@@ -32,7 +32,25 @@ Chọn 1 góc nhìn đắt giá nhất để viết (Choose Best Angle)
 
 ---
 
-## 2. Ranh Giới Miêu Tả Giác Quan (Sensory Boundary)
+## 2. Ma Trận Góc Nhìn & Kỹ Thuật Viết (Angle $\rightarrow$ Technique Matrix)
+
+Mỗi góc nhìn cần được hỗ trợ bởi các kỹ thuật viết tương ứng để bài viết đạt chiều sâu và cảm xúc tốt nhất:
+
+| Góc nhìn (Angle) | Kỹ thuật viết ưu tiên | Yếu tố trọng tâm |
+| :--- | :--- | :--- |
+| **Sản phẩm (Product)** | Sensory thị giác + Specificity | Chi tiết cụ thể về tầng lớp, bọt đá, màu sắc |
+| **Hài hước (Humor)** | Tương phản (Contrast) + Tự trào nhẹ | Sự bất lực trước cơn thèm ngọt, trêu đùa deadline |
+| **Không gian & Lối sống (Lifestyle)** | Khung cảnh (Scene) + Mood | Nhịp sống chậm, vệt nắng, góc bàn, bản nhạc quen |
+| **Kể chuyện (Story)** | Tự sự mộc mạc + Chi tiết đời thường | Một quan sát nhỏ chân thật, không kịch tính hóa |
+| **Tò mò (Curiosity)** | Khoảng trống thông tin (Information Gap) | Chi tiết bất ngờ trong nguyên liệu hoặc cách chuẩn bị |
+| **Bán hàng / Ưu đãi (Sales)** | Giá trị mỏ neo + Rõ ràng quyền lợi + 1 CTA | Nêu giá/deal thẳng thắn, không giật tít ảo |
+| **Nghề quán (Craft)** | Quy trình tỉ mỉ + Chi tiết chân thật | Canh nhiệt độ nước, ủ trà, chăm chút từng ly |
+| **Cảm xúc (Emotional)** | Nhịp điệu câu chữ (Rhythm) + Ẩn dụ tạo mood | Xen kẽ câu ngắn - dài, ngắt dòng tạo khoảng lặng |
+| **Đồng cảm (Relatable)** | Quan sát đời thường + Nhịp điệu tự nhiên | Cơn buồn ngủ 2h chiều, tan ca đói bụng |
+
+---
+
+## 3. Ranh Giới Miêu Tả Giác Quan (Sensory Boundary)
 
 - **Khi chỉ có hình ảnh:** 
   - ✅ **Được phép:** Miêu tả thị giác (màu sắc, bọt, sương đá, ánh nắng) và tạo cảm xúc bằng ẩn dụ nghệ thuật:  
@@ -43,7 +61,7 @@ Chọn 1 góc nhìn đắt giá nhất để viết (Choose Best Angle)
 
 ---
 
-## 3. Quy Tắc Framing Kể Chuyện: Tránh "Bịa Sự Kiện Thật"
+## 4. Quy Tắc Framing Kể Chuyện: Tránh "Bịa Sự Kiện Thật"
 
 Nếu người dùng chỉ gửi ảnh không gian/ly nước mà không kể câu chuyện cụ thể:
 - ❌ **Không tự dựng nên sự kiện lịch sử giả:** Tránh viết: *"Hôm nay có một anh khách ghé quán, gạt chân chống xe rồi khóc..."*
@@ -52,7 +70,7 @@ Nếu người dùng chỉ gửi ảnh không gian/ly nước mà không kể c�
 
 ---
 
-## 4. Quy Tắc CTA Cho Bài Kể Chuyện: Tùy Chọn & Mềm Mại (Soft/Optional CTA)
+## 5. Quy Tắc CTA Cho Bài Kể Chuyện: Tùy Chọn & Mềm Mại (Soft/Optional CTA)
 
 - **Tuyệt đối không chốt sale thô bạo** trong bài tâm sự/kể chuyện (tránh: *"👉 Mua ngay!", "Inbox đặt bàn gấp!"*).
 - **Để mở cảm xúc hoặc dùng lời chào thân tình:**  
