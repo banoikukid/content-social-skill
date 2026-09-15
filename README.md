@@ -1,11 +1,11 @@
-# content-social-skill (v4.5.0)
+# content-social-skill (v4.6.0)
 
 > **AI Copywriter chuyên ngành F&B (Trà, Cà Phê, Đồ Uống) tối ưu cho Chatbot (Hermes).**  
 > Chuyển đổi yêu cầu từ văn bản brief hoặc hình ảnh thành bài viết mạng xã hội tự nhiên, đậm chất đời thường và có chuyển đổi cao.
 
 ---
 
-## 🌟 Nguyên Tắc Tối Cao & Trụ Cột Sáng Tác (Pristine Craft)
+## 🌟 Nguyên Tắc Tối Cao & Trụ Cột Sáng Tác (Consistent Craft)
 
 > **"Chất lượng nội dung và sự tự nhiên của tiếng Việt luôn được ưu tiên cao hơn việc bám máy móc vào template hay công thức."**
 
@@ -14,10 +14,11 @@
 3. **Lời hứa & Lời giải (Hook $\rightarrow$ Promise $\rightarrow$ Payoff):** Hook là một lời hứa với người đọc; thân bài bắt buộc phải trả lời và giải quyết trọn vẹn lời hứa đó, không giật tít vượt quá nội dung.
 4. **Tư duy tiếng Việt thuần thục (Native Vietnamese Craft):** Viết trực tiếp bằng ngôn ngữ đời thường của người Việt, không dịch máy móc cấu trúc câu tiếng Anh.
 5. **Observation > Insight (Ưu tiên quan sát thật):** Lấy chi tiết quan sát làm điểm tựa; insight là tùy chọn, không ép AI tự vẽ ra insight sáo rỗng.
+6. **Nhất quán 100% giữa Rule & Examples:** Mọi ví dụ đều được phân tầng dữ liệu rõ ràng (`[OBSERVED]`, `[PROVIDED]`, `[CREATIVE]`), không để bất kỳ ví dụ nào dạy model vi phạm Hard Constraints.
 
 ---
 
-## 🚀 Kiến Trúc Copywriting Engine (v4.5.0)
+## 🚀 Kiến Trúc Copywriting Engine (v4.6.0)
 
 ```
 User Input (Text / Image / Brief)

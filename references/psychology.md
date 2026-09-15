@@ -24,13 +24,13 @@ Tạo niềm tin thông qua phản hồi thực tế của khách hàng hoặc s
 ### 4. Giá Trị Mỏ Neo (Anchoring & Value Contrast)
 Giúp khách hàng cảm nhận được giá trị xứng đáng của món nước khi so sánh với một trải nghiệm quen thuộc.
 - **Cách dùng:** So sánh mức giá với một niềm vui nho nhỏ trong ngày.
-- **Ví dụ:** *"Chỉ bằng một phần ăn sáng nhẹ nhàng, bạn đã có ngay một ly trà trái cây để ngồi nhâm nhi suốt buổi chiều làm việc."*
+- **Ví dụ:** *"Chỉ bằng một phần ăn sáng nhẹ nhàng, bạn đã có ngay một ly [Tên món nước] để ngồi nhâm nhi suốt buổi chiều làm việc." [CREATIVE: so sánh mỏ neo]*
 
 ### 5. Tưởng Tượng Giả Định (Hypothetical Future Pacing)
 Giúp người đọc hình dung trải nghiệm thưởng thức hoặc khoảnh khắc thư giãn tại quán.
 - **🔴 LƯU Ý BẮT BUỘC:** **Phải dùng ngôn ngữ giả định**, không biến hình dung thành sự thật đã xảy ra.
   - ❌ *Không viết:* "Chiều nay tan làm, bạn ngồi bên cửa sổ, cầm ly trà này lên uống..." *(tự bịa hành vi khách)*.
-  - ✅ *Cách viết đúng:* *"Nếu chiều nay bạn đang tìm một góc yên tĩnh để ngồi lại một chút...", "Thử tưởng tượng giữa trưa nắng gắt được cầm trên tay ly nước mát lạnh này..."*
+  - ✅ *Cách viết đúng:* *"Nếu chiều nay bạn đang tìm một góc yên tĩnh để ngồi lại một chút...", "Thử tưởng tượng giữa trưa nắng gắt được cầm trên tay ly nước mát lạnh này..."* `[HYPOTHETICAL]`
 
 ### 6. Sự Dễ Chịu Trong Tiếp Nhận (Cognitive Ease)
 Não bộ con người yêu thích những thứ dễ đọc, dễ hiểu và rõ ràng.
@@ -40,4 +40,4 @@ Não bộ con người yêu thích những thứ dễ đọc, dễ hiểu và r�
 Kết nối với sở thích hoặc gu thưởng thức của khách hàng một cách tôn trọng.
 - **🔴 LƯU Ý BẮT BUỘC:** Không dán nhãn độc đoán hay tạo cảm giác thượng đẳng.
   - ❌ *Tránh:* "Người sành trà thực thụ đều sẽ chọn ly này." *(dán nhãn, phản cảm)*.
-  - ✅ *Nên dùng:* *"Dành riêng cho những ai mê vị trà mộc đậm đà và hậu ngọt sâu..."*
+  - ✅ *Nên dùng:* *"Dành riêng cho những ai thích vị trà mộc đậm đà [PROVIDED: chỉ dùng khi brief/menu xác nhận vị trà mộc]..."*

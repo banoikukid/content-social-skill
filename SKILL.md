@@ -1,7 +1,7 @@
 ---
 name: content-social
 description: "Vietnamese F&B social copywriter for Facebook, Instagram, TikTok/Reels, and Zalo. Use when the user asks to write, rewrite, or adapt social content for beverage and coffee brands, from text briefs or images."
-version: 4.5.0
+version: 4.6.0
 ---
 
 # Content Social Skill — Copywriter F&B Chuyên Nghiệp Cho Chatbot
@@ -68,12 +68,11 @@ User Input (Text / Image)
    [4] Hook có Promise và Thân bài có Payoff trọn vẹn?
    [5] Caption có làm hơn việc chỉ tả ảnh (Caption ≠ Image Description)?
    [6] Có ít nhất một chi tiết cụ thể đáng nhớ (Specificity > Adjective)?
-   [7] Claim Check (5 tầng dữ liệu: Factual / Visual / Sensory / Creative / Hypothetical):
-       - Factual: có nguồn từ input/menu không? (Cấm bịa fact bán chạy, công thức ngầm).
-       - Visual: chỉ miêu tả những gì mắt thấy trong ảnh?
-       - Sensory: vị giác/texture đã được cung cấp chưa (cấm tự bịa)?
-       - Creative: ẩn dụ cảm xúc có bị viết như sự thật khách quan không?
-       - Hypothetical: bối cảnh tưởng tượng đã có framing giả định chưa?
+   [7] Claim Check (Quy trình xác minh cây logic — không biến Creative thành Fact):
+       - FACT?
+         ├─ YES → Nguồn từ đâu? [PROVIDED: brief/menu] hay [OBSERVED: mắt thấy trong ảnh]?
+         └─ NO  → Phân loại rõ: [CREATIVE metaphor] / [HYPOTHETICAL framing] / [EMOTION]?
+       - Tuyệt đối không biến câu văn Creative thành FACT chỉ vì nó nghe xuôi tai.
    [8] Có mùi AI / dịch tiếng Anh / sáo ngữ (AI-slop) không?
    [9] Voice + Tone + Nền tảng có phù hợp?
    [10] CTA / Emoji / Hashtag có thực sự cần thiết và tự nhiên không?

@@ -73,12 +73,13 @@ Mỗi góc nhìn cần được hỗ trợ bởi các kỹ thuật viết tươn
 
 ---
 
-## 5. Quy Tắc Framing Kể Chuyện: Tránh "Bịa Sự Kiện Thật"
+## 5. Quy Tắc Khóa Chặt Sáng Tác (Creative ≠ Factual)
 
-Nếu người dùng chỉ gửi ảnh không gian/ly nước mà không kể câu chuyện cụ thể:
-- ❌ **Không tự dựng nên sự kiện lịch sử giả:** Tránh viết: *"Hôm nay có một anh khách ghé quán, gạt chân chống xe rồi khóc..."*
-- ✅ **Dùng cách đóng khung giả định (Hypothetical Framing) hoặc cảm nhận không gian:**  
-  *Ví dụ:* *"Những ngày mưa thế này, ngồi bên cửa sổ ngắm vệt nước lăn dài trên kính luôn có một cảm giác rất đỗi bình yên."*
+- 🔴 **QUY TẮC BẮT BUỘC:** Tuyệt đối không tự tạo nhân vật khách hàng, cuộc hội thoại, hành động của nhân viên, thời gian vận hành hoặc sự kiện cụ thể rồi trình bày như chuyện đã xảy ra trong thực tế.
+  - ❌ *Không viết:* *"Hôm nay có một anh khách ghé quán gạt chân chống xe...", "Chiều nay khách ngồi bên cửa sổ từ 2h đến 5h..."* (nếu brief hoặc ảnh không hề cho thấy điều đó).
+  - ✅ *Dùng cách đóng khung giả định (Hypothetical Framing) hoặc cảm nhận không gian thuần túy:*  
+    *Ví dụ:* *"Những ngày mưa thế này, ngồi bên cửa sổ ngắm vệt nước lăn dài trên kính luôn có một cảm giác rất đỗi bình yên."*  
+    *Ví dụ:* *"Có những buổi chiều chẳng cần kế hoạch gì lớn. Một góc ngồi quen, một ly nước mát, vậy là đủ."*
 
 ---
 

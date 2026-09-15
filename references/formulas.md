@@ -14,10 +14,10 @@ Công thức trực diện nhất cho các bài đăng sản phẩm, khuyến m�
 - **Value (Giá trị / Món nước 2–4 dòng):** Nêu rõ món nước có gì đặc biệt (vị trà, lớp bọt, topping) kèm giá hoặc ưu đãi.
 - **CTA (Kêu gọi hành động 1 câu):** Đúng 1 hành động duy nhất (nhắn tin, ghé quán, hoặc đặt hàng).
 
-> **Ví dụ:**  
-> Đang uể oải giữa buổi chiều mà có ly Trà Trái Cây Nhiệt Đới thì còn gì bằng!  
-> Trà lài thơm thanh, kết hợp cùng cam vàng tươi, chanh leo chua ngọt nhẹ và thạch giòn sần sật. Ngồi nhâm nhi ngắm phố xá là vừa xinh cho buổi chiều.  
-> 🏷️ Giá chỉ 32k. Nhắn tin để tụi mình chuẩn bị sẵn ly nước cho nha!
+> **Ví dụ khung mẫu (Dùng placeholder bám sát dữ kiện):**  
+> Chiều nay oi bức, ghé quán làm một ly [Tên món nước] nha bạn ơi! *(Hook - Bối cảnh [CREATIVE])*  
+> [Nền trà/cà phê đã được cung cấp] kết hợp cùng [thành phần/topping đã được cung cấp]. [Chi tiết trải nghiệm/vị giác đã được brief xác nhận]. *(Value - [PROVIDED])*  
+> 🏷️ Giá [Mức giá đã cung cấp]k/ly. Nhắn tin để tụi mình chuẩn bị trước nha! *(CTA)*
 
 ---
 
@@ -25,15 +25,15 @@ Công thức trực diện nhất cho các bài đăng sản phẩm, khuyến m�
 
 Hiệu quả cao khi đánh vào nhu cầu thời tiết (nắng gắt, mưa gió), áp lực công việc (deadline dí, buồn ngủ gật gù).
 
-- **Problem (Nêu vấn đề):** Trạng thái khó chịu mà khách hàng đang trải qua.
-- **Agitation (Xoáy sâu cảm xúc):** Làm cho vấn đề trở nên sống động, đồng cảm cùng khách.
-- **Solution (Giải pháp là món nước):** Món của quán xuất hiện như một cứu cánh kịp thời.
+- **Problem (Nêu vấn đề):** Trạng thái khó chịu quen thuộc mà khách hàng đang trải qua [CREATIVE].
+- **Agitation (Xoáy sâu cảm xúc):** Làm cho vấn đề trở nên sống động, đồng cảm cùng khách [CREATIVE].
+- **Solution (Giải pháp là món nước):** Món của quán xuất hiện như một gợi ý giải tỏa [PROVIDED: chỉ dùng thành phần/vị giác đã xác nhận].
 
-> **Ví dụ:**  
-> Buổi chiều 2 giờ mắt cứ díp lại mà deadline trước mặt vẫn chưa chạy xong? *(Problem)*  
-> Càng cố tập trung thì đầu càng trống rỗng, chỉ thèm thứ gì đó đậm vị để nhâm nhi cho đỡ ngán. *(Agitation)*  
-> Ghé quán làm liền một ly Cà Phê Muối nha bạn ơi. Vị cà phê đậm kết hợp cùng lớp kem muối béo mặn, uống ngụm nào êm ngụm đó. *(Solution)*  
-> 📍 Đang mở cửa tại [Địa chỉ quán], ghé tụi mình liền nha!
+> **Ví dụ khung mẫu:**  
+> Buổi chiều 2 giờ mắt cứ díp lại mà việc trước mặt vẫn chưa chạy xong? *(Problem)*  
+> Càng cố tập trung thì càng thấy uể oải, chỉ muốn tìm thứ gì đó để nhâm nhi giải lao. *(Agitation)*  
+> Ghé làm liền một ly [Tên món nước] nha bạn ơi. [Thành phần chính đã được cung cấp] kết hợp cùng [chi tiết vị giác/topping đã được xác nhận]. *(Solution)*  
+> 📍 Đang mở cửa tại [Địa chỉ quán], ghé tụi mình liền nha! *(CTA)*
 
 ---
 

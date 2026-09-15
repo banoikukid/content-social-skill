@@ -43,44 +43,44 @@ Tone giọng trong F&B không chỉ là thay đổi đại từ xưng hô, mà t
 ### Tone 1: Gần gũi / Chủ quán (Default)
 - **Đặc trưng:** Coi khách như bạn bè ghé chơi nhà. Câu văn ngắn gọn, chân tình, không dùng từ ngữ quảng cáo đao to búa lớn.
 - **Ví dụ:**
-  > Chiều nay trời mát mẻ ghé quán làm ly Ô Long Sữa Nướng nha bạn ơi.  
-  > Vị trà ô long rang đậm kết hợp cùng sữa béo vừa phải, không bị ngọt gắt. Ngồi nhâm nhi ngắm xe cộ qua lại là vừa xinh cho một buổi chiều.  
-  > 📍 Ghé tụi mình tại [Địa chỉ] hoặc nhắn tin để tụi mình chuẩn bị trước nha!
+  > Chiều nay trời mát mẻ ghé quán làm ly Ô Long Sữa Nướng nha bạn ơi. `[CREATIVE]`  
+  > Vị trà ô long rang đậm kết hợp cùng sữa béo vừa phải, không bị ngọt gắt `[PROVIDED: dữ kiện vị]`. Ngồi nhâm nhi ngắm xe cộ qua lại là vừa xinh cho một buổi chiều `[CREATIVE]`.  
+  > 📍 Ghé tụi mình tại [Địa chỉ] hoặc nhắn tin để tụi mình chuẩn bị trước nha! `[CTA]`
 
 ---
 
 ### Tone 2: Hài hước / Dí dỏm
 - **Đặc trưng:** Biết "tự trào", biến vấn đề thường ngày (deadline, uể oải, thèm ngọt) thành tiếng cười duyên dáng. Tránh đùa cợt thô lỗ, không đùa về chi phí y tế/khám bệnh.
 - **Ví dụ:**
-  > Nghe nói chiều nay có người đang thở dài vì deadline dí?  
-  > Thôi buông chuột 5 phút, nạp chút ngọt ngào từ Ô Long Sữa Nướng đi rồi tính tiếp. Trà rang đậm vị quyện lớp sữa béo dịu, nhâm nhi một chút cho đầu óc thảnh thơi.  
-  > 35 cành một ly, vừa vặn cho một buổi chiều giải lao. Nhắn tui liền để tui chuẩn bị sẵn cho nha!
+  > Nghe nói chiều nay có người đang thở dài vì deadline dí? `[CREATIVE]`  
+  > Thôi buông chuột 5 phút, giải lao với Ô Long Sữa Nướng đi rồi tính tiếp. Trà rang đậm vị quyện lớp sữa béo dịu `[PROVIDED: dữ kiện vị]`, nhâm nhi một chút cho thảnh thơi đầu óc `[CREATIVE]`.  
+  > 35 cành một ly `[PROVIDED: giá 35k]`, vừa vặn cho một buổi chiều giải lao. Nhắn tui liền để tui chuẩn bị sẵn cho nha! `[CTA]`
 
 ---
 
 ### Tone 3: Trẻ trung / Rủ rê
 - **Đặc trưng:** Nhịp điệu sôi nổi, thôi thúc hành động rủ bạn bè, hội nhóm tụ tập. Dùng từ ngữ đời thường của giới trẻ một cách tự nhiên.
 - **Ví dụ:**
-  > Kèo chiều nay chốt đơn Ô Long Sữa Nướng chưa mấy bồ ơi?  
-  > Trà đậm hậu thơm quyện sữa béo bùi, đầy đá mát lạnh dễ uống. Tan làm rủ liền đứa bạn thân ghé quán làm một ly tám chuyện rôm rả đi nào!  
-  > Tag nhẹ đồng đội vô đây để set kèo liền tay nha!
+  > Kèo chiều nay chốt đơn Ô Long Sữa Nướng chưa mấy bồ ơi? `[CREATIVE]`  
+  > Trà đậm hậu thơm quyện sữa béo bùi `[PROVIDED: dữ kiện vị]`, ly đầy ắp đá mát lạnh `[OBSERVED: thấy đá trong ly]`. Tan làm rủ liền đứa bạn thân ghé quán làm một ly tám chuyện rôm rả đi nào! `[CREATIVE]`  
+  > Tag nhẹ đồng đội vô đây để set kèo liền tay nha! `[CTA]`
 
 ---
 
 ### Tone 4: Cảm xúc / Chiêm nghiệm
 - **Đặc trưng:** Khơi gợi không gian, giác quan và kỷ niệm. Nhịp điệu chậm, câu chữ giàu hình ảnh và sự tĩnh lặng.
 - **Ví dụ:**
-  > Có những buổi chiều tan tầm, chỉ muốn tìm một góc quen ngồi nhìn phố xá chậm lại một chút.  
-  > Ly Ô Long Sữa Nướng mát trên bàn gỗ, ngoài hiên đón gió, không gian chỉ có tiếng nhạc nhẹ êm êm.  
-  > Tụi mình vẫn luôn mở cửa chờ bạn ghé qua.
+  > Có những buổi chiều tan tầm, chỉ muốn tìm một góc quen ngồi nhìn phố xá chậm lại một chút. `[CREATIVE]`  
+  > Ly Ô Long Sữa Nướng trên bàn gỗ, ngoài hiên đón gió `[OBSERVED: bối cảnh bàn quán]`, không gian chỉ có tiếng nhạc nhẹ êm êm `[CREATIVE]`.  
+  > Tụi mình vẫn luôn mở cửa chờ bạn ghé qua. `[CTA mở]`
 
 ---
 
 ### Tone 5: Tinh tế / Chuyên môn
 - **Đặc trưng:** Tập trung vào thành phần thực tế, kỹ thuật pha chế đã được cung cấp và trải nghiệm thưởng thức. Lời văn trang nhã, thể hiện sự am hiểu và tôn trọng khách hàng.
 - **Ví dụ:**
-  > Một tách Ô Long Sữa Nướng kết hợp giữa nền trà ô long và sữa tươi béo thanh theo công thức của quán. Vị trà đậm đà, vị sữa dịu nhẹ, tạo nên tổng thể mộc mạc và chỉn chu.  
-  > Kính mời bạn ghé trải nghiệm thức uống này tại quán vào chiều nay.
+  > Một tách Ô Long Sữa Nướng kết hợp giữa nền trà ô long và sữa tươi béo thanh theo công thức của quán `[PROVIDED: thành phần]`. Vị trà đậm đà, vị sữa dịu nhẹ `[PROVIDED: dữ kiện vị]`, tạo nên tổng thể mộc mạc và chỉn chu.  
+  > Kính mời bạn ghé trải nghiệm thức uống này tại quán vào chiều nay. `[CTA lịch sự]`
 
 ---
 

@@ -7,30 +7,30 @@
 ## Version
 
 ```yaml
-skill: 4.5.0
-release_type: pristine_craft_edition
+skill: 4.6.0
+release_type: consistent_edition
 last_updated: 2026-09-16
 purpose: "Lean, practical Vietnamese F&B social copywriter for chatbots (Hermes)"
 ```
 
 ---
 
-## Cấu Trúc Thư Mục Skill (v4.5.0)
+## Cấu Trúc Thư Mục Skill (v4.6.0)
 
 ```
 content-social-skill/
-├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes (v4.5.0)
-├── SKILL.md                 # Entry point, Prime Directive, Observation > Insight, 10-point DoD QA (v4.5.0)
-├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.5.0)
+├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes (v4.6.0)
+├── SKILL.md                 # Entry point, Prime Directive, Observation > Insight, Decision-Tree Claim Check (v4.6.0)
+├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.6.0)
 ├── references/
 │   ├── platforms.md         # Quy chuẩn 5 nền tảng (Facebook, IG, TikTok, Zalo OA, Zalo Personal, Soft tendencies)
-│   ├── tones.md             # 5 tone giọng F&B, Ma trận thông số Tone & Emoji Density Tendency (sạch claim)
-│   ├── formulas.md          # 4 công thức cốt lõi (Hook-Value-CTA, PAS, FAB, Storytelling sạch claim)
-│   ├── hooks.md             # Mở bài 3s, 8 khuôn mẫu AI, Rhythm Engineering & Promise-Payoff (sạch claim)
-│   ├── storytelling.md      # Động cơ 8 góc nhìn (Angle Engine), 3 tầng dữ liệu, Ma trận kỹ thuật, Soft CTA
-│   ├── psychology.md        # 7 kỹ thuật tâm lý thực chiến F&B (chống bịa hành vi, giả định tương lai)
-│   ├── pricing.md           # Kỹ thuật viết giá & ưu đãi an toàn bằng placeholder (sạch delivery claim)
-│   └── examples.md          # 28+ bài viết mẫu chuẩn mực (Image/Brief to Caption, Rewrite, Bad vs Good)
+│   ├── tones.md             # 5 tone giọng F&B, Ma trận thông số Tone & [OBSERVED]/[PROVIDED]/[CREATIVE] tagged
+│   ├── formulas.md          # 4 công thức cốt lõi (Placeholder-driven, sạch 100% sensory/operational claims)
+│   ├── hooks.md             # Mở bài, Rhythm & Promise-Payoff (sạch 100% claim, bỏ stat 3 giây)
+│   ├── storytelling.md      # 8 góc nhìn theo Reader Attention, khóa chặt Creative ≠ Factual
+│   ├── psychology.md        # 7 kỹ thuật tâm lý thực chiến F&B (gắn nhãn dữ kiện rõ ràng)
+│   ├── pricing.md           # Kỹ thuật viết giá & ưu đãi an toàn bằng placeholder tagged
+│   └── examples.md          # 28+ bài viết mẫu chuẩn mực theo Source-Provenance Rule
 └── tests/
     └── core-tests.md        # 10 kịch bản kiểm thử thực tế
 ```
@@ -53,21 +53,30 @@ content-social-skill/
 
 | Tệp tin | Vai trò | Version | Trạng thái |
 | :--- | :--- | :--- | :--- |
-| `README.md` | Tài liệu giới thiệu tổng quan dự án | 4.5.0 | ✅ Active |
-| `SKILL.md` | Bộ não điều khiển, Prime Directive, Observation > Insight, 10 DoD checks | 4.5.0 | ✅ Active |
-| `references/platforms.md` | Hướng dẫn định dạng 5 nền tảng, xu hướng mềm, user overrides | 4.5.0 | ✅ Active |
-| `references/tones.md` | 5 tone giọng F&B, Ma trận thông số Tone & Emoji density tendencies | 4.5.0 | ✅ Active |
-| `references/formulas.md` | 4 công thức cốt lõi, quy tắc fact-based FAB, sạch địa chỉ & claim | 4.5.0 | ✅ Active |
-| `references/hooks.md` | Mở bài 3s, 8 khuôn mẫu AI, Rhythm & Promise-Payoff (sạch claim) | 4.5.0 | ✅ Active |
-| `references/storytelling.md` | Động cơ 8 góc nhìn, 3 tầng dữ liệu, sạch operational claims | 4.5.0 | ✅ Active |
-| `references/psychology.md` | 7 kỹ thuật tâm lý thực chiến F&B (chống bịa hành vi) | 4.5.0 | ✅ Active |
-| `references/pricing.md` | Trình bày giá & ưu đãi an toàn, sạch delivery claim | 4.5.0 | ✅ Active |
-| `references/examples.md` | Tuyển tập 28+ bài mẫu F&B chuẩn (Image/Brief, Rewrite, Bad vs Good) | 4.5.0 | ✅ Active |
-| `tests/core-tests.md` | 10 kịch bản kiểm thử mẫu kiểm tra chất lượng copywriter | 4.5.0 | ✅ Active |
+| `README.md` | Tài liệu giới thiệu tổng quan dự án | 4.6.0 | ✅ Active |
+| `SKILL.md` | Bộ não điều khiển, Prime Directive, Decision-Tree Claim Check | 4.6.0 | ✅ Active |
+| `references/platforms.md` | Hướng dẫn định dạng 5 nền tảng, xu hướng mềm, user overrides | 4.6.0 | ✅ Active |
+| `references/tones.md` | 5 tone giọng F&B, Ma trận thông số Tone & Data-layer tagged | 4.6.0 | ✅ Active |
+| `references/formulas.md` | 4 công thức cốt lõi, khung placeholder an toàn, sạch địa chỉ & claim | 4.6.0 | ✅ Active |
+| `references/hooks.md` | Mở bài, 8 khuôn mẫu AI, Rhythm & Specificity bám sát 3 tầng dữ liệu | 4.6.0 | ✅ Active |
+| `references/storytelling.md` | 8 góc nhìn theo Reader Attention, khóa chặt Creative ≠ Factual | 4.6.0 | ✅ Active |
+| `references/psychology.md` | 7 kỹ thuật tâm lý thực chiến F&B, gắn nhãn dữ kiện rõ ràng | 4.6.0 | ✅ Active |
+| `references/pricing.md` | Trình bày giá & ưu đãi an toàn bằng placeholder tagged | 4.6.0 | ✅ Active |
+| `references/examples.md` | Tuyển tập 28+ bài mẫu F&B chuẩn theo Source-Provenance Rule | 4.6.0 | ✅ Active |
+| `tests/core-tests.md` | 10 kịch bản kiểm thử mẫu kiểm tra chất lượng copywriter | 4.6.0 | ✅ Active |
 
 ---
 
 ## Nhật Ký Thay Đổi (Changelog)
+
+### v4.6.0 (2026-09-16) — 100% Consistent Edition (Instruction & Demonstration Alignment)
+- **Phân loại 3 tầng dữ liệu cho mọi ví dụ (`[OBSERVED]` / `[PROVIDED]` / `[CREATIVE]`):** Rà soát và gắn nhãn tường minh toàn bộ ví dụ trong `hooks.md`, `tones.md`, `psychology.md`, `pricing.md`. Không để bất kỳ ví dụ nào gây hiểu lầm thành fact tự sinh.
+- **Chuyển đổi công thức sang khung Placeholder an toàn (`formulas.md`):** Hook-Value-CTA và PAS được chuyển 100% sang khung mẫu placeholder (`[Tên món]`, `[Thành phần đã cung cấp]`, `[Đặc điểm vị giác đã cung cấp]`, `[Giá]`), xóa bỏ câu văn hoàn chỉnh dễ gây rò rỉ fact.
+- **Khóa chặt ranh giới Sáng tạo trong Kể chuyện (`storytelling.md`):** Cấm tự tạo nhân vật khách hàng, hội thoại, thời gian vận hành hoặc sự kiện cụ thể như chuyện có thật. Mọi câu chuyện sáng tạo bắt buộc phải dùng Hypothetical Framing.
+- **Chuẩn hóa Claim Check theo cây quyết định 2 nhánh (`SKILL.md`):** `FACT? (YES: [PROVIDED] / [OBSERVED] | NO: [CREATIVE] / [HYPOTHETICAL])`. Tuyệt đối không biến câu văn Creative thành Fact chỉ vì nghe êm tai.
+- **Xóa bỏ các số liệu/thống kê không có nguồn:** Xóa bỏ *"3 giây"* trong `hooks.md`, thay bằng *"người xem quyết định rất nhanh"*.
+
+---
 
 ### v4.5.0 (2026-09-16) — The Pristine Craft Edition (Zero Hallucination Examples & Claim Check)
 - **Observation > Insight (Insight là tùy chọn):** Thay đổi quy trình tư duy `Observation → Detail → Insight (optional) → Dominant Idea`. Ưu tiên chi tiết quan sát thật, loại bỏ việc ép AI tự vẽ ra insight sáo rỗng.
