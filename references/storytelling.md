@@ -26,10 +26,10 @@ Chọn 1 góc nhìn đắt giá nhất để viết (Choose Best Angle)
 | :--- | :--- | :--- |
 | **1. Sản phẩm & Thị giác** *(Product)* | Tập trung vào màu sắc, tầng lớp, hạt đá, topping tươi rói. | *"Màu cam óng ả đọng những giọt nước li ti ngoài thành ly, nhìn thôi cũng thấy mùa hè tới gần..."* |
 | **2. Cảm xúc & Khoảng lặng** *(Mood)* | Tận dụng sự êm đềm, chậm rãi của buổi chiều hoặc tối muộn. | *"Có những buổi chiều chỉ cần một góc nhỏ tĩnh lặng để ngồi ngắm phố xá..."* |
-| **3. Đời thường & Đồng cảm** *(Relatable)* | Chạm vào tâm lý tan ca, uể oải giữa trưa, thèm ngọt của dân văn phòng. | *"2 giờ chiều mắt díp lại, chỉ thèm một món gì đó ngọt thanh để sốc lại tinh thần..."* |
+| **3. Đời thường & Đồng cảm** *(Relatable)* | Chạm vào tâm lý tan ca, uể oải giữa trưa, thèm ngọt của dân văn phòng. | *"2 giờ chiều mắt díp lại, chỉ muốn tìm thứ gì đó nhâm nhi giải lao..."* |
 | **4. Hài hước & Tự trào** *(Humor)* | Đùa vui về ví tiền, việc giảm cân, sự thèm ngọt không lối thoát. | *"Ví tiền bảo tiết kiệm, nhưng cái miệng lại bảo order liền ly trà sữa..."* |
 | **5. Tò mò & Khám phá** *(Curiosity)* | Một chi tiết lạ trong cách tạo hình hoặc điểm nhấn món nước. | *"Nhìn đơn giản vậy thôi — bạn đoán điểm đặc biệt của ly này nằm ở đâu?"* |
-| **6. Nghề quán & Bếp quầy** *(Craft)* | Thao tác ủ trà, pha chế mộc mạc của người đứng quầy. | *"Mỗi sáng mở cửa, tụi mình lại cẩn thận canh từng mẻ trà để hương vị lên thật tròn trịa..."* |
+| **6. Nghề quán & Bếp quầy** *(Craft)* | Thao tác pha chế mộc mạc của người đứng quầy [chỉ dùng khi quán xác nhận quy trình]. | *"Sáng sớm mở quầy, việc đầu tiên là chuẩn bị kỹ từng nguyên liệu trước giờ đón khách..."* |
 | **7. Dịp & Bối cảnh sống** *(Occasion)* | Gắn với cơn mưa rào, sáng cuối tuần thảnh thơi, buổi hẹn bạn bè. | *"Mưa rào bất chợt ghé ngang phố, ghé quán trú chân một lát bạn nhé..."* |
 | **8. Tối giản** *(Minimalist)* | 1–2 câu cô đọng, để hình ảnh đẹp tự cất tiếng nói. | *"Một ngày êm dịu, một ly trà vừa ý. Thế là đủ."* |
 

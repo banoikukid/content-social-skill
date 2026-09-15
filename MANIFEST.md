@@ -7,29 +7,30 @@
 ## Version
 
 ```yaml
-skill: 4.4.0
-release_type: master_copywriter_edition
+skill: 4.5.0
+release_type: pristine_craft_edition
 last_updated: 2026-09-16
 purpose: "Lean, practical Vietnamese F&B social copywriter for chatbots (Hermes)"
 ```
 
 ---
 
-## Cấu Trúc Thư Mục Skill (v4.4.0)
+## Cấu Trúc Thư Mục Skill (v4.5.0)
 
 ```
 content-social-skill/
-├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes (v4.4.0)
-├── SKILL.md                 # Entry point, Prime Directive, 4 Golden Craft Principles, QA (v4.4.0)
-├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.4.0)
+├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes (v4.5.0)
+├── SKILL.md                 # Entry point, Prime Directive, Observation > Insight, 10-point DoD QA (v4.5.0)
+├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.5.0)
 ├── references/
-│   ├── platforms.md         # Quy chuẩn 5 nền tảng (Facebook, IG, TikTok, Zalo OA, Zalo Personal, User overrides)
-│   ├── tones.md             # 5 tone giọng F&B, Ma trận thông số Tone (Parameters) & Adaptive Voice
-│   ├── formulas.md          # 4 công thức cốt lõi (Soft Guidance, FAB fact-based, sạch địa chỉ & claim)
-│   ├── hooks.md             # Mở bài 3s, 8 khuôn mẫu AI, Rhythm Engineering & Specificity (sạch claim)
+│   ├── platforms.md         # Quy chuẩn 5 nền tảng (Facebook, IG, TikTok, Zalo OA, Zalo Personal, Soft tendencies)
+│   ├── tones.md             # 5 tone giọng F&B, Ma trận thông số Tone & Emoji Density Tendency (sạch claim)
+│   ├── formulas.md          # 4 công thức cốt lõi (Hook-Value-CTA, PAS, FAB, Storytelling sạch claim)
+│   ├── hooks.md             # Mở bài 3s, 8 khuôn mẫu AI, Rhythm Engineering & Promise-Payoff (sạch claim)
 │   ├── storytelling.md      # Động cơ 8 góc nhìn (Angle Engine), 3 tầng dữ liệu, Ma trận kỹ thuật, Soft CTA
 │   ├── psychology.md        # 7 kỹ thuật tâm lý thực chiến F&B (chống bịa hành vi, giả định tương lai)
-│   └── pricing.md           # Kỹ thuật viết giá & ưu đãi an toàn bằng placeholder
+│   ├── pricing.md           # Kỹ thuật viết giá & ưu đãi an toàn bằng placeholder (sạch delivery claim)
+│   └── examples.md          # 28+ bài viết mẫu chuẩn mực (Image/Brief to Caption, Rewrite, Bad vs Good)
 └── tests/
     └── core-tests.md        # 10 kịch bản kiểm thử thực tế
 ```
@@ -52,20 +53,35 @@ content-social-skill/
 
 | Tệp tin | Vai trò | Version | Trạng thái |
 | :--- | :--- | :--- | :--- |
-| `README.md` | Tài liệu giới thiệu tổng quan dự án | 4.3.0 | ✅ Active |
-| `SKILL.md` | Bộ não điều khiển, Prime Directive, Insight Engine, 8-question Creative QA | 4.3.0 | ✅ Active |
-| `references/platforms.md` | Hướng dẫn định dạng 5 nền tảng, nguyên tắc user request overrides default | 4.3.0 | ✅ Active |
-| `references/tones.md` | 5 tone giọng F&B, Ma trận thông số Tone & Adaptive Voice | 4.3.0 | ✅ Active |
-| `references/formulas.md` | 4 công thức cốt lõi, quy tắc fact-based FAB, sạch địa chỉ & claim | 4.3.0 | ✅ Active |
-| `references/hooks.md` | Mở bài 3s, 8 khuôn mẫu AI, Kỹ thuật nhịp điệu (Rhythm) & Specificity | 4.3.0 | ✅ Active |
-| `references/storytelling.md` | Động cơ 8 góc nhìn, phân định 3 tầng dữ liệu (Observed/Provided/Creative), Soft CTA | 4.3.0 | ✅ Active |
-| `references/psychology.md` | 7 kỹ thuật tâm lý thực chiến F&B (chống bịa hành vi, giả định tương lai) | 4.3.0 | ✅ Active |
-| `references/pricing.md` | Trình bày giá & ưu đãi an toàn bằng placeholder, sạch brand ngoài | 4.3.0 | ✅ Active |
-| `tests/core-tests.md` | 10 kịch bản kiểm thử mẫu kiểm tra chất lượng copywriter | 4.3.0 | ✅ Active |
+| `README.md` | Tài liệu giới thiệu tổng quan dự án | 4.5.0 | ✅ Active |
+| `SKILL.md` | Bộ não điều khiển, Prime Directive, Observation > Insight, 10 DoD checks | 4.5.0 | ✅ Active |
+| `references/platforms.md` | Hướng dẫn định dạng 5 nền tảng, xu hướng mềm, user overrides | 4.5.0 | ✅ Active |
+| `references/tones.md` | 5 tone giọng F&B, Ma trận thông số Tone & Emoji density tendencies | 4.5.0 | ✅ Active |
+| `references/formulas.md` | 4 công thức cốt lõi, quy tắc fact-based FAB, sạch địa chỉ & claim | 4.5.0 | ✅ Active |
+| `references/hooks.md` | Mở bài 3s, 8 khuôn mẫu AI, Rhythm & Promise-Payoff (sạch claim) | 4.5.0 | ✅ Active |
+| `references/storytelling.md` | Động cơ 8 góc nhìn, 3 tầng dữ liệu, sạch operational claims | 4.5.0 | ✅ Active |
+| `references/psychology.md` | 7 kỹ thuật tâm lý thực chiến F&B (chống bịa hành vi) | 4.5.0 | ✅ Active |
+| `references/pricing.md` | Trình bày giá & ưu đãi an toàn, sạch delivery claim | 4.5.0 | ✅ Active |
+| `references/examples.md` | Tuyển tập 28+ bài mẫu F&B chuẩn (Image/Brief, Rewrite, Bad vs Good) | 4.5.0 | ✅ Active |
+| `tests/core-tests.md` | 10 kịch bản kiểm thử mẫu kiểm tra chất lượng copywriter | 4.5.0 | ✅ Active |
 
 ---
 
 ## Nhật Ký Thay Đổi (Changelog)
+
+### v4.5.0 (2026-09-16) — The Pristine Craft Edition (Zero Hallucination Examples & Claim Check)
+- **Observation > Insight (Insight là tùy chọn):** Thay đổi quy trình tư duy `Observation → Detail → Insight (optional) → Dominant Idea`. Ưu tiên chi tiết quan sát thật, loại bỏ việc ép AI tự vẽ ra insight sáo rỗng.
+- **Tích hợp Claim Check vào QA 10 điểm (10 Silent DoD Checks):** Kiểm tra thầm: *Mỗi câu factual/vật lý có nguồn từ input đã xác nhận không?* Triệt tiêu toàn bộ claim bán chạy, công thức ngầm, hiệu ứng thể chất.
+- **Thanh lọc 100% ví dụ tham khảo (Clean Reference Traps):**
+  - `hooks.md`: Xóa claim hiệu ứng cơ thể ("mát lạnh", "nhẹ cả người", "tỉnh cả người") và operational fact ("tự ủ mẻ trà").
+  - `formulas.md`: Xóa claim thể chất ("nạp lại năng lượng", "sốc lại tinh thần", "sảng khoái hẳn ra").
+  - `storytelling.md`: Sạch operational claims và chỉ khai thác Craft khi có xác nhận từ quán.
+  - `tones.md`: Bỏ hẳn quota số lượng emoji, chuyển 100% sang Emoji Density Tendency (`Low`, `Moderate`, `High`).
+  - `pricing.md`: Xóa claim dịch vụ ship khi chưa có dữ kiện ("ship tận bàn làm việc").
+  - `platforms.md`: Chuyển định mức emoji/hashtag sang soft tendencies.
+- **Bổ sung `references/examples.md`:** 28+ kịch bản mẫu chuẩn mực F&B (5 Image $\rightarrow$ Caption, 5 Brief $\rightarrow$ Caption, 3 Rewrite, 3 Humor, 3 Storytelling, 3 Zalo Personal, 3 Promotions, 3 Cặp Bad vs Good).
+
+---
 
 ### v4.4.0 (2026-09-16) — Master Copywriter Edition (Benchmark Global Skills)
 - **4 Trụ Cột Sáng Tác (Golden Craft Principles):**

@@ -32,10 +32,10 @@ Người đọc mạng xã hội thích nhìn thấy giá một cách trực qua
 
 ## 3. Các Mẫu Trình Bày Giá Mẫu (Dùng Placeholder An Toàn)
 
-### Mẫu 1: Bài bán hàng trực diện (Menu / Flash Sale)
-> Giữa trưa oi ả, nạp ngay một ly [Tên món] mát lạnh sảng khoái bạn nhé!  
+### Mẫu 1: Bài bán hàng trực diện (Menu / Giới thiệu món)
+> Trưa nắng ghé quán làm một ly [Tên món] mát lạnh bạn nhé!  
 > 🏷️ Giá chỉ: **[Mức giá]k/ly**  
-> Nhắn tin tụi mình ship tận bàn làm việc nha!
+> Nhắn tin tụi mình để hỏi món hoặc đặt trước nha!
 
 ### Mẫu 2: Ra mắt món mới kèm ưu đãi
 > Mừng thành viên mới gia nhập menu của quán:  

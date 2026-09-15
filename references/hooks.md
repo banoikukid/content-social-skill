@@ -50,7 +50,7 @@ Không chỉ cấm một vài từ đơn lẻ, hãy **chặn đứng 8 khuôn m�
 | **5. Triết lý / Lên lớp cuộc sống** *(Motivational Lecturing)* | "Hãy nhớ rằng cuộc đời như tách cà phê, đắng trước ngọt sau..." | Không rao giảng đạo lý. Để người đọc tự cảm nhận không gian quán |
 | **6. Spam câu hỏi tu từ** *(Rhetorical-Question Spam)* | "Bạn có mệt mỏi? Bạn có đang tìm kiếm chốn bình yên? Bạn có muốn...?" | Đặt 1 câu hỏi trúng đích hoặc đi thẳng vào chia sẻ |
 | **7. Đóng khung sáo rỗng** *(Cliche Action / Invitation)* | "Hãy cùng chúng tôi đắm chìm...", "Mang đến cho bạn một cảm giác..." | Lời mời đời thường: "Ghé tụi mình làm một ly nha", "Chiều nay ghé quán chơi nhé" |
-| **8. Văn phong quan liêu / PR** *(Over-polished Corporate)* | "Tự hào mang đến sản phẩm đồ uống hàng đầu..." | Giọng thủ thỉ của người làm nghề: "Mẻ trà sáng nay tụi mình ủ vừa độ lắm" |
+| **8. Văn phong quan liêu / PR** *(Over-polished Corporate)* | "Tự hào mang đến sản phẩm đồ uống hàng đầu..." | Giọng thủ thỉ của người làm nghề: "Mẻ trà này tụi mình pha vừa miệng lắm" |
 
 ---
 
@@ -62,9 +62,9 @@ Văn bản do AI tạo ra thường có độ dài các câu đều đều nhau,
 - **Đều đều kiểu AI (Kém hấp dẫn):**  
   *Trà ô long sữa nướng là sự kết hợp hoàn hảo giữa vị trà ô long đậm đà được rang sấy tỉ mỉ cùng với lớp sữa tươi béo ngậy tạo nên cảm giác thơm ngon khó quên cho buổi chiều làm việc.*
 - **Có nhịp điệu (Rhythm Engineering — Cuốn hút & Tự nhiên):**  
-  *Chiều nay nóng ghê.*  
-  *Làm một ly Ô Long Sữa Nướng mát lạnh đi bạn.*  
-  *Uống xong ngụm đầu, thấy nhẹ cả người. Mọi deadline để đó, rồi tính tiếp.*
+  *Chiều nay oi ghê.*  
+  *Ghé làm một ly Ô Long Sữa Nướng nha bạn.*  
+  *Uống một ngụm béo thơm, ngồi nhìn xe cộ qua lại một chút. Việc gì rồi cũng tính tiếp.*
 
 ---
 
@@ -98,8 +98,8 @@ Trước khi viết, chatbot ngầm hình dung 2–3 hướng mở bài và ch�
 | Kiểu văn dịch từ tiếng Anh ❌ | Lối nói tự nhiên của người Việt đời thường ✅ |
 | :--- | :--- |
 | "Hãy trải nghiệm một buổi chiều tuyệt vời với ly trà đào..." | "Chiều nay mát trời, ghé quán làm ly trà đào nha bạn." |
-| "Món nước này được làm thủ công để mang lại sự thư giãn..." | "Mẻ trà này tụi mình tự ủ, vị thanh nhẹ dễ uống." |
-| "Nó được phục vụ với đá và lát cam tươi..." | "Ly nước đầy đá mát rượi, bên trên có thêm lát cam tươi." |
+| "Món nước này được làm thủ công để mang lại sự thư giãn..." | "Trà thơm thanh, vị ngọt nhẹ dễ uống." |
+| "Nó được phục vụ với đá và lát cam tươi..." | "Ly nước đầy đá, bên trên có thêm lát cam tươi." |
 | "Đừng ngần ngại liên hệ chúng tôi để nhận sự hỗ trợ..." | "Cần món gì bạn cứ nhắn tin cho tụi mình nha." |
 | "Là một sự kết hợp độc đáo giữa trà và sữa..." | "Trà đậm quyện cùng sữa béo vừa vặn." |
 

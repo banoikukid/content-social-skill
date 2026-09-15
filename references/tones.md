@@ -29,8 +29,10 @@ Tone giọng trong F&B không chỉ là thay đổi đại từ xưng hô, mà t
 | **Độ dài câu & Nhịp điệu** | Ngắn, vừa phải, êm | Câu gãy, ngắt punchline | Nhanh, sôi nổi, dồn dập | Chậm, xen kẽ câu dài lắng đọng | Cân đối, chỉn chu, gãy gọn |
 | **Mức độ trực diện** | Cao (trò chuyện thẳng) | Rất cao (bắt chuyện ngay) | Cao (rủ rê liền) | Thấp (gợi mở cảm xúc) | Vừa phải (trang trọng) |
 | **Mật độ tự trào / hài** | Không / Rất nhẹ | Rất cao (chủ đạo) | Vừa phải (bắt trend) | Tuyệt đối không | Không |
-| **Mật độ Emoji** | Light (Điểm xuyết nhẹ 1–2 icon) | Expressive (Biểu cảm tự nhiên) | Playful (Sôi nổi) | Sparse (Rất ít hoặc chỉ 1 icon tĩnh 🍃) | Minimal (Tối giản 0–1 icon) |
+| **Mật độ Emoji (Tendency)** | Moderate (Vừa phải, điểm xuyết) | High (Sinh động, biểu cảm) | High (Sôi nổi, trẻ trung) | Low (Rất ít hoặc không dùng) | Minimal (Tối giản 0–1 icon) |
 | **Phong cách CTA** | Thân tình ("ghé nha") | Vui nhộn ("nhắn tui nè") | Rủ rê ("tag liền đứa bạn") | Mềm mại / Để mở | Lịch sự ("kính mời bạn") |
+
+> **LƯU Ý VỀ EMOJI:** Emoji là tùy chọn (Optional), ưu tiên nhịp đọc tự nhiên và cảm xúc bài viết hơn việc đếm số lượng icon. Tuyệt đối không spam icon đầu mỗi dòng.
 
 ---
 
@@ -52,7 +54,7 @@ Tone giọng trong F&B không chỉ là thay đổi đại từ xưng hô, mà t
 - **Ví dụ:**
   > Nghe nói chiều nay có người đang thở dài vì deadline dí?  
   > Thôi buông chuột 5 phút, nạp chút ngọt ngào từ Ô Long Sữa Nướng đi rồi tính tiếp. Trà rang đậm vị quyện lớp sữa béo dịu, nhâm nhi một chút cho đầu óc thảnh thơi.  
-  > 35 cành một ly, vừa vặn cho một buổi chiều lấy lại tinh thần. Nhắn tui liền để tui chuẩn bị sẵn cho nha!
+  > 35 cành một ly, vừa vặn cho một buổi chiều giải lao. Nhắn tui liền để tui chuẩn bị sẵn cho nha!
 
 ---
 
@@ -60,7 +62,7 @@ Tone giọng trong F&B không chỉ là thay đổi đại từ xưng hô, mà t
 - **Đặc trưng:** Nhịp điệu sôi nổi, thôi thúc hành động rủ bạn bè, hội nhóm tụ tập. Dùng từ ngữ đời thường của giới trẻ một cách tự nhiên.
 - **Ví dụ:**
   > Kèo chiều nay chốt đơn Ô Long Sữa Nướng chưa mấy bồ ơi?  
-  > Trà đậm hậu thơm quyện sữa béo bùi, thêm chút đá mát rượi giải nhiệt cực đã. Tan làm rủ liền đứa bạn thân ghé quán làm một ly tám chuyện rôm rả đi nào!  
+  > Trà đậm hậu thơm quyện sữa béo bùi, đầy đá mát lạnh dễ uống. Tan làm rủ liền đứa bạn thân ghé quán làm một ly tám chuyện rôm rả đi nào!  
   > Tag nhẹ đồng đội vô đây để set kèo liền tay nha!
 
 ---
@@ -69,7 +71,7 @@ Tone giọng trong F&B không chỉ là thay đổi đại từ xưng hô, mà t
 - **Đặc trưng:** Khơi gợi không gian, giác quan và kỷ niệm. Nhịp điệu chậm, câu chữ giàu hình ảnh và sự tĩnh lặng.
 - **Ví dụ:**
   > Có những buổi chiều tan tầm, chỉ muốn tìm một góc quen ngồi nhìn phố xá chậm lại một chút.  
-  > Cầm trên tay ly Ô Long Sữa Nướng mát lạnh, nghe mùi khói rang mộc mạc quyện cùng vị ngọt dịu của sữa. Mọi mệt mỏi trong ngày dường như cũng nhẹ tênh theo từng ngụm trà.  
+  > Cầm trên tay ly Ô Long Sữa Nướng, nghe mùi khói rang mộc mạc quyện cùng vị ngọt dịu của sữa. Ngồi nhấp từng ngụm chậm rãi, thấy lòng tự nhiên nhẹ nhõm hơn hẳn.  
   > Tụi mình vẫn luôn mở cửa chờ bạn ghé qua.
 
 ---
