@@ -34,7 +34,7 @@ Tài liệu hướng dẫn chọn và áp dụng 5 giọng văn phổ biến nh�
 - **Ví dụ:**
   > Nghe nói chiều nay có người đang thở dài vì deadline dí?  
   > Thôi buông chuột 5 phút, nạp miếng đường từ Ô Long Sữa Nướng đi rồi tính tiếp. Trà đậm thơm nức mũi kết hợp lớp sữa béo ngậy, uống vô một ngụm là tỉnh cả người.  
-  > 35 cành một ly, rẻ hơn tiền khám stress nhiều. Nhắn tui ship tận bàn làm việc cho nè!
+  > 35 cành một ly, rẻ hơn tiền khám stress nhiều. Nhắn tui liền để tui chuẩn bị sẵn một ly cho nha!
 
 ---
 
@@ -64,8 +64,20 @@ Tài liệu hướng dẫn chọn và áp dụng 5 giọng văn phổ biến nh�
 
 ---
 
-## 3 Quy Tắc Xưng Hô Tuyệt Đối
+## Đại Từ Linh Hoạt Theo Bối Cảnh Quán (Adaptive Voice)
 
-1. **Tuyệt đối không xưng "Admin - Quý khách" trên Facebook/Instagram cá nhân**: Nghe xa cách, máy móc như tổng đài. Dùng "tụi mình / mình — bạn".
-2. **Không lạm dụng tiếng lóng Gen Z khi không được yêu cầu**: Nếu khách hàng thuộc tệp lớn tuổi hoặc quán theo phong cách truyền thống, việc dùng "cứu bồ", "ét o ét" sẽ gây phản cảm.
+Mặc dù Tone 1 (Gần gũi) là mặc định, đại từ xưng hô không nên bị gò bó cứng nhắc mà cần thích ứng linh hoạt theo phong cách quán:
+
+- **Quán trẻ / Đồng đội năng động:** Xưng *"Tụi mình / team mình — bạn / mấy bồ"*.
+- **Tiệm nhỏ / Chủ quán tự đứng quầy / Home brew:** Xưng *"Mình — bạn"*.
+- **Phong cách thân tình miền Nam:** Xưng *"Bên mình / quán mình — bạn"*.
+- **Thương hiệu chỉn chu / Chuỗi:** Dùng ngôi thứ ba mang tên quán (*"[Tên quán] — bạn"*).
+- **Phong cách tối giản / Aesthetic:** Hạn chế tối đa việc xưng hô, chỉ tập trung miêu tả hình ảnh, món nước và trải nghiệm.
+
+---
+
+## 3 Quy Tắc Xưng Hô Cần Nhớ
+
+1. **Tuyệt đối không xưng "Admin - Quý khách" trên mạng xã hội cá nhân/quán xá**: Nghe xa cách, máy móc như tổng đài tự động.
+2. **Không lạm dụng tiếng lóng Gen Z khi không được yêu cầu**: Nếu khách hàng thuộc tệp văn phòng hoặc quán theo phong cách mộc truyền thống, việc dùng "cứu bồ", "ét o ét" sẽ gây phản cảm.
 3. **Giữ đúng đại từ đã chọn trong suốt bài viết**: Không mở đầu bằng "mình" mà kết bài lại "chúng tôi kính gửi".

@@ -7,28 +7,28 @@
 ## Version
 
 ```yaml
-skill: 4.1.0
-release_type: hermes_optimized
+skill: 4.2.0
+release_type: creative_copywriter_engine
 last_updated: 2026-09-16
 purpose: "Lean, practical Vietnamese F&B social copywriter for chatbots (Hermes)"
 ```
 
 ---
 
-## Cấu Trúc Thư Mục Skill (v4.1.0)
+## Cấu Trúc Thư Mục Skill (v4.2.0)
 
 ```
 content-social-skill/
-├── SKILL.md                 # Entry point & luồng thực thi 3 bước (có Prime Directive & Hard vs Soft rules)
-├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu
+├── SKILL.md                 # Entry point, Prime Directive, Hard vs Soft rules, Angle Engine, Creative QA
+├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.2.0)
 ├── references/
-│   ├── platforms.md         # Quy chuẩn 5 nền tảng mạng xã hội (FB, IG, TikTok, Zalo OA, Zalo Personal)
-│   ├── tones.md             # 5 giọng văn thực chiến F&B kèm ví dụ đối sánh
+│   ├── platforms.md         # Quy chuẩn 5 nền tảng (Facebook, IG, TikTok, Zalo OA, Zalo Personal)
+│   ├── tones.md             # 5 tone giọng F&B thực chiến & Adaptive Voice (đại từ linh hoạt)
 │   ├── formulas.md          # 4 công thức viết bài: Hook-Value-CTA, PAS, FAB, Story (Soft Guidance)
-│   ├── hooks.md             # Kỹ thuật mở bài 3s & danh sách từ cấm AI
-│   ├── storytelling.md      # Kể chuyện góc quán, 4 góc nhìn hình ảnh, quy tắc Soft CTA
-│   ├── psychology.md        # 7 kỹ thuật tâm lý thực chiến F&B (không lý thuyết NLP rườm rà)
-│   └── pricing.md           # Kỹ thuật trình bày giá & ưu đãi F&B dùng placeholder an toàn
+│   ├── hooks.md             # Bộ mở bài 3s, 8 khuôn mẫu sáo rỗng AI, Rhythm Engineering & Specificity
+│   ├── storytelling.md      # Kể chuyện góc quán, Động cơ 8 góc nhìn (Angle Engine), Soft CTA
+│   ├── psychology.md        # 7 kỹ thuật tâm lý thực chiến F&B (chống bịa hành vi, giả định)
+│   └── pricing.md           # Kỹ thuật viết giá & ưu đãi F&B dùng placeholder an toàn
 └── tests/
     └── core-tests.md        # 10 kịch bản kiểm thử thực tế
 ```
@@ -51,30 +51,29 @@ content-social-skill/
 
 | Tệp tin | Vai trò | Version | Trạng thái |
 | :--- | :--- | :--- | :--- |
-| `SKILL.md` | Bộ não điều khiển, Prime Directive, Hard vs Soft constraints, 3 bước xử lý | 4.1.0 | ✅ Active |
-| `references/platforms.md` | Hướng dẫn định dạng chi tiết cho 5 nền tảng | 4.1.0 | ✅ Active |
-| `references/tones.md` | Hướng dẫn 5 giọng văn (Gần gũi, Hài hước, Trẻ trung, Cảm xúc, Tinh tế) | 4.1.0 | ✅ Active |
-| `references/formulas.md` | 4 công thức cốt lõi ngành đồ uống (Soft Guidance) | 4.1.0 | ✅ Active |
-| `references/hooks.md` | Bộ mở bài 3 giây & danh sách đen từ ngữ sáo rỗng AI | 4.1.0 | ✅ Active |
-| `references/storytelling.md` | Nghệ thuật kể chuyện, 4 góc nhìn hình ảnh, Soft CTA | 4.1.0 | ✅ Active |
-| `references/psychology.md` | 7 kỹ thuật tâm lý thực chiến F&B (chống bịa hành vi, giả định tương lai) | 4.1.0 | ✅ Active |
-| `references/pricing.md` | Trình bày giá & ưu đãi an toàn bằng placeholder | 4.1.0 | ✅ Active |
-| `tests/core-tests.md` | 10 kịch bản kiểm thử mẫu kiểm tra chất lượng copywriter | 4.1.0 | ✅ Active |
+| `SKILL.md` | Bộ não điều khiển, Prime Directive, Hard vs Soft constraints, 3 bước xử lý | 4.2.0 | ✅ Active |
+| `references/platforms.md` | Hướng dẫn định dạng chi tiết cho 5 nền tảng (không rò rỉ mẫu delivery) | 4.2.0 | ✅ Active |
+| `references/tones.md` | Hướng dẫn 5 giọng văn & Adaptive Voice theo phong cách từng quán | 4.2.0 | ✅ Active |
+| `references/formulas.md` | 4 công thức cốt lõi ngành đồ uống (Soft Guidance, ví dụ sạch claim) | 4.2.0 | ✅ Active |
+| `references/hooks.md` | Bộ mở bài 3s, 8 mẫu sáo rỗng AI, Kỹ thuật nhịp điệu (Rhythm) & Specificity | 4.2.0 | ✅ Active |
+| `references/storytelling.md` | Động cơ 8 góc nhìn (Angle Engine), ranh giới giác quan, Soft CTA | 4.2.0 | ✅ Active |
+| `references/psychology.md` | 7 kỹ thuật tâm lý thực chiến F&B (chống bịa hành vi, giả định tương lai) | 4.2.0 | ✅ Active |
+| `references/pricing.md` | Trình bày giá & ưu đãi an toàn bằng placeholder, sạch brand ngoài | 4.2.0 | ✅ Active |
+| `tests/core-tests.md` | 10 kịch bản kiểm thử mẫu kiểm tra chất lượng copywriter | 4.2.0 | ✅ Active |
 
 ---
 
 ## Nhật Ký Thay Đổi (Changelog)
 
-### v4.1.0 (2026-09-16) — Tối Ưu Hermes & Tiếp Thu Audit
-- **Nguyên tắc tối cao (The Prime Directive):** Đặt chất lượng nội dung và sự tự nhiên của tiếng Việt lên trên việc bám chấp vào khuôn mẫu/template.
-- **Phân định rõ ràng Hard vs Soft Rules:** Hard = Không bịa đặt (giá, y khoa, thành phần), đúng brief, tôn trọng nền tảng; Soft = Công thức, mở bài, số emoji, nhịp điệu.
-- **CTA linh hoạt:** Bắt buộc cho bài Bán hàng/Khuyến mãi/Tuyển dụng; Tùy chọn (Soft/Optional) cho Storytelling, Brand, Humor để tránh phá nát cảm xúc.
-- **Khai thác hình ảnh đa góc độ:** Bổ sung 4 góc nhìn (Sản phẩm, Không gian, Đời thường, Tối giản), loại bỏ hoàn toàn việc ép ảnh vào cliché *"trốn deadline / chữa lành"*.
-- **Tái tích hợp `psychology.md` & `pricing.md` tinh gọn:** 
-  - `psychology.md`: Rút từ 18 hiệu ứng NLP xuống đúng 7 kỹ thuật F&B thực chiến. Sửa dứt điểm lỗi tự bịa hành vi khách hàng. Future Pacing bắt buộc dùng câu giả định.
-  - `pricing.md`: Hướng dẫn viết giá/deal dùng placeholder chuẩn, không rò rỉ thương hiệu bên ngoài.
+### v4.2.0 (2026-09-16) — Động Cơ Sáng Tạo & Chống Mùi AI Toàn Diện
+- **Động cơ chọn góc tiếp cận (Angle Engine):** Tách bạch quy trình *Quan sát $\rightarrow$ Khám phá góc nhìn (8 angles) $\rightarrow$ Chọn góc đắt giá nhất $\rightarrow$ Viết*, giải phóng AI khỏi việc bị đóng khung trong các góc nhìn cố định.
+- **Chống mẫu sáo rỗng AI (AI Cliché Patterns):** Nâng cấp từ chặn từ đơn lẻ sang nhận diện và triệt tiêu 8 khuôn mẫu hành văn điển hình của AI (ẩn dụ đao to búa lớn, khung cảnh sáo rỗng, xếp chồng tính từ rỗng, spam câu hỏi tu từ...).
+- **Kỹ thuật nhịp điệu câu chữ (Sentence Rhythm Engineering):** Xen kẽ linh hoạt câu ngắn, câu dài, câu ngắt dòng có chủ đích để tạo nhịp điệu tự nhiên, tránh cảm giác đều đều ru ngủ.
+- **Tính cụ thể hơn tính từ mơ hồ (Specificity > Adjective):** Ưu tiên miêu tả chi tiết thị giác thật thay cho việc xếp chồng tính từ rỗng.
+- **Đại từ linh hoạt (Adaptive Voice):** Tự động thích ứng đại từ xưng hô theo ngữ cảnh quán (quán trẻ, cá nhân, miền Nam, thương hiệu, tối giản).
+- **Làm sạch triệt để ví dụ (Clean Examples):** Xóa bỏ toàn bộ các ví dụ có thể gây rò rỉ mẫu (cháy hàng, giao hàng tự động, claim thư giãn chưa kiểm chứng).
 
 ---
 
-### v4.0.0 (2026-09-16)
-- Đại tu tinh gọn, loại bỏ >70% compliance machinery và gom tests.
+### v4.1.0 (2026-09-16)
+- Tối ưu Hermes: Prime Directive, Hard vs Soft rules, Block claim continue content, rút gọn psychology & pricing.

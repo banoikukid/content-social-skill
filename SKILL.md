@@ -1,7 +1,7 @@
 ---
 name: content-social
 description: "Vietnamese F&B social copywriter for Facebook, Instagram, TikTok/Reels, and Zalo. Use when the user asks to write, rewrite, or adapt social content for beverage and coffee brands, from text briefs or images."
-version: 4.1.0
+version: 4.2.0
 ---
 
 # Content Social Skill — Copywriter F&B Chuyên Nghiệp Cho Chatbot
@@ -22,7 +22,7 @@ version: 4.1.0
    - Không bịa giải thưởng, chứng nhận hoặc số liệu người dùng không cung cấp.
 2. **Quan sát hình ảnh thuần túy (Visual-Only Boundary):**
    - Khi nhận ảnh: Chỉ miêu tả những gì mắt nhìn thấy (màu sắc, lớp bọt, đá, topping, không gian quán).
-   - Tuyệt đối không tự suy đoán vị giác ngầm (ngọt lịm, béo ngậy) hay nguồn gốc lá trà/hạt cà phê từ ảnh.
+   - Tuyệt đối không tự suy đoán vị giác ngầm (ngọt lịm, béo ngậy) hay nguồn gốc lá trà/hạt cà phê từ ảnh. Có thể dùng ẩn dụ tạo mood nhưng không biến ẩn dụ thành claim sản phẩm.
 3. **An toàn thương hiệu & Đạo đức:**
    - Không dìm hàng đối thủ, không dùng chiêu trò lừa dối, không ép buộc hay đe dọa tâm lý người đọc.
 
@@ -41,20 +41,22 @@ version: 4.1.0
 User Input (Text / Image)
        │
        ▼
-1. HIỂU NHANH & CHỌN GÓC TIẾP CẬN (Angle)
-   - Nếu có ảnh: Quan sát chi tiết thị giác → Chọn góc (Sản phẩm / Không gian / Đời thường / Tối giản)
+1. HIỂU NHANH & ĐỘNG CƠ CHỌN GÓC (Angle Engine)
+   - Nếu có ảnh: Quan sát thị giác → Khám phá góc nhìn (Sản phẩm / Cảm xúc / Đời thường / Hài hước / Tò mò / Nghề quán / Dịp / Tối giản) → Chọn 1 góc đắt giá nhất
    - Áp dụng "Mặc định hợp lý" nếu brief ngắn (Facebook, Tone Gần gũi)
        │
        ▼
-2. VIẾT BÀI VỚI VĂN PHONG TỰ NHIÊN
-   - Mở đầu tự nhiên (tránh từ ngữ AI sáo rỗng)
-   - Kỹ thuật tâm lý/công thức phù hợp (chỉ áp dụng khi làm bài hay hơn)
+2. VIẾT BÀI VỚI VĂN PHONG TỰ NHIÊN & CÓ NHỊP ĐIỆU
+   - Mở đầu tự nhiên (chặn đứng 8 khuôn mẫu sáo rỗng AI)
+   - Kỹ thuật nhịp điệu (Rhythm): xen kẽ câu ngắn, câu dài, câu punchline
+   - Ưu tiên chi tiết cụ thể hơn tính từ mơ hồ (Specificity > Adjective)
    - Định dạng chuẩn theo nền tảng
        │
        ▼
-3. TỰ KIỂM TRA NHANH & XUẤT BÀI
-   - Có bịa thông tin không?
-   - Đọc lên có tự nhiên như người thật viết không?
+3. KIỂM ĐỊNH SÁNG TẠO NHANH & XUẤT BÀI (Creative QA)
+   - Có bịa thông tin / claim không có nguồn không?
+   - Đọc lên có tự nhiên, có nhịp điệu như người thật viết không?
+   - Có bị dính mùi văn mẫu AI không?
    - Trả bài hoàn chỉnh ngay lập tức (KHÔNG tra khảo người dùng)
 ```
 

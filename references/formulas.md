@@ -45,12 +45,12 @@ Thích hợp cho bài ra mắt món mới, nguyên liệu độc đáo hoặc k�
 - **Advantages (Ưu thế vượt trội):** Điểm khác biệt so với các sản phẩm đại trà (không chát gắt, thanh mát).
 - **Benefits (Lợi ích khách hàng nhận được):** Cảm giác ngon miệng, tốt cho sức khỏe hoặc trải nghiệm sảng khoái.
 
-> **Ví dụ:**  
-> Trà Xanh Nhài Sữa Mộc phiên bản mới đã sẵn sàng phục vụ bạn:  
-> • Trà xanh búp non được ủ mộc cùng hoa nhài tự nhiên, kết hợp sữa hạt béo thanh. *(Features)*  
-> • Cách ủ thủ công giúp giữ trọn hương hoa ngan ngát mà không hề bị đắng chát hay ngọt khé cổ. *(Advantages)*  
-> • Một lựa chọn vừa thanh nhẹ, ít ngọt, vừa giúp bạn thư giãn trọn vẹn sau những giờ làm việc căng thẳng. *(Benefits)*  
-> Nhắn tin cho tụi mình để thử ngay ly trà mộc đầu tuần này nhé!
+> **Ví dụ mẫu:**  
+> [Tên món nước] phiên bản mới đã sẵn sàng phục vụ bạn:  
+> • [Thành phần chính đã được cung cấp] kết hợp cùng [nguyên liệu/kỹ thuật pha chế]. *(Features)*  
+> • [Điểm khác biệt trong cách làm giúp vị trà/cà phê giữ được độ thơm mộc]. *(Advantages)*  
+> • [Trải nghiệm thưởng thức mát mẻ/thanh nhẹ cho buổi chiều]. *(Benefits)*  
+> Nhắn tin cho tụi mình để thử ngay ly trà đầu tuần này nhé!
 
 ---
 
