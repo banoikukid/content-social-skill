@@ -37,7 +37,7 @@ last_updated: 2026-09-15
 | `references/feedback-storytelling.md` | Feedback/review storytelling (Flow B/D) | 3.0.0 | ✅ Active |
 | `references/security.md` | Prompt injection defense | 3.1.0 | ✅ Always load |
 | `references/risk-gate.md` | Content risk classification LOW/MEDIUM/HIGH | 3.3.0 | ✅ Always load |
-| `references/brand-profile.md` | Brand profile template (TeaRus + multi-brand) | 3.1.0 | ✅ Always load |
+| `references/brand-profile.md` | Brand profile template & Data Layer Contract (TeaRus + multi-brand) | 3.3.0 | ✅ Always load |
 
 ## Changelog
 
