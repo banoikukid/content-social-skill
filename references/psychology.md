@@ -35,27 +35,32 @@ Phân biệt **persuasion hợp lệ** và **manipulation**:
 **Kết hợp với UNVERIFIED claim:**
 - ❌ Bất kỳ kỹ thuật nào + claim `UNVERIFIED` = forbidden
 
-### Future Pacing — IMAGINED ≠ INFERRED
+### Future Pacing — IMAGINED_SCENE (Bắt buộc dùng Conditional Language)
 
-**Future Pacing luôn phải dùng ngôn ngữ giả định rõ ràng:**
+Khung cảnh trong Future Pacing luôn được đánh dấu là `IMAGINED_SCENE`.
+**Tuyệt đối không được tự bịa ra bối cảnh vật lý cụ thể (cửa sổ, bàn gỗ, tiếng nhạc) hoặc tự biên đạo hành vi của khách hàng (tan làm, đang ngồi, bước vào quán) khi brief không có nguồn.**
 
-✅ IMAGINED (được phép):
-```
-"Tưởng tượng một buổi chiều..."
-"Nếu bạn đang ngồi góc cửa sổ..."
-"Hình dung khi cầm ly này trên tay..."
-```
+**Quy tắc Conditional Language (Ngôn ngữ điều kiện) bắt buộc:**
+Future Pacing chỉ được phép khai thác nhu cầu tâm lý mở hoặc cảm giác trừu tượng thông qua cấu trúc giả định/điều kiện:
 
-❌ FABRICATED SCENE (cấm — dù không nói tên brand):
+✅ ĐƯỢC — Conditional Language & Lời mời mở:
 ```
-"Chiều nay bạn ngồi góc cửa sổ..."  → không có "cửa sổ" trong brief
-"Khi bạn thưởng thức trong không gian yên tĩnh..."  → không có brief về không gian
+"Nếu chiều nay bạn đang tìm một ly gì đó thanh mát để giải nhiệt..."
+"Nếu bạn đang cần một khoảng lặng dịu êm giữa ngày dài..."
+"Tưởng tượng cảm giác nhấp một ngụm trà mát lạnh tan đi cơn khát..."
 ```
 
-**Phân biệt 3 loại:**
-- `INFERRED`: suy từ brief thật → *brief có "chiều mưa"* → được suy *"tiếng mưa"*
-- `IMAGINED`: cảnh không có trong brief, dùng ngôn ngữ giả định rõ → ✅ được
-- `FABRICATED`: cảnh không có trong brief, viết như fact → ❌ cấm
+❌ CẤM — Fabricated Scene (Tự tạo cảnh vật lý / hành vi như sự thật):
+```
+"Chiều tan làm, ngồi bên cửa sổ, tay cầm ly trà..."  → Cấm: "tan làm", "cửa sổ", "đang ngồi" không có evidence
+"Khi bạn bước vào quán và gọi ngay ly này..."        → Cấm: tự biên đạo hành vi khách
+"Ngồi dưới bóng râm yên tĩnh thưởng thức ly trà..."   → Cấm: tự bịa "bóng râm yên tĩnh"
+```
+
+**Phân biệt 3 loại bối cảnh:**
+- `INFERRED_SCENE`: Suy trực tiếp từ dữ kiện thật trong brief (brief có "trời mưa to" → [INFERRED] "nhìn hạt mưa rơi ngoài hiên").
+- `IMAGINED_SCENE`: Tạo tình huống tâm lý giả định bằng conditional language ("Nếu bạn đang cần...", "Tưởng tượng...") → ✅ Hợp lệ.
+- `FABRICATED_SCENE`: Tự bịa bối cảnh vật lý hoặc gán hành vi cụ thể cho khách hàng mà không có nguồn → ❌ VI PHẠM GUARDRAIL.
 
 ### Presupposition an toàn
 

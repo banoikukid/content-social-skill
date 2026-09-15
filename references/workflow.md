@@ -334,7 +334,7 @@ Kim chỉ nam khi viết — áp dụng cho mọi bài:
 - Nhúng tâm lý từ `references/psychology.md` (1-2 hiệu ứng).
   **Bản đồ chọn kỹ thuật tâm lý theo dữ liệu đầu vào (Default Mapping):**
   - *Khi đầu vào chỉ có ảnh:* Ưu tiên **Sensory Language** (khai thác trực tiếp từ ảnh), **Pacing & Leading** (dẫn dắt từ khoảnh khắc trong ảnh), hoặc **Curiosity Gap** (nếu ảnh có chi tiết bất thường).
-  - *Khi đầu vào có brief ngắn + giá:* Ưu tiên **Anchoring** (nếu có giá gốc), **Scarcity** (chỉ nếu brief xác nhận), hoặc **Future Pacing** (tưởng tượng cảnh dùng sản phẩm).
+  - *Khi đầu vào có brief ngắn + giá:* Ưu tiên **Anchoring** (nếu có giá gốc), **Scarcity** (chỉ nếu brief xác nhận), hoặc **Future Pacing** (đánh dấu `IMAGINED_SCENE` — bắt buộc dùng conditional language: *"Nếu chiều nay bạn đang tìm..."*, tuyệt đối không tự bịa bối cảnh vật lý cụ thể như cửa sổ, tan làm hay tự biên đạo hành vi khách).
 
 Nếu bài có đề cập giá → tham khảo `references/pricing.md`.
 
@@ -471,6 +471,9 @@ Nếu fail → tự sửa trước khi gửi.
   ❌ SAI: *"khách order lại tuần sau"* — hành vi khách chưa có evidence
   ❌ SAI: *"góc này hay hết chỗ cuối tuần"* — quan sát chưa được xác nhận
   ❌ SAI: Tự ý dùng `DEFAULT` làm sensory evidence cho ly nước cụ thể trong bài
+- **Bảo toàn bối cảnh & Future Pacing (IMAGINED_SCENE Rule):**
+  - Khung cảnh và hành vi khách trong Future Pacing bắt buộc phải dùng **ngôn ngữ điều kiện (conditional language)**: *"Nếu chiều nay bạn đang tìm..."*, *"Tưởng tượng cảm giác..."*.
+  - Tuyệt đối cấm tạo bối cảnh vật lý cụ thể (ngồi bên cửa sổ, tan làm, bàn gỗ, nghe nhạc) hoặc tự biên đạo hành vi khách (*"chiều tan làm bạn ngồi bên cửa sổ..."*) khi brief không hề có dữ kiện này.
 - Không ALL CAPS trừ khi là phong cách gốc của brief
 - **Góc nhìn và Đại từ nhân xưng thương hiệu (Brand Perspective):**
   - Người viết luôn đứng ở vị thế **Chủ quán / Nhân viên tiệm (Người tiếp đón)**, tuyệt đối không đóng vai hay nói hộ suy nghĩ/hành động của khách hàng.
