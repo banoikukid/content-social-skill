@@ -1,5 +1,23 @@
 # Psychology & NLP — Hướng Dẫn Áp Dụng
 
+## ETHICAL PERSUASION GATE
+
+Phân biệt **persuasion hợp lệ** và **manipulation**:
+
+**Allowed — Có evidence thật:**
+- ✅ Loss Aversion khi có deadline thật từ `[USER]`
+- ✅ Scarcity khi có số lượng giới hạn thật từ `[USER]`
+- ✅ Future Pacing: tưởng tượng cảnh dùng sản phẩm (luôn được)
+- ✅ Identity Labeling tích cực và relatable
+
+**Manipulative — CẤM:**
+- ❌ *"Nếu bạn không mua hôm nay sẽ tiếc cả tuần."* — không có deadline thật
+- ❌ *"Người biết uống trà đều chọn..."* — exclusion không có basis
+- ❌ *"Bạn sẽ không muốn bỏ lỡ..."* — urgency không có evidence
+- ❌ Bất kỳ kỹ thuật nào kết hợp với claim `[UNVERIFIED]`
+
+---
+
 ## Nguyên tắc dùng
 - Chọn 1-2 kỹ thuật/bài. Không nhồi.
 - Không giải thích kỹ thuật trong bài viết.
@@ -53,8 +71,9 @@
 
 - **Social Proof**
   - Dùng khi: có số liệu thật từ brief
-  - Thay thế khi không có số: dùng hành vi
-  > Thay "500 khách" → "Khách hay order lại vào cuối tuần"
+  - Khi không có data hành vi khách → KHÔNG dùng hành vi khách làm thay thế
+  - Thay bằng chi tiết quy trình có nguồn: *"pha từng ly theo order"* `[USER]`
+  > Thay "500 khách" → "pha từng ly theo order" (không thay bằng hành vi khách tự bịa)
 
 - **Authority**
   - Dùng khi: brief xác nhận có chứng nhận, media, giải thưởng

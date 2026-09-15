@@ -1,4 +1,4 @@
-# Voice Guide — 6 Tone Giọng Văn
+# Voice Guide — 7 Tone Giọng Văn
 
 ---
 

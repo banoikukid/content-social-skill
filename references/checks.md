@@ -22,8 +22,10 @@ Chạy 4 test này SAU khi viết xong. Không in kết quả ra, tự sửa n�
 
 ## 3. Bịa Check
 **Có detail không có trong brief hoặc ảnh không?**
-- Không bịa: số lượng khách, giải thưởng, thứ hạng, thành phần chưa được confirm
-- F&B common knowledge được phép không cần brief: trà → thơm / trà sữa → ngọt béo / bánh mì → giòn thơm bơ
+- Không bịa: số lượng khách, hành vi khách, giải thưởng, thứ hạng, thành phần chưa được confirm
+- Safe Generic Vocabulary `[DEFAULT]` được phép dùng như **cảm giác chung** — không phải claim sản phẩm cụ thể
+- Ví dụ ĐÚNG: "hậu ngọt đọng lại" (cảm giác chung) ✅
+- Ví dụ SAI: "TeaRus nổi tiếng với hậu ngọt" (product claim không có [CATALOG]/[USER]) ❌
 
 ---
 
