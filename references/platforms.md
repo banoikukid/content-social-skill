@@ -1,111 +1,34 @@
-# Platform Format Guide
+# Hướng Dẫn Định Dạng Theo Platform
 
-> Version: 3.3.0 | Last updated: 2026-09-15
-> Labels: `[RECOMMENDED FORMAT]` = best practice; `[API LIMIT]` = hard limit từ platform API
+## 1. Facebook Fanpage (Mặc định)
+- **Đặc thù:** Người dùng đọc lướt trên điện thoại. Chữ bị ẩn sau 3 dòng đầu (nút "Xem thêm").
+- **Cấu trúc:**
+  - **3 dòng đầu (Hook):** Câu dẫn tự nhiên, chạm đúng cảm giác hoặc nỗi thèm, tuyệt đối không để tên quán hay lời chào xã giao ở đây.
+  - **Thân bài:** Tách mỗi ý thành một đoạn ngắn (1–2 câu). Xuống dòng thoáng.
+  - **Giá/Ưu đãi:** Để riêng 1 dòng rõ ràng, dùng số thật (ví dụ: *39k*, *45k*).
+  - **CTA:** Đúng 1 hành động ở cuối (Ví dụ: *"Nhắn tin cho tụi mình nha."* hoặc *"Ghé quán lấy liền nha."*).
+  - **Emoji:** Điểm xuyết 2–4 icon phù hợp món (🍑, 🍵, 🧋, 😌), không spam đầu mọi dòng.
 
-## Facebook Fanpage
+## 2. Instagram (Feed & Carousel)
+- **Đặc thù:** Hình ảnh là số 1. Caption ngắn, súc tích, thẩm mỹ.
+- **Cấu trúc:**
+  - **Hook:** 1–2 câu thật gãy gọn, gợi cảm quan.
+  - **Thân bài:** 1 đoạn ngắn kể nhẹ về ly nước hoặc khoảnh khắc.
+  - **CTA:** *"Xem menu ở bio nhé."* hoặc *"Ghé tiệm chiều nay nhé."*
+  - **Hashtag:** 4–6 hashtag chọn lọc đặt dưới cùng (#tearus #saigoncoffee #tradao #caphe).
 
-**Đặc thù:**
-- Text bị cắt sau ~3 dòng → "Xem thêm" — hook phải nằm trong 3 dòng đầu `[RECOMMENDED FORMAT]`
-- Dài được, nhưng mỗi đoạn ≤3 dòng, xuống hàng giữa các ý
-- Emoji: dùng vừa phải, không nhét đầu mỗi dòng
-- CTA cuối: 1 câu hỏi hoặc 1 hành động (comment, tag bạn, ghé quán)
+## 3. TikTok / Reels (Dạng Script Kịch Bản)
+- **Đặc thù:** Không phải caption thông thường, mà là kịch bản video hoặc text hiển thị trên video ngắn.
+- **Cấu trúc:**
+  - **[0–3s] Hook giật mắt/tai:** Chi tiết lạ, hình ảnh rót trà, tình huống hài hước hoặc câu hỏi gây tò mò.
+  - **[3–12s] Nội dung chính:** Lời thoại hoặc text overlay nhịp nhanh, tự nhiên, đậm khẩu ngữ.
+  - **[12s+] Kêu gọi nhẹ:** *"Comment 'menu' để nhận menu liền nha!"* hoặc punchline hài hước kết video.
 
-**Format mẫu:**
-```
-[Hook — 1-2 câu, tự đứng được]
+## 4. Zalo OA (Broadcast)
+- **Đặc thù:** Tin nhắn gửi đến khách quan tâm, cần ngắn gọn, rõ ràng, lịch sự.
+- **Cấu trúc:** Dưới 120 từ. Nêu thẳng món mới hoặc deal hôm nay + cách đặt (kèm link hoặc nút bấm).
 
-[Thân — thông tin chính, 2-4 đoạn ngắn]
-
-[CTA — 1 câu]
-```
-
----
-
-## TikTok / Reels (Script)
-
-**Đặc thù:**
-- Không phải caption — là script nói hoặc text overlay
-- 3 giây đầu quyết định người xem có scroll không
-- Nhịp nhanh, câu ngắn, mỗi câu = 1 ý
-- Không cần giải thích dài — show, don't tell
-
-**Format mẫu:**
-```
-[0-3s: Hook] — câu/hình ảnh gây dừng scroll
-[3-12s: Body] — 3-5 câu, mỗi câu 1 ý
-[12s+: CTA] — 1 hành động rõ ràng
-```
-
-**Ví dụ structure:**
-```
-Hook: "Cái này tôi order 3 lần trong 1 tuần."
-Body: Tên món. Giá. Lý do cụ thể. Điểm khác biệt.
-CTA: "Địa chỉ trong bio." hoặc "Comment 'menu' nhận ngay."
-```
-
----
-
-## Zalo OA (Official Account — Broadcast)
-
-**Đặc thù:**
-- Đọc trên mobile, trong notification → câu đầu = subject line
-- Ngắn hơn Facebook: không quá 150 từ cho broadcast `[RECOMMENDED FORMAT]`
-- Tone thân mật, như nhắn tin cho khách quen
-- Không dùng hashtag
-- CTA phải có link hoặc số điện thoại nếu cần đặt hàng
-
-**Format mẫu:**
-```
-[Câu mở — thân, ngắn, như nhắn bạn]
-[1-2 câu thông tin chính]
-[CTA + link/SĐT nếu có]
-```
-
----
-
-## Zalo Personal (DM / Nhóm)
-
-> Dùng khi Hermes gửi qua Zalo cá nhân (`zca-js` connector), không phải OA broadcast.
-> Formatting rules khác OA — không áp dụng OA rules cho channel này.
-
-**Đặc thù:**
-- Ngữ cảnh: nhắn tin 1-1 hoặc nhóm chat thân thiện
-- Ngắn gọn, tự nhiên hơn OA — viết như nhắn tin thật
-- Không cần CTA có link nếu người nhận đã biết đặt hàng
-- Emoji được dùng tự nhiên (1-3 cái)
-- Không broadcast format — không cần subject line
-
-**Format mẫu:**
-```
-[1-2 câu thông tin chính — thân mật]
-[CTA nhẹ hoặc câu hỏi]
-```
-
-**Ví dụ (Cherry DM):**
-```
-🍵 Trà đào hôm nay 39k nha.
-Muốn lấy 2 ly thì nhắn mình.
-```
-
----
-
-## Instagram (Feed & Stories)
-
-**Đặc thù:**
-- **Feed:** Ưu tiên phần nhìn (Visual-First). Caption trên Instagram rất ít khi được đọc hết trừ khi cực kỳ lôi cuốn trong 1-2 câu đầu. Hook ngắn gọn, trực diện, kích thích người xem trượt sang ảnh tiếp theo (carousel) hoặc nhấp vào link bio.
-- **Stories:** Tương tác nhanh, vòng đời ngắn (24h). Ngôn ngữ cực kỳ ngắn gọn, thân mật (Tone 1), thường đi kèm sticker câu hỏi, poll bình chọn, hoặc liên kết "Swipe Up" / Sticker link mua hàng.
-- Sử dụng hashtag có chọn lọc, tập trung vào tên món, địa điểm và tên thương hiệu ở cuối bài (tối đa 5-8 hashtag, không spam). `[RECOMMENDED FORMAT]`
-
-> ⚠️ Instagram chưa có trong metadata SKILL.md. Nếu dùng Instagram, cập nhật `brand-profile.md` platforms list.
-
-**Format mẫu (Instagram Feed):**
-```
-[Hook ngắn — ≤ 2 câu cực kỳ bắt mắt hoặc đánh trúng cảm quan]
-
-[Thân — 1-2 đoạn cực ngắn mô tả cảm quan/giá trị hoặc ưu đãi]
-
-[CTA ngắn — Kêu gọi hành động như click link bio, comment nhận menu]
-
-#hashtag1 #hashtag2 #tearus...
-```
+## 5. Zalo Personal (Nhắn tin 1-1 / DM)
+- **Đặc thù:** Tin nhắn cá nhân giữa người với người (chủ quán nhắn khách quen, bạn bè).
+- **Cấu trúc:** Siêu ngắn (2–3 câu), xưng hô thân mật (*"bạn ơi"*, *"chị Cherry ơi"*), tự nhiên như bạn bè nhắn nhau.
+- **CTA:** *"Muốn lấy thì nhắn mình nha."* hoặc *"Trưa nay mình ship qua cho nhen."*

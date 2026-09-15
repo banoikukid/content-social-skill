@@ -1,3 +1,0 @@
-SOURCE: IMAGE_CLAIM → UNVERIFIED
-Category: ACHIEVEMENT_CLAIM → HIGH risk
-Dừng — báo người dùng cần CATALOG/VERIFIED
