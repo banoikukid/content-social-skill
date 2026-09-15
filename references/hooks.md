@@ -14,15 +14,15 @@ Trên mạng xã hội, người xem chỉ mất **3 giây** để quyết đị
 
 ### 2. Tò mò & Đảo ngược định kiến (Curiosity Hook — Không bịa số liệu/cháy hàng)
 Nêu một chi tiết gợi mở, khiến người đọc muốn tìm hiểu thêm mà không tự bịa đặt giải thưởng hay kỷ lục bán hàng.
-- *"Nhìn đơn giản vậy thôi, nhưng để pha được một ly vừa vị thế này tụi mình phải thử đi thử lại nhiều lần."*
+- *"Nhìn đơn giản vậy thôi — bạn đoán điểm đặc biệt nằm ở đâu?"*
 - *"Nếu bạn thích vị trà đậm đà mà ngại ngọt gắt, thì đây có thể là một gợi ý hay."*
-- *"Có những món nhìn rất bình thường trên menu, nhưng lại là món người ta ghé quán gọi đi gọi lại nhiều nhất."*
+- *"Một món mộc mạc trên menu, nhưng có một chi tiết khá thú vị..."*
 
 ### 3. Âm thanh & Giác quan trực tiếp (Sensory Hook)
 Mở đầu bằng âm thanh hoặc chi tiết thị giác cụ thể, đánh thức cảm giác thèm thưởng thức.
 - *"Tiếng đá lắc leng keng trong bình shaker báo hiệu một ngày hè rực nắng."*
 - *"Khói ấm bốc lên nhè nhẹ từ tách cà phê vừa mới pha xong."*
-- *"Lớp kem tuyết sánh mịn đổ tràn trên miệng ly mát rượi..."*
+- *"Lớp kem trắng phủ trên miệng ly, tương phản với nền trà màu hổ phách."*
 
 ### 4. Tự trào & Hóm hỉnh (Relatable Humor Hook)
 Biến chuyện đời thường của khách thành tiếng cười đồng cảm.
@@ -43,7 +43,7 @@ Không chỉ cấm một vài từ đơn lẻ, hãy **chặn đứng 8 khuôn m�
 
 | Khuôn mẫu AI (AI Patterns) ❌ | Ví dụ điển hình cần tránh | Cách sửa tự nhiên của người thật ✅ |
 | :--- | :--- | :--- |
-| **1. Ẩn dụ đao to búa lớn** *(Grandiose Metaphor)* | "Bản giao hưởng vị giác", "Bản hòa ca tuyệt mỹ đánh thức tâm hồn" | Miêu tả thẳng cảm giác: "Vị trà đậm, sữa béo vừa vặn, uống ngụm nào đã khát ngụm đó" |
+| **1. Ẩn dụ đao to búa lớn** *(Grandiose Metaphor)* | "Bản giao hưởng vị giác", "Bản hòa ca tuyệt mỹ đánh thức tâm hồn" | Miêu tả thẳng cảm giác: "Vị trà thanh, lớp sữa béo dịu, không bị ngọt gắt" |
 | **2. Khung cảnh sáo rỗng** *(Generic Emotional Framing)* | "Giữa nhịp sống hối hả bộn bề...", "Sau những giờ làm việc căng thẳng..." | Đi thẳng vào thời điểm thật: "Chiều tan ca đói bụng", "Trưa nắng gắt" |
 | **3. Xếp chồng tính từ rỗng** *(Empty Adjective Stacking)* | "Hương vị thơm ngon đậm đà khó cưỡng tuyệt hảo" | Dùng chi tiết cụ thể: "Trà thơm thanh, hậu ngọt dịu, không bị khé cổ" |
 | **4. Cấu trúc lặp công thức** *(Mechanical Parallelism)* | "Không chỉ là một thức uống, mà còn là một trải nghiệm sống..." | Bỏ hẳn cấu trúc này: "Một ly trà ngon để bạn nhâm nhi buổi chiều" |
@@ -64,11 +64,12 @@ Văn bản do AI tạo ra thường có độ dài các câu đều đều nhau,
 - **Có nhịp điệu (Rhythm Engineering — Cuốn hút & Tự nhiên):**  
   *Chiều nay nóng ghê.*  
   *Làm một ly Ô Long Sữa Nướng mát lạnh đi bạn.*  
-  *Uống xong ngụm đầu, thấy tỉnh cả người. Mọi deadline để đó, rồi tính tiếp.*
+  *Uống xong ngụm đầu, thấy nhẹ cả người. Mọi deadline để đó, rồi tính tiếp.*
 
 ---
 
 ## 4. Ưu Tiên Chi Tiết Cụ Thể Hơn Tính Từ Chung Chung (Specificity > Adjective)
 
 - ❌ **Dùng tính từ mơ hồ:** *"Ly trà đào thơm ngon tuyệt vời, hấp dẫn vô cùng."*
-- ✅ **Dùng chi tiết cụ thể quan sát được:** *"Miếng đào vàng ươm giòn sần sật, bên dưới là lớp trà cam trong veo đọng đầy hơi đá mát lạnh."*
+- ✅ **Dùng chi tiết cụ thể quan sát được:** *"Miếng đào vàng ươm giòn sần sật, bên dưới là lớp trà cam trong veo đọng những giọt nước li ti ngoài thành ly."*
+

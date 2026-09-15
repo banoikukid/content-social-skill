@@ -33,7 +33,7 @@ Hiệu quả cao khi đánh vào nhu cầu thời tiết (nắng gắt, mưa gi�
 > Buổi chiều 2 giờ mắt cứ díp lại mà deadline trước mặt vẫn chưa chạy xong? *(Problem)*  
 > Càng cố tập trung thì đầu càng trống rỗng, chỉ thèm một thứ gì đó thật đậm vị và mát lạnh để sốc lại tinh thần. *(Agitation)*  
 > Ghé quán làm liền một ly Cà Phê Muối nha bạn ơi. Vị cà phê đậm đà hòa quyện cùng lớp kem muối béo ngậy mằn mặn, nhâm nhi từng ngụm mát lạnh thấy sảng khoái hẳn ra! *(Solution)*  
-> 📍 Đang mở cửa tại 123 Đường Số 1, ghé tụi mình liền nha!
+> 📍 Đang mở cửa tại [Địa chỉ quán], ghé tụi mình liền nha!
 
 ---
 
@@ -41,9 +41,10 @@ Hiệu quả cao khi đánh vào nhu cầu thời tiết (nắng gắt, mưa gi�
 
 Thích hợp cho bài ra mắt món mới, nguyên liệu độc đáo hoặc kỹ thuật pha chế riêng biệt.
 
-- **Features (Đặc điểm):** Thành phần hoặc cách pha chế đặc biệt (ví dụ: trà búp ủ lạnh 12 tiếng).
-- **Advantages (Ưu thế vượt trội):** Điểm khác biệt so với các sản phẩm đại trà (không chát gắt, thanh mát).
-- **Benefits (Lợi ích khách hàng nhận được):** Cảm giác ngon miệng, tốt cho sức khỏe hoặc trải nghiệm sảng khoái.
+- **Features (Đặc điểm):** Thành phần hoặc cách pha chế thực tế (ví dụ: trà ủ lạnh, sữa hạt).
+- **Advantages (Ưu thế):** Điểm khác biệt so với món thông thường đã được quán xác nhận.
+- **Benefits (Lợi ích):** Trải nghiệm thưởng thức ngon miệng, thanh mát.  
+  *🔴 LƯU Ý:* Ưu thế (Advantages) và Lợi ích (Benefits) bắt buộc phải xuất phát từ dữ kiện được cung cấp; tuyệt đối không tự suy diễn công dụng sức khỏe từ thành phần hay công thức.
 
 > **Ví dụ mẫu:**  
 > [Tên món nước] phiên bản mới đã sẵn sàng phục vụ bạn:  

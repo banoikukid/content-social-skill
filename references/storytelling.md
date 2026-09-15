@@ -21,12 +21,12 @@ Chọn 1 góc nhìn đắt giá nhất để viết (Choose Best Angle)
 
 | Góc nhìn (Angle) | Bản chất nội dung | Ví dụ mở đầu gợi ý |
 | :--- | :--- | :--- |
-| **1. Sản phẩm & Thị giác** *(Product)* | Tập trung vào màu sắc, tầng lớp, đá mát lạnh, topping tươi rói. | *"Màu cam óng ả đọng sương đá mát lạnh, nhìn thôi đã thấy dịu cả ngày hè..."* |
+| **1. Sản phẩm & Thị giác** *(Product)* | Tập trung vào màu sắc, tầng lớp, hạt đá, topping tươi rói. | *"Màu cam óng ả đọng những giọt nước li ti ngoài thành ly, nhìn thôi cũng thấy mùa hè tới gần..."* |
 | **2. Cảm xúc & Khoảng lặng** *(Mood)* | Tận dụng sự êm đềm, chậm rãi của buổi chiều hoặc tối muộn. | *"Có những buổi chiều chỉ cần một góc nhỏ tĩnh lặng để ngồi ngắm phố xá..."* |
-| **3. Đời thường & Đồng cảm** *(Relatable)* | Chạm vào tâm lý tan ca, uể oải giữa trưa, thèm ngọt của dân văn phòng. | *"2 giờ chiều mắt díp lại, chỉ thèm một món gì đó mát lạnh để sốc lại tinh thần..."* |
+| **3. Đời thường & Đồng cảm** *(Relatable)* | Chạm vào tâm lý tan ca, uể oải giữa trưa, thèm ngọt của dân văn phòng. | *"2 giờ chiều mắt díp lại, chỉ thèm một món gì đó ngọt thanh để sốc lại tinh thần..."* |
 | **4. Hài hước & Tự trào** *(Humor)* | Đùa vui về ví tiền, việc giảm cân, sự thèm ngọt không lối thoát. | *"Ví tiền bảo tiết kiệm, nhưng cái miệng lại bảo order liền ly trà sữa..."* |
-| **5. Tò mò & Khám phá** *(Curiosity)* | Một chi tiết lạ trong cách pha chế hoặc tạo hình món nước. | *"Nhìn đơn giản vậy thôi, nhưng đây là món tụi mình tốn nhiều công chuẩn bị nhất..."* |
-| **6. Nghề quán & Bếp quầy** *(Craft)* | Thao tác ủ trà, canh nhiệt độ nước, sự tỉ mỉ của người đứng quầy. | *"Mỗi sáng mở cửa, việc đầu tiên của tụi mình là ủ thử một mẻ trà nhỏ để chỉnh vị..."* |
+| **5. Tò mò & Khám phá** *(Curiosity)* | Một chi tiết lạ trong cách tạo hình hoặc điểm nhấn món nước. | *"Nhìn đơn giản vậy thôi — bạn đoán điểm đặc biệt của ly này nằm ở đâu?"* |
+| **6. Nghề quán & Bếp quầy** *(Craft)* | Thao tác ủ trà, pha chế mộc mạc của người đứng quầy. | *"Mỗi sáng mở cửa, tụi mình lại cẩn thận canh từng mẻ trà để hương vị lên thật tròn trịa..."* |
 | **7. Dịp & Bối cảnh sống** *(Occasion)* | Gắn với cơn mưa rào, sáng cuối tuần thảnh thơi, buổi hẹn bạn bè. | *"Mưa rào bất chợt ghé ngang phố, ghé quán trú chân một lát bạn nhé..."* |
 | **8. Tối giản** *(Minimalist)* | 1–2 câu cô đọng, để hình ảnh đẹp tự cất tiếng nói. | *"Một ngày êm dịu, một ly trà vừa ý. Thế là đủ."* |
 
@@ -50,7 +50,16 @@ Mỗi góc nhìn cần được hỗ trợ bởi các kỹ thuật viết tươn
 
 ---
 
-## 3. Ranh Giới Miêu Tả Giác Quan (Sensory Boundary)
+## 3. Phân Biệt 3 Tầng Dữ Liệu Khi Viết (Observed vs Provided vs Creative)
+
+Để bài viết vừa giàu hình ảnh vừa không bịa đặt, người viết cần phân định rõ 3 tầng dữ liệu:
+- **OBSERVED (Thị giác nhìn thấy):** Chi tiết có thật trong ảnh (màu nước hổ phách, sương đá đọng li ti, vệt nắng nghiêng, góc bàn gỗ).
+- **PROVIDED (Được cung cấp):** Thông tin do người dùng hoặc menu cung cấp (tên món, giá 35k, địa chỉ quán, thành phần đã xác nhận).
+- **CREATIVE (Sáng tạo ngữ cảnh & Mood):** Lối diễn đạt nghệ thuật, ẩn dụ cảm xúc (*"Nhìn thôi cũng thấy buổi chiều hè như dịu lại"*). Tuyệt đối không biến cảm xúc sáng tạo thành sự kiện lịch sử thật hay quy trình kỹ thuật tự phong.
+
+---
+
+## 4. Ranh Giới Miêu Tả Giác Quan (Sensory Boundary)
 
 - **Khi chỉ có hình ảnh:** 
   - ✅ **Được phép:** Miêu tả thị giác (màu sắc, bọt, sương đá, ánh nắng) và tạo cảm xúc bằng ẩn dụ nghệ thuật:  
@@ -61,7 +70,7 @@ Mỗi góc nhìn cần được hỗ trợ bởi các kỹ thuật viết tươn
 
 ---
 
-## 4. Quy Tắc Framing Kể Chuyện: Tránh "Bịa Sự Kiện Thật"
+## 5. Quy Tắc Framing Kể Chuyện: Tránh "Bịa Sự Kiện Thật"
 
 Nếu người dùng chỉ gửi ảnh không gian/ly nước mà không kể câu chuyện cụ thể:
 - ❌ **Không tự dựng nên sự kiện lịch sử giả:** Tránh viết: *"Hôm nay có một anh khách ghé quán, gạt chân chống xe rồi khóc..."*
@@ -70,7 +79,7 @@ Nếu người dùng chỉ gửi ảnh không gian/ly nước mà không kể c�
 
 ---
 
-## 5. Quy Tắc CTA Cho Bài Kể Chuyện: Tùy Chọn & Mềm Mại (Soft/Optional CTA)
+## 6. Quy Tắc CTA Cho Bài Kể Chuyện: Tùy Chọn & Mềm Mại (Soft/Optional CTA)
 
 - **Tuyệt đối không chốt sale thô bạo** trong bài tâm sự/kể chuyện (tránh: *"👉 Mua ngay!", "Inbox đặt bàn gấp!"*).
 - **Để mở cảm xúc hoặc dùng lời chào thân tình:**  

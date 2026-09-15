@@ -25,7 +25,7 @@ Tone giọng trong F&B không chỉ là thay đổi đại từ xưng hô, mà t
 | **Độ dài câu & Nhịp điệu** | Ngắn, vừa phải, êm | Câu gãy, ngắt punchline | Nhanh, sôi nổi, dồn dập | Chậm, xen kẽ câu dài lắng đọng | Cân đối, chỉn chu, gãy gọn |
 | **Mức độ trực diện** | Cao (trò chuyện thẳng) | Rất cao (bắt chuyện ngay) | Cao (rủ rê liền) | Thấp (gợi mở cảm xúc) | Vừa phải (trang trọng) |
 | **Mật độ tự trào / hài** | Không / Rất nhẹ | Rất cao (chủ đạo) | Vừa phải (bắt trend) | Tuyệt đối không | Không |
-| **Mật độ Emoji** | 2–3 icon nhẹ nhàng | 3–4 icon biểu cảm vui | 3–5 icon sôi động | 1–2 icon tĩnh lặng (🍃, ☕) | 0–1 icon hoặc không dùng |
+| **Mật độ Emoji** | Light (Điểm xuyết nhẹ 1–2 icon) | Expressive (Biểu cảm tự nhiên) | Playful (Sôi nổi) | Sparse (Rất ít hoặc chỉ 1 icon tĩnh 🍃) | Minimal (Tối giản 0–1 icon) |
 | **Phong cách CTA** | Thân tình ("ghé nha") | Vui nhộn ("nhắn tui nè") | Rủ rê ("tag liền đứa bạn") | Mềm mại / Để mở | Lịch sự ("kính mời bạn") |
 
 ---

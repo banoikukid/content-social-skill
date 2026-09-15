@@ -15,20 +15,21 @@ purpose: "Lean, practical Vietnamese F&B social copywriter for chatbots (Hermes)
 
 ---
 
-## Cấu Trúc Thư Mục Skill (v4.2.0)
+## Cấu Trúc Thư Mục Skill (v4.3.0)
 
 ```
 content-social-skill/
-├── SKILL.md                 # Entry point, Prime Directive, Hard vs Soft rules, Angle Engine, Creative QA
-├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.2.0)
+├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes
+├── SKILL.md                 # Entry point, Prime Directive, Insight Engine, Creative QA (v4.3.0)
+├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.3.0)
 ├── references/
-│   ├── platforms.md         # Quy chuẩn 5 nền tảng (Facebook, IG, TikTok, Zalo OA, Zalo Personal)
-│   ├── tones.md             # 5 tone giọng F&B thực chiến & Adaptive Voice (đại từ linh hoạt)
-│   ├── formulas.md          # 4 công thức viết bài: Hook-Value-CTA, PAS, FAB, Story (Soft Guidance)
-│   ├── hooks.md             # Bộ mở bài 3s, 8 khuôn mẫu sáo rỗng AI, Rhythm Engineering & Specificity
-│   ├── storytelling.md      # Kể chuyện góc quán, Động cơ 8 góc nhìn (Angle Engine), Soft CTA
-│   ├── psychology.md        # 7 kỹ thuật tâm lý thực chiến F&B (chống bịa hành vi, giả định)
-│   └── pricing.md           # Kỹ thuật viết giá & ưu đãi F&B dùng placeholder an toàn
+│   ├── platforms.md         # Quy chuẩn 5 nền tảng (Facebook, IG, TikTok, Zalo OA, Zalo Personal, User overrides)
+│   ├── tones.md             # 5 tone giọng F&B, Ma trận thông số Tone (Parameters) & Adaptive Voice
+│   ├── formulas.md          # 4 công thức cốt lõi (Soft Guidance, FAB fact-based, sạch địa chỉ & claim)
+│   ├── hooks.md             # Mở bài 3s, 8 khuôn mẫu AI, Rhythm Engineering & Specificity (sạch claim)
+│   ├── storytelling.md      # Động cơ 8 góc nhìn (Angle Engine), 3 tầng dữ liệu, Ma trận kỹ thuật, Soft CTA
+│   ├── psychology.md        # 7 kỹ thuật tâm lý thực chiến F&B (chống bịa hành vi, giả định tương lai)
+│   └── pricing.md           # Kỹ thuật viết giá & ưu đãi an toàn bằng placeholder
 └── tests/
     └── core-tests.md        # 10 kịch bản kiểm thử thực tế
 ```
@@ -39,7 +40,7 @@ content-social-skill/
 
 | Platform | Định dạng chính | Hành vi mặc định |
 | :--- | :--- | :--- |
-| `facebook` | Post chia sẻ, bán hàng, tương tác | Mở bài 3 dòng, ngắt dòng thoáng, 3-5 hashtag cuối bài |
+| `facebook` | Post chia sẻ, bán hàng, tương tác | Mở bài 3 dòng, ngắt dòng thoáng, hashtag tùy chọn |
 | `instagram` | Caption thẩm mỹ, ảnh đẹp | Ngắn gọn, tập trung cảm xúc/không gian, hashtag thẩm mỹ |
 | `tiktok_reels` | Kịch bản video dọc ngắn (15-45s) | Bảng 3 cột: Thời gian \| Hình ảnh/Góc quay \| Lời thoại/Voiceover |
 | `zalo_oa` | Tin nhắn thông báo Broadcast | Tiêu đề in hoa, nội dung súc tích, đính kèm nút hành động |
@@ -51,15 +52,28 @@ content-social-skill/
 
 | Tệp tin | Vai trò | Version | Trạng thái |
 | :--- | :--- | :--- | :--- |
-| `SKILL.md` | Bộ não điều khiển, Prime Directive, Hard vs Soft constraints, 3 bước xử lý | 4.2.0 | ✅ Active |
-| `references/platforms.md` | Hướng dẫn định dạng chi tiết cho 5 nền tảng (không rò rỉ mẫu delivery) | 4.2.0 | ✅ Active |
-| `references/tones.md` | Hướng dẫn 5 giọng văn & Adaptive Voice theo phong cách từng quán | 4.2.0 | ✅ Active |
-| `references/formulas.md` | 4 công thức cốt lõi ngành đồ uống (Soft Guidance, ví dụ sạch claim) | 4.2.0 | ✅ Active |
-| `references/hooks.md` | Bộ mở bài 3s, 8 mẫu sáo rỗng AI, Kỹ thuật nhịp điệu (Rhythm) & Specificity | 4.2.0 | ✅ Active |
-| `references/storytelling.md` | Động cơ 8 góc nhìn (Angle Engine), ranh giới giác quan, Soft CTA | 4.2.0 | ✅ Active |
-| `references/psychology.md` | 7 kỹ thuật tâm lý thực chiến F&B (chống bịa hành vi, giả định tương lai) | 4.2.0 | ✅ Active |
-| `references/pricing.md` | Trình bày giá & ưu đãi an toàn bằng placeholder, sạch brand ngoài | 4.2.0 | ✅ Active |
-| `tests/core-tests.md` | 10 kịch bản kiểm thử mẫu kiểm tra chất lượng copywriter | 4.2.0 | ✅ Active |
+| `README.md` | Tài liệu giới thiệu tổng quan dự án | 4.3.0 | ✅ Active |
+| `SKILL.md` | Bộ não điều khiển, Prime Directive, Insight Engine, 8-question Creative QA | 4.3.0 | ✅ Active |
+| `references/platforms.md` | Hướng dẫn định dạng 5 nền tảng, nguyên tắc user request overrides default | 4.3.0 | ✅ Active |
+| `references/tones.md` | 5 tone giọng F&B, Ma trận thông số Tone & Adaptive Voice | 4.3.0 | ✅ Active |
+| `references/formulas.md` | 4 công thức cốt lõi, quy tắc fact-based FAB, sạch địa chỉ & claim | 4.3.0 | ✅ Active |
+| `references/hooks.md` | Mở bài 3s, 8 khuôn mẫu AI, Kỹ thuật nhịp điệu (Rhythm) & Specificity | 4.3.0 | ✅ Active |
+| `references/storytelling.md` | Động cơ 8 góc nhìn, phân định 3 tầng dữ liệu (Observed/Provided/Creative), Soft CTA | 4.3.0 | ✅ Active |
+| `references/psychology.md` | 7 kỹ thuật tâm lý thực chiến F&B (chống bịa hành vi, giả định tương lai) | 4.3.0 | ✅ Active |
+| `references/pricing.md` | Trình bày giá & ưu đãi an toàn bằng placeholder, sạch brand ngoài | 4.3.0 | ✅ Active |
+| `tests/core-tests.md` | 10 kịch bản kiểm thử mẫu kiểm tra chất lượng copywriter | 4.3.0 | ✅ Active |
+
+---
+
+## Nhật Ký Thay Đổi (Changelog)
+
+### v4.3.0 (2026-09-16) — Động Cơ Insight & Làm Sạch Triệt Để Ví Dụ
+- **Động cơ Insight (Insight Engine):** Quan sát $\rightarrow$ Tìm chi tiết thú vị $\rightarrow$ Insight người đọc (khi có ích) $\rightarrow$ Chọn góc $\rightarrow$ Viết.
+- **Làm sạch 100% ví dụ (Zero Fabricated Claims in Examples):** Xóa bỏ toàn bộ các claim ngầm trong ví dụ (`hooks.md`, `formulas.md`, `storytelling.md`, `tones.md`).
+- **Phân định 3 tầng dữ liệu trong Kể chuyện:** `OBSERVED` (thị giác thấy trong ảnh), `PROVIDED` (user/menu cung cấp), `CREATIVE` (mood/ẩn dụ cảm xúc).
+- **Ma trận thông số Tone (Tone Parameters Matrix):** Quy chuẩn ảnh hưởng của Tone lên nhịp điệu, độ dài câu, mức trực diện, emoji density, CTA style.
+- **Quyền lực tối thượng của người dùng:** Yêu cầu rõ ràng từ người dùng luôn ghi đè quy cách mặc định của nền tảng.
+- **Định nghĩa lại CTA:** Bắt buộc 1 hành động tiếp theo tự nhiên (1 clear next action) cho bài bán hàng; tùy chọn/kết mở cho bài kể chuyện.
 
 ---
 
