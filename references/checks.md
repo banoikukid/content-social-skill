@@ -45,3 +45,12 @@ Chạy 4 test này SAU khi viết xong. Không in kết quả ra, tự sửa n�
 - Đọc lại Hook: Nếu Hook đề cập đến sự mệt mỏi, buồn ngủ, cô đơn, nắng nóng kẹt xe...
 - Check lại Body/CTA: Sản phẩm hoặc deal có thực sự giải quyết được cảm giác đó không?
 - Biện pháp: Nếu Hook khơi gợi nỗi đau nhưng Body đi vào mô tả sản phẩm lan man không giải quyết nỗi đau đó → buộc phải điều chỉnh Body hoặc CTA để đóng kín vòng lặp (close the loop).
+
+---
+
+## 6. CTA Single-Action Check (Machine-Readable Verification)
+**CTA có đảm bảo count == 1 không?**
+- Kiểm tra cấu trúc `cta`:
+  - `action`: Chỉ được chứa đúng 1 hành động duy nhất (`message`, `comment`, `visit`, hoặc `click_link`).
+  - `count`: Bắt buộc bằng 1.
+- Nếu câu CTA thực tế chứa ≥ 2 hành vi (ví dụ: *"Ghé quán HOẶC nhắn tin"*, *"Inbox ĐỂ ĐƯỢC tư vấn rồi ghé"*...) → `count: 2` → **FAIL CHECK**. Bắt buộc rút gọn về đúng 1 hành vi duy nhất trước khi gửi.

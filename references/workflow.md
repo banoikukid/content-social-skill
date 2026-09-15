@@ -201,19 +201,30 @@ Nếu thiếu một số thông tin trong checklist → áp dụng quy tắc fal
 - Nếu thiếu thời hạn → không đề cập thời hạn, tuyệt đối không tự bịa
 - Nếu thiếu tên món chính xác → hỏi 1 câu duy nhất trước khi viết
 
-**CTA SCHEMA — Exactly One Action (Phụ thuộc Channel & Bối cảnh):**
+**CTA SCHEMA — Exactly One Action (Machine-Readable & Phụ thuộc Channel):**
 
-| Channel / Bối cảnh | Điều kiện nhận diện | CTA chuẩn xác (Đúng 1 action) |
-|-------------------|---------------------|-------------------------------|
-| `zalo_personal` | Tin nhắn Zalo cá nhân / DM | "Muốn lấy thì nhắn mình nha." |
-| `facebook` | Fanpage post mặc định | "Nhắn tin cho tụi mình nha." |
-| `zalo_oa` | Broadcast Official Account | "Inbox cho tụi mình nha." |
-| `tiktok_reels` | Video ngắn / Reels | "Comment 'menu' để nhận menu." |
-| `instagram` | Feed / Reels Instagram | "Xem menu ở bio nhé." |
-| **Có ordering link** | Brief / Profile có link đặt món | "Đặt món tại link này nha: [link]" |
-| **Có địa chỉ rõ** | Brief có địa chỉ quán cụ thể | "Ghé quán tụi mình lấy nha." |
+Mọi CTA phải tương ứng với cấu trúc object machine-readable chuẩn:
+```yaml
+cta:
+  objective:      [conversion / engagement / brand / traffic]
+  action:         [message / comment / visit / click_link]
+  count:          1      # BẮT BUỘC = 1. Hermes / QA sẽ reject nếu count != 1
+  target:         [zalo_personal / facebook / zalo_oa / tiktok_reels / instagram / web / offline]
+  link_required:  [true / false]
+  text:           "câu CTA hiển thị"
+```
 
-❌ CẤM: Ghép 2 hành động trong 1 CTA (ví dụ: *"Ghé quán hoặc nhắn tin cho tụi mình nha"* → 2 actions gây loãng quyết định). Luôn chọn duy nhất 1 hành động ưu tiên phù hợp channel.
+| Channel / Bối cảnh | Machine-Readable Spec | CTA chuẩn xác (text) |
+|-------------------|-----------------------|----------------------|
+| `zalo_personal` | `objective: conversion, action: message, count: 1, target: zalo_personal, link_required: false` | "Muốn lấy thì nhắn mình nha." |
+| `facebook` | `objective: conversion, action: message, count: 1, target: facebook, link_required: false` | "Nhắn tin cho tụi mình nha." |
+| `zalo_oa` | `objective: conversion, action: message, count: 1, target: zalo_oa, link_required: false` | "Inbox cho tụi mình nha." |
+| `tiktok_reels` | `objective: engagement, action: comment, count: 1, target: tiktok_reels, link_required: false` | "Comment 'menu' để nhận menu." |
+| `instagram` | `objective: traffic, action: visit, count: 1, target: instagram, link_required: false` | "Xem menu ở bio nhé." |
+| **Có ordering link** | `objective: conversion, action: click_link, count: 1, target: web, link_required: true` | "Đặt món tại link này nha: [link]" |
+| **Có địa chỉ rõ** | `objective: traffic, action: visit, count: 1, target: offline, link_required: false` | "Ghé quán tụi mình lấy nha." |
+
+❌ CẤM: `count != 1`. Ghép 2 hành động trong 1 CTA (ví dụ: *"Ghé quán hoặc nhắn tin cho tụi mình nha"* → `count: 2` → **FAIL**). Hệ thống QA / Hermes tự động reject nếu `count != 1`.
 
 **ONE-QUESTION RULE:**
 Nếu thiếu nhiều fields → gộp tất cả vào 1 message duy nhất:
@@ -280,17 +291,23 @@ Nếu brief vừa chứa tình huống hài hước/trớ trêu tại quán, v�
 Thực hiện toàn bộ phân tích nội bộ trong memory. **Không xuất raw reasoning hay mind map ra output.**
 Lưu các metadata cần thiết để viết bài:
 
-```
+```yaml
 platform:    [tên platform]
 flow:        [A/B/C/D/E/F/G]
 tone:        [1–7]
 evidence:    [brief / image / inferred]
 claims:      [danh sách claim cần verify — gán nhãn FACT SOURCE]
-cta:         [hành động mục tiêu]
+cta:
+  objective:      [conversion / engagement / brand / traffic]
+  action:         [message / comment / visit / click_link]
+  count:          1      # BẮT BUỘC = 1. Nếu count != 1 -> QA FAIL
+  target:         [zalo_personal / facebook / zalo_oa / tiktok_reels / instagram / web / offline]
+  link_required:  [true / false]
+  text:           "câu CTA hiển thị"
 risk_flags:  [none / low / medium / high]
 ```
 
-**Nếu người dùng gõ `/audit`** → chỉ xuất decision trace (6 fields trên), không xuất chain-of-thought.
+**Nếu người dùng gõ `/audit`** → chỉ xuất decision trace (các fields metadata trên), không xuất chain-of-thought. Ràng buộc cứng: `cta.count` bắt buộc bằng 1.
 
 **Phân tích nội bộ bao gồm (nhưng không xuất):**
 1. **Chủ thể trọng tâm:** Xác định sản phẩm/dịch vụ cốt lõi từ brief/ảnh.
