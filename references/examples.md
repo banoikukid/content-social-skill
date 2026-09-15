@@ -41,7 +41,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Copy:**
   > Nhìn sương đá đọng li ti ngoài thành ly thôi cũng thấy cái nóng trưa nay dịu đi một nửa.
   > 
-  > Nền trà cam vàng ươm, bên trên thả thêm hai miếng đào giòn sần sật với nhánh sả tươi. Uống một ngụm trà thanh mát, nhai miếng đào giòn rụm nghe vui tai.
+  > Nền trà màu cam hổ phách mát mắt, bên trên thả hai miếng đào vàng ươm cùng nhánh sả tươi. Đầy ắp đá lạnh, nhìn là thấy muốn gọi liền một ly để giải nhiệt.
   > 
   > Trưa nay oi quá thì ghé quán trú chân một lát nha bạn ơi.
 

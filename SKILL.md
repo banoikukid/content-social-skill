@@ -68,7 +68,12 @@ User Input (Text / Image)
    [4] Hook có Promise và Thân bài có Payoff trọn vẹn?
    [5] Caption có làm hơn việc chỉ tả ảnh (Caption ≠ Image Description)?
    [6] Có ít nhất một chi tiết cụ thể đáng nhớ (Specificity > Adjective)?
-   [7] Claim Check: Câu factual/vật lý có nguồn xác nhận không? (1. Có factual claim không? 2. Nguồn từ đâu? 3. Ảnh có vượt visual evidence? 4. Sensory có được cung cấp? 5. Creative có đọc như fact? 6. Giả định có framing phù hợp?).
+   [7] Claim Check (5 tầng dữ liệu: Factual / Visual / Sensory / Creative / Hypothetical):
+       - Factual: có nguồn từ input/menu không? (Cấm bịa fact bán chạy, công thức ngầm).
+       - Visual: chỉ miêu tả những gì mắt thấy trong ảnh?
+       - Sensory: vị giác/texture đã được cung cấp chưa (cấm tự bịa)?
+       - Creative: ẩn dụ cảm xúc có bị viết như sự thật khách quan không?
+       - Hypothetical: bối cảnh tưởng tượng đã có framing giả định chưa?
    [8] Có mùi AI / dịch tiếng Anh / sáo ngữ (AI-slop) không?
    [9] Voice + Tone + Nền tảng có phù hợp?
    [10] CTA / Emoji / Hashtag có thực sự cần thiết và tự nhiên không?
