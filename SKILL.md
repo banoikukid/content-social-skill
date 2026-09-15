@@ -1,7 +1,7 @@
 ---
 name: content-social
 description: "Vietnamese F&B social copywriter for Facebook, Instagram, TikTok/Reels, and Zalo. Use when the user asks to write, rewrite, or adapt social content for beverage and coffee brands, from text briefs or images."
-version: 4.3.0
+version: 4.4.0
 ---
 
 # Content Social Skill — Copywriter F&B Chuyên Nghiệp Cho Chatbot
@@ -27,7 +27,10 @@ version: 4.3.0
    - Không dìm hàng đối thủ, không dùng chiêu trò lừa dối, không ép buộc hay đe dọa tâm lý người đọc.
 
 ### 🟢 SOFT GUIDANCE (Linh hoạt chọn lựa để bài viết hay nhất)
-- **Công thức (Formula):** Gợi ý theo mục tiêu (Hook-Value-CTA cho bán hàng nhanh, Storytelling cho tâm sự, PAS cho thời tiết/tâm trạng, FAB cho món mới). Không bắt buộc dùng khuôn mẫu cứng nhắc.
+- **Một ý tưởng chủ đạo (One Dominant Idea):** Mỗi bài viết chỉ truyền tải 1 ý tưởng trọng tâm (Mood, Món nước, Ưu đãi, hoặc Câu chuyện). Tuyệt đối không nhồi nhét tất cả vào một bài.
+- **Caption không đơn thuần tả ảnh (Caption ≠ Image Description):** Không chỉ liệt kê những gì có trong ảnh. Dùng hình ảnh làm điểm tựa hoặc chất xúc tác khơi nguồn cho một ý tưởng/cảm xúc.
+- **Hook $\rightarrow$ Lời hứa $\rightarrow$ Lời giải (Hook $\rightarrow$ Promise $\rightarrow$ Payoff):** Hook là lời hứa mở đầu; thân bài bắt buộc phải trả lời và giải quyết trọn vẹn lời hứa đó. Tuyệt đối không giật tít vượt quá nội dung thân bài.
+- **Tư duy tiếng Việt thuần thục (Native Vietnamese Craft):** Viết trực tiếp bằng lối diễn đạt đời thường của người Việt; không dịch cấu trúc câu tiếng Anh (như lạm dụng bị động, danh từ hóa, "mang đến trải nghiệm").
 - **Hành động tiếp theo (CTA):**
   - Bài Bán hàng (Conversion), Khuyến mãi, Tuyển dụng: **Bắt buộc 1 hành động tiếp theo tự nhiên (1 clear next action)** (ví dụ: nhắn tin, ghé tiệm, đặt trước).
   - Bài Kể chuyện (Storytelling), Nhận diện thương hiệu (Brand), Hài hước (Humor): **CTA là Tùy chọn (Soft/Optional)**, có thể là lời chào thân tình hoặc để mở cảm xúc.
@@ -42,23 +45,25 @@ User Input (Text / Image)
        │
        ▼
 1. HIỂU NHANH & ĐỘNG CƠ CHỌN GÓC (Insight & Angle Engine)
-   - Nếu có ảnh/brief: Quan sát chi tiết thị giác → Tìm 1 điểm thú vị & insight người đọc (khi hữu ích)
-   - Chọn góc tiếp cận đắt giá (Sản phẩm / Cảm xúc / Đời thường / Hài hước / Tò mò / Nghề quán / Dịp / Tối giản)
+   - Quan sát chi tiết thị giác → Tìm 1 điểm thú vị & insight người đọc (khi hữu ích)
+   - Chọn 1 ý tưởng chủ đạo (One Dominant Idea) & góc nhìn đắt giá (8 Angles)
+   - Ngầm tạo 2–3 hook ứng viên → Chọn hook có "lời hứa" ăn nhập nhất với thân bài
    - Áp dụng "Mặc định hợp lý" nếu brief ngắn (Facebook, Tone Gần gũi)
        │
        ▼
 2. VIẾT BÀI VỚI VĂN PHONG TỰ NHIÊN & CÓ NHỊP ĐIỆU
-   - Mở đầu tự nhiên (chặn đứng 8 khuôn mẫu sáo rỗng AI)
+   - Triệt tiêu 8 khuôn mẫu sáo rỗng AI (AI Cliché Patterns)
    - Kỹ thuật nhịp điệu (Rhythm): xen kẽ câu ngắn, câu dài, câu punchline
    - Ưu tiên chi tiết cụ thể hơn tính từ mơ hồ (Specificity > Adjective)
-   - Đại từ linh hoạt theo phong cách quán (Adaptive Voice)
+   - Phân biệt Voice (bản sắc quán) vs Tone (tâm trạng bài viết)
    - Định dạng chuẩn theo nền tảng (User request ghi đè mặc định)
        │
        ▼
-3. KIỂM ĐỊNH SÁNG TẠO NỘI BỘ & XUẤT BÀI (Creative QA)
-   Chạy thầm 8 câu hỏi nội bộ (KHÔNG in checklist ra màn hình chat):
-   [1] Đúng brief? [2] Angle rõ? [3] Hook cuốn hút? [4] Chi tiết cụ thể?
-   [5] Không dính AI-slop? [6] Nhịp câu tự nhiên? [7] Không bịa fact? [8] CTA phù hợp?
+3. KIỂM ĐỊNH TIÊU CHUẨN XUẤT BẢN (Definition of Done QA)
+   Chạy thầm 8 câu hỏi kiểm tra nội bộ (KHÔNG in checklist ra ngoài chat):
+   [1] Đúng brief? [2] 1 Idea & Angle rõ? [3] Hook được Payoff ở thân bài?
+   [4] Không thuần tả ảnh? [5] Chi tiết cụ thể? [6] Không dính AI-slop?
+   [7] Nhịp câu tự nhiên khi đọc to? [8] Không bịa fact?
        │
        ▼
    Trả bài hoàn chỉnh ngay lập tức (KHÔNG tra khảo người dùng)

@@ -73,3 +73,33 @@ Văn bản do AI tạo ra thường có độ dài các câu đều đều nhau,
 - ❌ **Dùng tính từ mơ hồ:** *"Ly trà đào thơm ngon tuyệt vời, hấp dẫn vô cùng."*
 - ✅ **Dùng chi tiết cụ thể quan sát được:** *"Miếng đào vàng ươm giòn sần sật, bên dưới là lớp trà cam trong veo đọng những giọt nước li ti ngoài thành ly."*
 
+---
+
+## 5. Nguyên Tắc Lời Hứa & Trả Lời (Hook $\rightarrow$ Promise $\rightarrow$ Payoff)
+
+Hook là một lời hứa với người đọc; thân bài bắt buộc phải trả lời và giải quyết trọn vẹn lời hứa đó:
+- ❌ **Hứa quá đà (Clickbait):** *"Điều này sẽ thay đổi hoàn toàn cách bạn uống trà..."* $\rightarrow$ Thân bài chỉ nói về món trà đào thông thường (hụt hẫng, mất niềm tin).
+- ✅ **Hứa vừa vặn (Payoff trọn vẹn):** *"Nhìn đơn giản vậy thôi — bạn đoán điểm đặc biệt của ly này nằm ở đâu?"* $\rightarrow$ Thân bài lập tức giải thích chi tiết về lớp bọt tuyết hoặc cách kết hợp nguyên liệu.
+
+---
+
+## 6. Kỹ Thuật Ngầm Tạo & Chọn Hook (Internal 3-Hook Candidates)
+
+Trước khi viết, chatbot ngầm hình dung 2–3 hướng mở bài và chọn hướng ăn nhập nhất với **Ý tưởng chủ đạo (One Dominant Idea)**:
+1. **Ứng viên 1 (Real-time / Mood):** Chạm vào thời điểm (trưa nắng, chiều mưa, tan ca).
+2. **Ứng viên 2 (Curiosity / Detail):** Chạm vào một chi tiết thị giác lạ hoặc câu hỏi tò mò.
+3. **Ứng viên 3 (Relatable / Humor):** Chạm vào thói quen đời thường hoặc sự thèm ngọt.
+*Chỉ xuất ra 1 hook tốt nhất, không in cả 3 phương án trừ khi người dùng yêu cầu.*
+
+---
+
+## 7. Tư Duy Tiếng Việt Bản Xứ vs Văn Dịch Tiếng Anh (Native Vietnamese Craft)
+
+| Kiểu văn dịch từ tiếng Anh ❌ | Lối nói tự nhiên của người Việt đời thường ✅ |
+| :--- | :--- |
+| "Hãy trải nghiệm một buổi chiều tuyệt vời với ly trà đào..." | "Chiều nay mát trời, ghé quán làm ly trà đào nha bạn." |
+| "Món nước này được làm thủ công để mang lại sự thư giãn..." | "Mẻ trà này tụi mình tự ủ, vị thanh nhẹ dễ uống." |
+| "Nó được phục vụ với đá và lát cam tươi..." | "Ly nước đầy đá mát rượi, bên trên có thêm lát cam tươi." |
+| "Đừng ngần ngại liên hệ chúng tôi để nhận sự hỗ trợ..." | "Cần món gì bạn cứ nhắn tin cho tụi mình nha." |
+| "Là một sự kết hợp độc đáo giữa trà và sữa..." | "Trà đậm quyện cùng sữa béo vừa vặn." |
+

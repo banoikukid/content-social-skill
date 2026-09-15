@@ -2,6 +2,9 @@
 
 Kể chuyện trong ngành F&B không phải là viết tiểu thuyết kịch tính hay rao giảng đạo lý. Đó là việc ghi lại những **khoảnh khắc mộc mạc, chân thật** của không gian quán, con người và tách nước, nhằm tạo sự đồng điệu cảm xúc với khách hàng.
 
+> **NGUYÊN TẮC CỐT LÕI: CAPTION KHÔNG PHẢI LÀ MÔ TẢ ẢNH (CAPTION ≠ IMAGE DESCRIPTION):**  
+> Tuyệt đối không dừng lại ở việc liệt kê đơn thuần những gì mắt thấy (*❌ "Một ly trà màu cam, có đá, đặt trên bàn gỗ"*). Hãy dùng hình ảnh làm **chất xúc tác hoặc bằng chứng khơi nguồn cho một ý tưởng/khoảnh khắc** (*✅ "Có những buổi chiều chẳng cần kế hoạch gì lớn. Một ly trà, một góc ngồi quen, vậy là đủ."*).
+
 ---
 
 ## 1. Động Cơ Chọn Góc Tiếp Cận (The Angle Engine)

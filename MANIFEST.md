@@ -7,21 +7,21 @@
 ## Version
 
 ```yaml
-skill: 4.3.0
-release_type: insight_engine_and_clean_examples
+skill: 4.4.0
+release_type: master_copywriter_edition
 last_updated: 2026-09-16
 purpose: "Lean, practical Vietnamese F&B social copywriter for chatbots (Hermes)"
 ```
 
 ---
 
-## Cấu Trúc Thư Mục Skill (v4.3.0)
+## Cấu Trúc Thư Mục Skill (v4.4.0)
 
 ```
 content-social-skill/
-├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes
-├── SKILL.md                 # Entry point, Prime Directive, Insight Engine, Creative QA (v4.3.0)
-├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.3.0)
+├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes (v4.4.0)
+├── SKILL.md                 # Entry point, Prime Directive, 4 Golden Craft Principles, QA (v4.4.0)
+├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.4.0)
 ├── references/
 │   ├── platforms.md         # Quy chuẩn 5 nền tảng (Facebook, IG, TikTok, Zalo OA, Zalo Personal, User overrides)
 │   ├── tones.md             # 5 tone giọng F&B, Ma trận thông số Tone (Parameters) & Adaptive Voice
@@ -66,6 +66,18 @@ content-social-skill/
 ---
 
 ## Nhật Ký Thay Đổi (Changelog)
+
+### v4.4.0 (2026-09-16) — Master Copywriter Edition (Benchmark Global Skills)
+- **4 Trụ Cột Sáng Tác (Golden Craft Principles):**
+  1. *Một ý tưởng chủ đạo (One Dominant Idea):* 1 bài viết = 1 thông điệp trọng tâm, không nhồi nhét.
+  2. *Caption ≠ Mô tả ảnh (Image as Springboard):* Dùng ảnh làm chất xúc tác/bằng chứng cho một ý tưởng hay khoảnh khắc.
+  3. *Lời hứa & Lời giải (Hook $\rightarrow$ Promise $\rightarrow$ Payoff):* Hook hứa điều gì, thân bài phải giải quyết trọn vẹn điều đó; cấm clickbait vượt quá nội dung.
+  4. *Tư duy tiếng Việt thuần thục (Native Vietnamese Craft):* Viết thẳng bằng tư duy đời thường người Việt, không dịch cấu trúc câu tiếng Anh.
+- **Phân biệt Voice vs Tone:** Voice (Bản sắc thương hiệu cốt lõi không đổi) vs Tone (Tâm trạng linh hoạt theo từng bài viết).
+- **Kỹ thuật ngầm chọn Hook (Internal 3-Hook Candidates):** Ngầm phác thảo 3 hướng mở bài và chọn hướng ăn nhập nhất với ý tưởng chủ đạo.
+- **Tiêu chuẩn xuất bản hoàn hảo (Definition of Done QA):** Nâng cấp bộ kiểm định sáng tạo 8 điểm kiểm tra thầm nội bộ.
+
+---
 
 ### v4.3.0 (2026-09-16) — Động Cơ Insight & Làm Sạch Triệt Để Ví Dụ
 - **Động cơ Insight (Insight Engine):** Quan sát $\rightarrow$ Tìm chi tiết thú vị $\rightarrow$ Insight người đọc (khi có ích) $\rightarrow$ Chọn góc $\rightarrow$ Viết.

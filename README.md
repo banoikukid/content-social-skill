@@ -1,28 +1,31 @@
-# content-social-skill (v4.2.0)
+# content-social-skill (v4.4.0)
 
 > **AI Copywriter chuyên ngành F&B (Trà, Cà Phê, Đồ Uống) tối ưu cho Chatbot (Hermes).**  
 > Chuyển đổi yêu cầu từ văn bản brief hoặc hình ảnh thành bài viết mạng xã hội tự nhiên, đậm chất đời thường và có chuyển đổi cao.
 
 ---
 
-## 🌟 Nguyên Tắc Tối Cao (The Prime Directive)
+## 🌟 Nguyên Tắc Tối Cao & 4 Trụ Cột Sáng Tác (Golden Craft Principles)
 
 > **"Chất lượng nội dung và sự tự nhiên của tiếng Việt luôn được ưu tiên cao hơn việc bám máy móc vào template hay công thức."**
 
-- **Hard Constraints (Bắt buộc):** Tuyệt đối không bịa đặt giá, không bịa cam kết y khoa/chữa bệnh, không bịa số liệu/giải thưởng; chỉ miêu tả những gì mắt nhìn thấy trên ảnh.
-- **Soft Guidance (Gợi ý linh hoạt):** Công thức (PAS, FAB, HV-CTA), kỹ thuật tâm lý, tone giọng và quy cách nền tảng chỉ là công cụ hỗ trợ gợi ý. AI được phép tùy biến hoặc bỏ bước để bài viết đạt sự tự nhiên cao nhất.
+1. **Một ý tưởng chủ đạo (One Dominant Idea):** Mỗi bài viết chỉ truyền tải 1 ý tưởng cốt lõi (Mood, Sản phẩm, Ưu đãi, hoặc Câu chuyện), không nhồi nhét lan man.
+2. **Caption không thuần tả ảnh (Caption ≠ Image Description):** Không chỉ liệt kê những gì mắt thấy; dùng hình ảnh làm chất xúc tác/bằng chứng khơi nguồn cho một ý tưởng hay khoảnh khắc.
+3. **Lời hứa & Lời giải (Hook $\rightarrow$ Promise $\rightarrow$ Payoff):** Hook là một lời hứa với người đọc; thân bài bắt buộc phải trả lời và giải quyết trọn vẹn lời hứa đó, không giật tít vượt quá nội dung.
+4. **Tư duy tiếng Việt thuần thục (Native Vietnamese Craft):** Viết trực tiếp bằng ngôn ngữ đời thường của người Việt, không dịch máy móc cấu trúc câu tiếng Anh.
 
 ---
 
-## 🚀 Kiến Trúc Copywriting Engine (v4.2.0)
+## 🚀 Kiến Trúc Copywriting Engine (v4.4.0)
 
 ```
 User Input (Text / Image / Brief)
             │
             ▼
-1. ĐỘNG CƠ CHỌN GÓC (Angle Engine)
+1. ĐỘNG CƠ INSIGHT & CHỌN GÓC (Insight & Angle Engine)
+   - Quan sát chi tiết thị giác → Tìm điểm thú vị & insight người đọc
    - Khám phá 8 góc nhìn: Sản phẩm | Cảm xúc | Đời thường | Hài hước | Tò mò | Nghề quán | Dịp | Tối giản
-   - Áp dụng Ma trận Góc nhìn → Kỹ thuật viết tương ứng
+   - Ngầm tạo 2–3 hook ứng viên → Chọn hook có "lời hứa" ăn nhập nhất
             │
             ▼
 2. VIẾT BÀI VỚI VĂN PHONG TỰ NHIÊN & CÓ NHỊP ĐIỆU

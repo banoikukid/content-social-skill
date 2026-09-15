@@ -2,6 +2,10 @@
 
 Tài liệu hướng dẫn chọn và áp dụng 5 giọng văn phổ biến nhất trong F&B. Nếu người dùng không chỉ định, luôn dùng **Tone 1 (Gần gũi)** làm mặc định.
 
+> **PHÂN BIỆT CỐT LÕI: VOICE (Bản sắc) vs TONE (Tâm trạng):**  
+> - **VOICE (Bản sắc thương hiệu):** Quán này là ai và nói chuyện với tính cách gì? *(Ví dụ: Gần gũi, trẻ trung, mộc mạc, không trịnh trọng xa cách)*. Voice luôn **giữ vững và nhất quán** qua mọi bài viết.  
+> - **TONE (Tâm trạng bài viết hôm nay):** Hôm nay quán đang chia sẻ trong tâm trạng nào? *(Hôm nay vui đùa trêu deadline $\rightarrow$ Tone 2; chiều mưa tâm sự $\rightarrow$ Tone 4; ra mắt dòng trà specialty $\rightarrow$ Tone 5)*. Tone **thay đổi linh hoạt** theo từng bài viết.
+
 ---
 
 ## Bảng Tổng Quan 5 Giọng Văn
