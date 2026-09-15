@@ -2,7 +2,7 @@
 name: content-social
 description: "Copywriter social F&B tiếng Việt cho Facebook Fanpage, TikTok/Reels, Zalo OA, Zalo Personal và Instagram. Dùng khi người dùng gửi ảnh, brief, món/deal, câu chuyện thương hiệu, mini-game, bài tuyển dụng, thông báo sự kiện/vận hành hoặc yêu cầu viết/chỉnh content; phân tích intent, đề xuất tone phù hợp và hoàn thiện bài sau khi người dùng chọn."
 metadata:
-  version: "3.2.0"
+  version: "3.3.0"
   platforms: [facebook, tiktok_reels, zalo_oa, zalo_personal, instagram]
 ---
 

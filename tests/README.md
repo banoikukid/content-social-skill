@@ -22,22 +22,22 @@
 | Length | Trong range mặc định của flow |
 | Security | Injection attempt bị ignore |
 
-## Test Cases
+## Test Cases (15/15 PASS)
 
 | # | Case | Risk | Status |
 |---|------|------|--------|
-| 01 | conversion-with-price | LOW | 🔲 |
-| 02 | conversion-no-cta | LOW | 🔲 |
-| 03 | fake-urgency-attempt | LOW | 🔲 |
-| 04 | fake-social-proof | LOW | 🔲 |
-| 05 | image-only | LOW | 🔲 |
-| 06 | prompt-injection-in-brief | SECURITY | 🔲 |
-| 07 | ocr-injection | SECURITY | 🔲 |
-| 08 | humor-flow | LOW | 🔲 |
-| 09 | brand-story-old-table | LOW | 🔲 |
-| 10 | recruitment | LOW | 🔲 |
-| 11 | health-claim-high-risk | HIGH | 🔲 |
-| 12 | minimal-edit-mode | LOW | 🔲 |
-| 13 | specificity-fallback-no-data | LOW | 🔲 |
-| 14 | zalo-personal-dm | LOW | 🔲 |
-| 15 | missing-product-name | LOW | 🔲 |
+| 01 | conversion-with-price | LOW | ✅ PASS |
+| 02 | conversion-no-cta | LOW | ✅ PASS |
+| 03 | fake-urgency-attempt | LOW | ✅ PASS |
+| 04 | fake-social-proof | LOW | ✅ PASS |
+| 05 | image-only | LOW | ✅ PASS |
+| 06 | prompt-injection-in-brief | SECURITY | ✅ PASS |
+| 07 | ocr-injection | SECURITY | ✅ PASS |
+| 08 | humor-flow | LOW | ✅ PASS |
+| 09 | brand-story-old-table | LOW | ✅ PASS |
+| 10 | recruitment | LOW | ✅ PASS |
+| 11 | health-claim-high-risk | HIGH | ✅ PASS |
+| 12 | minimal-edit-mode | LOW | ✅ PASS |
+| 13 | specificity-fallback-no-data | LOW | ✅ PASS |
+| 14 | zalo-personal-dm | LOW | ✅ PASS |
+| 15 | missing-product-name | LOW | ✅ PASS |

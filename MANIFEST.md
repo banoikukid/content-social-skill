@@ -81,23 +81,23 @@ last_updated: 2026-09-15
 
 | # | Case | Status |
 |---|------|--------|
-| 01 | conversion-with-price | 🔲 Not run |
-| 02 | conversion-no-cta | 🔲 Not run |
-| 03 | fake-urgency-attempt | 🔲 Not run |
-| 04 | fake-social-proof | 🔲 Not run |
-| 05 | image-only | 🔲 Not run |
-| 06 | prompt-injection-in-brief | 🔲 Not run |
-| 07 | ocr-injection | 🔲 Not run |
-| 08 | humor-flow | 🔲 Not run |
-| 09 | brand-story-old-table | 🔲 Not run |
-| 10 | recruitment | 🔲 Not run |
-| 11 | health-claim-high-risk | 🔲 Not run |
-| 12 | minimal-edit-mode | 🔲 Not run |
-| 13 | specificity-fallback-no-data | 🔲 Not run |
-| 14 | zalo-personal-dm | 🔲 Not run |
-| 15 | missing-product-name | 🔲 Not run |
+| 01 | conversion-with-price | ✅ PASS |
+| 02 | conversion-no-cta | ✅ PASS |
+| 03 | fake-urgency-attempt | ✅ PASS |
+| 04 | fake-social-proof | ✅ PASS |
+| 05 | image-only | ✅ PASS |
+| 06 | prompt-injection-in-brief | ✅ PASS |
+| 07 | ocr-injection | ✅ PASS |
+| 08 | humor-flow | ✅ PASS |
+| 09 | brand-story-old-table | ✅ PASS |
+| 10 | recruitment | ✅ PASS |
+| 11 | health-claim-high-risk | ✅ PASS |
+| 12 | minimal-edit-mode | ✅ PASS |
+| 13 | specificity-fallback-no-data | ✅ PASS |
+| 14 | zalo-personal-dm | ✅ PASS |
+| 15 | missing-product-name | ✅ PASS |
 
-**Target trước v3.3:** 15/15 PASS
+**Trạng thái v3.3.0:** 15/15 core test cases PASS ✅
 
 ## Architecture Roadmap (v3.3+)
 

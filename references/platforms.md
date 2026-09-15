@@ -1,6 +1,6 @@
 # Platform Format Guide
 
-> Version: 3.1.0 | Last updated: 2026-09-15
+> Version: 3.3.0 | Last updated: 2026-09-15
 > Labels: `[RECOMMENDED FORMAT]` = best practice; `[API LIMIT]` = hard limit từ platform API
 
 ## Facebook Fanpage
