@@ -1,6 +1,6 @@
 # Content Risk Gate
 
-> Load khi bắt đầu mọi task. Classify trước khi viết.
+> Load cùng brand context và security defense. Chạy sau khi trích xuất Fact Map (Bước 2 Fact Provenance) và trước khi Flow Routing / Viết bài.
 > Version: 3.3.0
 
 ## CLAIM CATEGORY MAP (Semantic — không phải keyword)

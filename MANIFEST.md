@@ -49,6 +49,7 @@ last_updated: 2026-09-15
 - ONE-QUESTION RULE: nhiều fields thiếu → gộp vào 1 message
 
 **P1 Improvements:**
+- Pipeline execution order: Security Sanitization → Fact Provenance (Dựng Fact Map) → Risk Gate → Flow Routing → Writing → Post-Write QA (giải quyết lỗi Risk Gate chạy trước khi có Fact Map)
 - IMAGE sub-types: IMAGE_VISUAL / IMAGE_TEXT / IMAGE_CLAIM với VERIFICATION riêng
 - Future Pacing: IMAGINED ≠ INFERRED ≠ FABRICATED, phải dùng ngôn ngữ giả định rõ
 - Ethics Gate v2: dark patterns bổ sung (fake consensus, covert command, false dilemma, embedded command)
