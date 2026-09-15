@@ -38,7 +38,7 @@ Tone giọng trong F&B không chỉ là thay đổi đại từ xưng hô, mà t
 
 ## Chi Tiết Từng Giọng Văn & Ví Dụ So Sánh
 
-*Cùng 1 đề bài: "Giới thiệu món Trà Ô Long Sữa Nướng 35k cho buổi chiều mát trời."*
+*Cùng 1 đề bài: "Giới thiệu món Trà Ô Long Sữa Nướng 35k cho buổi chiều mát trời." (Dữ kiện brief đã cung cấp: Trà ô long rang đậm, sữa béo dịu không ngọt gắt, giá 35k).*
 
 ### Tone 1: Gần gũi / Chủ quán (Default)
 - **Đặc trưng:** Coi khách như bạn bè ghé chơi nhà. Câu văn ngắn gọn, chân tình, không dùng từ ngữ quảng cáo đao to búa lớn.

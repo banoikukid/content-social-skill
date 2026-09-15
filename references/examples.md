@@ -9,6 +9,16 @@ Tài liệu cung cấp các bài viết mẫu chuẩn mực F&B, đạt 100% ti�
 
 ---
 
+## 🌟 Nguyên Tắc Thể Hiện Nguồn Dữ Kiện Trong Bài Mẫu (Source-Provenance Rule)
+
+Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn gốc của claim:
+- **Nếu chỉ có ảnh (Visual Only):** Chỉ tả thị giác nhìn thấy (*"Màu trà trong veo, miếng đào vàng nổi bật trên lớp sương đá li ti ngoài thành ly"*).
+- **Nếu user/menu cung cấp taste (Provided Facts):** Mới được tả vị (*"Trà thơm thanh, hậu ngọt dịu, không bị khé cổ"*).
+- **Nếu là sáng tạo cảm xúc (Creative Metaphor):** Chỉ khơi gợi mood nhẹ nhàng (*"Nhìn ly này thôi là thấy chiều nay nên chậm lại một chút"*).
+- **Nếu là giả định bối cảnh (Hypothetical Framing):** Phải dùng ngôn từ giả định (*"Nếu chiều nay bạn đang cần một góc ngồi yên..."*).
+
+---
+
 ## 1. 5 Mẫu Xử Lý Hình Ảnh → Bài Viết (Image → Caption)
 
 ### Mẫu 1: Ảnh ly cà phê muối buổi sáng (Góc: Relatable / Mood)

@@ -63,7 +63,7 @@ Dành cho các bài viết xây dựng thương hiệu, tâm sự quán xá, bà
 - **Moment (Khoảnh khắc):** Một quan sát nhỏ, cuộc trò chuyện ngắn với khách, hoặc tâm tư của người làm quán.
 - **Connection (Gắn kết):** Kết nối cảm xúc đó với một món nước hoặc lời mời ghé chơi.
 
-> **Ví dụ:**  
-> Sài Gòn chiều nay lại đổ mưa rào bất chợt. Khách ghé quán vội vàng gạt chân chống, áo mưa ướt sũng nhưng bước vào cửa là thở phào một hơi nhẹ nhõm.  
-> Tụi mình bật máy, pha nhanh một ly Cacao Nóng thơm nức mũi đưa cho bạn. Nhìn khói bốc lên nghi ngút, nghe tiếng nhạc jazz êm êm và tiếng mưa rơi rả rích ngoài hiên, thấy buổi chiều bỗng chốc bình yên đến lạ.  
-> Nếu bạn cũng đang kẹt lại giữa cơn mưa, ghé quán trú chân cùng tụi mình một lát nhé.
+> **Ví dụ (Áp dụng Hypothetical Framing hoặc khi có chia sẻ thật từ quán):**  
+> Những chiều mưa rào bất chợt, ghé vào một góc quán quen trú chân luôn có một cảm giác rất đỗi bình yên. *(Context - Giả định)*  
+> Tách Cacao Nóng bốc khói nhẹ trên bàn gỗ, bên ngoài là tiếng mưa rơi đều đều ngoài khung kính. *(Moment - Quan sát thị giác)*  
+> Nếu bạn cũng đang lỡ dở đường về vì cơn mưa, ghé quán ngồi trú chân cùng tụi mình một lát nhé. *(Connection - Gắn kết)*

@@ -15,20 +15,20 @@ Trên mạng xã hội, người xem chỉ mất **3 giây** để quyết đị
 ### 2. Tò mò & Đảo ngược định kiến (Curiosity Hook — Không bịa số liệu/cháy hàng)
 Nêu một chi tiết gợi mở, khiến người đọc muốn tìm hiểu thêm mà không tự bịa đặt giải thưởng hay kỷ lục bán hàng.
 - *"Nhìn đơn giản vậy thôi — bạn đoán điểm đặc biệt nằm ở đâu?"*
-- *"Nếu bạn thích vị trà đậm đà mà ngại ngọt gắt, thì đây có thể là một gợi ý hay."*
+- *"Nếu bạn thích vị trà đậm mà ngại ngọt gắt, thì đây có thể là một gợi ý hay [khi menu/brief xác nhận vị trà đậm]."*
 - *"Một món mộc mạc trên menu, nhưng có một chi tiết khá thú vị..."*
 
-### 3. Âm thanh & Giác quan trực tiếp (Sensory Hook)
-Mở đầu bằng âm thanh hoặc chi tiết thị giác cụ thể, đánh thức cảm giác thèm thưởng thức.
-- *"Tiếng đá lắc leng keng trong bình shaker báo hiệu một ngày hè rực nắng."*
-- *"Khói ấm bốc lên nhè nhẹ từ tách cà phê vừa mới pha xong."*
-- *"Lớp kem trắng phủ trên miệng ly, tương phản với nền trà màu hổ phách."*
+### 3. Âm thanh & Giác quan trực tiếp (Sensory Hook — Dựa trên quan sát thật)
+Mở đầu bằng chi tiết thị giác hoặc âm thanh quan sát được (chỉ dùng khi ảnh/video/bối cảnh cho phép):
+- *"Lớp kem trắng phủ trên miệng ly, tương phản với nền trà màu hổ phách [quan sát từ ảnh]."*
+- *"Khói ấm bốc lên từ tách cà phê nóng vừa pha xong [quan sát từ ảnh ly nóng]."*
+- *"Tiếng đá lắc leng keng trong bình shaker [dùng cho video hoặc bài viết quầy bar]."*
 
 ### 4. Tự trào & Hóm hỉnh (Relatable Humor Hook)
 Biến chuyện đời thường của khách thành tiếng cười đồng cảm.
 - *"Ví tiền bảo 'thôi', nhưng cái miệng lại bảo 'order một ly trà sữa đi'."*
 - *"Bảo giảm cân mà đồng nghiệp rủ làm ly trà sữa là tay bấm chọn món liền."*
-- *"Bữa nay trời đẹp quá, cớ gì lại ngồi uể oải một mình mà không nạp chút ngọt ngào?"*
+- *"Bảo giảm ngọt mà chiều nào mắt díp lại cũng muốn tìm một ly giải lao."*
 
 ### 5. Ưu đãi thẳng thắn (Direct Offer Hook)
 Nói thẳng quyền lợi khách hàng khi có chương trình thực tế từ quán.
@@ -50,7 +50,7 @@ Không chỉ cấm một vài từ đơn lẻ, hãy **chặn đứng 8 khuôn m�
 | **5. Triết lý / Lên lớp cuộc sống** *(Motivational Lecturing)* | "Hãy nhớ rằng cuộc đời như tách cà phê, đắng trước ngọt sau..." | Không rao giảng đạo lý. Để người đọc tự cảm nhận không gian quán |
 | **6. Spam câu hỏi tu từ** *(Rhetorical-Question Spam)* | "Bạn có mệt mỏi? Bạn có đang tìm kiếm chốn bình yên? Bạn có muốn...?" | Đặt 1 câu hỏi trúng đích hoặc đi thẳng vào chia sẻ |
 | **7. Đóng khung sáo rỗng** *(Cliche Action / Invitation)* | "Hãy cùng chúng tôi đắm chìm...", "Mang đến cho bạn một cảm giác..." | Lời mời đời thường: "Ghé tụi mình làm một ly nha", "Chiều nay ghé quán chơi nhé" |
-| **8. Văn phong quan liêu / PR** *(Over-polished Corporate)* | "Tự hào mang đến sản phẩm đồ uống hàng đầu..." | Giọng thủ thỉ của người làm nghề: "Mẻ trà này tụi mình pha vừa miệng lắm" |
+| **8. Văn phong quan liêu / PR** *(Over-polished Corporate)* | "Tự hào mang đến sản phẩm đồ uống hàng đầu..." | Lời mời mộc mạc: "Chiều nay tụi mình đã chuẩn bị sẵn bàn đón bạn ghé chơi" |
 
 ---
 
@@ -70,8 +70,10 @@ Văn bản do AI tạo ra thường có độ dài các câu đều đều nhau,
 
 ## 4. Ưu Tiên Chi Tiết Cụ Thể Hơn Tính Từ Chung Chung (Specificity > Adjective)
 
-- ❌ **Dùng tính từ mơ hồ:** *"Ly trà đào thơm ngon tuyệt vời, hấp dẫn vô cùng."*
-- ✅ **Dùng chi tiết cụ thể quan sát được:** *"Miếng đào vàng ươm giòn sần sật, bên dưới là lớp trà cam trong veo đọng những giọt nước li ti ngoài thành ly."*
+- ❌ **Dùng tính từ mơ hồ (AI-slop):** *"Ly trà đào thơm ngon tuyệt vời, hấp dẫn vô cùng."*
+- ⚠️ **Tự suy đoán vị giác/texture từ ảnh (Fact Trap):** *"Miếng đào giòn sần sật..."* *(Chỉ nhìn ảnh thì không thể biết độ giòn; không tự biến suy đoán thành sự thật).*
+- ✅ **Dùng chi tiết thị giác thật quan sát từ ảnh:** *"Miếng đào vàng nổi bật trên nền trà cam đọng sương đá li ti ngoài thành ly."*
+- ✅ **Dùng chi tiết hương vị/texture khi menu/brief đã cung cấp:** *"Miếng đào ngâm giòn ngọt trên nền trà lài thanh nhẹ."*
 
 ---
 
