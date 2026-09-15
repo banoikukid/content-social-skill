@@ -31,4 +31,4 @@
 ## 5. Zalo Personal (Nhắn tin 1-1 / DM)
 - **Đặc thù:** Tin nhắn cá nhân giữa người với người (chủ quán nhắn khách quen, bạn bè).
 - **Cấu trúc:** Siêu ngắn (2–3 câu), xưng hô thân mật (*"bạn ơi"*, *"chị Cherry ơi"*), tự nhiên như bạn bè nhắn nhau.
-- **CTA:** *"Muốn lấy thì nhắn mình nha."* hoặc *"Trưa nay mình ship qua cho nhen."*
+- **CTA:** *"Muốn lấy thì nhắn mình nha."* hoặc *"Ghé quán lấy nha."* (Chỉ nhắc ship/giao hàng khi brief hoặc menu thực sự xác nhận có dịch vụ delivery).
