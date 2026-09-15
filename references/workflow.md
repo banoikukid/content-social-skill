@@ -85,8 +85,9 @@ Trích xuất toàn bộ claims/details trong input đã làm sạch. Mọi clai
 | Giá, deal | `USER_CLAIM` hoặc `CATALOG` | `USER_ASSERTED` trở lên |
 | Achievement ("số 1", "giải thưởng") | `CATALOG` | `VERIFIED` — thiếu → HIGH risk |
 | Comparative ("ngon hơn", "organic", "không chất bảo quản") | `CATALOG` hoặc `USER_CLAIM` | `VERIFIED` → OK; `USER_ASSERTED` → MEDIUM |
-| Sensory sản phẩm cụ thể ("ly này có hậu ngọt") | `USER_CLAIM`, `IMAGE_OBSERVED` (visual), `CATALOG` | `USER_ASSERTED` trở lên |
-| Sensory chung ("ô long thường có vị trầm") | `DEFAULT` | N/A — gợi ý ngôn ngữ, không claim |
+| Sensory vị/mùi sản phẩm cụ thể ("vị đắng nhẹ", "thơm hoa nhài") | `USER_CLAIM` hoặc `CATALOG` | `USER_ASSERTED` trở lên (không lấy từ ảnh hay DEFAULT) |
+| Sensory thị giác sản phẩm cụ thể ("màu hổ phách", "lớp bọt dày") | `IMAGE_VISUAL` | `VERIFIED` (chỉ những gì nhìn thấy được) |
+| Miêu tả category chung ("ô long thường có vị trầm") | `DEFAULT` | N/A — chỉ gợi ý ngôn ngữ, **không phải evidence**, không claim |
 
 ### [IMAGE] — Sub-types và Visual-Only Boundary
 
@@ -462,12 +463,14 @@ Nếu fail → tự sửa trước khi gửi.
 - **Quy tắc thay thế khi thiếu số liệu thật (Specificity Fallback):**
   Khi không có số liệu thực tế để tạo sự cụ thể, cấm tự bịa số tròn (như 500 khách, 10 năm kinh nghiệm...).
   **KHÔNG** được thay bằng hành vi khách nếu chưa có evidence từ brief.
-  Được phép thay bằng:
-  - Quan sát từ ảnh `[IMAGE_VISUAL]`: *"ảnh chụp góc quầy, ly đặt bên phải"*
-  - Đặc điểm sản phẩm đã xác nhận `[USER_CLAIM]`: *"pha từng ly theo order"*, *"nấu chậm 3 tiếng"*
-  - Sensory detail đã xác nhận `[USER_CLAIM / IMAGE_VISUAL / CATALOG]`
+  **DEFAULT tuyệt đối KHÔNG nằm trong evidence set** (`DEFAULT` chỉ là gợi ý từ ngữ thể loại chung, không phải evidence hay factual source của sản phẩm).
+  Được phép thay thế bằng:
+  - Quan sát thị giác từ ảnh `[IMAGE_VISUAL]`: *"ảnh chụp góc quầy, ly đặt bên phải"*, *"lớp kem trắng nổi bên trên"* (chỉ quan sát những gì nhìn thấy được — tuyệt đối không suy đoán vị/mùi từ ảnh).
+  - Đặc điểm sản phẩm / quy trình đã xác nhận `[USER_CLAIM]` hoặc `[CATALOG]`: *"pha từng ly theo order"*, *"nấu chậm 3 tiếng"*.
+  - Sensory detail (vị giác, khứu giác) đã xác nhận: **CHỈ từ `[USER_CLAIM]` hoặc `[CATALOG]`**. Nếu brief/catalog không có mô tả vị/mùi → **BỎ sensory claim**, không tự ý điền `DEFAULT` để thay thế.
   ❌ SAI: *"khách order lại tuần sau"* — hành vi khách chưa có evidence
   ❌ SAI: *"góc này hay hết chỗ cuối tuần"* — quan sát chưa được xác nhận
+  ❌ SAI: Tự ý dùng `DEFAULT` làm sensory evidence cho ly nước cụ thể trong bài
 - Không ALL CAPS trừ khi là phong cách gốc của brief
 - **Góc nhìn và Đại từ nhân xưng thương hiệu (Brand Perspective):**
   - Người viết luôn đứng ở vị thế **Chủ quán / Nhân viên tiệm (Người tiếp đón)**, tuyệt đối không đóng vai hay nói hộ suy nghĩ/hành động của khách hàng.
