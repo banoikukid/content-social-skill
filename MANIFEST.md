@@ -5,7 +5,7 @@
 ## Version
 
 ```
-skill:        3.2.0
+skill:        3.3.0
 last_updated: 2026-09-15
 ```
 
@@ -23,23 +23,37 @@ last_updated: 2026-09-15
 
 | File | Mô tả | Version | Status |
 |------|-------|---------|--------|
-| `SKILL.md` | Entry point, luồng bắt buộc, guardrails | 3.2.0 | ✅ Active |
-| `references/workflow.md` | Intent detection, flows A–G, inline rules | 3.2.0 | ✅ Active |
+| `SKILL.md` | Entry point, luồng bắt buộc, guardrails | 3.3.0 | ✅ Active |
+| `references/workflow.md` | Intent detection, flows A–G, inline rules | 3.3.0 | ✅ Active |
 | `references/voice.md` | 7 tone giọng văn | 3.1.0 | ✅ Active |
-| `references/checks.md` | Post-write checklist | 3.2.0 | ✅ Active |
-| `references/platforms.md` | Facebook, TikTok, Zalo OA, Zalo Personal, Instagram | 3.1.0 | ✅ Active |
+| `references/checks.md` | Post-write checklist | 3.3.0 | ✅ Active |
+| `references/platforms.md` | Facebook, TikTok, Zalo OA, Zalo Personal, Instagram | 3.3.0 | ✅ Active |
 | `references/formulas.md` | Copywriting formulas (AIDA, PAS, FAB...) | 3.0.0 | ✅ Active |
-| `references/psychology.md` | 18 hiệu ứng tâm lý + NLP + Ethics Gate | 3.1.0 | ✅ Active |
+| `references/psychology.md` | 18 hiệu ứng tâm lý + NLP + Ethics Gate | 3.3.0 | ✅ Active |
 | `references/pricing.md` | Quy tắc viết bài có giá | 3.0.0 | ✅ Active |
 | `references/hooks-conclusions.md` | Mở bài và kết bài | 3.0.0 | ✅ Active |
 | `references/colloquial-voice.md` | Văn nói tự nhiên | 3.0.0 | ✅ Active |
 | `references/conflict-storytelling.md` | Kỹ thuật xung đột cho Brand/Story | 3.0.0 | ✅ Active |
 | `references/feedback-storytelling.md` | Feedback/review storytelling (Flow B/D) | 3.0.0 | ✅ Active |
 | `references/security.md` | Prompt injection defense | 3.1.0 | ✅ Always load |
-| `references/risk-gate.md` | Content risk classification LOW/MEDIUM/HIGH | 3.1.0 | ✅ Always load |
+| `references/risk-gate.md` | Content risk classification LOW/MEDIUM/HIGH | 3.3.0 | ✅ Always load |
 | `references/brand-profile.md` | Brand profile template (TeaRus + multi-brand) | 3.1.0 | ✅ Always load |
 
 ## Changelog
+
+### v3.3.0 (2026-09-15)
+**P0 Fixes:**
+- Version sync: workflow.md v3.1.0→v3.3.0, tests/README.md v3.1.0→v3.3.0
+- Fix DEFAULT contradiction: ví dụ "Ly trà ô long mát lạnh..." bị xóa (product claim, không phải category-level)
+- CTA Platform Schema: exactly-one-action per platform, bỏ "Ghé hoặc nhắn tin" (2 actions)
+- ONE-QUESTION RULE: nhiều fields thiếu → gộp vào 1 message
+
+**P1 Improvements:**
+- IMAGE sub-types: IMAGE_VISUAL / IMAGE_TEXT / IMAGE_CLAIM với VERIFICATION riêng
+- Future Pacing: IMAGINED ≠ INFERRED ≠ FABRICATED, phải dùng ngôn ngữ giả định rõ
+- Ethics Gate v2: dark patterns bổ sung (fake consensus, covert command, false dilemma, embedded command)
+- Risk Gate: semantic concept-based classifier (PHYSIOLOGICAL_EFFECT, HEALTH_BENEFIT, ACHIEVEMENT_CLAIM...) + bypass detection
+- 30 adversarial test cases (a01–a30)
 
 ### v3.2.0 (2026-09-15)
 **P0 Fixes:**

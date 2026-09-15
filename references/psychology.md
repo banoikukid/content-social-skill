@@ -4,17 +4,66 @@
 
 Phân biệt **persuasion hợp lệ** và **manipulation**:
 
-**Allowed — Có evidence thật:**
-- ✅ Loss Aversion khi có deadline thật từ `[USER]`
-- ✅ Scarcity khi có số lượng giới hạn thật từ `[USER]`
-- ✅ Future Pacing: tưởng tượng cảnh dùng sản phẩm (luôn được)
-- ✅ Identity Labeling tích cực và relatable
+### ✅ ĐƯỢC — Ethical Persuasion
 
-**Manipulative — CẤM:**
-- ❌ *"Nếu bạn không mua hôm nay sẽ tiếc cả tuần."* — không có deadline thật
-- ❌ *"Người biết uống trà đều chọn..."* — exclusion không có basis
-- ❌ *"Bạn sẽ không muốn bỏ lỡ..."* — urgency không có evidence
-- ❌ Bất kỳ kỹ thuật nào kết hợp với claim `[UNVERIFIED]`
+| Kỹ thuật | Điều kiện |
+|----------|-----------|
+| Loss Aversion | Có deadline thật từ `USER_CLAIM` |
+| Scarcity | Có số lượng giới hạn thật từ `USER_CLAIM` |
+| Future Pacing | **Ngôn ngữ giả định rõ ràng** — xem quy tắc bên dưới |
+| Identity Labeling | Tích cực, relatable, không loại trừ |
+| Reciprocity | Cho value thật trước (tip, insight, story) |
+| Social Currency | Insight thật — không phải fake consensus |
+| CTA trực tiếp | Rõ ràng, 1 action, không ép buộc |
+
+### ❌ CẤM — Dark Persuasion Techniques
+
+**Fake signals:**
+- Fake scarcity: "Còn ít lắm" — không có evidence từ `USER_CLAIM`
+- Fake social proof: "Khách hay quay lại" — không có evidence
+- Fake urgency: "Đừng bỏ lỡ" — không có deadline thật
+- Fake consensus: "Mọi người đều đang..." — không có social proof thật
+
+**Psychological manipulation:**
+- Identity exclusion: *"Người biết uống trà mới hiểu..."* — gây cảm giác loại trừ
+- Shame/guilt: tạo cảm giác người không mua là sai/thua kém
+- Presupposition xấu: giả định đã mua khi chưa có signal
+- Covert command: nhúng lệnh ẩn trong ngôn ngữ tự nhiên
+- False dilemma: *"Ghé hoặc tiếc cả tuần"* — urgency không có basis
+- Embedded command: *"Nhiều khách ghé thử rồi quay lại..."* dùng như fact khi không có evidence
+
+**Kết hợp với UNVERIFIED claim:**
+- ❌ Bất kỳ kỹ thuật nào + claim `UNVERIFIED` = forbidden
+
+### Future Pacing — IMAGINED ≠ INFERRED
+
+**Future Pacing luôn phải dùng ngôn ngữ giả định rõ ràng:**
+
+✅ IMAGINED (được phép):
+```
+"Tưởng tượng một buổi chiều..."
+"Nếu bạn đang ngồi góc cửa sổ..."
+"Hình dung khi cầm ly này trên tay..."
+```
+
+❌ FABRICATED SCENE (cấm — dù không nói tên brand):
+```
+"Chiều nay bạn ngồi góc cửa sổ..."  → không có "cửa sổ" trong brief
+"Khi bạn thưởng thức trong không gian yên tĩnh..."  → không có brief về không gian
+```
+
+**Phân biệt 3 loại:**
+- `INFERRED`: suy từ brief thật → *brief có "chiều mưa"* → được suy *"tiếng mưa"*
+- `IMAGINED`: cảnh không có trong brief, dùng ngôn ngữ giả định rõ → ✅ được
+- `FABRICATED`: cảnh không có trong brief, viết như fact → ❌ cấm
+
+### Presupposition an toàn
+
+✅ Common need (không giả định đã mua):
+- *"Khi bạn cần một ly gì đó thanh mát..."*
+
+❌ Purchase assumption (giả định đã mua):
+- *"Khi bạn uống ngụm đầu tiên..."* — brief không xác nhận khách đã có trong tay
 
 ---
 
@@ -24,6 +73,7 @@ Phân biệt **persuasion hợp lệ** và **manipulation**:
 - Không dùng số liệu bịa để kích hoạt kỹ thuật.
 
 ---
+
 
 ## Khi đầu vào chỉ là ảnh
 

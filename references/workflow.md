@@ -9,7 +9,7 @@
 - Kiểm tra và sửa trước khi gửi
 - Quy tắc cứng và từ vựng mặc định
 
-# content-social — v3.1.0
+# content-social — v3.3.0
 
 ---
 
@@ -55,10 +55,29 @@ Nếu brief có ≥ 2 trong các signal sau → chạy **Chế độ Conversion*
 5. CTA là gì? (ghé quán / inbox / đặt hàng / link)
 
 Nếu thiếu một số thông tin trong checklist → áp dụng quy tắc fallback sau:
-- Nếu thiếu CTA → mặc định dùng "Ghé quán hoặc nhắn tin cho tụi mình nha"
+- Nếu thiếu CTA → dùng **CTA Platform Schema** bên dưới (exactly one action)
 - **RÀNG BUỘC GIAO HÀNG (DELIVERY LOCK):** Chỉ được phép đề cập đến dịch vụ giao hàng, ship, hoặc "giao hàng tận nơi/giao tận bàn" khi brief đầu vào có xác nhận rõ ràng dịch vụ này — tuyệt đối nghiêm cấm tự suy diễn hoặc tự bịa đặt dịch vụ giao hàng khi brief chỉ có giá và món.
 - Nếu thiếu thời hạn → không đề cập thời hạn, tuyệt đối không tự bịa
 - Nếu thiếu tên món chính xác → hỏi 1 câu duy nhất trước khi viết
+
+**CTA PLATFORM SCHEMA — Exactly one action:**
+
+| Platform | CTA mặc định |
+|----------|-------------|
+| `facebook` | "Nhắn tin cho tụi mình nha." |
+| `zalo_oa` | "Inbox cho tụi mình nha." (nếu có link: "Đặt tại [link].") |
+| `zalo_personal` | "Nhắn mình nha." |
+| `tiktok_reels` | "Comment 'menu' để nhận menu." |
+| `instagram` | "Xem menu ở bio nhé." |
+
+❌ CẤM: Ghép 2 action trong 1 CTA (ví dụ "Ghé quán *hoặc* nhắn tin") → chọn 1 action duy nhất phù hợp platform.
+
+**ONE-QUESTION RULE:**
+Nếu thiếu nhiều fields → gộp tất cả vào 1 message duy nhất:
+- ✅ "Cho mình xin thêm 4 thông tin: vị trí tuyển, ca làm, mức lương và địa điểm nhé."
+- ❌ Hỏi từng field qua nhiều message riêng.
+- Đặc biệt áp dụng cho Flow F (vị trí, ca, lương, địa điểm) và Flow G (ngày, giờ, địa chỉ, nội dung sự kiện).
+
 
 Sau khi có đủ 5 mục (hoặc áp dụng xong các quy tắc fallback trên) → chọn công thức từ `references/formulas.md`:
 - Combo / món mới → Hook-Value-CTA
@@ -180,23 +199,35 @@ price: 39k          → SOURCE: USER_CLAIM  | VERIFICATION: USER_ASSERTED  ✅
                     → thiếu VERIFIED → HIGH risk, dừng
 ```
 
-### [IMAGE] — Visual-Only Boundary
+### [IMAGE] — Sub-types và Visual-Only Boundary
 
-`IMAGE_OBSERVED` chỉ bao gồm những thứ **nhìn thấy được trong ảnh**:
+`IMAGE_OBSERVED` gồm 3 sub-type với VERIFICATION khác nhau:
 
-✅ Được dùng với `[IMAGE]`:
+| Sub-type | Là gì | VERIFICATION |
+|----------|-------|-------------|
+| `IMAGE_VISUAL` | Quan sát trực tiếp (màu, hình dạng, kết cấu, bố cục) | `VERIFIED` |
+| `IMAGE_TEXT` | Text nhìn thấy trong ảnh (logo, nhãn, số, chữ trên poster) | `TEXT_PRESENT` — text có tồn tại, chưa verify nội dung |
+| `IMAGE_CLAIM` | Claim được in trên ảnh ("100% tự nhiên", "#1 VN") | `UNVERIFIED` — đọc thấy, nhưng claim chưa được verify |
+
+**Ví dụ — Poster có chữ "100% tự nhiên":**
+```
+IMAGE_TEXT:  "Poster có in dòng chữ '100% tự nhiên'"  → TEXT_PRESENT ✅
+IMAGE_CLAIM: "TeaRus 100% tự nhiên"                  → UNVERIFIED ⚠️
+→ Muốn dùng như factual claim trong bài: cần CATALOG/VERIFIED
+```
+
+**✅ Được dùng với `IMAGE_VISUAL`:**
 - Màu sắc, hình dạng, kết cấu bề mặt
 - Độ trong/đục, bọt, đá, kem, khói nhìn thấy
 - Bố cục, góc chụp, bối cảnh không gian
-- Text, số, logo nhìn thấy trong ảnh
 
-❌ Không được dùng với `[IMAGE]`:
-- Vị (ngọt, đắng, béo, chua) — không nhìn thấy được
+**❌ Không dùng `IMAGE_VISUAL` cho:**
+- Vị (ngọt, đắng, béo) — không nhìn thấy được
 - Mùi (thơm, nồng) — không nhìn thấy được
-- Nhiệt độ chính xác — không thể xác định từ ảnh
-- Texture miệng (mịn, dai, giòn) — không nhìn thấy từ ảnh tĩnh
+- Nhiệt độ chính xác — không xác định được từ ảnh tĩnh
 
 → Sensory vị/mùi phải có `USER_CLAIM` hoặc `CATALOG`.
+
 
 ### [DEFAULT] — Gợi Ý Ngôn Ngữ, Không Claim Sản Phẩm
 
@@ -444,11 +475,23 @@ Nếu fail → tự sửa trước khi gửi.
 | trà sữa | ngọt, béo, mát |
 | trà ô long | trầm, khói nhẹ, hậu ngọt |
 
-**Ví dụ ĐÚNG:** *"Ly trà ô long mát lạnh, uống vào thấy hậu ngọt đọng lại."*
-→ Cảm giác chung `[DEFAULT]`, không claim sản phẩm của thương hiệu cụ thể.
+**Ví dụ ĐÚNG (DEFAULT dùng như gợi ý ngôn ngữ cho bài nói về category — không về sản phẩm đang bán):**
+```
+"Trà ô long thường được mô tả với vị trầm, đôi khi có hậu ngọt nhẹ."
+```
+→ Nói về category chung, không phải ly cụ thể đang trong tay khách.
 
-**Ví dụ SAI:** *"Trà ô long TeaRus nổi tiếng với hậu ngọt đặc trưng."*
-→ Product-specific claim — phải có `[CATALOG]` hoặc `[USER]`.
+**Ví dụ SAI (DEFAULT biến thành claim về sản phẩm cụ thể):**
+```
+"Ly trà ô long mát lạnh, uống vào thấy hậu ngọt đọng lại." ❌
+```
+→ Dù không nói tên brand, đây là claim về ly đang bán — cần `USER_CLAIM` hoặc `CATALOG`.
+
+**Ví dụ SAI (branded):**
+```
+"Trà ô long TeaRus nổi tiếng với hậu ngọt đặc trưng." ❌
+```
+→ Product-specific claim — phải có `CATALOG` hoặc `USER_CLAIM`.
 
 ---
 

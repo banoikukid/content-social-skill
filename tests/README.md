@@ -1,4 +1,4 @@
-# Evaluation Suite — content-social v3.1.0
+# Evaluation Suite — content-social v3.3.0
 
 > Regression test cho mỗi lần cập nhật skill.
 > Target: chạy thủ công qua agent trước khi push version mới.
