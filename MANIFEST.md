@@ -7,8 +7,8 @@
 ## Version
 
 ```yaml
-skill: 4.2.0
-release_type: creative_copywriter_engine
+skill: 4.3.0
+release_type: insight_engine_and_clean_examples
 last_updated: 2026-09-16
 purpose: "Lean, practical Vietnamese F&B social copywriter for chatbots (Hermes)"
 ```

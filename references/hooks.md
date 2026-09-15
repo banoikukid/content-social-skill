@@ -14,15 +14,15 @@ Trên mạng xã hội, người xem chỉ mất **3 giây** để quyết đị
 
 ### 2. Tò mò & Đảo ngược định kiến (Curiosity Hook — Không bịa số liệu/cháy hàng)
 Nêu một chi tiết gợi mở, khiến người đọc muốn tìm hiểu thêm mà không tự bịa đặt giải thưởng hay kỷ lục bán hàng.
-- *"Nhìn đơn giản vậy thôi, nhưng đây là món tụi mình tốn nhiều thời gian chuẩn bị nhất mỗi sáng."*
-- *"Uống trà sữa mà sợ ngấy thì chắc chắn bạn chưa thử phiên bản trà mộc này."*
-- *"Tại sao tụi mình nhất quyết ủ lạnh lá trà suốt 12 tiếng thay vì nấu sôi nhanh?"*
+- *"Nhìn đơn giản vậy thôi, nhưng để pha được một ly vừa vị thế này tụi mình phải thử đi thử lại nhiều lần."*
+- *"Nếu bạn thích vị trà đậm đà mà ngại ngọt gắt, thì đây có thể là một gợi ý hay."*
+- *"Có những món nhìn rất bình thường trên menu, nhưng lại là món người ta ghé quán gọi đi gọi lại nhiều nhất."*
 
 ### 3. Âm thanh & Giác quan trực tiếp (Sensory Hook)
-Mở đầu bằng âm thanh hoặc hình ảnh cụ thể, đánh thức cảm giác thèm thưởng thức.
+Mở đầu bằng âm thanh hoặc chi tiết thị giác cụ thể, đánh thức cảm giác thèm thưởng thức.
 - *"Tiếng đá lắc leng keng trong bình shaker báo hiệu một ngày hè rực nắng."*
-- *"Mùi trà rang thơm nức mũi vừa ra lò, đứng từ đầu ngõ đã nghe thấy."*
-- *"Lớp kem tuyết sánh mịn đổ tràn trên mặt ly trà mát lạnh..."*
+- *"Khói ấm bốc lên nhè nhẹ từ tách cà phê vừa mới pha xong."*
+- *"Lớp kem tuyết sánh mịn đổ tràn trên miệng ly mát rượi..."*
 
 ### 4. Tự trào & Hóm hỉnh (Relatable Humor Hook)
 Biến chuyện đời thường của khách thành tiếng cười đồng cảm.

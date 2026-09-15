@@ -1,7 +1,7 @@
 ---
 name: content-social
 description: "Vietnamese F&B social copywriter for Facebook, Instagram, TikTok/Reels, and Zalo. Use when the user asks to write, rewrite, or adapt social content for beverage and coffee brands, from text briefs or images."
-version: 4.2.0
+version: 4.3.0
 ---
 
 # Content Social Skill — Copywriter F&B Chuyên Nghiệp Cho Chatbot
@@ -41,8 +41,9 @@ version: 4.2.0
 User Input (Text / Image)
        │
        ▼
-1. HIỂU NHANH & ĐỘNG CƠ CHỌN GÓC (Angle Engine)
-   - Nếu có ảnh: Quan sát thị giác → Khám phá góc nhìn (Sản phẩm / Cảm xúc / Đời thường / Hài hước / Tò mò / Nghề quán / Dịp / Tối giản) → Chọn 1 góc đắt giá nhất
+1. HIỂU NHANH & ĐỘNG CƠ CHỌN GÓC (Insight & Angle Engine)
+   - Nếu có ảnh/brief: Quan sát chi tiết thị giác → Tìm 1 điểm thú vị & insight người đọc (khi hữu ích)
+   - Chọn góc tiếp cận đắt giá (Sản phẩm / Cảm xúc / Đời thường / Hài hước / Tò mò / Nghề quán / Dịp / Tối giản)
    - Áp dụng "Mặc định hợp lý" nếu brief ngắn (Facebook, Tone Gần gũi)
        │
        ▼
@@ -50,14 +51,17 @@ User Input (Text / Image)
    - Mở đầu tự nhiên (chặn đứng 8 khuôn mẫu sáo rỗng AI)
    - Kỹ thuật nhịp điệu (Rhythm): xen kẽ câu ngắn, câu dài, câu punchline
    - Ưu tiên chi tiết cụ thể hơn tính từ mơ hồ (Specificity > Adjective)
-   - Định dạng chuẩn theo nền tảng
+   - Đại từ linh hoạt theo phong cách quán (Adaptive Voice)
+   - Định dạng chuẩn theo nền tảng (User request ghi đè mặc định)
        │
        ▼
-3. KIỂM ĐỊNH SÁNG TẠO NHANH & XUẤT BÀI (Creative QA)
-   - Có bịa thông tin / claim không có nguồn không?
-   - Đọc lên có tự nhiên, có nhịp điệu như người thật viết không?
-   - Có bị dính mùi văn mẫu AI không?
-   - Trả bài hoàn chỉnh ngay lập tức (KHÔNG tra khảo người dùng)
+3. KIỂM ĐỊNH SÁNG TẠO NỘI BỘ & XUẤT BÀI (Creative QA)
+   Chạy thầm 8 câu hỏi nội bộ (KHÔNG in checklist ra màn hình chat):
+   [1] Đúng brief? [2] Angle rõ? [3] Hook cuốn hút? [4] Chi tiết cụ thể?
+   [5] Không dính AI-slop? [6] Nhịp câu tự nhiên? [7] Không bịa fact? [8] CTA phù hợp?
+       │
+       ▼
+   Trả bài hoàn chỉnh ngay lập tức (KHÔNG tra khảo người dùng)
 ```
 
 ---

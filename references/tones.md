@@ -16,6 +16,20 @@ Tài liệu hướng dẫn chọn và áp dụng 5 giọng văn phổ biến nh�
 
 ---
 
+## Ma Trận Thông Số Giọng Văn (Tone Parameters Matrix)
+
+Tone giọng trong F&B không chỉ là thay đổi đại từ xưng hô, mà thực sự điều khiển toàn bộ cấu trúc bài viết:
+
+| Thông số | Tone 1 (Gần gũi) | Tone 2 (Hài hước) | Tone 3 (Trẻ trung) | Tone 4 (Cảm xúc) | Tone 5 (Tinh tế) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Độ dài câu & Nhịp điệu** | Ngắn, vừa phải, êm | Câu gãy, ngắt punchline | Nhanh, sôi nổi, dồn dập | Chậm, xen kẽ câu dài lắng đọng | Cân đối, chỉn chu, gãy gọn |
+| **Mức độ trực diện** | Cao (trò chuyện thẳng) | Rất cao (bắt chuyện ngay) | Cao (rủ rê liền) | Thấp (gợi mở cảm xúc) | Vừa phải (trang trọng) |
+| **Mật độ tự trào / hài** | Không / Rất nhẹ | Rất cao (chủ đạo) | Vừa phải (bắt trend) | Tuyệt đối không | Không |
+| **Mật độ Emoji** | 2–3 icon nhẹ nhàng | 3–4 icon biểu cảm vui | 3–5 icon sôi động | 1–2 icon tĩnh lặng (🍃, ☕) | 0–1 icon hoặc không dùng |
+| **Phong cách CTA** | Thân tình ("ghé nha") | Vui nhộn ("nhắn tui nè") | Rủ rê ("tag liền đứa bạn") | Mềm mại / Để mở | Lịch sự ("kính mời bạn") |
+
+---
+
 ## Chi Tiết Từng Giọng Văn & Ví Dụ So Sánh
 
 *Cùng 1 đề bài: "Giới thiệu món Trà Ô Long Sữa Nướng 35k cho buổi chiều mát trời."*
@@ -30,11 +44,11 @@ Tài liệu hướng dẫn chọn và áp dụng 5 giọng văn phổ biến nh�
 ---
 
 ### Tone 2: Hài hước / Dí dỏm
-- **Đặc trưng:** Biết "tự trào", biến vấn đề thường ngày (deadline, uể oải, thèm ngọt) thành tiếng cười duyên dáng. Tránh đùa cợt thô lỗ.
+- **Đặc trưng:** Biết "tự trào", biến vấn đề thường ngày (deadline, uể oải, thèm ngọt) thành tiếng cười duyên dáng. Tránh đùa cợt thô lỗ, không đùa về chi phí y tế/khám bệnh.
 - **Ví dụ:**
   > Nghe nói chiều nay có người đang thở dài vì deadline dí?  
-  > Thôi buông chuột 5 phút, nạp miếng đường từ Ô Long Sữa Nướng đi rồi tính tiếp. Trà đậm thơm nức mũi kết hợp lớp sữa béo ngậy, uống vô một ngụm là tỉnh cả người.  
-  > 35 cành một ly, rẻ hơn tiền khám stress nhiều. Nhắn tui liền để tui chuẩn bị sẵn một ly cho nha!
+  > Thôi buông chuột 5 phút, nạp chút ngọt ngào từ Ô Long Sữa Nướng đi rồi tính tiếp. Trà rang đậm vị quyện lớp sữa béo dịu, nhâm nhi một chút cho đầu óc thảnh thơi.  
+  > 35 cành một ly, vừa vặn cho một buổi chiều lấy lại tinh thần. Nhắn tui liền để tui chuẩn bị sẵn cho nha!
 
 ---
 
@@ -42,7 +56,7 @@ Tài liệu hướng dẫn chọn và áp dụng 5 giọng văn phổ biến nh�
 - **Đặc trưng:** Nhịp điệu sôi nổi, thôi thúc hành động rủ bạn bè, hội nhóm tụ tập. Dùng từ ngữ đời thường của giới trẻ một cách tự nhiên.
 - **Ví dụ:**
   > Kèo chiều nay chốt đơn Ô Long Sữa Nướng chưa mấy bồ ơi?  
-  > Trà đậm hậu thơm lừng quyện sữa béo bùi, thêm chút đá lạnh là bao phê luôn. Tan làm rủ liền đứa bạn thân ghé quán làm một ly tám chuyện rôm rả đi nào!  
+  > Trà đậm hậu thơm quyện sữa béo bùi, thêm chút đá mát rượi giải nhiệt cực đã. Tan làm rủ liền đứa bạn thân ghé quán làm một ly tám chuyện rôm rả đi nào!  
   > Tag nhẹ đồng đội vô đây để set kèo liền tay nha!
 
 ---

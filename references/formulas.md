@@ -16,8 +16,8 @@ Công thức trực diện nhất cho các bài đăng sản phẩm, khuyến m�
 
 > **Ví dụ:**  
 > Đang uể oải giữa buổi chiều mà có ly Trà Trái Cây Nhiệt Đới thì còn gì bằng!  
-> Trà lài ủ lạnh thơm thanh, kết hợp cùng cam vàng tươi, chanh leo chua nhẹ và thạch giòn sần sật. Uống một ngụm là bừng tỉnh cả người.  
-> 🏷️ Giá chỉ 32k. Nhắn tin tụi mình ship tận bàn làm việc nha!
+> Trà lài ủ lạnh thơm thanh, kết hợp cùng cam vàng tươi, chanh leo chua ngọt nhẹ và thạch giòn sần sật. Thức uống mát rượi giúp bạn nạp lại năng lượng cho buổi chiều.  
+> 🏷️ Giá chỉ 32k. Nhắn tin để tụi mình chuẩn bị sẵn ly nước mát lạnh cho nha!
 
 ---
 
@@ -32,7 +32,7 @@ Hiệu quả cao khi đánh vào nhu cầu thời tiết (nắng gắt, mưa gi�
 > **Ví dụ:**  
 > Buổi chiều 2 giờ mắt cứ díp lại mà deadline trước mặt vẫn chưa chạy xong? *(Problem)*  
 > Càng cố tập trung thì đầu càng trống rỗng, chỉ thèm một thứ gì đó thật đậm vị và mát lạnh để sốc lại tinh thần. *(Agitation)*  
-> Ghé quán nạp liền một ly Cà Phê Muối béo đậm nha. Cà phê pha phin truyền thống hòa quyện cùng lớp kem muối mặn mặn béo ngậy, đảm bảo tỉnh táo chạy việc tới chiều muộn! *(Solution)*  
+> Ghé quán làm liền một ly Cà Phê Muối nha bạn ơi. Vị cà phê đậm đà hòa quyện cùng lớp kem muối béo ngậy mằn mặn, nhâm nhi từng ngụm mát lạnh thấy sảng khoái hẳn ra! *(Solution)*  
 > 📍 Đang mở cửa tại 123 Đường Số 1, ghé tụi mình liền nha!
 
 ---

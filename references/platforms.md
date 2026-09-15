@@ -1,5 +1,7 @@
 # Hướng Dẫn Định Dạng Theo Platform
 
+> **LƯU Ý:** Các quy định nền tảng dưới đây là **xu hướng mặc định gợi ý (Soft Guidance)**. Bất kỳ yêu cầu định dạng rõ ràng nào từ người dùng (ví dụ: *"viết thật ngắn, không hashtag, không emoji"*) luôn **ghi đè các mặc định này**.
+
 ## 1. Facebook Fanpage (Mặc định)
 - **Đặc thù:** Người dùng đọc lướt trên điện thoại. Chữ bị ẩn sau 3 dòng đầu (nút "Xem thêm").
 - **Cấu trúc:**
