@@ -355,7 +355,7 @@ Nếu muốn chỉnh → chỉnh đúng phần được yêu cầu, giữ nguyê
 ❌ Hook bắt đầu bằng tên thương hiệu → viết lại
 ❌ Có "ngon", "tuyệt vời", "chất lượng", "hoàn hảo" → thay bằng chi tiết cụ thể
 ❌ Có từ khoa học hoặc giả khoa học thuộc danh sách đen tại Brief Sanitization → sửa lại bằng từ cảm quan tương ứng
-❌ Đối với Flow A (Bán hàng): Có sử dụng từ ngữ hoa mỹ, văn thơ, ẩn dụ triết lý → sửa lại bằng từ mô tả cảm quan vật lý trực diện. Ngược lại, nếu bài viết quá khô khan, thiếu từ ngữ miêu tả cảm quan sinh động (vị giác, xúc giác, thị giác...) → buộc phải bổ sung từ tả thực để tạo sự thèm thuồng (Appetite Appeal) nhưng phải tuân thủ điều kiện: Chỉ bổ sung từ cảm quan nếu có trong brief hoặc DEFAULT VOCABULARY — không tự sáng tạo chi tiết mới.
+❌ Đối với Flow A (Bán hàng): Có sử dụng từ ngữ hoa mỹ, văn thơ, ẩn dụ triết lý → sửa lại bằng từ mô tả cảm quan vật lý trực diện. Ngược lại, nếu bài viết quá khô khan, thiếu từ ngữ miêu tả cảm quan sinh động (vị giác, xúc giác, thị giác...) → buộc phải bổ sung từ tả thực để tạo sự thèm thuồng (Appetite Appeal) nhưng phải tuân thủ điều kiện: Chỉ bổ sung từ cảm quan nếu có trong brief [USER_CLAIM] hoặc ảnh [IMAGE_VISUAL] — tuyệt đối không dùng DEFAULT VOCABULARY để gán thuộc tính cho sản phẩm cụ thể.
 ❌ Đối với Flow B (Brand) & Flow D (Storytelling): Bài viết nghe quá cứng nhắc, 100% văn viết học thuật → Sửa lại bằng cách đưa 1 câu đối thoại trực tiếp hoặc 1 từ khẩu ngữ tự nhiên từ references/colloquial-voice.md vào để làm mềm
 ❌ **Pattern Leakage (Rò rỉ ví dụ mẫu):** Có sử dụng các chi tiết hoặc từ vựng đặc trưng xuất hiện trong ví dụ của các tài liệu references (như: *phin nhôm móp, phin cafe cũ, góc bàn gỗ cũ, quầy gỗ, quầy pha chế, chiếc bụng biểu tình, nhạc không lời, khói trà bay lên, lớp kem bơ sánh mịn loang dần, vụng như mi, chiều thả diều không mày,...*) mà brief/ảnh đầu vào không hề đề cập → Bắt buộc **XÓA** và thay bằng các quan sát thực tế từ brief.
 ❌ **Brand Safety:** Chi tiết gợi hình ảnh kém chất lượng, cũ kỹ, thiếu vệ sinh — dù có trong brief → xóa, thay bằng từ định danh trung tính (phin nhôm móp → "phin cafe" / ly nhựa cũ → "ly nước")
@@ -371,7 +371,7 @@ Nếu fail → tự sửa trước khi gửi.
 
 ### Conversion (Flow A):
 - Hook = 1 câu tình huống relatable hoặc benefit trực tiếp đánh thẳng vào nhu cầu/nỗi đau
-- **Cấm câu từ hoa mỹ nhưng khuyến khích miêu tả cảm quan thực tế (Sensory without Poetic Fluff):** Cấm tuyệt đối việc sử dụng các từ ngữ quá văn thơ, triết lý, ví von hay ẩn dụ bay bổng quá đà (ví dụ: "bản giao hưởng vị giác", "tâm hồn héo úa", "quy luật vũ trụ"). TUY NHIÊN, vẫn khuyến khích và bắt buộc sử dụng các từ ngữ miêu tả cảm quan vật lý sống động để khơi gợi sự thèm thuồng (Appetite Appeal) của món ăn (ví dụ: "lớp kem bơ sánh đặc loang dần", "hạt chia lanh tanh nở đều ngậm nước mát lạnh", "bí đao già đun liu riu 4 tiếng thơm nhè nhẹ"). RÀNG BUỘC CỨNG: Chỉ bổ sung từ cảm quan nếu có trong brief hoặc DEFAULT VOCABULARY — không tự sáng tạo chi tiết mới.
+- **Cấm câu từ hoa mỹ nhưng khuyến khích miêu tả cảm quan thực tế (Sensory without Poetic Fluff):** Cấm tuyệt đối việc sử dụng các từ ngữ quá văn thơ, triết lý, ví von hay ẩn dụ bay bổng quá đà (ví dụ: "bản giao hưởng vị giác", "tâm hồn héo úa", "quy luật vũ trụ"). TUY NHIÊN, vẫn khuyến khích và bắt buộc sử dụng các từ ngữ miêu tả cảm quan vật lý sống động để khơi gợi sự thèm thuồng (Appetite Appeal) của món ăn (ví dụ: "lớp kem bơ sánh đặc loang dần", "hạt chia lanh tanh nở đều ngậm nước mát lạnh", "bí đao già đun liu riu 4 tiếng thơm nhè nhẹ"). RÀNG BUỘC CỨNG: Chỉ bổ sung từ cảm quan nếu có trong brief [USER_CLAIM] hoặc ảnh [IMAGE_VISUAL] — không tự sáng tạo chi tiết mới và tuyệt đối không dùng DEFAULT VOCABULARY để khẳng định thuộc tính sản phẩm cụ thể.
 - **Quy tắc Bridge linh hoạt:**
   - Nếu sản phẩm gắn với trải nghiệm / cảm xúc (không gian, dịp đặc biệt, cuối tuần...) → giữ 1 câu Bridge ngắn trước khi vào sản phẩm để người đọc vào cảnh.
   - Nếu sản phẩm thuần túy là deal/combo/giá → bỏ Bridge, đi thẳng từ Hook vào Sản phẩm để tăng tính thúc giục.
@@ -463,11 +463,11 @@ Nếu fail → tự sửa trước khi gửi.
   Khi không có số liệu thực tế để tạo sự cụ thể, cấm tự bịa số tròn (như 500 khách, 10 năm kinh nghiệm...).
   **KHÔNG** được thay bằng hành vi khách nếu chưa có evidence từ brief.
   Được phép thay bằng:
-  - Quan sát từ ảnh `[IMAGE]`: *\"ảnh chụp góc quầy, ly đặt bên phải\"*
-  - Đặc điểm sản phẩm đã xác nhận `[USER]`: *\"pha từng ly theo order\"*, *\"nấu chậm 3 tiếng\"*
-  - Sensory detail đã xác nhận `[USER/IMAGE/DEFAULT]`
-  ❌ SAI: *\"khách order lại tuần sau\"* — hành vi khách chưa có evidence
-  ❌ SAI: *\"góc này hay hết chỗ cuối tuần\"* — quan sát chưa được xác nhận
+  - Quan sát từ ảnh `[IMAGE_VISUAL]`: *"ảnh chụp góc quầy, ly đặt bên phải"*
+  - Đặc điểm sản phẩm đã xác nhận `[USER_CLAIM]`: *"pha từng ly theo order"*, *"nấu chậm 3 tiếng"*
+  - Sensory detail đã xác nhận `[USER_CLAIM / IMAGE_VISUAL / CATALOG]`
+  ❌ SAI: *"khách order lại tuần sau"* — hành vi khách chưa có evidence
+  ❌ SAI: *"góc này hay hết chỗ cuối tuần"* — quan sát chưa được xác nhận
 - Không ALL CAPS trừ khi là phong cách gốc của brief
 - **Góc nhìn và Đại từ nhân xưng thương hiệu (Brand Perspective):**
   - Người viết luôn đứng ở vị thế **Chủ quán / Nhân viên tiệm (Người tiếp đón)**, tuyệt đối không đóng vai hay nói hộ suy nghĩ/hành động của khách hàng.
@@ -478,34 +478,23 @@ Nếu fail → tự sửa trước khi gửi.
 ---
 
 ## SAFE GENERIC VOCABULARY
-*Nguồn: `[DEFAULT]` — Chỉ dùng để gợi cảm giác CHUNG khi brief không có mô tả cảm quan. Nếu brief đã có từ mô tả → ưu tiên dùng từ của brief.*
+*Nguồn: `[DEFAULT]` — Chỉ là gợi ý từ ngữ (lexical suggestions) khi nói về thể loại / category chung. Tuyệt đối không bao giờ được đưa vào danh sách `claims[]` của sản phẩm.*
 
-**Không được dùng như thuộc tính riêng của sản phẩm cụ thể.**
+**CẤM:** Không được dùng để khẳng định thuộc tính cảm quan của sản phẩm cụ thể đang bán.
 
-| Loại | Từ gợi ý (cảm giác chung) |
-|------|--------------------------|
-| trà | thơm, đắng nhẹ |
-| bánh mì | giòn, thơm bơ |
-| trà sữa | ngọt, béo, mát |
-| trà ô long | trầm, khói nhẹ, hậu ngọt |
+| Thể loại (Category) | Nhóm từ gợi ý (Chỉ dùng khi bàn luận category chung) |
+|---------------------|-----------------------------------------------------|
+| trà nói chung | thơm, đắng nhẹ |
+| bánh mì nói chung | giòn, thơm bơ |
+| trà sữa nói chung | ngọt béo, thanh mát |
+| trà ô long nói chung | vị trầm, hậu thanh |
 
-**Ví dụ ĐÚNG (DEFAULT dùng như gợi ý ngôn ngữ cho bài nói về category — không về sản phẩm đang bán):**
-```
-"Trà ô long thường được mô tả với vị trầm, đôi khi có hậu ngọt nhẹ."
-```
-→ Nói về category chung, không phải ly cụ thể đang trong tay khách.
-
-**Ví dụ SAI (DEFAULT biến thành claim về sản phẩm cụ thể):**
-```
-"Ly trà ô long mát lạnh, uống vào thấy hậu ngọt đọng lại." ❌
-```
-→ Dù không nói tên brand, đây là claim về ly đang bán — cần `USER_CLAIM` hoặc `CATALOG`.
-
-**Ví dụ SAI (branded):**
-```
-"Trà ô long TeaRus nổi tiếng với hậu ngọt đặc trưng." ❌
-```
-→ Product-specific claim — phải có `CATALOG` hoặc `USER_CLAIM`.
+**Quy tắc áp dụng:**
+- **ĐƯỢC:** Dùng khi viết câu mang tính kiến thức / bối cảnh chung về dòng sản phẩm:
+  *"Ô long thường được mô tả với vị trầm, hậu thanh..."* (Nói về category, không phải sản phẩm cụ thể đang bán).
+- **CẤM:** Dùng để mô tả trực tiếp ly nước / món ăn cụ thể trong bài đăng:
+  ❌ Cấm viết: *"Ly trà ô long mát lạnh, uống vào thấy hậu ngọt đọng lại"* hay *"Ly này có vị trầm hậu thanh"* nếu brief không có `USER_CLAIM` hoặc `CATALOG`.
+  → Nếu brief không có mô tả vị giác/khứu giác cho sản phẩm: **BỎ claim sensory**, chỉ tập trung vào giá / ưu đãi / không khí, hoặc hỏi 1 câu xác nhận. Không tự ý dùng `[DEFAULT]` làm claim sản phẩm.
 
 ---
 
