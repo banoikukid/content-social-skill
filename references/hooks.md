@@ -5,17 +5,17 @@ Trên mạng xã hội, phần mở đầu cần đủ gọn để người đ�
 > **QUY TẮC PHÂN LOẠI DỮ KIỆN CHO MỌI VÍ DỤ (3 TẦNG DỮ LIỆU):**  
 > - `[OBSERVED]` $\rightarrow$ Chỉ dùng chi tiết thị giác/âm thanh quan sát trực tiếp từ hình ảnh/video.  
 > - `[PROVIDED]` $\rightarrow$ Chỉ dùng dữ kiện hương vị, thành phần, giá cả đã được brief hoặc menu cung cấp.  
-> - `[CREATIVE]` $\rightarrow$ Cách diễn đạt cảm xúc, góc nhìn đời thường hoặc lời mời thân tình, không phải là claim sự thật.
+> - `[CREATIVE]` $\rightarrow$ **Creative expression without factual commitment.** Lối diễn đạt cảm xúc, ẩn dụ đời thường, nhịp điệu câu chữ hoặc lời mời thân tình; tuyệt đối không dùng `[CREATIVE]` để tự bịa các bối cảnh mang hình thức sự thật (như bịa *"2 giờ chiều thứ Hai"* hay địa điểm/vận hành).
 
 ---
 
 ## 1. 5 Dạng Hook Thực Chiến Cho F&B (Không Bịa Claim)
 
-### 1. Đánh trúng tâm lý & thời điểm (Real-time Hook — [CREATIVE])
-Đánh vào trạng thái quen thuộc hoặc thời điểm trong ngày của người đọc:
-- *"2 giờ chiều thứ Hai, mắt díp lại mà việc thì chưa xong một nửa..."*
-- *"Trời hôm nay oi bức ghê, bước ra đường thôi là muốn tan chảy..."*
-- *"Tối muộn tan ca, chỉ thèm một chỗ yên tĩnh ngồi thở một chút."*
+### 1. Đánh trúng tâm lý & cảm xúc đời thường (Emotional Hook — [CREATIVE])
+Đánh vào trạng thái cảm xúc quen thuộc của người đọc mà không tự tạo bối cảnh mang hình thức sự thật:
+- *"Có những lúc chỉ muốn tạm gác công việc lại một chút để tìm chút cảm giác nhẹ nhõm..."*
+- *"Trời hôm nay oi bức ghê, bước ra đường thôi là muốn tan chảy..."* `[khi brief có dữ kiện thời tiết]`
+- *"Sau một ngày dài tất bật, chỉ thèm một góc nhỏ ngồi thở một chút."*
 
 ### 2. Tò mò & Đảo ngược định kiến (Curiosity Hook)
 Nêu một chi tiết gợi mở, khiến người đọc muốn tìm hiểu thêm mà không tự bịa đặt giải thưởng hay kỷ lục bán hàng:
@@ -33,12 +33,12 @@ Mở đầu bằng chi tiết quan sát được trực tiếp từ ảnh hoặc
 Biến chuyện đời thường của khách thành tiếng cười đồng cảm:
 - *"Ví tiền bảo 'thôi', nhưng cái miệng lại bảo 'order một ly trà sữa đi'."*
 - *"Bảo tiết kiệm mà đồng nghiệp rủ làm ly trà sữa là tay bấm order liền."*
-- *"Bảo kiềm chế mà chiều nào mắt díp lại cũng muốn tìm một ly giải lao."*
+- *"Bảo kiềm chế mà những lúc mệt mỏi lại chỉ muốn tìm một ly nước giải lao."*
 
 ### 5. Ưu đãi thẳng thắn (Direct Offer Hook — [PROVIDED])
 Nói thẳng quyền lợi khách hàng khi có chương trình thực tế từ quán:
 - *"Mua 1 tặng 1 duy nhất trong khung giờ 14h - 17h hôm nay!"* `[PROVIDED: deal thực tế]`
-- *"Mang bình cá nhân ghé quán, tụi mình giảm liền 5k nha."* `[PROVIDED: chính sách quán]`
+- *"Giảm 5.000đ khi bạn mang theo bình cá nhân ghé quán."* `[PROVIDED: ưu đãi thực tế]`
 
 ---
 
@@ -49,13 +49,13 @@ Không chỉ cấm một vài từ đơn lẻ, hãy **chặn đứng 8 khuôn m�
 | Khuôn mẫu AI (AI Patterns) ❌ | Ví dụ điển hình cần tránh | Cách sửa tự nhiên của người thật ✅ |
 | :--- | :--- | :--- |
 | **1. Ẩn dụ đao to búa lớn** *(Grandiose Metaphor)* | "Bản giao hưởng vị giác", "Bản hòa ca tuyệt mỹ đánh thức tâm hồn" | Miêu tả thẳng cảm giác: "Lớp bọt sữa bồng bềnh nổi trên nền trà mộc" `[OBSERVED]` hoặc "Trà thanh, sữa béo dịu" `[PROVIDED: chỉ khi có dữ liệu vị]` |
-| **2. Khung cảnh sáo rỗng** *(Generic Emotional Framing)* | "Giữa nhịp sống hối hả bộn bề...", "Sau những giờ làm việc căng thẳng..." | Đi thẳng vào thời điểm thật: "Chiều tan ca đói bụng", "Trưa nắng gắt" `[CREATIVE]` |
+| **2. Khung cảnh sáo rỗng** *(Generic Emotional Framing)* | "Giữa nhịp sống hối hả bộn bề...", "Sau những giờ làm việc căng thẳng..." | Đi thẳng vào cảm xúc đời thường không-claim: "Có những lúc muốn tìm một khoảng nghỉ", "Trưa nắng gắt [khi brief có]" `[CREATIVE]` |
 | **3. Xếp chồng tính từ rỗng** *(Empty Adjective Stacking)* | "Hương vị thơm ngon đậm đà khó cưỡng tuyệt hảo" | Dùng chi tiết cụ thể: "Trà đậm hậu vị mộc, pha cùng sữa tươi" `[PROVIDED: khi brief có dữ liệu vị]` hoặc chi tiết thị giác "Lớp bọt sữa trắng mịn dày khoảng một lóng tay" `[OBSERVED: khi nhận ảnh]` |
-| **4. Cấu trúc lặp công thức** *(Mechanical Parallelism)* | "Không chỉ là một thức uống, mà còn là một trải nghiệm sống..." | Bỏ hẳn cấu trúc này: "Một ly trà dịu nhẹ để bạn nhâm nhi buổi chiều" `[CREATIVE]` |
+| **4. Cấu trúc lặp công thức** *(Mechanical Parallelism)* | "Không chỉ là một thức uống, mà còn là một trải nghiệm sống..." | Bỏ hẳn cấu trúc này: "Một ly trà dịu nhẹ để bạn nhâm nhi" `[CREATIVE]` |
 | **5. Triết lý / Lên lớp cuộc sống** *(Motivational Lecturing)* | "Hãy nhớ rằng cuộc đời như tách cà phê, đắng trước ngọt sau..." | Không rao giảng đạo lý. Để người đọc tự cảm nhận không gian quán |
 | **6. Spam câu hỏi tu từ** *(Rhetorical-Question Spam)* | "Bạn có mệt mỏi? Bạn có đang tìm kiếm chốn bình yên? Bạn có muốn...?" | Đặt 1 câu hỏi trúng đích hoặc đi thẳng vào chia sẻ |
-| **7. Đóng khung sáo rỗng** *(Cliche Action / Invitation)* | "Hãy cùng chúng tôi đắm chìm...", "Mang đến cho bạn một cảm giác..." | Lời mời đời thường: "Ghé tụi mình làm một ly nha", "Chiều nay ghé quán chơi nhé" `[CREATIVE]` |
-| **8. Văn phong quan liêu / PR** *(Over-polished Corporate)* | "Tự hào mang đến sản phẩm đồ uống hàng đầu..." | Lời mời mộc mạc: "Chiều nay tụi mình đã chuẩn bị sẵn bàn đón bạn ghé chơi" `[CREATIVE]` |
+| **7. Đóng khung sáo rỗng** *(Cliche Action / Invitation)* | "Hãy cùng chúng tôi đắm chìm...", "Mang đến cho bạn một cảm giác..." | Lời mời đời thường: "Ghé tụi mình làm một ly nha", "Ghé quán chơi nhé" `[CREATIVE]` |
+| **8. Văn phong quan liêu / PR** *(Over-polished Corporate)* | "Tự hào mang đến sản phẩm đồ uống hàng đầu..." | Lời mời mộc mạc: "Hôm nay ghé quán tụi mình nhâm nhi ly nước quen nhé" `[CREATIVE]` |
 
 ---
 

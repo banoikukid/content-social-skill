@@ -69,6 +69,7 @@ content-social-skill/
 │   ├── storytelling.md      # Động cơ 8 góc nhìn (Angle Engine), Ma trận kỹ thuật, Soft CTA
 │   ├── psychology.md        # 7 kỹ thuật tâm lý thực chiến F&B (chống bịa hành vi, giả định tương lai)
 │   ├── pricing.md           # Kỹ thuật viết giá & ưu đãi F&B dùng placeholder an toàn
+│   ├── regression-fixtures.md # 8 bài kiểm tra hồi quy chuẩn mực (Invariants, Traps, Canonical Reference)
 │   └── examples.md          # Tuyển tập 28+ bài mẫu F&B chuẩn (Image/Brief, Rewrite, Bad vs Good)
 └── tests/
     └── core-tests.md        # 8 bài kiểm tra hồi quy ranh giới dữ kiện & 10 kịch bản thực tế (v4.8.0)

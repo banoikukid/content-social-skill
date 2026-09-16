@@ -45,16 +45,16 @@ Tone giọng trong F&B không chỉ là thay đổi đại từ xưng hô, mà t
 - **Ví dụ:**
   > Chiều nay trời mát mẻ ghé quán làm ly Ô Long Sữa Nướng nha bạn ơi. `[CREATIVE]`  
   > Vị trà ô long rang đậm kết hợp cùng sữa béo vừa phải, không bị ngọt gắt `[PROVIDED: dữ kiện vị]`. Ngồi nhâm nhi ngắm xe cộ qua lại là vừa xinh cho một buổi chiều `[CREATIVE]`.  
-  > 📍 Ghé tụi mình tại [Địa chỉ] hoặc nhắn tin để tụi mình chuẩn bị trước nha! `[CTA]`
+  > 📍 Ghé tụi mình tại [Địa chỉ] hoặc nhắn tin cho tụi mình nha! `[CTA]`
 
 ---
 
-### Tone 2: Hài hước / Dí dỏm
+## Tone 2: Hài hước / Dí dỏm
 - **Đặc trưng:** Biết "tự trào", biến vấn đề thường ngày (deadline, uể oải, thèm ngọt) thành tiếng cười duyên dáng. Tránh đùa cợt thô lỗ, không đùa về chi phí y tế/khám bệnh.
 - **Ví dụ:**
   > Nghe nói chiều nay có người đang thở dài vì deadline dí? `[CREATIVE]`  
   > Thôi buông chuột 5 phút, giải lao với Ô Long Sữa Nướng đi rồi tính tiếp. Trà rang đậm vị quyện lớp sữa béo dịu `[PROVIDED: dữ kiện vị]`, nhâm nhi một chút cho thảnh thơi đầu óc `[CREATIVE]`.  
-  > 35 cành một ly `[PROVIDED: giá 35k]`, vừa vặn cho một buổi chiều giải lao. Nhắn tui liền để tui chuẩn bị sẵn cho nha! `[CTA]`
+  > 35 cành một ly `[PROVIDED: giá 35k]`, vừa vặn cho một buổi chiều giải lao. Ghé quán làm một ly cùng tụi mình nha! `[CTA]`
 
 ---
 
@@ -72,7 +72,7 @@ Tone giọng trong F&B không chỉ là thay đổi đại từ xưng hô, mà t
 - **Ví dụ:**
   > Có những buổi chiều tan tầm, chỉ muốn tìm một góc quen ngồi nhìn phố xá thong thả trôi qua. `[CREATIVE]`  
   > Nhâm nhi một ly trà thơm dịu `[PROVIDED: dữ kiện vị]`, để lòng mình chùng xuống một nhịp dịu êm `[CREATIVE]`.  
-  > Tụi mình vẫn luôn mở cửa chờ bạn ghé qua. `[CTA mở]`
+  > Hẹn bạn ghé quán nhâm nhi nhé. `[CTA mở]`
 
 ---
 

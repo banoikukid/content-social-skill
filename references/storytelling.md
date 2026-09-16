@@ -98,5 +98,5 @@ Mỗi góc nhìn cần được hỗ trợ bởi các kỹ thuật viết tươn
 
 - **Tuyệt đối không chốt sale thô bạo** trong bài tâm sự/kể chuyện (tránh: *"👉 Mua ngay!", "Inbox đặt bàn gấp!"*).
 - **Để mở cảm xúc hoặc dùng lời chào thân tình:**  
-  - *"Tụi mình luôn sẵn sàng mở cửa đón bạn ghé chơi nha."* [hoặc nêu khung giờ cụ thể khi có fact]
+  - *"Hôm nay ghé quán nhâm nhi cùng tụi mình nhé."* [hoặc nêu khung giờ cụ thể khi có fact giờ mở cửa]
   - Hoặc hoàn toàn không cần CTA, để bài viết dừng lại ở dư âm cảm xúc lắng đọng.

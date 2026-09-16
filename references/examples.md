@@ -31,7 +31,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
   > 
   > Một góc bàn nhỏ, một ly nước quen và một khoảng nghỉ êm ả giữa ngày dài.
   > 
-  > Bàn mộc đã sẵn sàng, mời bạn ghé chơi cùng tụi mình. ☕
+  > Ghé quán nhâm nhi cùng tụi mình nhé. ☕
 
 ---
 
@@ -55,7 +55,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
   > 
   > Nếu chiều nay trời đổ mưa [HYPOTHETICAL], ngồi lại một góc quen nhìn mưa rơi tự nhiên thấy lòng yên ả lạ thường.
   > 
-  > Bàn cạnh cửa sổ vẫn luôn ở đây chờ bạn ghé trú chân.
+  > Nếu đang lỡ dở đường về vì cơn mưa, ghé quán trú chân cùng tụi mình một lát nhé.
 
 ---
 
@@ -67,7 +67,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
   > 
   > Chẳng cần vội vã, ngồi lại đây thêm một chút rồi hãy tiếp tục ngày của mình.
   > 
-  > Góc bàn mộc bên cửa sổ luôn sẵn sàng, mời bạn ghé chơi.
+  > Ghé quán ngồi nghỉ chân một chút nhé.
 
 ---
 
@@ -127,9 +127,9 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Copy:**
   > Có những ngày công việc bận rộn đến mức không kịp chạy ra ngoài mua một ly nước.
   > 
-  > Chai Cold Brew ủ lạnh 16 tiếng để sẵn trong tủ lạnh cơ quan chính là cứu cánh vừa vặn nhất: vị cà phê thanh mát, hậu ngọt nhẹ, rót ra ly thêm vài viên đá là có ngay ly cà phê êm ái để ngồi làm việc.
+  > Chai Cold Brew ủ lạnh 16 tiếng để sẵn trong tủ lạnh cơ quan chính là cứu cánh vừa vặn nhất: vị cà phê thanh dịu, hậu ngọt nhẹ, rót ra ly thêm vài viên đá là có ngay ly cà phê êm ái để ngồi làm việc.
   > 
-  > 🏷️ Chai thủy tinh 250ml giá 55k. Nhắn tin để tụi mình chuẩn bị sẵn cho bạn nha.
+  > 🏷️ Chai thủy tinh 250ml giá 55k. Ghé quán hoặc nhắn tin cho tụi mình nha.
 
 ---
 
@@ -139,7 +139,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Copy:**
   > Buổi sáng tròn trịa đôi khi chỉ cần một tách cà phê quen và một chiếc bánh sừng bò nướng bơ.
   > 
-  > Bánh croissant nướng vừa tới vỏ ngoài giòn xốp, bên trong thơm nức mùi bơ. Chấm nhẹ vào lớp bọt cà phê hoặc nhấp một ngụm rồi cắn một miếng bánh là thấy buổi sáng đủ đầy.
+  > Bánh croissant nướng vừa tới vỏ ngoài giòn xốp, bên trong thơm nức mùi bơ. Gọi một chiếc ăn kèm tách cà phê sáng quen thuộc là thấy ngày mới đủ đầy.
   > 
   > 🏷️ Bánh nướng bơ giòn xốp giá 28k/chiếc, ăn kèm cà phê sáng rất hợp. Mời bạn ghé tiệm thử bánh nhé.
 
@@ -177,32 +177,32 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 > 
 > Vị trà thơm thanh, xoài chín ngọt dịu thêm thạch giòn nhai đã miệng. 38 cành cho một buổi chiều giải lao êm ru, tội gì phải đắn đo!
 > 
-> Nhắn tui liền để tui chừa sẵn một ly giải lao nha!
+> Ghé quán làm một ly giải lao cùng tụi mình nha!
 
 #### Biến thể 3: Cảm xúc & Lắng đọng (Emotional Mood / Fanpage)
 > Có những ngày đi ngoài đường bụi bặm, ghé vào quán gọi một ly nước thân quen, ngồi thở một hơi dài mới thấy người mình nhẹ nhõm lại.
 > 
 > Vị trà lài thanh thoát, lớp xoài chín vàng ươm dịu ngọt nâng niu vị giác sau những giờ tất bật.
 > 
-> Chiều nay quán vẫn mở cửa đón gió, hẹn bạn ghé chơi.
+> Hẹn bạn ghé quán nhâm nhi nhé.
 
 ---
 
 ## 4. 3 Mẫu Hài Hước & Hóm Hỉnh (Humor & Relatable)
 
-### Mẫu 1: Chuyện trêu deadline chiều thứ Hai
-> 2 giờ chiều thứ Hai, mở 10 cái tab công việc mà mắt cứ díp lại như muốn biểu tình.
+### Mẫu 1: Chuyện trêu deadline và công việc
+> Có những lúc mở chục cái tab công việc mà mắt cứ díp lại như muốn biểu tình.
 > 
-> Những lúc thế này có cố gõ phím cũng chỉ ra lỗi chính tả. Thôi thì buông chuột năm phút, làm một ngụm cà phê lấy lại nhịp làm việc rồi giải quyết tiếp.
+> Những lúc thế này có cố gõ phím cũng chỉ ra lỗi chính tả. Thôi thì buông chuột năm phút, làm một ngụm cà phê rồi giải quyết tiếp.
 > 
-> Deadline vẫn ở đó, nghỉ tay một chút rồi hẵng chạy tiếp. Ghé quán làm ly cafe nha bạn ơi!
+> Việc gì rồi cũng xong, nghỉ tay một chút rồi hãy làm tiếp. Ghé quán làm ly cafe nha bạn ơi!
 
 ### Mẫu 2: Chuyện quyết tâm tiết kiệm bất thành
 > Sáng nay vừa tự nhủ lòng: "Hôm nay mang bình nước lọc đi làm cho tiết kiệm".
 > 
-> Đến 3 giờ chiều đồng nghiệp lướt menu hỏi: "Uống trà sữa trân châu đường đen không tao order luôn?", thế là bàn tay tự động chuyển khoản không chút do dự.
+> Đến xế chiều đồng nghiệp lướt menu hỏi: "Uống trà sữa trân châu đường đen không tao order luôn?", thế là bàn tay tự động chuyển khoản không chút do dự.
 > 
-> Kế hoạch tiết kiệm để mai tính, chiều nay cứ phải vui trước đã. Nhắn tụi mình chuẩn bị sẵn ly ngọt ngào cho nha!
+> Kế hoạch tiết kiệm để mai tính, hôm nay cứ phải vui trước đã. Ghé quán làm một ly ngọt ngào nha!
 
 ### Mẫu 3: Nỗi lòng ngày cuối tháng
 - **Bối cảnh:** Quán có món trà sữa truyền thống giá 29k.
@@ -211,7 +211,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
   > 
   > Quán có ly trà sữa mộc mạc giá chỉ 29k `[PROVIDED: giá menu]`, vừa vặn để bạn tự thưởng cho bản thân một buổi chiều mà ví tiền vẫn an toàn tuyệt đối.
   > 
-  > Chiều nay ghé quán nhâm nhi giải lao nha!
+  > Ghé quán nhâm nhi giải lao nha!
 
 ---
 
@@ -227,15 +227,13 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
   > 
   > Nếu chiều nay trời đổ mưa, ghé quán trú chân cùng tụi mình nhé.
 
-### Mẫu 2: Góc bàn quen đón nắng chiều (Góc: Không gian & Giả định — [HYPOTHETICAL Scene])
+### Mẫu 2: Góc quán thảnh thơi (Góc: Không gian & Giả định — [HYPOTHETICAL Scene])
 - **Bối cảnh:** Giả định không gian góc quán (Hypothetical Scene).
-- **Dominant Idea:** Khoảng lặng riêng tư bên góc bàn quen.
+- **Dominant Idea:** Khoảng lặng riêng tư bên góc quán quen.
 - **Copy:**
-  > Quán có một góc bàn nhỏ cạnh kệ sách, nơi những vệt nắng chiều thường dừng lại lâu nhất.
+  > Đôi khi sau những giờ bận rộn, người ta chỉ mong tìm được một góc nhỏ yên tĩnh để ngồi lại một chút.
   > 
-  > Nếu bạn đang cần một khoảng lặng để đọc dở cuốn sách, ghi chép vài dòng hay chỉ đơn giản là ngồi nhâm nhi ly cà phê quen, góc bàn ấy vẫn luôn ở đây đón bạn.
-  > 
-  > Góc nhỏ đã sẵn sàng, mời bạn ghé chơi cùng tụi mình nhé.
+  > Nếu hôm nay bạn cần một góc để đọc vài trang sách hay ngồi nhâm nhi ly cà phê quen, ghé quán nhâm nhi nhé.
 
 ### Mẫu 3: Khoảnh khắc dọn quầy chuẩn bị mở cửa (Góc: Nghề quán — [PROVIDED Fact])
 - **Brief từ quán:** "Chủ quán chia sẻ thói quen mở quầy lúc 6h sáng: lau sạch bàn gỗ, bật nhạc jazz quen thuộc và pha thử tách cà phê đầu tiên để kiểm tra dòng chảy."
@@ -314,7 +312,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - ✅ **GOOD (Cụ thể, tự nhiên, nhịp điệu đời thường — [Brief: Trà Đào Cam Sả nhiều đá ngày oi bức, có miếng đào giòn]):**
   > *"Chiều nay oi bức quá.*  
   > *Làm một ly trà đào cam sả đầy đá, nhai miếng đào giòn rụm cho đã miệng.*  
-  > *Ngồi lại thêm mười phút ngắm đường phố rồi hẵng về bạn nhé. Quán vẫn mở cửa đón bạn."*
+  > *Ngồi lại thêm mười phút ngắm đường phố rồi hẵng về bạn nhé. Ghé quán cùng tụi mình nha."*
 
 ---
 
@@ -326,7 +324,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
   - **Copy:**
     > *"Nếu bạn thích vị trà đậm mà ngại ngọt gắt, ly trà này sinh ra là dành cho bạn.*  
     > *Trà đen thơm mộc kết hợp cùng sữa tươi béo dịu, ngọt thanh vừa vặn. Nhấp một ngụm êm ái, ngồi làm việc hay đọc sách chiều nay đều rất hợp.*  
-    > *Nhắn tin cho tụi mình để chuẩn bị sẵn ly nước cho bạn nhé."*
+    > *Hôm nay ghé quán nhâm nhi cùng tụi mình nhé."*
 
 ---
 

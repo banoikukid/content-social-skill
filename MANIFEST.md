@@ -30,6 +30,7 @@ content-social-skill/
 │   ├── storytelling.md      # 8 góc nhìn theo Reader Attention, khóa chặt Creative ≠ Factual & Hypothetical
 │   ├── psychology.md        # 7 kỹ thuật tâm lý thực chiến F&B (gắn nhãn dữ kiện rõ ràng, sạch claim nhiệt độ)
 │   ├── pricing.md           # Kỹ thuật viết giá & ưu đãi an toàn bằng placeholder (không tự thêm điều kiện promo)
+│   ├── regression-fixtures.md # 8 bài kiểm tra hồi quy chuẩn mực (3 tầng: Invariants, Traps, Canonical Reference)
 │   └── examples.md          # Tuyển tập 28+ bài viết mẫu chuẩn mực theo Source-Provenance Rule (v4.8.0)
 └── tests/
     └── core-tests.md        # 8 bài kiểm tra hồi quy ranh giới dữ kiện & 10 kịch bản thực tế (v4.8.0)
@@ -62,6 +63,7 @@ content-social-skill/
 | `references/storytelling.md` | 8 góc nhìn theo Reader Attention, khóa chặt Creative ≠ Factual | 4.8.0 | ✅ Active |
 | `references/psychology.md` | 7 kỹ thuật tâm lý thực chiến F&B, gắn nhãn dữ kiện rõ ràng | 4.8.0 | ✅ Active |
 | `references/pricing.md` | Trình bày giá & ưu đãi an toàn bằng placeholder tagged | 4.8.0 | ✅ Active |
+| `references/regression-fixtures.md` | 8 bài kiểm tra hồi quy chuẩn mực (Invariants, Traps, Canonical Reference) | 4.8.0 | ✅ Active |
 | `references/examples.md` | Tuyển tập 28+ bài mẫu F&B chuẩn theo Source-Provenance Rule | 4.8.0 | ✅ Active |
 | `tests/core-tests.md` | 8 bài kiểm tra hồi quy ranh giới dữ kiện & 10 kịch bản kiểm thử | 4.8.0 | ✅ Active |
 

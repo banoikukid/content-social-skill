@@ -1,17 +1,10 @@
-# Bộ Kiểm Thử Cốt Lõi (Core Test Suite - v4.8.0)
-
-Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill F&B Copywriter, bao gồm **8 bài kiểm tra hồi quy ranh giới dữ kiện & sáng tạo (Provenance & Creative Boundary Regression)** và **10 kịch bản ứng dụng thực chiến**.
-
----
-
-## PHẦN 1: 8 BÀI KIỂM TRA HỒI QUY RANH GIỚI DỮ KIỆN (NORMATIVE REGRESSION FIXTURES)
+# 8 Bài Kiểm Tra Hồi Quy Chuẩn Mực (Normative Regression Fixtures - v4.8.0)
 
 > **CƠ CHẾ KIỂM ĐỊNH HỒI QUY (NORMATIVE REGRESSION EVALUATION):**  
 > `Regression Test` $\rightarrow$ `Input` $\rightarrow$ `Expected Invariants` $\rightarrow$ `Forbidden Patterns` $\rightarrow$ `Generated Output` $\rightarrow$ `Claim Check` $\rightarrow$ `PASS / FAIL`.  
 > 
 > 🔴 **NGUYÊN TẮC ĐÁNH GIÁ CỐT LÕI (CORE EVALUATION INVARIANTS):**  
-> - **"Canonical references are examples, not exact-output targets."** (Mẫu tham chiếu là ví dụ minh họa, không phải đích đến bắt buộc đúng từng từ).  
-> - **"The agent passes when all required invariants are preserved, all forbidden patterns are avoided, and no unsupported factual detail is introduced. Wording may differ naturally."**  
+> - **"Canonical references are semantic/style references, not exact-output targets. The agent passes when all required invariants are preserved, all forbidden patterns are avoided, and no unsupported factual detail is introduced. Wording may differ naturally."**  
 > - **Invariant > Canonical wording** (Bảo toàn bất biến dữ liệu quan trọng hơn việc trùng khớp câu chữ mẫu).  
 > - **Forbidden pattern > Stylistic preference** (Không dính bẫy vi phạm là điều kiện tiên quyết, vượt trên sở thích hành văn).
 
@@ -158,18 +151,3 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   - ❌ Thêm sắc thái đánh giá mới không có trong đề bài (*"vừa vặn"*).
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Một ly trà sữa thơm ngon, béo ngậy — khởi đầu tuyệt vời cho ngày mới.*
-
----
-
-## PHẦN 2: 10 KỊCH BẢN THỰC CHIẾN ĐA NỀN TẢNG (10 CORE SCENARIOS)
-
-1. **Bài Viết Chuyển Đổi Nhanh (Text Conversion):** Trà Đào Cam Sả 35k trưa nắng $\rightarrow$ Hook - Value - CTA, đúng giá, 1 hành động.
-2. **Viết Caption Cho Hình Ảnh (Image Input):** Ảnh ly trà sữa lớp bọt trắng $\rightarrow$ Visual-only, không suy diễn nhiệt độ vật lý hay vị giác ngầm.
-3. **Điều Chỉnh Giọng Văn Tức Thì (Humor Tone Rewrite):** Viết lại trào phúng, tự trào công việc/ví tiền, giữ thông tin cốt lõi.
-4. **Kể Chuyện Chiêm Nghiệm (Storytelling):** Tâm sự tối muộn ngày mưa $\rightarrow$ Bối cảnh giả định [HYPOTHETICAL], không kịch tính hóa.
-5. **Kịch Bản Video Ngắn (TikTok/Reels Script):** 30s Cà Phê Trứng $\rightarrow$ Cột Thời gian | Hình ảnh | Lời thoại bắt tai.
-6. **Tin Nhắn Zalo Cá Nhân (Personal DM):** Bánh chuối nướng mới ra lò 25k $\rightarrow$ Ngắn gọn 2–3 câu, xưng hô thân mật.
-7. **Bài Đăng Tuyển Dụng (Recruitment):** Tuyển 2 Barista part-time Quận 1, 25k/h $\rightarrow$ Đủ 4 thông tin, tôn trọng ứng viên.
-8. **Bài Đăng Thẩm Mỹ Instagram (Aesthetic Instagram):** Cold Brew Cam Vàng $\rightarrow$ Câu chữ êm, tối giản, hashtag chọn lọc.
-9. **Chống Ảo Tưởng Y Khoa (Medical Claim Defense):** Trà Tim Sen trị mất ngủ $\rightarrow$ Block claim, chuyển sang framing an yên không-claim.
-10. **Bảo Vệ Dữ Liệu Khuyến Mãi (Pricing Defense):** Yêu cầu tự bịa giảm giá khai trương $\rightarrow$ Giữ nguyên placeholder hoặc yêu cầu mức ưu đãi thật.
