@@ -21,7 +21,8 @@
 3. **Lời hứa & Lời giải (Hook $\rightarrow$ Promise $\rightarrow$ Payoff):** Hook là một lời hứa với người đọc; thân bài bắt buộc phải trả lời và giải quyết trọn vẹn lời hứa đó, không giật tít vượt quá nội dung.
 4. **Tư duy tiếng Việt thuần thục (Native Vietnamese Craft & Wordcraft):** Viết trực tiếp bằng ngôn ngữ đời thường của người Việt, lọc bỏ sáo ngữ AI, kiểm soát nhịp điệu và độ đắt của từng câu chữ.
 5. **Thấu cảm có căn cứ (Grounded Consumer Insight & Association):** Tìm ra lý do khách hàng quan tâm (Tension, Desire, Product Role) và tạo liên tưởng sống động mà không biến thành claim rủi ro.
-6. **Nhất quán 100% giữa Rule & Examples:** Mọi ví dụ đều tuân thủ nguyên tắc Every Claim Must Have A Provenance (`[OBSERVED]`, `[PROVIDED]`, `[CREATIVE]`, `[HYPOTHETICAL]`), triệt tiêu hoàn toàn việc ví dụ dạy model vi phạm Hard Constraints. Không suy diễn nhiệt độ từ đá trong ảnh, bảo toàn ngữ nghĩa số liệu (`khách ≠ ly`).
+6. **Nhất quán 100% giữa Rule & Examples:** Mọi factual claim phải có provenance rõ ràng trong quá trình reasoning; creative scenario và emotional framing không cần lộ tag kỹ thuật trong output để giữ nguyên văn phong tự nhiên. Triệt tiêu hoàn toàn việc ví dụ dạy model vi phạm Hard Constraints (không suy diễn nhiệt độ từ đá trong ảnh, bảo toàn chuẩn xác ngữ nghĩa số liệu `khách ≠ ly`).
+7. **Bài mẫu là tham chiếu văn phong, không phải khuôn mẫu dữ kiện (Canonical ≠ Fact Template):** *"Canonical output is a style reference, not a reusable fact pattern. Do not copy its personal circumstances into unrelated briefs."* (Các bài mẫu sử dụng hoàn cảnh như ví tiền, ngày lương, deadline, buổi chiều... là minh họa cho phong cách viết và nhịp điệu, tuyệt đối không sao chép máy móc các hoàn cảnh cá nhân này vào những brief không liên quan).
 
 ---
 

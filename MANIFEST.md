@@ -89,8 +89,13 @@ content-social-skill/
 - **Bổ sung 3 bài kiểm tra hồi quy Kể chuyện thực chiến (ST01, ST02, ST03):**
   - ST01: Micro-story từ brief cực ngắn với tension/desire.
   - ST02: Dựng cảnh từ hình ảnh (Image Scene & Metaphor) không bịa deadline/tác dụng.
-  - ST03: Brand/Craft narrative từ dữ kiện quy trình thật, không bịa lịch sử.
+  - ST03: Brand/Craft narrative từ dữ kiện quy trình thật, làm sạch 100% chi tiết vật lý chưa cung cấp (*"đáy phin nhôm"*) và sensory vị giác (*"vị đậm"*).
   - Nâng tổng số Normative Regression Fixtures lên **25 bài kiểm tra chuẩn mực**.
+- **Đồng bộ hóa Provenance & Thiết lập nguyên tắc Canonical ≠ Fact Template:**
+  - Quy định rõ ràng: Factual claim bắt buộc phải có provenance trong reasoning; creative scenario và emotional framing không cần lộ tag kỹ thuật trong output.
+  - Khóa nguyên tắc: *"Canonical output is a style reference, not a reusable fact pattern. Do not copy its personal circumstances into unrelated briefs."* Ngăn chặn model tự động chèn các motif cá nhân (ví tiền, ngày lương, deadline...) vào các brief không liên quan.
+- **Chuẩn hóa Hệ Thống Kiểm Duyệt 3 Tầng (3-Tier Governance):**
+  - Phân định rõ: `HARD BLOCK` (giá, promo, operational, medical, fake testimonial, metric distortion) vs `SOFT RED FLAG` (soi ngữ cảnh sáo ngữ AI / effect words) vs `CREATIVE FREEDOM` (tự do sáng tạo ẩn dụ, tình huống, cảm xúc, khẩu ngữ và nhịp điệu).
 
 ### v4.9.1 (2026-09-16) — Wordcraft & Creative Association Edition
 - **Nâng cấp triết lý cốt lõi: Tự Do Sáng Tạo, Kỷ Luật Sự Thật (Creative Freedom, Factual Discipline):**

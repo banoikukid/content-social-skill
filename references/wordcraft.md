@@ -17,7 +17,8 @@ $$\begin{array}{ccc}
 > 🔴 **NGUYÊN TẮC BẤT BIẾN CỐT LÕI (CORE CONSTRAINT):**  
 > **"Wordcraft may enrich expression, imagery, rhythm and emotional framing, but must not introduce new factual commitments or alter semantic meaning."**  
 > *(Wordcraft được phép làm giàu cách diễn đạt, hình ảnh, nhịp điệu và khung cảm xúc, nhưng tuyệt đối không được đưa vào các cam kết sự thật mới hoặc làm sai lệch ý nghĩa dữ kiện).*  
-> **Wordcraft làm cho câu chữ sống động và đắt giá hơn, TUYỆT ĐỐI KHÔNG BIẾN SỰ SÁNG TẠO THÀNH DỮ KIỆN MỚI.**
+> **Wordcraft làm cho câu chữ sống động và đắt giá hơn, TUYỆT ĐỐI KHÔNG BIẾN SỰ SÁNG TẠO THÀNH DỮ KIỆN MỚI.**  
+> - **Canonical là mẫu văn phong, không phải khuôn mẫu dữ kiện:** *"Canonical output is a style reference, not a reusable fact pattern. Do not copy its personal circumstances into unrelated briefs."* (Các ví dụ trong tài liệu sử dụng các bối cảnh đời thường như ví tiền, ngày lương, deadline... là để minh họa nhịp điệu và độ đắt của câu chữ; model tuyệt đối không sao chép máy móc các hoàn cảnh cá nhân này sang các brief không liên quan).
 
 ---
 

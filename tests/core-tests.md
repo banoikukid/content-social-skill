@@ -278,6 +278,7 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 
 > 🔴 **NGUYÊN TẮC ĐÁNH GIÁ WORDCRAFT:**  
 > - **Creative freedom applies to expression, imagery and emotional framing — not factual evidence or semantic commitment.** (Wordcraft được phép làm giàu cách diễn đạt, hình ảnh và sắc thái cảm xúc; nhưng tuyệt đối không được tạo factual commitment mới hoặc làm lệch semantic meaning).  
+> - **Canonical is a style reference, not a reusable fact pattern:** Không sao chép máy móc các hoàn cảnh cá nhân trong bài mẫu (ví tiền, deadline, buổi chiều...) sang các đề bài không liên quan.  
 > - **6 Tiêu chuẩn nghiệm thu Wordcraft (6 Wordcraft Acceptance Gates):**  
 >   1. `No unsupported sensory claim` (Không tự thêm vị giác/nhiệt độ: thơm, béo, ngọt, đậm, mát khi chưa có dữ liệu).  
 >   2. `No product effect` (Không tự thêm tác dụng: tỉnh táo, thư giãn, dễ chịu, nạp năng lượng, giải nhiệt, nhẹ lòng).  
@@ -382,7 +383,8 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *29k thôi mà.*  
   > *Ví tiền cho phép hôm nay ngoại lệ một lần.*  
-  > *Ghé quán làm một ly không bạn ơi?*
+  > *Ghé quán làm một ly không bạn ơi?*  
+  *(📌 Lưu ý: Canonical output is a style reference, not a reusable fact pattern. Do not copy its personal circumstances into unrelated briefs. Không tự động chèn motif "ví tiền" vào các brief không liên quan).*
 
 ---
 

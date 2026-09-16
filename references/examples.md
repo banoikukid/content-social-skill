@@ -18,6 +18,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Nếu là sáng tạo cảm xúc (Creative Metaphor):** Chỉ khơi gợi mood nhẹ nhàng (*"Nhìn ly này thôi là thấy chiều nay nên chậm lại một chút"*).
 - **Nếu là giả định bối cảnh (Hypothetical Framing):** Phải dùng ngôn từ giả định (*"Nếu chiều nay bạn đang cần một góc ngồi yên..."*).
 - **Provenance là cơ chế ngầm:** Các nhãn `[OBSERVED]`, `[PROVIDED]`, `[CREATIVE]`, `[HYPOTHETICAL]` chỉ phục vụ phân tích mẫu và kiểm định ngầm nội bộ, KHÔNG in ra trong bài viết cuối cùng cho khách.
+- **Canonical là mẫu văn phong, không phải khuôn mẫu dữ kiện (Canonical ≠ Fact Template):** *"Canonical output is a style reference, not a reusable fact pattern. Do not copy its personal circumstances into unrelated briefs."* (Các chi tiết hoàn cảnh cá nhân như ví tiền, ngày nhận lương, deadline, buổi chiều... trong các bài mẫu chỉ nhằm minh họa phong cách diễn đạt và nhịp câu, tuyệt đối không tự động sao chép các hoàn cảnh này vào những brief không liên quan).
 
 ---
 
