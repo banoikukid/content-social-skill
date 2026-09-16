@@ -141,14 +141,14 @@
 
 ---
 
-### Test 8 — Viết lại tự nhiên không thêm thông tin (Rewrite Naturally - Strict Zero Added Fact)
+### Test 8 — Viết lại tự nhiên không thêm thông tin (Rewrite Naturally - Strict Zero Added Factual Commitment)
 - **Đầu vào (User Prompt):**  
   `"Một ly trà sữa thơm ngon, béo ngậy, mang đến trải nghiệm tuyệt vời cho ngày mới."`  
   `User: Viết lại tự nhiên hơn, không thêm bất kỳ thông tin nào ngoài câu trên.`
 - **Bất biến bắt buộc (Expected Invariants):**
   - Giữ đúng bản chất thông điệp gốc: `ly trà sữa`, `thơm ngon, béo ngậy`, ý niệm `ngày mới`.
   - Paraphrase diễn đạt tự nhiên tiếng Việt, loại bỏ văn phong dịch sáo rỗng AI ("mang đến trải nghiệm tuyệt vời").
-  - Tuyệt đối bảo toàn giới hạn thông tin: Zero Added Fact.
+  - Tuyệt đối bảo toàn giới hạn thông tin: Zero Added Factual Commitment.
 - **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
   - ❌ Thêm dữ kiện mới (thời gian, topping trân châu, đá mát lạnh, giá tiền).
   - ❌ Thêm sắc thái đánh giá mới không có trong đề bài (*"vừa vặn"*).
@@ -261,14 +261,14 @@
   - ❌ Tự bịa hiệu ứng cảm xúc (*"thấy nhẹ lòng"*, *"ngụm trà thơm"*).
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Đôi khi chẳng cần gì phức tạp, chỉ một ly trà đào quen thuộc là đủ.*  
-  > *Hôm nay thèm thì ghé quán tụi mình làm một ly nha bạn ơi!*
+  > *Thèm thì ghé quán tụi mình làm một ly nha bạn ơi!*
 
 ---
 
 ## PHẦN 3: 9 BÀI KIỂM TRA HỒI QUY NGÔN TỪ (WORDCRAFT FIXTURES W01 ĐẾN W09)
 
 > 🔴 **NGUYÊN TẮC ĐÁNH GIÁ WORDCRAFT:**  
-> - **Creative freedom applies to EXPRESSION, not EVIDENCE.** (Tự do sáng tạo thuộc về diễn đạt, không thuộc về bằng chứng).  
+> - **Creative freedom applies to expression, imagery and emotional framing — not factual evidence or semantic commitment.** (Wordcraft được phép làm giàu cách diễn đạt, hình ảnh và sắc thái cảm xúc; nhưng tuyệt đối không được tạo factual commitment mới hoặc làm lệch semantic meaning).  
 > - **6 Tiêu chuẩn nghiệm thu Wordcraft (6 Wordcraft Acceptance Gates):**  
 >   1. `No unsupported sensory claim` (Không tự thêm vị giác/nhiệt độ: thơm, béo, ngọt, đậm, mát khi chưa có dữ liệu).  
 >   2. `No product effect` (Không tự thêm tác dụng: tỉnh táo, thư giãn, dễ chịu, nạp năng lượng, giải nhiệt, nhẹ lòng).  
@@ -431,7 +431,7 @@
 
 ## PHẦN 4: 3 BÀI KIỂM TRA HỒI QUY KỂ CHUYỆN THỰC CHIẾN (STORYTELLING & SCENARIO FIXTURES)
 
-### Test ST01 — Micro-story từ brief cực ngắn (Imagined Consumer Scenario)
+### Test ST-1 / ST01 — Micro-story từ brief cực ngắn (Imagined Consumer Scenario)
 - **Đầu vào (User Prompt):**  
   `Trà sữa 25k. Viết một mẩu chuyện ngắn đời thường (micro-story) thật tự nhiên.`
 - **Bất biến bắt buộc (Expected Invariants):**
@@ -451,7 +451,7 @@
 
 ---
 
-### Test ST02 — Kể chuyện từ hình ảnh (Image Scene & Metaphor)
+### Test ST-2 / ST02 — Kể chuyện từ hình ảnh (Image Scene & Metaphor)
 - **Đầu vào (User Prompt):**  
   `[Ảnh: Một ly cà phê đặt cạnh laptop trên bàn gỗ]`  
   `User: Viết caption Facebook kể một câu chuyện nhỏ về khoảnh khắc này.`
@@ -470,7 +470,7 @@
 
 ---
 
-### Test ST03 — Kể chuyện nghề quán có dữ kiện thật (Craft & Origin Narrative)
+### Test ST-3 / ST03 — Kể chuyện nghề quán có dữ kiện thật (Craft & Origin Narrative)
 - **Đầu vào (User Prompt):**  
   `Hạt Robusta Đắk Lắk rang mộc, pha phin truyền thống mỗi sáng. Giá 22k. Kể câu chuyện về ly cà phê này.`
 - **Bất biến bắt buộc (Expected Invariants):**

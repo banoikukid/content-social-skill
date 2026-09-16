@@ -150,14 +150,14 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 
 ---
 
-### Test 8 — Viết lại tự nhiên không thêm thông tin (Rewrite Naturally - Strict Zero Added Fact)
+### Test 8 — Viết lại tự nhiên không thêm thông tin (Rewrite Naturally - Strict Zero Added Factual Commitment)
 - **Đầu vào (User Prompt):**  
   `"Một ly trà sữa thơm ngon, béo ngậy, mang đến trải nghiệm tuyệt vời cho ngày mới."`  
   `User: Viết lại tự nhiên hơn, không thêm bất kỳ thông tin nào ngoài câu trên.`
 - **Bất biến bắt buộc (Expected Invariants):**
   - Giữ đúng bản chất thông điệp gốc: `ly trà sữa`, `thơm ngon, béo ngậy`, ý niệm `ngày mới`.
   - Paraphrase diễn đạt tự nhiên tiếng Việt, loại bỏ văn phong dịch sáo rỗng AI ("mang đến trải nghiệm tuyệt vời").
-  - Tuyệt đối bảo toàn giới hạn thông tin: Zero Added Fact.
+  - Tuyệt đối bảo toàn giới hạn thông tin: Zero Added Factual Commitment.
 - **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
   - ❌ Thêm dữ kiện mới (thời gian, topping trân châu, đá mát lạnh, giá tiền).
   - ❌ Thêm sắc thái đánh giá mới không có trong đề bài (*"vừa vặn"*).
@@ -270,14 +270,14 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   - ❌ Tự bịa hiệu ứng cảm xúc (*"thấy nhẹ lòng"*, *"ngụm trà thơm"*).
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Đôi khi chẳng cần gì phức tạp, chỉ một ly trà đào quen thuộc là đủ.*  
-  > *Hôm nay thèm thì ghé quán tụi mình làm một ly nha bạn ơi!*
+  > *Thèm thì ghé quán tụi mình làm một ly nha bạn ơi!*
 
 ---
 
 ## PHẦN 3: 9 BÀI KIỂM TRA HỒI QUY NGÔN TỪ (WORDCRAFT REGRESSION W01 ĐẾN W09)
 
 > 🔴 **NGUYÊN TẮC ĐÁNH GIÁ WORDCRAFT:**  
-> - **Creative freedom applies to EXPRESSION, not EVIDENCE.** (Tự do sáng tạo thuộc về diễn đạt, không thuộc về bằng chứng).  
+> - **Creative freedom applies to expression, imagery and emotional framing — not factual evidence or semantic commitment.** (Wordcraft được phép làm giàu cách diễn đạt, hình ảnh và sắc thái cảm xúc; nhưng tuyệt đối không được tạo factual commitment mới hoặc làm lệch semantic meaning).  
 > - **6 Tiêu chuẩn nghiệm thu Wordcraft (6 Wordcraft Acceptance Gates):**  
 >   1. `No unsupported sensory claim` (Không tự thêm vị giác/nhiệt độ: thơm, béo, ngọt, đậm, mát khi chưa có dữ liệu).  
 >   2. `No product effect` (Không tự thêm tác dụng: tỉnh táo, thư giãn, dễ chịu, nạp năng lượng, giải nhiệt, nhẹ lòng).  
@@ -438,9 +438,9 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 
 ---
 
-## PHẦN 4: 3 BÀI KIỂM TRA HỒI QUY KỂ CHUYỆN THỰC CHIẾN (STORYTELLING REGRESSION)
+## PHẦN 4: 3 BÀI KIỂM TRA HỒI QUY KỂ CHUYỆN THỰC CHIẾN (STORYTELLING & SCENARIO FIXTURES)
 
-### Test ST01 — Micro-story từ brief cực ngắn (Imagined Consumer Scenario)
+### Test ST-1 / ST01 — Micro-story từ brief cực ngắn (Imagined Consumer Scenario)
 - **Đầu vào (User Prompt):**  
   `Trà sữa 25k. Viết một mẩu chuyện ngắn đời thường (micro-story) thật tự nhiên.`
 - **Bất biến bắt buộc (Expected Invariants):**
@@ -460,7 +460,7 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 
 ---
 
-### Test ST02 — Kể chuyện từ hình ảnh (Image Scene & Metaphor)
+### Test ST-2 / ST02 — Kể chuyện từ hình ảnh (Image Scene & Metaphor)
 - **Đầu vào (User Prompt):**  
   `[Ảnh: Một ly cà phê đặt cạnh laptop trên bàn gỗ]`  
   `User: Viết caption Facebook kể một câu chuyện nhỏ về khoảnh khắc này.`
@@ -479,7 +479,7 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 
 ---
 
-### Test ST03 — Kể chuyện nghề quán có dữ kiện thật (Craft & Origin Narrative)
+### Test ST-3 / ST03 — Kể chuyện nghề quán có dữ kiện thật (Craft & Origin Narrative)
 - **Đầu vào (User Prompt):**  
   `Hạt Robusta Đắk Lắk rang mộc, pha phin truyền thống mỗi sáng. Giá 22k. Kể câu chuyện về ly cà phê này.`
 - **Bất biến bắt buộc (Expected Invariants):**
@@ -502,7 +502,7 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 1. **Bài Viết Chuyển Đổi Nhanh (Text Conversion):** Trà Đào Cam Sả 35k trưa nắng $\rightarrow$ Hook - Value - CTA, đúng giá, 1 hành động.
 2. **Viết Caption Cho Hình Ảnh (Image Input):** Ảnh ly trà sữa lớp bọt trắng $\rightarrow$ Visual-only, không suy diễn nhiệt độ vật lý hay vị giác ngầm.
 3. **Điều Chỉnh Giọng Văn Tức Thì (Humor Tone Rewrite):** Viết lại trào phúng, tự trào công việc/ví tiền, giữ thông tin cốt lõi.
-4. **Kể Chuyện Chiêm Nghiệm (Storytelling):** Tâm sự tối muộn ngày mưa $\rightarrow$ Bối cảnh giả định [HYPOTHETICAL], không kịch tính hóa.
+4. **Kể Chuyện Chiêm Nghiệm (Storytelling):** Tâm sự tối muộn ngày mưa $\rightarrow$ Bối cảnh kịch bản đời thường (Imagined Scenario), không kịch tính hóa.
 5. **Kịch Bản Video Ngắn (TikTok/Reels Script):** 30s Cà Phê Trứng $\rightarrow$ Cột Thời gian | Hình ảnh | Lời thoại bắt tai.
 6. **Tin Nhắn Zalo Cá Nhân (Personal DM):** Bánh chuối nướng mới ra lò 25k $\rightarrow$ Ngắn gọn 2–3 câu, xưng hô thân mật.
 7. **Bài Đăng Tuyển Dụng (Recruitment):** Tuyển 2 Barista part-time Quận 1, 25k/h $\rightarrow$ Đủ 4 thông tin, tôn trọng ứng viên.

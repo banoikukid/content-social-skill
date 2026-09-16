@@ -1,4 +1,4 @@
-# Hướng Dẫn Định Dạng Theo Platform
+# Hướng Dẫn Định Dạng Theo Platform (v4.9.2)
 
 > **LƯU Ý:** Mọi thông số (độ dài, số câu, vị trí ngắt dòng, emoji, hashtag) trong tài liệu này đều là **quy tắc gợi ý mềm (Soft Heuristics)** dựa trên thói quen đọc lướt thực tế, không phải quy định kỹ thuật cứng. Bất kỳ yêu cầu định dạng rõ ràng nào từ người dùng (ví dụ: *"viết thật ngắn, không hashtag, không emoji"*) luôn **ghi đè các mặc định này**.
 

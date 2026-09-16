@@ -1,4 +1,4 @@
-# Kỹ Thuật Viết Giá & Ưu Đãi (Pricing & Promotions)
+# Kỹ Thuật Viết Giá & Ưu Đãi (Pricing & Promotions - v4.9.2)
 
 Tài liệu hướng dẫn cách trình bày giá tiền, chương trình ưu đãi và khuyến mãi trong ngành F&B một cách hấp dẫn, minh bạch và an toàn.
 

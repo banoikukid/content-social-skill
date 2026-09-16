@@ -1,4 +1,4 @@
-# Nghệ Thuật Kể Chuyện & Động Cơ Chọn Góc Nhìn (Angle Engine & Storytelling)
+# Kể Chuyện & Dựng Tình Huống Cảm Xúc F&B (Micro-Story & Narrative Framing - v4.9.2)
 
 > 🌟 **ĐỊNH NGHĨA KỂ CHUYỆN F&B THỰC CHIẾN:**  
 > **"F&B storytelling is not limited to recounting real events. It can use observation, human truth, imagined scenarios and emotional framing to create a relatable micro-story, as long as fictional framing is not presented as factual customer/business history."**  
@@ -101,13 +101,20 @@ Mỗi góc nhìn cần được hỗ trợ bởi các kỹ thuật viết tươn
 
 ---
 
-## 6. Quy Tắc Ranh Giới: Creative Scenario vs Factual History
+## 6. Ranh Giới 3 Tầng: Creative Framing vs Imagined Scenario vs Fabricated Real Event
 
-- 🟢 **Được phép (Creative Scenario & Micro-Story):**  
-  Dựng tình huống tâm lý, khoảnh khắc ngẫu hứng đời thường (*"Chiều nay tự nhiên thèm..."*, *"Định đi ngang thôi, thấy trà đào 29k lại ghé vào..."*, *"Ví còn 25k, lòng thì thèm trà sữa..."*).  
-- 🔴 **Cấm tuyệt đối (Factual Customer/Business History):**  
-  Không tự bịa nhân vật khách hàng cụ thể (*"Hôm nay có anh khách ghé quán gạt chân chống xe bảo..."*), không bịa lịch sử tương tác có thật (*"Có anh khách hôm qua khen nức nở..."*), không bịa sự kiện vận hành quán (*"Sáng nay quán vừa nhập 1 tấn đào"*).
-  - *Mục tiêu:* Tạo ra một **tình huống đời thường mà ai cũng thấy mình trong đó**, không phải bịa ra một **bằng chứng nhân chứng lịch sử giả**.
+Để người viết tự tin sáng tác mà không sợ vi phạm ranh giới sự thật, hệ thống phân định rõ ràng 3 tầng:
+
+| Tầng Sáng Tác | Bản Chất & Ví Dụ Điển Hình | Quy Tắc Kiểm Duyệt |
+| :--- | :--- | :--- |
+| 🟢 **Rhetorical / Creative Framing** | Lời mời, khẩu ngữ, sự đồng cảm đời thường:<br>- *“Có những ngày chẳng cần gì nhiều.”*<br>- *“Thèm thì làm một ly thôi.”*<br>- *“Ví tiền cho phép hôm nay ngoại lệ một lần.”* | ✅ **Cho phép 100%, không cần tag**, tự nhiên như người Việt trò chuyện. |
+| 🟡 **Imagined Consumer Scenario** | Tình huống giả định, kịch bản đời thường:<br>- *“Nếu chiều nay trời mưa rào ghé ngang phố...”*<br>- *“Định đi ngang thôi, thấy trà đào 29k lại ghé vào...”*<br>- *“Nếu đang trên đường về nhà mỏi mệt...”* | ✅ **Cho phép**, dùng văn phong tự nhiên, **tuyệt đối không ép in tag `[HYPOTHETICAL]` ra output**. |
+| 🔴 **Fabricated Real Event** | Bịa đặt nhân chứng, hành vi khách có thật, sự kiện lịch sử của quán:<br>- *“Chiều nay có anh khách ghé bảo quán em...”*<br>- *“Hôm qua một chị khách uống khen nức nở...”*<br>- *“Khách nhà mình 100% ai cũng thích món này...”* | ❌ **CẤM TUYỆT ĐỐI**, chặn đứng tại Factuality Guard. |
+
+> 💡 **Quy tắc vàng phân định:**  
+> - **Creative Scenario:** Dựng một tình huống đời thường để ai đọc cũng thấy mình trong đó.  
+> - **Fabricated Event:** Dựng một sự kiện có thật để làm bằng chứng (evidence/testimonial) giả.  
+> $\rightarrow$ *Tình huống đời thường thì ĐƯỢC KHUYẾN KHÍCH. Bằng chứng sự thật giả thì BỊ CẤM HOÀN TOÀN.*
 
 ---
 

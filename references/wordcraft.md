@@ -1,4 +1,4 @@
-# Nghệ Thuật Chau Chuốt Ngôn Từ F&B (Wordcraft & Language Polish)
+# Nghệ Thuật Chau Chuốt Ngôn Từ F&B (Wordcraft & Language Polish - v4.9.2)
 
 Tài liệu hướng dẫn hậu kỳ câu chữ tiếng Việt dành cho Copywriter F&B. Sau khi **Content Brain** đã xác định rõ *Nói cái gì (WHAT TO SAY)*, tầng **Wordcraft** chịu trách nhiệm nâng tầm *Nói như thế nào cho đắt (HOW TO SAY)*.
 
@@ -174,7 +174,7 @@ DRAFT CHỨA SÁO NGỮ
 [3] SELECT BETTER VIETNAMESE (Chọn cách diễn đạt khẩu ngữ đắt giá, gãy gọn của người Việt)
         │
         ▼
-[4] CLAIM CHECK (Rà soát lại: Tuyệt đối Zero Added Fact / Zero Unprompted Sensory & Effect)
+[4] CLAIM CHECK (Rà soát lại: Tuyệt đối Zero Added Factual Commitment / Zero Unprompted Sensory & Effect)
         │
         ▼
 POLISHED FINAL

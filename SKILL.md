@@ -234,7 +234,7 @@ LANGUAGE POLISH PASS (Wordcraft 8-Point Check)
   ├─ [5] Spoken Vietnamese (Khẩu ngữ đời thường, người Việt có thực sự nói/viết vậy không?)
   ├─ [6] AI Cliché Control (Red-flag ngữ cảnh: "mang đến", "giúp bạn", "tận hưởng"... chỉ rewrite khi sáo rỗng/corporate)
   ├─ [7] Repetition Removal (Triệt tiêu lặp từ, lặp cấu trúc ngữ pháp giữa các câu)
-  └─ [8] Claim Boundary (Chốt chặn tuyệt đối: Zero added fact / Zero unprompted sensory & effect / Product Role ≠ Product Effect)
+  └─ [8] Claim Boundary (Chốt chặn tuyệt đối: Zero added factual commitment / Zero unprompted sensory & effect / Product Role ≠ Product Effect)
   │
   ▼
 FINAL OUTPUT
@@ -245,7 +245,7 @@ FINAL OUTPUT
 > - **Product Effect (Tác dụng lên cơ thể/tâm lý):** *"Uống vào thấy nhẹ lòng"*, *"giúp bạn lấy lại năng lượng"*, *"tỉnh táo tức thì"* $\rightarrow$ ❌ **CẤM HOÀN TOÀN** nếu brief không cho.  
 >
 > 💡 **NGUYÊN TẮC REWRITE ENGINE & TRIẾT LÝ NGÔN TỪ:**  
-> - **Nguyên tắc cốt lõi Wordcraft:** *"Wordcraft may enrich expression, imagery, rhythm and emotional framing, but must not introduce new factual commitments or alter semantic meaning."* (Wordcraft được phép làm giàu cách diễn đạt, hình ảnh, nhịp điệu và cảm xúc, nhưng tuyệt đối không đưa vào cam kết sự thật mới hoặc làm sai lệch ý nghĩa dữ kiện).  
+> - **Nguyên tắc cốt lõi Wordcraft:** *"Creative freedom applies to expression, imagery and emotional framing — not factual evidence or semantic commitment."* (Wordcraft được phép làm giàu cách diễn đạt, hình ảnh và sắc thái cảm xúc; nhưng tuyệt đối không được tạo factual commitment mới hoặc làm lệch semantic meaning).  
 > - **"Ít chữ nhưng đúng chữ" (Word Precision > Fancy Wording):** Tuyệt đối không cố "làm văn" hay nhồi nhét mỹ từ hoa mỹ. Câu đắt giá là câu ít chữ, đúng chữ, gãy gọn, giàu nhịp điệu và có lực bán hàng (*"Trà đào 29k. Thèm thì làm một ly thôi."*).  
 > - **Contextual Red-Flag Policy:** Các cụm từ như *"mang đến"*, *"giúp bạn"* là cờ đỏ cảnh báo cần soi ngữ cảnh; chỉ viết lại khi chúng tạo cảm giác sáo rỗng/AI, giữ nguyên nếu là khẩu ngữ đời thường tự nhiên (*"Mang đến quán cho mình nhé"*).  
 > - **"Don't only remove bad wording. Replace it with the strongest natural wording that preserves the same semantic content."**  

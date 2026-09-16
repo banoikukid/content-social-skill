@@ -1,4 +1,4 @@
-# Tuyển Tập Bài Viết Mẫu Thực Chiến (Gold-Standard Examples)
+# Tuyển Tập Bài Viết Mẫu Thực Chiến (Gold-Standard Examples - v4.9.2)
 
 Tài liệu cung cấp các bài viết mẫu chuẩn mực F&B, tuân thủ nghiêm ngặt các nguyên tắc:
 - Đúng 1 ý tưởng chủ đạo (One Dominant Idea)
@@ -219,10 +219,10 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 
 ---
 
-## 5. 3 Mẫu Kể Chuyện Chân Thật (Authentic Storytelling)
+## 5. 3 Mẫu Micro-Story & Narrative Framing
 
-### Mẫu 1: Buổi chiều trú mưa bất chợt (Góc: Thời tiết & Mood — [HYPOTHETICAL Scene])
-- **Bối cảnh:** Giả định bối cảnh ngày mưa rào (Hypothetical Scene).
+### Mẫu 1: Buổi chiều trú mưa bất chợt (Góc: Dịp/Thời điểm — Imagined Consumer Scenario)
+- **Bối cảnh:** Kịch bản đời thường ngày mưa rào (Imagined Scenario).
 - **Dominant Idea:** Cảm giác êm ả khi ngồi trú mưa trong góc quán quen.
 - **Copy:**
   > Có những chiều mưa rào bất chợt đổ xuống phố, ngoài đường ai nấy vội tấp xe vào hiên trú tạm.
@@ -231,8 +231,8 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
   > 
   > Nếu chiều nay trời đổ mưa, ghé quán trú chân cùng tụi mình nhé.
 
-### Mẫu 2: Góc quán thảnh thơi (Góc: Không gian & Giả định — [HYPOTHETICAL Scene])
-- **Bối cảnh:** Giả định không gian góc quán (Hypothetical Scene).
+### Mẫu 2: Góc quán thảnh thơi (Góc: Không gian — Imagined Consumer Scenario)
+- **Bối cảnh:** Kịch bản không gian góc quán (Imagined Scenario).
 - **Dominant Idea:** Khoảng lặng riêng tư bên góc quán quen.
 - **Copy:**
   > Đôi khi sau những giờ bận rộn, người ta chỉ mong tìm được một góc nhỏ yên tĩnh để ngồi lại một chút.

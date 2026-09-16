@@ -1,4 +1,4 @@
-# Công Thức Viết Bài & Tư Duy Bán Hàng (Content Formulas & Sales Writing)
+# Công Thức Viết Bài & Tư Duy Bán Hàng (Content Formulas & Sales Writing - v4.9.2)
 
 Tài liệu cung cấp các công thức viết bài thực chiến cho ngành F&B, tích hợp tầng **Consumer Insight & Product Role** để bài viết vừa giàu cảm xúc, vừa có lý do rõ ràng để khách hàng quan tâm (*Reason to care*) và hành động.
 

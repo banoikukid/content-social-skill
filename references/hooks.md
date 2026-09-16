@@ -1,4 +1,4 @@
-# Kỹ Thuật Mở Bài, Nhịp Điệu & Chống Mùi AI (Hooks, Rhythm & Anti-AI)
+# Kỹ Thuật Mở Bài, Nhịp Điệu & Chống Mùi AI (Hooks, Rhythm & Anti-AI - v4.9.2)
 
 Trên mạng xã hội, phần mở đầu cần đủ gọn để người đọc nhanh chóng hiểu bài đang nói gì. Mở bài xuất sắc phải tự nhiên, gãy gọn, có nhịp điệu và đánh trúng tâm lý, tuyệt đối không dùng các cấu trúc sáo rỗng của AI.
 

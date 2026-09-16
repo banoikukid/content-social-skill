@@ -1,4 +1,4 @@
-# Hướng Dẫn Giọng Văn (Tones & Voices)
+# Hướng Dẫn Giọng Văn (Tones & Voices - v4.9.2)
 
 Tài liệu hướng dẫn chọn và áp dụng 5 giọng văn phổ biến nhất trong F&B. Nếu người dùng không chỉ định, luôn dùng **Tone 1 (Gần gũi)** làm mặc định.
 

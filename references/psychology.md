@@ -1,4 +1,4 @@
-# Kỹ Thuật Tâm Lý Viết Bài F&B (Practical Psychology)
+# Kỹ Thuật Tâm Lý Viết Bài F&B (Practical Psychology - v4.9.2)
 
 Tài liệu chọn lọc các kỹ thuật tâm lý thực chiến dành riêng cho ngành đồ uống và quán xá F&B, được tổ chức theo chuỗi chuyển hóa tự nhiên trong tâm trí người đọc:
 
