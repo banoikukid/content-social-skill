@@ -17,6 +17,10 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   - Khơi gợi bối cảnh trời nóng bằng ngôn từ tự nhiên, cảm xúc [CREATIVE].
   - CTA rõ ràng, tự nhiên.
   - Tuyệt đối không tự bịa topping hay thuộc tính vật lý không có trong brief.
+- **Mẫu Output Chuẩn (Canonical Pass):**
+  > *Trời nóng quá.*  
+  > *Ghé quán tụi mình làm một ly trà đào 29k để giải lao một chút nha bạn ơi.*  
+  > *Quán tụi mình mở cửa đón bạn ghé chơi nhé.*
 
 ---
 
@@ -33,6 +37,10 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   - **Không tự suy diễn thời điểm trong ngày ("buổi chiều", "sáng sớm")** nếu ảnh không chứng minh thời gian cụ thể.
   - Không tự bịa giá tiền, topping ẩn, khuyến mãi hay vị giác.
   - Caption mang tính gợi mở, dùng ảnh làm chất xúc tác cảm xúc (Caption ≠ Image Description).
+- **Mẫu Output Chuẩn (Canonical Pass):**
+  > *Một góc bàn gỗ mộc mạc, một ly trà sữa cạnh bên.*  
+  > *Đôi khi chỉ cần một khoảng lặng nhỏ như vậy là đủ để mình chậm lại một chút.*  
+  > *Hôm nay bạn đã tự thưởng cho mình một khoảng nghỉ chưa?*
 
 ---
 
@@ -45,8 +53,12 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   - Khai thác trọn vẹn các thành phần đã cho: Trà lài, cam vàng, chanh leo, thạch nha đam.
   - Diễn đạt đúng vị đã cho: chua ngọt nhẹ.
   - Giá chuẩn xác: 32k.
-  - **Không tự thêm texture hay cảm giác nhai ("nhai vui miệng", "giòn sần sật")** khi brief chưa xác nhận.
+  - **Không tự thêm hình thức ("lát") hay texture/cảm giác nhai ("nhai vui miệng", "giòn sần sật")** khi brief chưa xác nhận.
   - Không tự bịa thêm xuất xứ nguyên liệu (chanh leo Đà Lạt, cam Mỹ) hay công dụng y khoa.
+- **Mẫu Output Chuẩn (Canonical Pass):**
+  > *Nền trà lài kết hợp cùng cam vàng, chanh leo và thạch nha đam.*  
+  > *Một ly trà chua ngọt nhẹ nhàng, giá 32k cho những lúc muốn tìm chút cảm giác tươi mới.*  
+  > *Ghé quán tụi mình order một ly nha!*
 
 ---
 
@@ -58,8 +70,10 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 - **Tiêu chuẩn PASS:**
   - Định dạng chuẩn Zalo Personal: Ngắn gọn (2–4 câu), xưng hô thân mật như người quen nhắn tin.
   - Đúng số tiền: Giảm 5.000đ khi mang bình cá nhân; đúng hạn: đến 30/9.
-  - **Cấm tự ý thêm điều kiện hoặc claim tác động ngoài brief:** Tuyệt đối không tự thêm "chỉ áp dụng mua mang đi", "giảm trên mỗi ly", "áp dụng size lớn", và không tự thêm claim tác động như "bớt đi một chiếc ly nhựa mỗi ngày".
+  - **Cấm tự ý thêm điều kiện hoặc claim tác động ngoài brief:** Tuyệt đối không tự thêm "chỉ áp dụng mua mang đi", "giảm trên mỗi ly", "áp dụng size lớn", và không tự thêm claim tác động môi trường như "bớt đi một chiếc ly nhựa mỗi ngày".
   - CTA tự nhiên, ấm áp.
+- **Mẫu Output Chuẩn (Canonical Pass):**
+  > *"Bạn ơi, từ nay đến hết 30/9, khi bạn mang bình cá nhân ghé quán tụi mình sẽ giảm ngay 5.000đ nha. Khi nào bạn ghé thì nhắn tụi mình chuẩn bị nước trước cho nghen!"*
 
 ---
 
@@ -72,8 +86,11 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 - **Tiêu chuẩn PASS:**
   - Dùng hình ảnh buổi tối làm chất xúc tác cảm xúc/khoảng lặng [CREATIVE / HYPOTHETICAL].
   - Không tự bịa nhân vật khách hàng (ví dụ: "tối nay có một cặp đôi ghé quán...", "anh khách quen ngồi góc kia...").
-  - Không tự khẳng định tình trạng vận hành hay hiện trạng vật lý chưa chứng minh ("ánh vàng ấm áp", "tan làm", "tụi mình luôn sẵn sàng đón bạn").
+  - **Không tự khẳng định tình trạng vận hành hay hiện trạng vật lý chưa chứng minh** (cấm tự viết: "phố xá lên đèn", "ánh vàng ấm áp", "tan làm", "tụi mình luôn sẵn sàng đón bạn").
   - Giữ âm hưởng bình yên, chân thật, không lên lớp đạo lý.
+- **Mẫu Output Chuẩn (Canonical Pass):**
+  > *Một góc quán tĩnh lặng khi đêm buông.*  
+  > *Nếu tối nay bạn cần một góc nhỏ để ngồi lại sau một ngày dài, ghé quán nhé.*
 
 ---
 
@@ -87,6 +104,10 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   - Giữ nguyên khái niệm `126 khách` (hoặc `126 vị khách`), tuyệt đối không đổi thành `126 ly` hay `126 đơn`.
   - Không tự phong danh hiệu "bán chạy nhất quán", "best seller số 1".
   - Tone giọng chân thành, cảm ơn khách hàng đã lựa chọn món nước.
+- **Mẫu Output Chuẩn (Canonical Pass):**
+  > *Tuần này đã có 126 khách chọn Trà Xoài Nhiệt Đới khi ghé tụi mình.*  
+  > *Cảm ơn bạn đã luôn đồng hành cùng món trà nhỏ này.*  
+  > *Ghé quán tụi mình làm một ly quen nhé!*
 
 ---
 
@@ -101,6 +122,10 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   - **Không thay thế bằng claim tác dụng tâm lý/thể chất nhẹ hơn** (như "giúp bạn tìm lại sự tập trung", "tăng hiệu suất").
   - Chuyển hẳn sang **mood / metaphor / context không-claim** (ví dụ: "một tách cà phê bên bàn làm việc, cho bạn một khoảng nghỉ nhỏ giữa nhịp ngày").
   - Không tạo ảo giác thay thế (không tự bịa thêm quy trình canh rang hay quán đông khách).
+- **Mẫu Output Chuẩn (Canonical Pass):**
+  > *Cà phê hạt mộc rang đậm cho những ai yêu thích vị mộc mạc nguyên bản.*  
+  > *Một tách cà phê bên bàn làm việc, cho bạn một khoảng nghỉ nhỏ giữa nhịp ngày.*  
+  > *Ghé quán tụi mình làm một tách quen nhé.*
 
 ---
 
@@ -115,7 +140,8 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   - Viết tự nhiên, gãy gọn bằng tiếng Việt đời thường.
   - Loại bỏ cấu trúc dịch thô / sáo ngữ AI.
   - **Tuyệt đối không thêm bất kỳ dữ kiện hoặc sắc thái mới:** không thêm "vừa vặn", không thêm thời điểm, topping, nhiệt độ hay giá tiền.
-  - Ví dụ chuẩn đạt: *"Một ly trà sữa thơm ngon, béo ngậy — khởi đầu tuyệt vời cho ngày mới."*
+- **Mẫu Output Chuẩn (Canonical Pass):**
+  > *Một ly trà sữa thơm ngon, béo ngậy — khởi đầu tuyệt vời cho ngày mới.*
 
 ---
 

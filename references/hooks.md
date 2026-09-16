@@ -73,10 +73,14 @@ Văn bản do AI tạo ra thường có độ dài các câu đều đều nhau,
 
 ---
 
-## 4. Ưu Tiên Chi Tiết Cụ Thể Hơn Tính Từ Chung Chung (Specificity > Adjective)
+## 4. Chi Tiết Cụ Thể Có Căn Cứ Dữ Liệu (Evidence-backed Specificity > Generic Adjective)
+
+> **NGUYÊN TẮC: SPECIFICITY MUST COME FROM EVIDENCE.**  
+> Ưu tiên miêu tả chi tiết cụ thể từ dữ kiện đã có (`[OBSERVED]` hoặc `[PROVIDED]`) thay cho tính từ sáo rỗng.  
+> Tuyệt đối không hiểu nhầm "hãy thêm chi tiết" thành tự bịa ra "lớp bọt sữa mịn", "đá viên trong veo", "mùi trà thoang thoảng", "ánh đèn vàng", "góc bàn quen" khi ảnh hoặc brief không hề có. Khi dữ kiện ít, hãy dùng creative framing thay vì tự sáng tác chi tiết factual.
 
 - ❌ **Dùng tính từ mơ hồ (AI-slop):** *"Ly trà đào thơm ngon tuyệt vời, hấp dẫn vô cùng."*
-- ⚠️ **Tự suy đoán vị giác/texture từ ảnh (Fact Trap):** *"Miếng đào giòn sần sật..."* *(Chỉ nhìn ảnh thì không thể biết độ giòn; không tự biến suy đoán thành sự thật).*
+- ⚠️ **Tự suy đoán vị giác/texture từ ảnh (Fact Trap):** *"Miếng đào giòn sần sật...", "vị ngọt lịm mát lạnh..."* *(Chỉ nhìn ảnh thì không thể biết độ giòn hay nhiệt độ; không tự biến suy đoán thành sự thật).*
 - ✅ **Dùng chi tiết thị giác thật quan sát từ ảnh (`[OBSERVED]`):** *"Miếng đào vàng nổi bật trên nền trà cam đọng sương đá li ti ngoài thành ly."*
 - ✅ **Dùng chi tiết hương vị/texture khi menu/brief đã cung cấp (`[PROVIDED]`):** *"Miếng đào ngâm giòn ngọt trên nền trà lài thanh nhẹ."*
 

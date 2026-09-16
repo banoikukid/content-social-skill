@@ -38,7 +38,7 @@ User Input (Text / Image / Brief)
 2. VIẾT BÀI VỚI VĂN PHONG TỰ NHIÊN & CÓ NHỊP ĐIỆU
    - Triệt tiêu 8 khuôn mẫu sáo rỗng AI (AI Cliché Patterns)
    - Kỹ thuật nhịp điệu (Sentence Rhythm Engineering): xen kẽ câu ngắn, câu dài, câu punchline
-   - Ưu tiên chi tiết cụ thể hơn tính từ mơ hồ (Specificity > Generic Adjective)
+   - Chi tiết cụ thể có căn cứ (Evidence-backed Specificity > Generic Adjective)
    - Phân biệt Voice (bản sắc quán) vs Tone (tâm trạng bài viết)
    - Định dạng chuẩn theo nền tảng (User request ghi đè mặc định)
             │
@@ -46,7 +46,7 @@ User Input (Text / Image / Brief)
 3. KIỂM ĐỊNH TIÊU CHUẨN XUẤT BẢN (Definition of Done QA — 10 Silent Checks)
    - Chạy thầm 10 câu hỏi kiểm tra nội bộ (KHÔNG in checklist ra ngoài chat):
      [1] Brief fit  [2] 1 Dominant Idea  [3] Angle rõ  [4] Hook Promise-Payoff  [5] Caption ≠ Image Desc
-     [6] Specificity  [7] Claim Check (nguồn dữ kiện)  [8] Anti-AI / No slop  [9] Voice/Tone/Platform  [10] Natural CTA/Emoji
+     [6] Evidence-backed Specificity  [7] Claim Check (nguồn dữ kiện)  [8] Anti-AI / No slop  [9] Voice/Tone/Platform  [10] Natural CTA/Emoji
             │
             ▼
 Output bài viết hoàn chỉnh ngay lập tức (KHÔNG tra khảo người dùng)
@@ -80,7 +80,7 @@ content-social-skill/
 
 - **Không tra khảo người dùng (Zero Interrogation):** Khi người dùng đưa brief ngắn (`"Viết bài trà đào 35k"`) hoặc chỉ gửi ảnh, bot lập tức áp dụng *Mặc định hợp lý* (Facebook + Gần gũi) để xuất bài hoàn chỉnh ngay từ lượt phản hồi đầu tiên.
 - **Tương tác lặp tức thì:** Nếu người dùng yêu cầu chỉnh sửa (*"viết hài hơn"*, *"rút ngắn lại"*), bot viết lại ngay lập tức mà không tranh cãi.
-- **Xử lý an toàn thông minh (Block Claim, Continue Content):** Khi người dùng đưa yêu cầu nhạy cảm (như cam kết y khoa), bot tự động loại bỏ claim rủi ro và tiếp tục viết bài hoàn chỉnh tập trung vào hương vị và trải nghiệm thư giãn.
+- **Xử lý an toàn thông minh (Block Claim, Continue Content & No Replacement):** Khi người dùng đưa yêu cầu nhạy cảm (như cam kết y khoa) hoặc yêu cầu bịa đặt, bot tự động loại bỏ claim rủi ro và tiếp tục viết bài hoàn chỉnh dựa trên dữ kiện đã có provenance hoặc bằng framing cảm xúc không-claim, tuyệt đối không tự ý bịa thêm hương vị hay không gian mới.
 
 ---
 
