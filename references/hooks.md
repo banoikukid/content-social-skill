@@ -9,36 +9,47 @@ Trên mạng xã hội, phần mở đầu cần đủ gọn để người đ�
 
 ---
 
-## 1. 5 Dạng Hook Thực Chiến Cho F&B (Không Bịa Claim)
+## 1. 6 Dạng Hook Gắn Liền Với Insight & Lý Do Quan Tâm (Reason to Care)
 
-### 1. Đánh trúng tâm lý & cảm xúc đời thường (Emotional Hook — [CREATIVE])
-Đánh vào trạng thái cảm xúc quen thuộc của người đọc mà không tự tạo bối cảnh mang hình thức sự thật:
-- *"Có những lúc chỉ muốn tạm gác công việc lại một chút để tìm chút cảm giác nhẹ nhõm..."*
-- *"Trời hôm nay oi bức ghê, bước ra đường thôi là muốn tan chảy..."* `[khi brief có dữ kiện thời tiết]`
+Hook không chỉ là "giật tít gây chú ý", mà phải tạo được **sự đồng cảm (Recognition)**, **sự tò mò (Curiosity)** hoặc **mong muốn đời thường (Desire)** để người đọc có lý do đọc tiếp (*Reason to read*):
+
+### 1. Nhận biết & Đồng cảm (Recognition Hook — [CREATIVE])
+Chạm trúng trạng thái cảm xúc quen thuộc của người đọc mà không tự tạo bối cảnh mang hình thức sự thật:
+- *"Có những ngày chẳng cần gì nhiều, chỉ cần một khoảng nghỉ nhỏ để chậm lại một chút..."*
 - *"Sau một ngày dài tất bật, chỉ thèm một góc nhỏ ngồi thở một chút."*
+- *"Có những lúc chỉ muốn buông chuột năm phút để tìm chút cảm giác nhẹ nhõm..."*
 
-### 2. Tò mò & Đảo ngược định kiến (Curiosity Hook)
-Nêu một chi tiết gợi mở, khiến người đọc muốn tìm hiểu thêm mà không tự bịa đặt giải thưởng hay kỷ lục bán hàng:
-- *"Nhìn đơn giản vậy thôi — bạn đoán điểm đặc biệt nằm ở đâu?"* `[CREATIVE]`
+### 2. Tò mò & Khoảng trống thông tin (Curiosity Hook)
+Nêu một chi tiết gợi mở hoặc câu hỏi thú vị mà không tự bịa đặt giải thưởng hay kỷ lục bán hàng:
+- *"29k thì có gì đặc biệt? Đôi khi chỉ là sự vừa vặn cho một khoảng giải lao."* `[CREATIVE]`
+- *"Nhìn đơn giản vậy thôi — bạn đoán điểm đặc biệt của ly này nằm ở đâu?"* `[CREATIVE]`
 - *"Nếu bạn thích vị trà đậm mà ngại ngọt gắt, thì đây có thể là một gợi ý hay."* `[PROVIDED: vị trà đậm, ít ngọt]`
-- *"Một món mộc mạc trên menu, nhưng có một chi tiết khá thú vị..."* `[CREATIVE]`
 
-### 3. Âm thanh & Giác quan trực tiếp (Sensory Hook — [OBSERVED])
-Mở đầu bằng chi tiết quan sát được trực tiếp từ ảnh hoặc video:
-- *"Lớp kem trắng phủ trên miệng ly, tương phản với nền trà màu hổ phách."* `[OBSERVED: thấy trong ảnh]`
-- *"Khói ấm bốc lên từ tách cà phê nóng vừa pha xong."* `[OBSERVED: thấy khói trong ảnh]`
-- *"Tiếng đá lắc leng keng trong bình shaker."* `[OBSERVED: dùng cho video quầy pha chế]`
+### 3. Mong muốn & Tự thưởng (Desire & Self-Reward Hook — [CREATIVE])
+Khai thác mong muốn chăm sóc bản thân một cách mộc mạc:
+- *"Muốn tự thưởng cho mình một chút ngọt ngào để lấy lại năng lượng..."*
+- *"Đôi khi niềm vui trong ngày chỉ đơn giản là gọi được ly nước đúng ý."*
 
-### 4. Tự trào & Hóm hỉnh (Relatable Humor Hook — [CREATIVE])
-Biến chuyện đời thường của khách thành tiếng cười đồng cảm:
+### 4. Tình huống & Thời tiết (Situation Hook — [PROVIDED])
+Đi thẳng vào bối cảnh thật khi brief cung cấp thông tin:
+- *"Trời hôm nay oi bức ghê, bước ra đường thôi là muốn tan chảy..."* `[khi brief có dữ kiện thời tiết]`
+- *"Ghé quán sau giờ tan học làm một ly giải lao cùng bạn bè."* `[khi brief có dữ kiện tan học]`
+
+### 5. Tương phản & Tự trào (Contrast & Humor Hook — [CREATIVE])
+Biến mâu thuẫn đời thường thành tiếng cười dễ thương:
+- *"Không cần gì nhiều, chỉ cần một ly nước quen là thấy ngày nhẹ hẳn."*
 - *"Ví tiền bảo 'thôi', nhưng cái miệng lại bảo 'order một ly trà sữa đi'."*
-- *"Bảo tiết kiệm mà đồng nghiệp rủ làm ly trà sữa là tay bấm order liền."*
-- *"Bảo kiềm chế mà những lúc mệt mỏi lại chỉ muốn tìm một ly nước giải lao."*
+- *"Bảo tiết kiệm mà đồng nghiệp rủ làm ly trà sữa là tay bấm chuyển khoản liền."*
 
-### 5. Ưu đãi thẳng thắn (Direct Offer Hook — [PROVIDED])
-Nói thẳng quyền lợi khách hàng khi có chương trình thực tế từ quán:
-- *"Mua 1 tặng 1 duy nhất trong khung giờ 14h - 17h hôm nay!"* `[PROVIDED: deal thực tế]`
+### 6. Sở thích & Gu thưởng thức (Identity Hook — [PROVIDED])
+Kết nối với nhóm khách hàng yêu thích đặc tính thực tế của sản phẩm:
+- *"Dành cho những ai yêu thích vị cà phê mộc nguyên bản và đậm vị."* `[PROVIDED: cà phê rang mộc]`
+- *"Nếu gu của bạn là trà đậm hậu vị thanh, thì đây là món dành cho bạn."* `[PROVIDED: vị trà thanh]`
+
+### 7. Ưu đãi thẳng thắn (Direct Offer Hook — [PROVIDED])
+Nêu thẳng quyền lợi thực tế của khách hàng:
 - *"Giảm 5.000đ khi bạn mang theo bình cá nhân ghé quán."* `[PROVIDED: ưu đãi thực tế]`
+- *"Ưu đãi đi 2 tặng 1 món bánh kèm tuần này."* `[PROVIDED: deal thực tế]`
 
 ---
 

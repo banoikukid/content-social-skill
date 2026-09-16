@@ -1,8 +1,13 @@
-# Công Thức Viết Bài (Content Formulas)
+# Công Thức Viết Bài & Tư Duy Bán Hàng (Content Formulas & Sales Writing)
 
-Tài liệu cung cấp 4 công thức viết bài kinh điển, được tinh gọn cho ngành F&B để tạo ra nội dung thu hút, tự nhiên và chuyển đổi cao.
+Tài liệu cung cấp các công thức viết bài thực chiến cho ngành F&B, tích hợp tầng **Consumer Insight & Product Role** để bài viết vừa giàu cảm xúc, vừa có lý do rõ ràng để khách hàng quan tâm (*Reason to care*) và hành động.
 
-> **LƯU Ý:** Các công thức này là **công cụ gợi ý (Soft Guidance)**, không phải khuôn mẫu bắt buộc. Nếu bài viết viết tự nhiên, ngắn gọn mà truyền tải được thông điệp thì không cần cố ép đủ các bước của công thức.
+> **NGUYÊN TẮC CỐT LÕI VỀ CÔNG THỨC:**  
+> - **Formula là công cụ tư duy gợi ý (Thinking Tool), không phải biểu mẫu bắt buộc phải điền (Mandatory Template).**  
+> - Không bắt mọi caption phải gượng ép đủ từng bước. Nếu bài viết ngắn gọn, tự nhiên và chạm đúng cảm xúc thì hãy ưu tiên sự mộc mạc của tiếng Việt.  
+> - **Luồng tư duy bán hàng linh hoạt (Sales Thinking Flow):**  
+>   `SITUATION` *(Bối cảnh đời thường)* $\rightarrow$ `INSIGHT / TENSION` *(Vì sao khách quan tâm)* $\rightarrow$ `PRODUCT ROLE` *(Sản phẩm đóng vai trò gì)* $\rightarrow$ `DESIRE / PAYOFF` *(Giá trị nhận lại)* $\rightarrow$ `ACTION / CTA` *(Kêu gọi hành động tự nhiên)*.  
+> - **Mô hình rút gọn:** `HOOK` $\rightarrow$ `WHY CARE` $\rightarrow$ `PRODUCT ROLE` $\rightarrow$ `CTA`.
 
 ---
 
@@ -10,9 +15,9 @@ Tài liệu cung cấp 4 công thức viết bài kinh điển, được tinh g�
 
 Công thức trực diện nhất cho các bài đăng sản phẩm, khuyến mãi, bài viết hàng ngày.
 
-- **Hook (Mở bài 1–2 dòng):** Giật sự chú ý hoặc đặt câu hỏi chạm đúng tâm lý (thèm ngọt, khát nước, tan làm).
-- **Value (Giá trị / Món nước 2–4 dòng):** Nêu rõ món nước có gì đặc biệt (vị trà, lớp bọt, topping) kèm giá hoặc ưu đãi.
-- **CTA (Kêu gọi hành động 1 câu):** Đúng 1 hành động duy nhất (nhắn tin, ghé quán, hoặc đặt hàng).
+- **Hook (Mở bài 1–2 dòng):** Chạm vào sự chú ý hoặc một mong muốn quen thuộc (thèm món quen, khoảng nghỉ giữa ngày, deal tiết kiệm).
+- **Value / Product Role (Giá trị / Vai trò món nước 2–4 dòng):** Thể hiện rõ món nước đóng vai trò gì (giải pháp giải lao, món quen mộc mạc, phần thưởng nhỏ) dựa trên dữ kiện thật (`[PROVIDED]` / `[OBSERVED]`).
+- **CTA (Kêu gọi hành động 1 câu):** Gắn kết tự nhiên với mong muốn (Desire) của người đọc (nhắn tin, ghé tiệm).
 
 > **Ví dụ khung mẫu (Dùng placeholder bám sát dữ kiện):**  
 > Chiều nay oi bức, ghé quán làm một ly [Tên món nước] nha bạn ơi! *(Hook - Bối cảnh [CREATIVE])*  

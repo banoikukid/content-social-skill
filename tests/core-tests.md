@@ -1,6 +1,9 @@
-# Bộ Kiểm Thử Cốt Lõi (Core Test Suite - v4.8.0)
+# Bộ Kiểm Thử Cốt Lõi (Core Test Suite - v4.9.0)
 
-Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill F&B Copywriter, bao gồm **8 bài kiểm tra hồi quy ranh giới dữ kiện & sáng tạo (Provenance & Creative Boundary Regression)** và **10 kịch bản ứng dụng thực chiến**.
+Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill F&B Copywriter, bao gồm:
+1. **8 bài kiểm tra hồi quy ranh giới dữ kiện & sáng tạo (Provenance & Creative Boundary Regression)**
+2. **5 bài kiểm tra hồi quy thấu cảm khách hàng & kỹ năng bán hàng (Consumer Insight & Sales Writing Regression)**
+3. **10 kịch bản ứng dụng thực chiến đa nền tảng**
 
 ---
 
@@ -161,7 +164,110 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 
 ---
 
-## PHẦN 2: 10 KỊCH BẢN THỰC CHIẾN ĐA NỀN TẢNG (10 CORE SCENARIOS)
+## PHẦN 2: 5 BÀI KIỂM TRA HỒI QUY CONSUMER INSIGHT & SALES WRITING (CI-1 ĐẾN CI-5)
+
+> 🔴 **NGUYÊN TẮC ĐÁNH GIÁ CONSUMER INSIGHT:**  
+> - **Fact tells what we can say. Insight tells why the customer cares. Creative tells how to say it beautifully.**  
+> - **Insight may create relevance, but may not create evidence.**  
+> - Không bịa chân dung khách hàng, hành vi cụ thể, bối cảnh thời gian hoặc công dụng sản phẩm để gán ghép insight.  
+> - Đạt yêu cầu: Đủ fact cốt lõi + Không vi phạm forbidden patterns + Có Reason to Care / Product Role tự nhiên + CTA phù hợp.
+
+---
+
+### Test CI-1 — Sản phẩm ít dữ kiện (Sparse Product with Reason to Care)
+- **Đầu vào (User Prompt):**  
+  `Quán có trà đào 29k. Viết caption Facebook bán hàng.`
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Món nước: `Trà đào` (hoặc `trà đào`).
+  - Mức giá: `29k` (hoặc `29.000đ`).
+  - Lý do quan tâm & Vai trò sản phẩm (Reason to Care & Product Role): Giải khát, khoảng nghỉ ngơi nhẹ nhàng giữa ngày, phần thưởng nhỏ hạ nhiệt (dùng human truth / creative framing rộng).
+  - Kêu gọi hành động (CTA) tự nhiên, rào cản thấp.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
+  - ❌ Tự bịa topping không có trong brief (*"miếng đào giòn tan"*, *"thạch giòn"*).
+  - ❌ Tự suy diễn nhiệt độ vật lý hoặc thuộc tính cảm quan (*"mát lạnh buốt răng"*).
+  - ❌ Tự khẳng định trạng thái vận hành / giờ mở cửa (*"quán đang mở cửa"*, *"ghé quán liền nha quán đang đợi"*).
+  - ❌ Tự bịa chân dung khách hàng cụ thể (*"dân văn phòng quận 1"*, *"học sinh tan trường"*).
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Một ly trà đào 29k cho một khoảng nghỉ ngắn giữa ngày làm việc.*  
+  > *Nếu bạn đang cần chút ngọt thơm để nạp lại hứng khởi, ghé quán tụi mình làm một ly nha bạn ơi!*
+
+---
+
+### Test CI-2 — Ưu đãi kèm lý do tham gia (Promotion with Reason to Care)
+- **Đầu vào (User Prompt):**  
+  `Giảm 5.000đ khi mang bình cá nhân. Áp dụng đến 30/9. Viết caption Facebook.`
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Mức ưu đãi: `Giảm 5.000đ` (hoặc `5k`).
+  - Điều kiện: `Mang bình cá nhân` (hoặc `bình riêng`).
+  - Thời hạn: `Áp dụng đến 30/9`.
+  - Lý do để khách tham gia (Reason to Care): Tiết kiệm một chút mỗi ngày, hình thành thói quen nhỏ tiện lợi, gọn gàng khi mang đi.
+  - Giọng văn tự nhiên, thân thiện, không biến thành văn bản thông báo khuyến mãi khô cứng.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
+  - ❌ Tự bịa danh mục đồ uống áp dụng (*"áp dụng cho trà sữa và cà phê"*).
+  - ❌ Tự bịa kích thước bình hoặc dung tích (*"bình từ 500ml trở lên"*).
+  - ❌ Tự bịa cam kết bảo vệ môi trường vĩ mô hay số liệu rác thải nhựa nếu brief không cung cấp (*"bớt đi 1 chiếc ly nhựa mỗi ngày", "chung tay cứu trái đất"*).
+  - ❌ Tự bịa giờ giấc áp dụng (*"áp dụng khung giờ vàng"*).
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Thêm một lý do nhỏ để bạn mang theo chiếc bình quen thuộc khi ghé quán:*  
+  > *Từ nay đến hết 30/9, tụi mình giảm ngay 5.000đ cho mỗi món nước khi bạn mang bình cá nhân.*  
+  > *Vừa tiện mang đi làm đi học, vừa tiết kiệm được một chút mỗi ngày. Lần tới ghé quán nhớ mang theo bình nha bạn ơi!*
+
+---
+
+### Test CI-3 — Sản phẩm cảm xúc / Tự thưởng (Emotional Product & Self-Reward)
+- **Đầu vào (User Prompt):**  
+  `Trà sữa 35k. Viết caption Instagram.`
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Món nước: `Trà sữa`.
+  - Mức giá: `35k` (hoặc `35.000đ`).
+  - Cảm xúc & Vai trò sản phẩm (Product Role as Self-Reward): Khoảnh khắc tự thưởng một chút ngọt ngào, xoa dịu tâm trạng sau những giờ làm việc / học tập.
+  - Văn phong hợp vibe Instagram: Câu từ ngắn gọn, thẩm mỹ, nhẹ nhàng, tự nhiên.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
+  - ❌ Tự bịa topping (*"trân châu đường đen"*, *"pudding trứng"*).
+  - ❌ Tự bịa hương vị / thành phần sâu (*"trà ô long nướng"*, *"sữa tươi thanh trùng"*).
+  - ❌ Tự bịa địa chỉ quán hoặc không gian quán (*"view tầng 2 ngắm hoàng hôn"*).
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Một chút ngọt ngào để xoa dịu một ngày bận rộn.*  
+  > *Trà sữa 35k, một niềm vui nho nhỏ vừa vặn để tự thưởng cho chính mình.*  
+  > *Hôm nay bạn đã uống trà sữa chưa?*
+
+---
+
+### Test CI-4 — Dữ kiện thói quen rõ ràng (Explicit Insight from Brief)
+- **Đầu vào (User Prompt):**  
+  `Quán có trà đào 29k. Khách hay ghé mua sau giờ tan học. Viết caption Facebook.`
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Món nước: `Trà đào` và mức giá `29k`.
+  - Dữ kiện brief cung cấp: `Khách hay ghé mua sau giờ tan học` (khai thác khéo léo, tự nhiên).
+  - Vai trò sản phẩm: Món giải nhiệt / chỗ dừng chân thân thuộc sau giờ học tan trường.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
+  - ❌ Tự bịa tên trường học cụ thể (*"các bạn trường Nguyễn Thị Minh Khai"*).
+  - ❌ Tự bịa cảm xúc thi cử hay tình huống học đường cụ thể (*"sau giờ kiểm tra 1 tiết căng thẳng"*, *"kỳ thi đại học"*).
+  - ❌ Tự bịa quy mô nhóm bạn (*"nhóm 4-5 bạn rủ nhau"*).
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Tầm giờ tan học, quán lại rộn ràng hơn một chút khi các bạn ghé mua trà đào mang đi.*  
+  > *Một ly trà đào 29k vừa quen vừa mát lòng, ghé ngang làm một ly rồi thong thả về nhà nghen bạn ơi!*
+
+---
+
+### Test CI-5 — Không có insight sẵn có (No Insight Available / Extreme Sparse)
+- **Đầu vào (User Prompt):**  
+  `Quán có trà đào. Viết caption.`
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Món nước: Duy nhất `trà đào`.
+  - Không có giá tiền, không có ảnh, không có bối cảnh không gian/thời gian.
+  - Dùng sự thật đời thường rộng (human truth) hoặc framing sáng tạo nhẹ nhàng [CREATIVE] về sự mộc mạc của món trà đào.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
+  - ❌ Tự bịa giá tiền (*"chỉ 25k"* hay *"29k"*).
+  - ❌ Tự bịa topping, nguyên liệu (*"đào ngâm giòn sần sật"*).
+  - ❌ Tự gượng ép tạo bối cảnh giả tạo (*"chiều nay ghé quán ngồi làm việc ngắm mưa"*).
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Đôi khi không cần nghĩ ngợi quá nhiều, chỉ cần một ly trà đào quen thuộc là đủ thấy nhẹ lòng.*  
+  > *Hôm nay thèm một ngụm trà thơm thì ghé quán tụi mình nha!*
+
+---
+
+## PHẦN 3: 10 KỊCH BẢN THỰC CHIẾN ĐA NỀN TẢNG (10 CORE SCENARIOS)
 
 1. **Bài Viết Chuyển Đổi Nhanh (Text Conversion):** Trà Đào Cam Sả 35k trưa nắng $\rightarrow$ Hook - Value - CTA, đúng giá, 1 hành động.
 2. **Viết Caption Cho Hình Ảnh (Image Input):** Ảnh ly trà sữa lớp bọt trắng $\rightarrow$ Visual-only, không suy diễn nhiệt độ vật lý hay vị giác ngầm.

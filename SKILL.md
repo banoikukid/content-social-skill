@@ -1,7 +1,7 @@
 ---
 name: content-social
 description: "Vietnamese F&B social copywriter for Facebook, Instagram, TikTok/Reels, and Zalo. Use when the user asks to write, rewrite, or adapt social content for beverage and coffee brands, from text briefs or images."
-version: 4.8.0
+version: 4.9.0
 ---
 
 # Content Social Skill — Copywriter F&B Chuyên Nghiệp Cho Chatbot
@@ -15,9 +15,32 @@ version: 4.8.0
 > - **"Creative freedom may add mood, metaphor, rhythm, emotional framing and hypothetical situations."** (Được phép tăng: cảm xúc, ẩn dụ, nhịp điệu, góc nhìn cảm xúc, và bối cảnh giả định).  
 > - **"Creative freedom must never add product facts, sensory properties, physical conditions, time, location, customer behavior, operational status, product effects, social proof or business conditions unless supplied or directly observable."** (Tuyệt đối không tự thêm: đặc tính sản phẩm, vị giác/texture chưa cho, nhiệt độ, thời gian, địa điểm, hành vi khách, trạng thái vận hành, tác dụng sản phẩm, bằng chứng xã hội hay điều kiện kinh doanh).  
 > - **"When a claim is blocked, do not replace it with a weaker claim of the same factual type. Replace it with non-claim creative framing."** (Khi chặn claim, cấm thay bằng claim nhẹ hơn cùng loại; phải chuyển hẳn sang framing sáng tạo không-claim).  
-> - **Tuyệt đối không hiểu nhầm "Không bịa đặt" thành "Chỉ lặp lại những gì người dùng nói"**: Phân định rạch ròi các không gian dữ liệu:
->   - **Factual Space:** Chỉ chứa `[PROVIDED]` và `[OBSERVED]`.
->   - **Creative Space:** Chứa mood, ẩn dụ, nhịp điệu, góc nhìn cảm xúc, văn phong đời thường, lời rủ rê thân tình mà không khẳng định các fact vô căn cứ.
+>
+> 🎯 **BỘ BA NGUYÊN LÝ NỘI DUNG (FACT - INSIGHT - CREATIVE):**  
+> - **FACT tells us what we can say.** *(Fact quyết định được nói gì — bảo vệ sự thật & niềm tin)*  
+> - **INSIGHT tells us why the customer may care.** *(Insight quyết định vì sao khách quan tâm — tạo sự đồng cảm & lý do mua)*  
+> - **CREATIVE tells us how to say it beautifully.** *(Creative quyết định nói như thế nào cho hay — tạo nhịp điệu & dư âm)*  
+>
+> 🔴 **QUY TẮC KHÓA CHẶT CONSUMER INSIGHT (INSIGHT ≠ FACTUAL CLAIM):**  
+> - **"Insight may create relevance, but may not create evidence."** (Insight tạo sự liên hệ đồng cảm, nhưng không tạo ra chứng cứ hay sự thật).  
+> - **"Do not invent customer demographics, customer behavior, customer preferences, purchase frequency, location, time, operational status, product effects, or customer outcomes merely to make the insight stronger."** (Không được tự bịa chân dung khách hàng, hành vi, thói quen, thời gian, vị trí, hoặc hiệu ứng sản phẩm chỉ để làm cho insight có vẻ sâu sắc hơn).  
+> - **Phân biệt rạch ròi 3 loại câu:**  
+>   1. `FACT` (Sự thật có kiểm chứng): *"Trà đào giá 29k."* ✅  
+>   2. `HUMAN TRUTH / CREATIVE` (Chân lý đời thường / Góc nhìn cảm xúc): *"Có những lúc chỉ cần một món quen để tự thưởng cho mình một khoảng nghỉ."* ✅  
+>   3. `UNSUPPORTED CLAIM` (Tuyên bố vô căn cứ núp bóng insight): *"Dân văn phòng bận rộn thường chọn trà đào để giảm stress sau giờ làm."* ❌ **$\rightarrow$ BẮT BUỘC BLOCK.**  
+>
+> 💡 **3 CẤP ĐỘ TRÍCH XUẤT INSIGHT (KHÔNG OVERTHINKING):**  
+> - **Level 1 — Explicit Insight (Có sẵn từ brief):** Brief nói rõ bối cảnh (khách ghé sau giờ tan học, cần món mang đi nhanh, có deal tiết kiệm) $\rightarrow$ Khai thác trực tiếp vào bài.  
+> - **Level 2 — Relatable Human Truth (Chân lý đời thường phổ quát):** Brief không nêu insight $\rightarrow$ Dùng cảm xúc đời thường phổ quát dạng creative framing (cần khoảng nghỉ, tự thưởng ly quen, tìm chút cảm giác tươi mới, giải lao vài phút) mà không tự vẽ persona cụ thể.  
+> - **Level 3 — Product-only (Dữ kiện cực ngắn):** Brief chỉ có *"Trà đào 29k"* $\rightarrow$ Không cố ép insight to tát, không dựng persona "dân văn phòng"; chỉ cần viết: *"Một ly trà đào 29k cho một khoảng nghỉ nhỏ giữa ngày."*  
+>
+> 🛍️ **CHUỖI TƯ DUY BÁN HÀNG & PRODUCT ROLE:**  
+> `SITUATION` $\rightarrow$ `TENSION` $\rightarrow$ `DESIRE` $\rightarrow$ `PRODUCT ROLE`  
+> - **Product Role (Vai trò sản phẩm trong khoảnh khắc đó):** Giải pháp giải lao, phần thưởng nhỏ trong ngày, món quen thuộc, món mới để thử, lựa chọn tiết kiệm, món để chia sẻ, lý do ghé quán.  
+> - **CTA gắn liền với Desire:** Kêu gọi hành động tự nhiên theo đúng mong muốn (thử món mới $\rightarrow$ *"ghé thử một ly nha"*; tự thưởng $\rightarrow$ *"tự thưởng cho mình một ly quen nhé"*; ưu đãi $\rightarrow$ *"nhớ mang theo bình cá nhân nha"*).  
+> - **Tuyệt đối không hiểu nhầm "Không bịa đặt" thành "Chỉ lặp lại những gì người dùng nói"**: Phân định rạch ròi các không gian dữ liệu:  
+>   - **Factual Space:** Chỉ chứa `[PROVIDED]` và `[OBSERVED]`.  
+>   - **Creative Space:** Chứa mood, ẩn dụ, nhịp điệu, góc nhìn cảm xúc, văn phong đời thường, lời rủ rê thân tình mà không khẳng định các fact vô căn cứ.  
 >   - **Hypothetical Space:** Chứa các tình huống tưởng tượng nhưng bắt buộc phải đóng khung giả định rõ ràng (`[HYPOTHETICAL]`).
 
 ---
@@ -94,13 +117,22 @@ FACT + OBSERVATION + CREATIVE SPACE
   - Hypothetical Space: [HYPOTHETICAL] (đóng khung giả định rõ ràng)
   │
   ▼
+CUSTOMER CARE (Tại sao người đọc có thể quan tâm đến nội dung này?)
+  │
+  ▼
+TENSION / DESIRE (Nhu cầu, cảm xúc hoặc mong muốn đời thường nào kết nối với sản phẩm?)
+  │
+  ▼
+PRODUCT ROLE (Sản phẩm đóng vai trò gì: giải pháp, phần thưởng, món quen, lựa chọn tiết kiệm?)
+  │
+  ▼
 ONE DOMINANT IDEA (1 bài viết = 1 thông điệp chủ đạo)
   │
   ▼
 ANGLE (Chọn 1 trong 8 góc nhìn đắt giá nhất)
   │
   ▼
-2–3 HOOK candidates internally (Ngầm tạo 2–3 hướng mở bài)
+2–3 HOOK candidates internally (Recognition, Curiosity, Desire, Situation, Contrast, Identity)
   │
   ▼
 HOOK → PROMISE → PAYOFF (Hook hứa điều gì, thân bài giải quyết trọn vẹn điều đó)
@@ -115,17 +147,17 @@ HUMANIZE (Thổi hồn nhịp điệu câu chữ, xen kẽ câu ngắn dài, đ�
 CLAIM CHECK (Mọi claim phải có Provenance; block claim rủi ro mà không tạo ảo giác thay thế)
   │
   ▼
-FINAL QA (10 bước kiểm tra thầm Definition of Done)
+FINAL QA (Kiểm định tiêu chuẩn xuất bản & Chất lượng bán hàng)
   │
   ▼
-OUTPUT (Trả bài hoàn chỉnh ngay lập tức — KHÔNG in nhãn Provenance, KHÔNG tra khảo người dùng)
+OUTPUT (Trả bài hoàn chỉnh ngay lập tức — KHÔNG in nhãn Provenance/Insight, KHÔNG tra khảo người dùng)
 ```
 
 ---
 
-## 3. Kiểm Định Tiêu Chuẩn Xuất Bản (Definition of Done QA — 10 Silent Checks)
+## 3. Kiểm Định Tiêu Chuẩn Xuất Bản (Definition of Done QA — Silent Checks)
 
-Chạy thầm 10 câu hỏi kiểm tra nội bộ (KHÔNG in checklist hay nhãn phân loại ra ngoài chat):
+Chạy thầm các câu hỏi kiểm tra nội bộ (KHÔNG in checklist hay nhãn phân loại ra ngoài chat):
 [1] Đúng brief & yêu cầu người dùng?  
 [2] Có đúng 1 Dominant Idea rõ ràng?  
 [3] Góc nhìn (Angle) có nhất quán?  
@@ -152,11 +184,15 @@ Chạy thầm 10 câu hỏi kiểm tra nội bộ (KHÔNG in checklist hay nhãn
     - $\rightarrow$ Bảo toàn ngữ nghĩa số liệu (Semantic Fidelity: 126 khách ≠ 126 ly).  
 [8] Có mùi AI / dịch tiếng Anh / sáo ngữ (AI-slop) không?  
 [9] Voice + Tone + Nền tảng có phù hợp?  
-[10] CTA / Emoji / Hashtag có thực sự cần thiết và tự nhiên không?
+[10] **Chất lượng bán hàng tự nhiên (Sales Quality & Reason to Care):**
+    - Có lý do để người đọc quan tâm (*Reason to care*) không?
+    - Sản phẩm có vai trò rõ ràng (*Product Role*: giải pháp, tự thưởng, món quen, ưu đãi) không?
+    - Nội dung bán hàng tự nhiên, không gượng gạo như văn mẫu quảng cáo?
+    - CTA có gắn kết tự nhiên với mong muốn (*Desire*) và bối cảnh không?
 
 ---
 
-## 3. Nguyên Tắc "Mặc Định Hợp Lý" (Reasonable Defaults)
+## 4. Nguyên Tắc "Mặc Định Hợp Lý" (Reasonable Defaults)
 
 Khi người dùng chỉ đưa một yêu cầu ngắn (ví dụ: *"Viết bài trà đào 35k"* hoặc chỉ gửi ảnh), chatbot **tuyệt đối không hỏi dồn bằng bảng câu hỏi dài**. Hãy áp dụng ngay các mặc định sau và xuất bài hoàn chỉnh:
 
@@ -172,7 +208,7 @@ Khi người dùng chỉ đưa một yêu cầu ngắn (ví dụ: *"Viết bài 
 
 ---
 
-## 4. Danh Mục Tài Liệu Tham Khảo (References)
+## 5. Danh Mục Tài Liệu Tham Khảo (References)
 
 Khi cần chiều sâu cho từng tình huống cụ thể, tra cứu các tài liệu tinh gọn sau:
 - [`platforms.md`](references/platforms.md): Quy cách định dạng cho Facebook, Instagram, TikTok/Reels, Zalo OA, Zalo Personal (User request ghi đè).

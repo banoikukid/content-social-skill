@@ -7,33 +7,32 @@
 ## Version
 
 ```yaml
-skill: 4.8.0
-release_type: provenance_creative_boundary_edition
+skill: 4.9.0
+release_type: consumer_insight_sales_writing_edition
 last_updated: 2026-09-16
-purpose: "Lean, practical Vietnamese F&B social copywriter for chatbots (Hermes)"
+purpose: "Lean, practical Vietnamese F&B social copywriter for chatbots (Hermes) with Consumer Insight & Sales Writing"
 ```
 
 ---
 
-## Cấu Trúc Thư Mục Skill (v4.8.0)
+## Cấu Trúc Thư Mục Skill (v4.9.0)
 
 ```
 content-social-skill/
-├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes (v4.8.0)
-├── SKILL.md                 # Entry point, Prime Directive, Provenance & Creative Boundary, 10 DoD Checks (v4.8.0)
-├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.8.0)
+├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes (v4.9.0)
+├── SKILL.md                 # Entry point, Prime Directive, Provenance & Creative Boundary, Consumer Insight, 10 DoD Checks (v4.9.0)
+├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.9.0)
 ├── references/
 │   ├── platforms.md         # Quy chuẩn 5 nền tảng (Facebook, IG, TikTok, Zalo OA, Zalo Personal, Soft heuristics)
 │   ├── tones.md             # 5 tone giọng F&B, Ma trận thông số Tone & [OBSERVED]/[PROVIDED]/[CREATIVE] tagged
-│   ├── formulas.md          # 4 công thức cốt lõi (Placeholder-driven, sạch 100% sensory/operational claims)
-│   ├── hooks.md             # Mở bài gọn gàng, Rhythm & Promise-Payoff (sạch 100% sensory claim mặc định)
-│   ├── storytelling.md      # 8 góc nhìn theo Reader Attention, khóa chặt Creative ≠ Factual & Hypothetical
-│   ├── psychology.md        # 7 kỹ thuật tâm lý thực chiến F&B (gắn nhãn dữ kiện rõ ràng, sạch claim nhiệt độ)
+│   ├── formulas.md          # Công thức viết bài & Chuỗi tư duy bán hàng (SITUATION → TENSION → DESIRE → PRODUCT ROLE)
+│   ├── hooks.md             # Kỹ thuật mở bài, Rhythm & Promise-Payoff, 6 dạng Hook thấu cảm & Reason to Care
+│   ├── psychology.md        # Tâm lý bán hàng F&B (Attention → Relevance → Desire → Action, giữ nghiêm Semantic Fidelity)
 │   ├── pricing.md           # Kỹ thuật viết giá & ưu đãi an toàn bằng placeholder (không tự thêm điều kiện promo)
-│   ├── regression-fixtures.md # 8 bài kiểm tra hồi quy chuẩn mực (3 tầng: Invariants, Traps, Canonical Reference)
-│   └── examples.md          # Tuyển tập 28+ bài viết mẫu chuẩn mực theo Source-Provenance Rule (v4.8.0)
+│   ├── regression-fixtures.md # Bộ kiểm tra hồi quy chuẩn mực (8 bài ranh giới dữ kiện + 5 bài Consumer Insight CI-1..CI-5)
+│   └── examples.md          # Tuyển tập 28+ bài viết mẫu chuẩn mực theo Source-Provenance Rule (v4.9.0)
 └── tests/
-    └── core-tests.md        # 8 bài kiểm tra hồi quy ranh giới dữ kiện & 10 kịch bản thực tế (v4.8.0)
+    └── core-tests.md        # Bộ kiểm thử cốt lõi (8 bài Provenance + 5 bài Consumer Insight + 10 kịch bản thực tế)
 ```
 
 ---
@@ -54,22 +53,43 @@ content-social-skill/
 
 | Tệp tin | Vai trò | Version | Trạng thái |
 | :--- | :--- | :--- | :--- |
-| `README.md` | Tài liệu giới thiệu tổng quan dự án | 4.8.0 | ✅ Active |
-| `SKILL.md` | Bộ não điều khiển, Prime Directive, Provenance & Creative Boundary Check | 4.8.0 | ✅ Active |
-| `references/platforms.md` | Hướng dẫn định dạng 5 nền tảng, quy tắc gợi ý mềm (Soft Heuristics) | 4.8.0 | ✅ Active |
-| `references/tones.md` | 5 tone giọng F&B, Ma trận thông số Tone & Data-layer tagged | 4.8.0 | ✅ Active |
-| `references/formulas.md` | 4 công thức cốt lõi, khung placeholder an toàn, sạch địa chỉ & claim | 4.8.0 | ✅ Active |
-| `references/hooks.md` | Mở bài, 8 khuôn mẫu AI, Rhythm & Specificity bám sát 3 tầng dữ liệu | 4.8.0 | ✅ Active |
-| `references/storytelling.md` | 8 góc nhìn theo Reader Attention, khóa chặt Creative ≠ Factual | 4.8.0 | ✅ Active |
-| `references/psychology.md` | 7 kỹ thuật tâm lý thực chiến F&B, gắn nhãn dữ kiện rõ ràng | 4.8.0 | ✅ Active |
-| `references/pricing.md` | Trình bày giá & ưu đãi an toàn bằng placeholder tagged | 4.8.0 | ✅ Active |
-| `references/regression-fixtures.md` | 8 bài kiểm tra hồi quy chuẩn mực (Invariants, Traps, Canonical Reference) | 4.8.0 | ✅ Active |
-| `references/examples.md` | Tuyển tập 28+ bài mẫu F&B chuẩn theo Source-Provenance Rule | 4.8.0 | ✅ Active |
-| `tests/core-tests.md` | 8 bài kiểm tra hồi quy ranh giới dữ kiện & 10 kịch bản kiểm thử | 4.8.0 | ✅ Active |
+| `README.md` | Tài liệu giới thiệu tổng quan dự án | 4.9.0 | ✅ Active |
+| `SKILL.md` | Bộ não điều khiển, Prime Directive, Provenance & Consumer Insight Layer | 4.9.0 | ✅ Active |
+| `references/platforms.md` | Hướng dẫn định dạng 5 nền tảng, quy tắc gợi ý mềm (Soft Heuristics) | 4.9.0 | ✅ Active |
+| `references/tones.md` | 5 tone giọng F&B, Ma trận thông số Tone & Data-layer tagged | 4.9.0 | ✅ Active |
+| `references/formulas.md` | Công thức cốt lõi & Chuỗi tư duy bán hàng tự nhiên | 4.9.0 | ✅ Active |
+| `references/hooks.md` | Mở bài, Rhythm, Promise-Payoff & 6 dạng Hook thấu cảm | 4.9.0 | ✅ Active |
+| `references/storytelling.md` | 8 góc nhìn theo Reader Attention, khóa chặt Creative ≠ Factual | 4.9.0 | ✅ Active |
+| `references/psychology.md` | Chuỗi tâm lý bán hàng (Attention → Relevance → Desire → Action) | 4.9.0 | ✅ Active |
+| `references/pricing.md` | Trình bày giá & ưu đãi an toàn bằng placeholder tagged | 4.9.0 | ✅ Active |
+| `references/regression-fixtures.md` | 8 bài hồi quy Provenance + 5 bài Consumer Insight (CI-1 đến CI-5) | 4.9.0 | ✅ Active |
+| `references/examples.md` | Tuyển tập 28+ bài mẫu F&B chuẩn theo Source-Provenance Rule | 4.9.0 | ✅ Active |
+| `tests/core-tests.md` | 8 bài Provenance + 5 bài Consumer Insight + 10 kịch bản thực chiến | 4.9.0 | ✅ Active |
 
 ---
 
 ## Nhật Ký Thay Đổi (Changelog)
+
+### v4.9.0 (2026-09-16) — Consumer Insight & Sales Writing Edition
+- **Tích hợp lớp Consumer Insight nhẹ nhàng trước Dominant Idea:**
+  - **Tam giác nguyên tắc cốt lõi:**
+    - `FACT tells us what we can say.` (Fact quyết định được nói gì)
+    - `INSIGHT tells us why the customer may care.` (Insight quyết định vì sao khách quan tâm)
+    - `CREATIVE tells us how to say it beautifully.` (Creative quyết định nói như thế nào cho hay)
+  - **Ranh giới bất biến tối cao:** *"Insight may create relevance, but may not create evidence."* Tuyệt đối không bịa nhân khẩu học, hành vi cụ thể, bối cảnh thời gian hoặc công dụng sản phẩm để gán ghép insight.
+  - **3 cấp độ bóc tách Insight:**
+    - Cấp 1 (Explicit from brief): Khai thác dữ kiện khách hàng/thói quen có sẵn trong brief.
+    - Cấp 2 (Relatable human truth as creative framing): Dùng sự thật đời thường phổ quát làm bối cảnh giả định (`[HYPOTHETICAL]`).
+    - Cấp 3 (Product-only / sparse facts): Dùng human truth rất rộng về vai trò giải khát/nghỉ ngơi, không vẽ chuyện phức tạp.
+  - **Chuỗi tư duy bán hàng tự nhiên:** `SITUATION → TENSION → DESIRE → PRODUCT ROLE` & `HOOK → WHY CARE → PRODUCT ROLE → CTA`.
+  - **Xác định rõ vai trò sản phẩm (Product Role):** Giải pháp, phần thưởng nhỏ, món quen, lựa chọn tiết kiệm, món để chia sẻ, lý do ghé quán.
+- **Tái cấu trúc và đồng bộ các tài liệu tham khảo:**
+  - `references/psychology.md`: Tái cấu trúc xoay quanh chuỗi tâm lý bán hàng thực chiến `Attention → Relevance → Desire → Action`, bảo toàn 100% các ràng buộc chống bịa đặt số liệu (`khách ≠ ly`) và không tự phong best-seller.
+  - `references/hooks.md`: Bổ sung 6 dạng Hook thấu cảm & khơi gợi lý do quan tâm (Recognition, Curiosity, Desire, Situation, Contrast, Identity, Direct Offer).
+  - `references/formulas.md`: Bổ sung luồng tư duy bán hàng linh hoạt, thoát ly khỏi template cứng nhắc.
+  - `SKILL.md`: Bổ sung tiêu chuẩn kiểm định chất lượng bán hàng tự nhiên (Sales Quality & Reason to Care) trong Silent QA [10].
+- **Bổ sung 5 bài kiểm tra hồi quy Consumer Insight (`references/regression-fixtures.md` & `tests/core-tests.md`):**
+  - Đưa 5 bài kiểm tra hồi quy chuẩn mực (`Test CI-1` đến `Test CI-5`) đánh giá khả năng tạo lý do mua hàng mà không vi phạm ranh giới dữ kiện.
 
 ### v4.8.0 (2026-09-16) — Provenance & Creative Boundary Edition
 - **Ranh giới cốt lõi: Sáng tạo nghệ thuật ≠ Bịa đặt sự thật (Creative Freedom ≠ Factual Freedom):**
