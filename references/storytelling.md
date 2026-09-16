@@ -26,7 +26,7 @@ Chọn 1 góc nhìn đắt giá nhất để viết (Choose Best Angle)
 | :--- | :--- | :--- | :--- |
 | **1. Sản phẩm (Product)** | **Món nước** (màu sắc, tầng lớp, topping, nguyên liệu) | Tập trung vào thị giác ly nước thật mắt thấy. | *"Màu cam óng ả đọng sương đá bên ngoài ly..."* |
 | **2. Cảm xúc (Mood)** | **Cảm giác** (khoảng lặng, nhịp sống chậm, sự thư thái) | Tạo không khí êm đềm của buổi chiều hay tối muộn. | *"Có những buổi chiều chỉ cần một góc nhỏ tĩnh lặng..."* |
-| **3. Đời thường (Relatable)** | **Tình huống quen thuộc** (2h chiều buồn ngủ, tan ca đói) | Đánh vào thói quen đời thường của người đọc. | *"2 giờ chiều mắt díp lại, chỉ muốn tìm thứ gì đó giải lao..."* |
+| **3. Đời thường (Relatable)** | **Tình huống quen thuộc** (uể oải khi làm việc, thèm chút gì giải lao) | Đánh vào thói quen đời thường của người đọc [CREATIVE]. | *"Có những lúc làm việc mệt mỏi, chỉ muốn buông chuột năm phút tìm thứ gì đó giải lao..."* |
 | **4. Hài hước (Humor)** | **Sự tương phản hóm hỉnh** (đùa deadline, ví tiền, cơn thèm đồ uống) | Tự trào nhẹ nhàng về những mâu thuẫn dễ thương. | *"Ví tiền bảo tiết kiệm, nhưng cái miệng lại bảo order..."* |
 | **5. Tò mò (Curiosity)** | **Chi tiết lạ** (khoảng trống thông tin trong món/quán) | Gợi mở một điểm đặc biệt để người đọc tò mò. | *"Nhìn đơn giản vậy thôi — bạn đoán điểm thú vị nằm ở đâu?"* |
 | **6. Nghề quán (Craft)** | **Cách làm / Sự chăm chút** (thao tác quầy, chuẩn bị) | Sự cẩn trọng của người làm quán [chỉ dùng khi quán chia sẻ fact thật]. | *"Nếu quán có quy trình chuẩn bị: 'Sáng sớm mở quầy...' [khi có dữ liệu]"* |
@@ -49,7 +49,7 @@ Mỗi góc nhìn cần được hỗ trợ bởi các kỹ thuật viết tươn
 | **Bán hàng / Ưu đãi (Sales)** | Giá trị mỏ neo + Rõ ràng quyền lợi + 1 CTA | Nêu giá/deal thẳng thắn, không giật tít ảo |
 | **Nghề quán (Craft)** | Quy trình tỉ mỉ + Chi tiết chân thật | Canh nhiệt độ nước, ủ trà, chăm chút từng ly |
 | **Cảm xúc (Emotional)** | Nhịp điệu câu chữ (Rhythm) + Ẩn dụ tạo mood | Xen kẽ câu ngắn - dài, ngắt dòng tạo khoảng lặng |
-| **Đồng cảm (Relatable)** | Quan sát đời thường + Nhịp điệu tự nhiên | Cơn buồn ngủ 2h chiều, tan ca đói bụng |
+| **Đồng cảm (Relatable)** | Quan sát đời thường + Nhịp điệu tự nhiên | Cơn uể oải khi làm việc, khoảng nghỉ giải lao |
 
 ---
 

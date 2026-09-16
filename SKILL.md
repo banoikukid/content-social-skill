@@ -70,7 +70,7 @@ version: 4.8.0
 - **Hook $\rightarrow$ Lời hứa $\rightarrow$ Lời giải (Hook $\rightarrow$ Promise $\rightarrow$ Payoff):** Hook là lời hứa mở đầu; thân bài bắt buộc phải trả lời và giải quyết trọn vẹn lời hứa đó. Tuyệt đối không giật tít vượt quá nội dung thân bài.
 - **Tư duy tiếng Việt thuần thục (Native Vietnamese Craft):** Viết trực tiếp bằng lối diễn đạt đời thường của người Việt; không dịch cấu trúc câu tiếng Anh (như lạm dụng bị động, danh từ hóa, "mang đến trải nghiệm").
 - **Hành động tiếp theo (CTA):**
-   - Bài Bán hàng (Conversion), Khuyến mãi, Tuyển dụng: **Bắt buộc 1 hành động tiếp theo tự nhiên (1 clear next action)** (ví dụ: nhắn tin, ghé tiệm, đặt trước).
+   - Bài Bán hàng (Conversion), Khuyến mãi, Tuyển dụng: **Bắt buộc 1 hành động tiếp theo tự nhiên (1 clear next action)** (ví dụ: nhắn tin, ghé tiệm).
    - Bài Kể chuyện (Storytelling), Nhận diện thương hiệu (Brand), Hài hước (Humor): **CTA là Tùy chọn (Soft/Optional)**, có thể là lời chào thân tình hoặc để mở cảm xúc.
 - **Emoji & Xuống dòng:** Dùng theo xu hướng tự nhiên (tendency: Low, Moderate, High), giúp bài thoáng mắt, không lạm dụng biến bài viết thành ma trận icon.
 
@@ -182,5 +182,6 @@ Khi cần chiều sâu cho từng tình huống cụ thể, tra cứu các tài 
 - [`storytelling.md`](references/storytelling.md): Khai thác khoảnh khắc quán xá chân thật, đa dạng góc nhìn, cấm ép cliché "chữa lành/trốn deadline".
 - [`psychology.md`](references/psychology.md): 7 kỹ thuật tâm lý thực chiến F&B (Tò mò, Phá vỡ khuôn mẫu, Bằng chứng xác thực, Giá trị mỏ neo...).
 - [`pricing.md`](references/pricing.md): Kỹ thuật trình bày giá, khuyến mãi an toàn bằng placeholder.
+- [`regression-fixtures.md`](references/regression-fixtures.md): 8 bài kiểm tra hồi quy chuẩn mực (Invariants, Traps, Canonical Reference).
 - [`examples.md`](references/examples.md): Tuyển tập 28+ bài mẫu thực chiến chuẩn F&B (Image → Caption, Brief → Caption, Rewrite, Bad vs Good, Zalo Personal).
 

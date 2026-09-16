@@ -73,13 +73,13 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 
 ### Mẫu 5: Ảnh bàn nhóm bạn trẻ trò chuyện (Góc: Relatable / Rủ rê)
 - **Input:** [Hình ảnh nhóm 3–4 bạn trẻ ngồi quanh bàn nhiều ly nước khác nhau, cười nói].
-- **Dominant Idea:** Kèo tụ tập bạn bè sau giờ làm.
+- **Dominant Idea:** Khoảnh khắc tụ tập bạn bè rôm rả bên ly nước.
 - **Copy:**
-  > Bàn đầy đủ sắc màu từ ly trà trái cây nhiều đá đến ly trà sữa bồng bềnh lớp bọt.
+  > Bàn đầy đủ sắc màu từ ly trà trái cây có đá đến ly trà sữa bồng bềnh lớp bọt.
   > 
-  > Những buổi chiều tan làm được ngồi xuống cùng bạn bè luôn là khoảng thời gian rôm rả nhất trong ngày.
+  > Được ngồi lại rôm rả cùng bạn bè luôn là khoảng thời gian dễ chịu nhất trong ngày.
   > 
-  > Tan ca rồi, rủ bạn ghé quán ngồi lại một chút nha!
+  > Khi nào có dịp, rủ bạn ghé quán ngồi lại một chút nha!
 
 ---
 
@@ -103,7 +103,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Copy:**
   > Từ ngày mai, tụi mình sẽ mở cửa sớm hơn từ 6h30 sáng.
   > 
-  > Để bạn kịp ghé lấy một ly cà phê mang đi trước khi vào giờ điểm danh ở văn phòng. Cà phê pha sẵn nhanh gọn, bàn ghế cũng đã sạch sẽ đón ngày mới.
+  > Để bạn kịp ghé mua một ly cà phê mang đi trước khi bắt đầu ngày làm việc.
   > 
   > Sáng mai đi làm ghé qua tụi mình lấy ly cafe nha! ☀️
 
@@ -175,7 +175,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 #### Biến thể 2: Hài hước & Tự trào (Humor / Facebook)
 > Ví tiền bảo "chiều nay uống nước lọc đi", nhưng thời tiết oi bức lại bảo "gọi ngay ly Trà Xoài đi bạn ơi".
 > 
-> Vị trà thơm thanh, xoài chín ngọt dịu thêm thạch giòn nhai đã miệng. 38 cành cho một buổi chiều giải lao êm ru, tội gì phải đắn đo!
+> Vị trà thơm thanh, xoài chín ngọt dịu thêm thạch giòn cho đã miệng. 38 cành cho một buổi chiều giải lao êm ru, tội gì phải đắn đo!
 > 
 > Ghé quán làm một ly giải lao cùng tụi mình nha!
 
@@ -243,30 +243,38 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
   > 
   > Lau sạch mặt bàn gỗ, bật bản nhạc jazz quen thuộc với âm lượng vừa đủ, rồi pha thử tách cà phê đầu tiên để kiểm tra dòng chảy. Cảm giác chuẩn bị một không gian tươm tất đón những vị khách đầu ngày luôn là khoảnh khắc an yên nhất của người làm quán.
   > 
-  > Cửa đã mở, nước đã sôi. Mời bạn ghé chơi.
+  > Mời bạn ghé quán nhâm nhi tách cà phê sớm cùng tụi mình nhé.
 
 ---
 
 ## 6. 3 Mẫu Nhắn Tin Cá Nhân Zalo (Zalo Personal 1-1 DM)
 
 > 🔴 **NGUYÊN TẮC BẮT BUỘC CHO ZALO 1-1:**  
-> **Model tuyệt đối không được học vẹt rằng: Viết Zalo Personal = Tự động bịa tên khách quen, bịa lịch sử đặt hàng, bịa thời gian chuẩn bị ("10 phút nữa") hay bịa sự thân thiết.**  
-> Chỉ được xưng hô tên riêng, nhắc lại thỏa thuận trước đó hoặc xác nhận đơn hàng khi **hệ thống hoặc người dùng đã cung cấp rõ ràng bối cảnh đó trong brief**. Nếu không có, chỉ dùng lời chào hỏi thân mật chung ("bạn ơi", "anh/chị ơi"). Mọi ví dụ có tên riêng dưới đây đều là tình huống giả định có ngữ cảnh đầu vào xác định:
+> **Model tuyệt đối không được tự động bịa tên khách quen, bịa lịch sử đặt hàng, bịa thời gian chuẩn bị ("10 phút nữa") hay bịa trạng thái vận hành.**  
+> Chỉ được xưng hô tên riêng khi **brief cung cấp rõ ràng bối cảnh đó**. Nếu không có, luôn dùng lời chào hỏi thân mật tự nhiên ("bạn ơi", "anh/chị ơi").
 
-### Mẫu 1: Thông báo món mới cho khách quen dặn trước
-- **Input [HYPOTHETICAL Zalo Context]:** Khách quen tên Lan dặn quán khi nào có món trà mới thì nhắn báo. Hôm nay quán lên món Trà Lài Đào Chuông thanh nhẹ.
+### Mẫu 1: Giới thiệu món mới đến khách hàng (Default / Safe Zalo 1-1)
+- **Brief:** "Quán có mẻ bánh chuối nướng mới ra lò giá 25k, nhắn tin cho khách trên Zalo."
 - **Copy:**
-  > "Chị Lan ơi, nay quán em vừa lên món Trà Lài Đào Chuông mới thanh nhẹ như chị dặn nè. Chiều nay chị có ghé ngang quán thì ghé em làm một ly thử vị nghen!"
+  > "Bạn ơi, hôm nay quán tụi mình có mẻ bánh chuối nướng mới ra lò giá 25k thơm lừng nè.
+  > 
+  > Tiện đường ghé quán làm một chiếc ăn vặt giải lao nhé!"  
+  *(🔴 Tuyệt đối không tự bịa tên riêng của khách hay bịa lịch sử đặt hàng).*
 
-### Mẫu 2: Báo món đặt trước đã chuẩn bị xong
-- **Input [HYPOTHETICAL Zalo Context]:** Bác Hoàng đặt trước 1 chai Cold Brew thủy tinh, quán đã chuẩn bị xong và nhắn khách tiện đường ghé lấy.
+### Mẫu 2: Nhắn tin khi brief ĐÃ CUNG CẤP tên khách và dặn trước (`[PROVIDED Context]`)
+- **Brief:** "Chị Lan dặn quán khi nào có món trà mới thì nhắn báo. Hôm nay quán lên món Trà Lài Đào Chuông thanh nhẹ."
 - **Copy:**
-  > "Bác Hoàng ơi, chai Cold Brew bác dặn trước tụi em đã chuẩn bị xong rồi nha. Tiện đường tan làm bác tạt qua quán em lấy nhé!"
+  > "Chị Lan ơi, nay quán em vừa lên món Trà Lài Đào Chuông mới thanh nhẹ như chị dặn nè.
+  > 
+  > Khi nào tiện đường chị ghé em làm một ly thử vị nghen!"
 
-### Mẫu 3: Xác nhận đơn đặt lấy ngay tại quầy
-- **Input [HYPOTHETICAL Zalo Context]:** Anh Nam vừa nhắn tin đặt trước 1 ly Cafe Muối mang đi, quán xác nhận đã pha xong và để sẵn ở quầy.
+### Mẫu 3: Thông báo chương trình ưu đãi qua Zalo cá nhân (Chuẩn Test 4 Baseline)
+- **Brief:** "Giảm 5.000đ khi khách mang bình cá nhân. Áp dụng đến 30/9. Viết tin nhắn Zalo cá nhân."
 - **Copy:**
-  > "Dạ em nhận đơn ly Cafe Muối của anh Nam rồi nha. Ly nước của anh đã sẵn sàng trên quầy, khi nào anh ghé là có ngay ạ!"
+  > "Bạn ơi, từ nay đến hết 30/9, khi bạn mang bình cá nhân ghé quán tụi mình sẽ giảm ngay 5.000đ nha.
+  > 
+  > Khi nào ghé nhớ mang theo bình cá nhân nhé!"  
+  *(🔴 Tuyệt đối không tự thêm điều kiện "mua mang đi", không bịa claim môi trường, không bịa "nhắn tụi mình chuẩn bị nước trước").*
 
 ---
 
@@ -292,15 +300,15 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
   > 
   > Chiều nay ghé quán làm một ly cỡ lớn nhâm nhi cho đã nhé bạn ơi!
 
-### Mẫu 3: Tặng quai xách vải bảo vệ môi trường
+### Mẫu 3: Tặng quai xách ly vải canvas
 - **Brief:** "Hóa đơn từ 80k được tặng 1 quai xách ly bằng vải canvas tái sử dụng."
-- **Dominant Idea:** Quà tặng mộc mạc đồng hành cùng thói quen sống xanh.
+- **Dominant Idea:** Quà tặng mộc mạc khi ghé quán tuần này.
 - **Copy:**
   > Một món quà nhỏ mộc mạc tụi mình dành tặng bạn:
   > 
-  > Với mỗi hóa đơn từ 80k khi ghé quán tuần này, tụi mình gửi tặng bạn một chiếc quai xách ly bằng vải canvas. Vừa xinh xắn, vừa có thể giặt sạch dùng lại mỗi ngày để bớt đi những chiếc quai nilon.
+  > Với mỗi hóa đơn từ 80k khi ghé quán tuần này, tụi mình gửi tặng bạn một chiếc quai xách ly bằng vải canvas có thể giặt sạch dùng lại nhiều lần.
   > 
-  > Số lượng quai vải có hạn, ghé quán sớm để nhận chiếc quai xinh này nha!
+  > Ghé quán nhâm nhi và nhận chiếc quai xinh này nha!
 
 ---
 
@@ -311,7 +319,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
   > *"Ly trà đào cam sả này không chỉ đơn thuần là một thức uống giải khát, mà còn là một bản giao hưởng tuyệt mỹ của hương vị, nơi thiên nhiên hòa quyện đánh thức mọi giác quan. Giữa nhịp sống hiện đại đầy hối hả và bon chen, hãy dành cho mình một khoảng lặng để tận hưởng sự thăng hoa của cuộc sống..."*
 - ✅ **GOOD (Cụ thể, tự nhiên, nhịp điệu đời thường — [Brief: Trà Đào Cam Sả nhiều đá ngày oi bức, có miếng đào giòn]):**
   > *"Chiều nay oi bức quá.*  
-  > *Làm một ly trà đào cam sả đầy đá, nhai miếng đào giòn rụm cho đã miệng.*  
+  > *Làm một ly trà đào cam sả đầy đá, thêm miếng đào giòn cho đã miệng.*  
   > *Ngồi lại thêm mười phút ngắm đường phố rồi hẵng về bạn nhé. Ghé quán cùng tụi mình nha."*
 
 ---
@@ -332,9 +340,9 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - ❌ **BAD (Máy móc liệt kê những gì mắt thấy):**
   > *"Nhìn vào bức ảnh ta có thể thấy một ly nước màu cam, có đá viên bên trong, trên miệng ly đặt hai lát cam vàng và một chiếc ống hút giấy màu trắng, xung quanh là mặt bàn bằng gỗ sồi..."*
 - ✅ **GOOD (Caption ≠ Image Description, chỉ dùng thị giác từ ảnh + mood):**
-  > *"Màu cam vàng óng ả đọng sương nước bên ngoài nhìn thôi cũng thấy dịu mắt.*  
-  > *Một ly trà đầy đá giữa trưa oi bức, đủ êm dịu để xua bớt cái ngột ngạt ngoài đường.*  
-  > *Trưa nay nếu oi bức quá, ghé quán nghỉ chân một lát nha bạn ơi."*
+  > *"Màu cam vàng óng ả cùng lớp sương nước đọng bên ngoài nhìn thôi cũng thấy dịu mắt.*  
+  > *Một ly trà đầy đá, đủ êm dịu cho những lúc muốn chậm lại một nhịp giữa ngày.*  
+  > *Nếu cần một khoảng lặng nghỉ chân, ghé quán ngồi lại một lát nha bạn ơi."*
 
 ---
 

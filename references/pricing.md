@@ -35,7 +35,7 @@ Người đọc mạng xã hội thích nhìn thấy giá một cách trực qua
 ### Mẫu 1: Bài bán hàng trực diện (Menu / Giới thiệu món)
 > Trưa nắng ghé quán làm một ly [Tên món nước] nha bạn ơi! `[CREATIVE: lời mời]`  
 > 🏷️ Giá: **[Mức giá đã cung cấp]k/ly** `[PROVIDED: giá niêm yết]`  
-> Nhắn tin tụi mình để hỏi món hoặc đặt trước nha! `[CTA]`
+> Nhắn tin hoặc ghé quán tụi mình nhâm nhi nha! `[CTA]`
 
 ### Mẫu 2: Ra mắt món mới kèm ưu đãi
 > Mừng thành viên mới gia nhập menu của quán:  

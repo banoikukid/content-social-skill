@@ -67,9 +67,9 @@ Văn bản do AI tạo ra thường có độ dài các câu đều đều nhau,
 - **Đều đều kiểu AI (Kém hấp dẫn):**  
   *Trà ô long sữa nướng là sự kết hợp hoàn hảo giữa vị trà ô long đậm đà được rang sấy tỉ mỉ cùng với lớp sữa tươi béo ngậy tạo nên cảm giác thơm ngon khó quên cho buổi chiều làm việc.*
 - **Có nhịp điệu (Rhythm Engineering — Cuốn hút & Tự nhiên):**  
-  *Chiều nay oi ghê.* `[CREATIVE: bối cảnh]`  
+  *Làm việc cả buổi mệt ghê.* `[CREATIVE: bối cảnh đồng cảm]`  
   *Ghé làm một ly [Tên món nước] nha bạn.* `[CREATIVE: lời mời]`  
-  *Ngồi nhìn dòng xe qua lại một chút, thấy chiều nay chậm lại một nhịp. Việc gì rồi cũng tính tiếp.* `[CREATIVE: tâm trạng]`
+  *Ngồi nhìn dòng xe qua lại một chút, thấy lòng chậm lại một nhịp. Việc gì rồi cũng tính tiếp.* `[CREATIVE: tâm trạng]`
 
 ---
 
@@ -97,7 +97,7 @@ Hook là một lời hứa với người đọc; thân bài bắt buộc phải
 ## 6. Kỹ Thuật Ngầm Tạo & Chọn Hook (Internal 3-Hook Candidates)
 
 Trước khi viết, chatbot ngầm hình dung 2–3 hướng mở bài và chọn hướng ăn nhập nhất với **Ý tưởng chủ đạo (One Dominant Idea)**:
-1. **Ứng viên 1 (Real-time / Mood):** Chạm vào thời điểm (trưa nắng, chiều mưa, tan ca).
+1. **Ứng viên 1 (Real-time / Mood):** Chạm vào thời điểm hoặc thời tiết (trưa nắng, chiều mưa) `[khi brief cung cấp hoặc dùng framing đồng cảm/giả định]`.
 2. **Ứng viên 2 (Curiosity / Detail):** Chạm vào một chi tiết thị giác lạ hoặc câu hỏi tò mò.
 3. **Ứng viên 3 (Relatable / Humor):** Chạm vào thói quen đời thường hoặc sự thèm ngọt.
 *Chỉ xuất ra 1 hook tốt nhất, không in cả 3 phương án trừ khi người dùng yêu cầu.*
