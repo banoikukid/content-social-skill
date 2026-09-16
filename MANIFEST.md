@@ -7,33 +7,34 @@
 ## Version
 
 ```yaml
-skill: 4.9.1
-release_type: wordcraft_language_polish_edition
+skill: 4.9.2
+release_type: creative_association_storytelling_refinement_edition
 last_updated: 2026-09-16
-purpose: "Lean, practical Vietnamese F&B social copywriter for chatbots (Hermes) with Adaptive Wordcraft Polish"
+purpose: "Lean, practical Vietnamese F&B social copywriter for chatbots (Hermes) with Wordcraft & Storytelling Refinements"
 ```
 
 ---
 
-## Cấu Trúc Thư Mục Skill (v4.9.1)
+## Cấu Trúc Thư Mục Skill (v4.9.2)
 
 ```
 content-social-skill/
-├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes (v4.9.1)
-├── SKILL.md                 # Entry point, Prime Directive, Provenance, Adaptive Pipeline, Wordcraft Layer (v4.9.1)
-├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.9.1)
+├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes (v4.9.2)
+├── SKILL.md                 # Entry point, Prime Directive, Provenance, Wordcraft & Storytelling (v4.9.2)
+├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.9.2)
 ├── references/
-│   ├── wordcraft.md         # Nghệ thuật chau chuốt ngôn từ, nhịp câu, collocation, Before -> After (v4.9.1)
+│   ├── wordcraft.md         # Nghệ thuật chau chuốt ngôn từ: 8-point check, Section 0 Empty Frame, Before -> After (v4.9.2)
 │   ├── platforms.md         # Quy chuẩn 5 nền tảng (Facebook, IG, TikTok, Zalo OA, Zalo Personal, Soft heuristics)
 │   ├── tones.md             # 5 tone giọng F&B, Ma trận thông số Tone & [OBSERVED]/[PROVIDED]/[CREATIVE] tagged
 │   ├── formulas.md          # Công thức viết bài & Chuỗi tư duy bán hàng (SITUATION → TENSION → DESIRE → PRODUCT ROLE)
 │   ├── hooks.md             # Kỹ thuật mở bài, Rhythm & Promise-Payoff, 6 dạng Hook thấu cảm & Reason to Care
+│   ├── storytelling.md      # Kể chuyện F&B đời thường: Micro-story, Imagined Scenario, 8 Angles, Soft CTA (v4.9.2)
 │   ├── psychology.md        # Tâm lý bán hàng F&B (Attention → Relevance → Desire → Action, giữ nghiêm Semantic Fidelity)
 │   ├── pricing.md           # Kỹ thuật viết giá & ưu đãi an toàn bằng placeholder (không tự thêm điều kiện promo)
-│   ├── regression-fixtures.md # Bộ kiểm tra hồi quy chuẩn mực (8 Provenance + 5 Consumer Insight + 9 Wordcraft = 22 fixtures)
-│   └── examples.md          # Tuyển tập 28+ bài viết mẫu chuẩn mực theo Source-Provenance Rule (v4.9.1)
+│   ├── regression-fixtures.md # Bộ kiểm tra hồi quy chuẩn mực (8 Provenance + 5 CI + 9 Wordcraft + 3 Storytelling = 25 fixtures)
+│   └── examples.md          # Tuyển tập 28+ bài viết mẫu chuẩn mực theo Source-Provenance Rule (v4.9.2)
 └── tests/
-    └── core-tests.md        # Bộ kiểm thử cốt lõi (8 Provenance + 5 Consumer Insight + 9 Wordcraft + 10 kịch bản thực tế)
+    └── core-tests.md        # Bộ kiểm thử cốt lõi (8 Provenance + 5 CI + 9 Wordcraft + 3 Storytelling + 10 kịch bản) (v4.9.2)
 ```
 
 ---
@@ -54,23 +55,42 @@ content-social-skill/
 
 | Tệp tin | Vai trò | Version | Trạng thái |
 | :--- | :--- | :--- | :--- |
-| `README.md` | Tài liệu giới thiệu tổng quan dự án | 4.9.1 | ✅ Active |
-| `SKILL.md` | Bộ não điều khiển, Prime Directive, Wordcraft Layer, Adaptive Pipeline | 4.9.1 | ✅ Active |
-| `references/wordcraft.md` | Hướng dẫn chau chuốt ngôn từ: 8-point check, collocation, Before $\rightarrow$ After | 4.9.1 | ✅ Active |
-| `references/platforms.md` | Hướng dẫn định dạng 5 nền tảng, quy tắc gợi ý mềm (Soft Heuristics) | 4.9.1 | ✅ Active |
-| `references/tones.md` | 5 tone giọng F&B, Ma trận thông số Tone & Data-layer tagged | 4.9.1 | ✅ Active |
-| `references/formulas.md` | Công thức cốt lõi & Chuỗi tư duy bán hàng tự nhiên | 4.9.1 | ✅ Active |
-| `references/hooks.md` | Mở bài, Rhythm, Promise-Payoff & 6 dạng Hook thấu cảm | 4.9.1 | ✅ Active |
-| `references/storytelling.md` | 8 góc nhìn theo Reader Attention, khóa chặt Creative ≠ Factual | 4.9.1 | ✅ Active |
-| `references/psychology.md` | Chuỗi tâm lý bán hàng (Attention → Relevance → Desire → Action) | 4.9.1 | ✅ Active |
-| `references/pricing.md` | Trình bày giá & ưu đãi an toàn bằng placeholder tagged | 4.9.1 | ✅ Active |
-| `references/regression-fixtures.md` | 8 bài Provenance + 5 bài Consumer Insight + 9 bài Wordcraft (W01-W09) | 4.9.1 | ✅ Active |
-| `references/examples.md` | Tuyển tập 28+ bài mẫu F&B chuẩn theo Source-Provenance Rule | 4.9.1 | ✅ Active |
-| `tests/core-tests.md` | 8 bài Provenance + 5 bài Consumer Insight + 9 bài Wordcraft + 10 kịch bản | 4.9.1 | ✅ Active |
+| `README.md` | Tài liệu giới thiệu tổng quan dự án | 4.9.2 | ✅ Active |
+| `SKILL.md` | Bộ não điều khiển, Prime Directive, Wordcraft Layer, Creative Scenario | 4.9.2 | ✅ Active |
+| `references/wordcraft.md` | Hướng dẫn chau chuốt ngôn từ: 8-point check, Section 0 Empty Frame | 4.9.2 | ✅ Active |
+| `references/platforms.md` | Hướng dẫn định dạng 5 nền tảng, quy tắc gợi ý mềm (Soft Heuristics) | 4.9.2 | ✅ Active |
+| `references/tones.md` | 5 tone giọng F&B, Ma trận thông số Tone & Data-layer tagged | 4.9.2 | ✅ Active |
+| `references/formulas.md` | Công thức cốt lõi & Chuỗi tư duy bán hàng tự nhiên | 4.9.2 | ✅ Active |
+| `references/hooks.md` | Mở bài, Rhythm, Promise-Payoff & 6 dạng Hook thấu cảm | 4.9.2 | ✅ Active |
+| `references/storytelling.md` | Kể chuyện F&B: Micro-story, Imagined Scenario, 8 Angles, Soft CTA | 4.9.2 | ✅ Active |
+| `references/psychology.md` | Chuỗi tâm lý bán hàng (Attention → Relevance → Desire → Action) | 4.9.2 | ✅ Active |
+| `references/pricing.md` | Trình bày giá & ưu đãi an toàn bằng placeholder tagged | 4.9.2 | ✅ Active |
+| `references/regression-fixtures.md` | 8 Provenance + 5 CI + 9 Wordcraft + 3 Storytelling = 25 fixtures | 4.9.2 | ✅ Active |
+| `references/examples.md` | Tuyển tập 28+ bài mẫu F&B chuẩn theo Source-Provenance Rule | 4.9.2 | ✅ Active |
+| `tests/core-tests.md` | 8 Provenance + 5 CI + 9 Wordcraft + 3 Storytelling + 10 kịch bản | 4.9.2 | ✅ Active |
 
 ---
 
 ## Nhật Ký Thay Đổi (Changelog)
+
+### v4.9.2 (2026-09-16) — Storytelling & Creative Scenario Refinement Edition
+- **Tái định nghĩa Kể Chuyện F&B (F&B Storytelling Modernization):**
+  - Không bó hẹp trong việc chép lại sự kiện có thật; định nghĩa chuẩn xác: `Observation + Human Truth + Imagined Scenario + Emotional Framing`.
+  - Giúp dựng nên những **Micro-Story / Imagined Consumer Scenario** hấp dẫn khiến khách hàng tự bước vào câu chuyện (*“Định đi ngang thôi. Thấy trà đào 29k. Thế là đi ngang… vào quán.”*).
+  - Khóa quy tắc nội bộ: *"A fictional scenario is allowed when clearly functioning as creative framing and not presented as a real customer event, testimonial, social proof, or operational fact."* Không ép buộc in tag kỹ thuật (`[HYPOTHETICAL]`) ra bài viết cho khách hàng để giữ nguyên văn phong tự nhiên.
+- **Phân định rõ rệt Creative Scenario vs Factual Claim:**
+  - Thiết lập bảng đối sánh trực quan trong `SKILL.md` và `references/storytelling.md` để agent không nhầm lẫn giữa tình huống đời thường (cho phép: *"Chiều nay tự nhiên thèm..."*, *"Ví còn 25k..."*) với tuyên bố hành vi khách hàng/bằng chứng sự thật (cấm: *"Khách thường ghé mua vào buổi chiều"*, *"Khách quán em chỉ có 25k"*).
+- **Mở rộng ranh giới Wordcraft (Language Polish Scope):**
+  - Cập nhật ranh giới: *"Wordcraft may enrich expression, imagery, rhythm and emotional framing, but must not introduce new factual commitments or alter semantic meaning."*
+  - Cho phép Wordcraft làm giàu hình ảnh, nhịp điệu và khung cảm xúc, không chỉ đơn thuần là bộ lọc từ ngữ.
+- **Chuẩn hóa Product Role thành Low-Risk Creative Framing:**
+  - Quy định: *"Product Role may be inferred as a low-risk creative framing when it does not assert customer behavior, product effect, or business fact."*
+  - Cho phép tự do tạo cái cớ tự thưởng/giải lao (*"Một ly nhỏ tự thưởng cho mình"* ✅) mà không bắt buộc brief phải có từ "tự thưởng", miễn là không biến thành khẳng định thói quen có thật của khách.
+- **Bổ sung 3 bài kiểm tra hồi quy Kể chuyện thực chiến (ST01, ST02, ST03):**
+  - ST01: Micro-story từ brief cực ngắn với tension/desire.
+  - ST02: Dựng cảnh từ hình ảnh (Image Scene & Metaphor) không bịa deadline/tác dụng.
+  - ST03: Brand/Craft narrative từ dữ kiện quy trình thật, không bịa lịch sử.
+  - Nâng tổng số Normative Regression Fixtures lên **25 bài kiểm tra chuẩn mực**.
 
 ### v4.9.1 (2026-09-16) — Wordcraft & Creative Association Edition
 - **Nâng cấp triết lý cốt lõi: Tự Do Sáng Tạo, Kỷ Luật Sự Thật (Creative Freedom, Factual Discipline):**

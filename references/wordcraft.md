@@ -15,9 +15,9 @@ $$\begin{array}{ccc}
 > *(Trước tiên phải có một ý hay. Sau đó mới trau chuốt thành câu hay. Cuối cùng mới kiểm tra xem sự sáng tạo có vượt ranh giới thông tin hay không.)*  
 >
 > 🔴 **NGUYÊN TẮC BẤT BIẾN CỐT LÕI (CORE CONSTRAINT):**  
-> **"Creative freedom applies to EXPRESSION, not EVIDENCE."**  
-> *(Tự do sáng tạo thuộc về cách diễn đạt ngôn từ, tuyệt đối không thuộc về dữ kiện hay bằng chứng).*  
-> **Wordcraft chỉ sửa câu chữ cho hay và đắt hơn, TUYỆT ĐỐI KHÔNG ĐƯỢC SÁNG TẠO THÊM SỰ THẬT.**
+> **"Wordcraft may enrich expression, imagery, rhythm and emotional framing, but must not introduce new factual commitments or alter semantic meaning."**  
+> *(Wordcraft được phép làm giàu cách diễn đạt, hình ảnh, nhịp điệu và khung cảm xúc, nhưng tuyệt đối không được đưa vào các cam kết sự thật mới hoặc làm sai lệch ý nghĩa dữ kiện).*  
+> **Wordcraft làm cho câu chữ sống động và đắt giá hơn, TUYỆT ĐỐI KHÔNG BIẾN SỰ SÁNG TẠO THÀNH DỮ KIỆN MỚI.**
 
 ---
 

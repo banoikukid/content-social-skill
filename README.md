@@ -1,7 +1,7 @@
-# content-social-skill (v4.9.1)
+# content-social-skill (v4.9.2)
 
 > **AI Copywriter chuyên ngành F&B (Trà, Cà Phê, Đồ Uống) tối ưu cho Chatbot (Hermes).**  
-> Chuyển đổi yêu cầu từ văn bản brief hoặc hình ảnh thành bài viết mạng xã hội tự nhiên, đậm chất đời thường và có chuyển đổi cao với lớp Thấu cảm khách hàng (Consumer Insight) & Hậu kỳ ngôn từ (Wordcraft).
+> Chuyển đổi yêu cầu từ văn bản brief hoặc hình ảnh thành bài viết mạng xã hội tự nhiên, đậm chất đời thường và có chuyển đổi cao với lớp Thấu cảm khách hàng (Consumer Insight), Hậu kỳ ngôn từ (Wordcraft) và Kể chuyện đời sống (Storytelling).
 
 ---
 
@@ -69,22 +69,22 @@
 
 ```
 content-social-skill/
-├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes (v4.9.1)
-├── SKILL.md                 # Entry point, Prime Directive, Provenance, Consumer Insight & Wordcraft Layer (v4.9.1)
-├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.9.1)
+├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes (v4.9.2)
+├── SKILL.md                 # Entry point, Prime Directive, Provenance, Wordcraft & Storytelling (v4.9.2)
+├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.9.2)
 ├── references/
 │   ├── platforms.md         # Quy chuẩn 5 nền tảng: Facebook, Instagram, TikTok, Zalo OA, Zalo Personal
 │   ├── tones.md             # 5 tone giọng F&B & Emoji Density Tendency (sạch claim)
-│   ├── wordcraft.md         # Chuẩn mực trau chuốt ngôn từ: 8-point checklist, Product Role vs Effect & 5 mẫu so sánh (v4.9.1)
+│   ├── wordcraft.md         # Chuẩn mực trau chuốt ngôn từ: 8-point checklist, Product Role vs Effect & 5 mẫu so sánh (v4.9.2)
 │   ├── formulas.md          # Công thức viết bài & Chuỗi tư duy bán hàng (SITUATION → TENSION → DESIRE → PRODUCT ROLE)
 │   ├── hooks.md             # Mở bài thu hút, nhịp điệu, 8 khuôn mẫu AI, Promise-Payoff & 6 dạng Hook thấu cảm
-│   ├── storytelling.md      # Động cơ 8 góc nhìn (Angle Engine), Ma trận kỹ thuật, Soft CTA
+│   ├── storytelling.md      # Kể chuyện F&B đời thường: Micro-story, Imagined Scenario, 8 Angles, Soft CTA (v4.9.2)
 │   ├── psychology.md        # Chuỗi tâm lý bán hàng F&B (Attention → Relevance → Desire → Action, sạch claim)
 │   ├── pricing.md           # Kỹ thuật viết giá & ưu đãi F&B dùng placeholder an toàn
-│   ├── regression-fixtures.md # Bộ kiểm tra hồi quy chuẩn mực (8 Provenance + 5 Consumer Insight + 9 Wordcraft = 22 fixtures)
+│   ├── regression-fixtures.md # Bộ kiểm tra hồi quy chuẩn mực (8 Provenance + 5 CI + 9 Wordcraft + 3 Storytelling = 25 fixtures)
 │   └── examples.md          # Tuyển tập 28+ bài mẫu F&B chuẩn (Image/Brief, Rewrite, Bad vs Good)
 └── tests/
-    └── core-tests.md        # 8 Provenance + 5 Consumer Insight + 9 Wordcraft + 10 kịch bản thực tế (v4.9.1)
+    └── core-tests.md        # 8 Provenance + 5 CI + 9 Wordcraft + 3 Storytelling + 10 kịch bản thực tế (v4.9.2)
 ```
 
 ---

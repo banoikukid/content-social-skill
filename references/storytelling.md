@@ -1,13 +1,30 @@
 # Nghệ Thuật Kể Chuyện & Động Cơ Chọn Góc Nhìn (Angle Engine & Storytelling)
 
-Kể chuyện trong ngành F&B không phải là viết tiểu thuyết kịch tính hay rao giảng đạo lý. Đó là việc ghi lại những **khoảnh khắc mộc mạc, chân thật** của không gian quán, con người và tách nước, nhằm tạo sự đồng điệu cảm xúc với khách hàng.
-
+> 🌟 **ĐỊNH NGHĨA KỂ CHUYỆN F&B THỰC CHIẾN:**  
+> **"F&B storytelling is not limited to recounting real events. It can use observation, human truth, imagined scenarios and emotional framing to create a relatable micro-story, as long as fictional framing is not presented as factual customer/business history."**  
+> *(Kể chuyện trong ngành F&B không hề bó hẹp trong việc chép lại sự kiện có thật. Nó là sự kết hợp nhuần nhuyễn giữa: Quan sát trực quan (Observation) + Sự thật đời thường (Human Truth) + Kịch bản giả định (Imagined Scenario) + Khung cảm xúc (Emotional Framing) để tạo nên một mẩu truyện ngắn (micro-story) lôi cuốn, khiến khách hàng tự bước vào câu chuyện, miễn là không biến kịch bản hư cấu thành lịch sử/bằng chứng sự thật về khách hàng hay quán).*
+>
 > **NGUYÊN TẮC CỐT LÕI: CAPTION KHÔNG PHẢI LÀ MÔ TẢ ẢNH (CAPTION ≠ IMAGE DESCRIPTION):**  
 > Tuyệt đối không dừng lại ở việc liệt kê đơn thuần những gì mắt thấy (*❌ "Một ly trà màu cam, có đá, đặt trên bàn gỗ"*). Hãy dùng hình ảnh làm **chất xúc tác hoặc bằng chứng khơi nguồn cho một ý tưởng/khoảnh khắc** (*✅ "Có những buổi chiều chẳng cần kế hoạch gì lớn. Một ly trà, một góc ngồi quen, vậy là đủ."*).
 
 ---
 
-## 1. Động Cơ Chọn Góc Tiếp Cận (The Angle Engine)
+## 1. Nghệ Thuật Dựng Micro-Story / Imagined Consumer Scenario
+
+Trong F&B, những câu chuyện ngắn đời thường (Micro-story) có sức mạnh bán hàng và kết nối cảm xúc mạnh mẽ nhất:
+
+> *“Định đi ngang thôi.*  
+> *Thấy trà đào 29k.*  
+> *Thế là đi ngang… vào quán.”*
+
+- **Bản chất:** Đây là một kịch bản sáng tạo đời thường (Creative Scenario), không phải là bằng chứng hay phản hồi có thật của khách hàng (Customer Testimonial / Evidence).
+- **Quy tắc nội bộ (Internal Rule):**  
+  *"A fictional scenario is allowed when clearly functioning as creative framing and not presented as a real customer event, testimonial, social proof, or operational fact."*
+- **Không bắt buộc chèn tag:** Tuyệt đối không cần in các nhãn kỹ thuật như `[HYPOTHETICAL]` hay `[CREATIVE]` ra bài viết cho khách hàng, vì điều đó làm mất tính tự nhiên của câu chuyện. Chỉ cần đảm bảo người đọc hiểu đó là một tình huống dí dỏm/khoảnh khắc đời thường chứ không phải lời khẳng định lịch sử quán.
+
+---
+
+## 2. Động Cơ Chọn Góc Tiếp Cận (The Angle Engine)
 
 Đừng ép một bức ảnh hay một đề bài vào duy nhất một góc nhìn cố định. Quy trình sáng tạo đúng đắn gồm 3 bước:
 ```
@@ -35,7 +52,7 @@ Chọn 1 góc nhìn đắt giá nhất để viết (Choose Best Angle)
 
 ---
 
-## 2. Ma Trận Góc Nhìn & Kỹ Thuật Viết (Angle $\rightarrow$ Technique Matrix)
+## 3. Ma Trận Góc Nhìn & Kỹ Thuật Viết (Angle $\rightarrow$ Technique Matrix)
 
 Mỗi góc nhìn cần được hỗ trợ bởi các kỹ thuật viết tương ứng để bài viết đạt chiều sâu và cảm xúc tốt nhất:
 
@@ -53,7 +70,7 @@ Mỗi góc nhìn cần được hỗ trợ bởi các kỹ thuật viết tươn
 
 ---
 
-## 3. Phân Định Rõ Ràng Các Tầng Dữ Liệu & Ranh Giới Suy Diễn (Provenance Spaces)
+## 4. Phân Định Rõ Ràng Các Tầng Dữ Liệu & Ranh Giới Suy Diễn (Provenance Spaces)
 
 Để bài viết vừa giàu cảm xúc vừa tuyệt đối trung thực với dữ liệu, người viết phải phân định rõ 4 không gian và ranh giới suy diễn:
 
@@ -73,7 +90,7 @@ Mỗi góc nhìn cần được hỗ trợ bởi các kỹ thuật viết tươn
 
 ---
 
-## 4. Ranh Giới Miêu Tả Giác Quan (Sensory Boundary)
+## 5. Ranh Giới Miêu Tả Giác Quan (Sensory Boundary)
 
 - **Khi chỉ có hình ảnh:** 
   - ✅ **Được phép:** Miêu tả thị giác (màu sắc, bọt, sương đá, ánh nắng) và tạo cảm xúc bằng ẩn dụ nghệ thuật:  
@@ -84,17 +101,17 @@ Mỗi góc nhìn cần được hỗ trợ bởi các kỹ thuật viết tươn
 
 ---
 
-## 5. Quy Tắc Khóa Chặt Sáng Tác (Creative ≠ Factual)
+## 6. Quy Tắc Ranh Giới: Creative Scenario vs Factual History
 
-- 🔴 **QUY TẮC BẮT BUỘC:** Tuyệt đối không tự tạo nhân vật khách hàng, cuộc hội thoại, hành động của nhân viên, thời gian vận hành hoặc sự kiện cụ thể rồi trình bày như chuyện đã xảy ra trong thực tế.
-  - ❌ *Không viết:* *"Hôm nay có một anh khách ghé quán gạt chân chống xe...", "Chiều nay khách ngồi bên cửa sổ từ 2h đến 5h..."* (nếu brief hoặc ảnh không hề cho thấy điều đó).
-  - ✅ *Dùng cách đóng khung giả định (Hypothetical Framing) hoặc cảm nhận không gian thuần túy:*  
-    *Ví dụ:* *"Những ngày mưa thế này, ngồi bên cửa sổ ngắm vệt nước lăn dài trên kính luôn có một cảm giác rất đỗi bình yên."*  
-    *Ví dụ:* *"Có những buổi chiều chẳng cần kế hoạch gì lớn. Một góc ngồi quen, một ly nước quen, vậy là đủ."*
+- 🟢 **Được phép (Creative Scenario & Micro-Story):**  
+  Dựng tình huống tâm lý, khoảnh khắc ngẫu hứng đời thường (*"Chiều nay tự nhiên thèm..."*, *"Định đi ngang thôi, thấy trà đào 29k lại ghé vào..."*, *"Ví còn 25k, lòng thì thèm trà sữa..."*).  
+- 🔴 **Cấm tuyệt đối (Factual Customer/Business History):**  
+  Không tự bịa nhân vật khách hàng cụ thể (*"Hôm nay có anh khách ghé quán gạt chân chống xe bảo..."*), không bịa lịch sử tương tác có thật (*"Có anh khách hôm qua khen nức nở..."*), không bịa sự kiện vận hành quán (*"Sáng nay quán vừa nhập 1 tấn đào"*).
+  - *Mục tiêu:* Tạo ra một **tình huống đời thường mà ai cũng thấy mình trong đó**, không phải bịa ra một **bằng chứng nhân chứng lịch sử giả**.
 
 ---
 
-## 6. Quy Tắc CTA Cho Bài Kể Chuyện: Tùy Chọn & Mềm Mại (Soft/Optional CTA)
+## 7. Quy Tắc CTA Cho Bài Kể Chuyện: Tùy Chọn & Mềm Mại (Soft/Optional CTA)
 
 - **Tuyệt đối không chốt sale thô bạo** trong bài tâm sự/kể chuyện (tránh: *"👉 Mua ngay!", "Inbox đặt bàn gấp!"*).
 - **Để mở cảm xúc hoặc dùng lời chào thân tình:**  

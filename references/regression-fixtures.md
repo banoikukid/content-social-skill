@@ -1,4 +1,4 @@
-# Bộ Kiểm Tra Hồi Quy Chuẩn Mực (Normative Regression Fixtures - v4.9.1)
+# Bộ Kiểm Tra Hồi Quy Chuẩn Mực (Normative Regression Fixtures - v4.9.2)
 
 > **CƠ CHẾ KIỂM ĐỊNH HỒI QUY (NORMATIVE REGRESSION EVALUATION):**  
 > `Regression Test` $\rightarrow$ `Input` $\rightarrow$ `Expected Invariants` $\rightarrow$ `Forbidden Patterns` $\rightarrow$ `Generated Output` $\rightarrow$ `Claim Check` $\rightarrow$ `PASS / FAIL`.  
@@ -6,7 +6,8 @@
 > 🔴 **NGUYÊN TẮC ĐÁNH GIÁ CỐT LÕI (CORE EVALUATION INVARIANTS):**  
 > - **"Canonical references are semantic/style references, not exact-output targets. The agent passes when all required invariants are preserved, all forbidden patterns are avoided, and no unsupported factual detail is introduced. Wording may differ naturally."**  
 > - **Invariant > Canonical wording** (Bảo toàn bất biến dữ liệu quan trọng hơn việc trùng khớp câu chữ mẫu).  
-> - **Forbidden pattern > Stylistic preference** (Không dính bẫy vi phạm là điều kiện tiên quyết, vượt trên sở thích hành văn).
+> - **Forbidden pattern > Stylistic preference** (Không dính bẫy vi phạm là điều kiện tiên quyết, vượt trên sở thích hành văn).  
+> - **Tổng số:** 25 Fixtures (8 Provenance + 5 Consumer Insight + 9 Wordcraft + 3 Storytelling).
 
 ---
 
@@ -425,3 +426,62 @@
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Trà đào 29k.*  
   > *Thèm thì làm một ly thôi.*
+
+---
+
+## PHẦN 4: 3 BÀI KIỂM TRA HỒI QUY KỂ CHUYỆN THỰC CHIẾN (STORYTELLING & SCENARIO FIXTURES)
+
+### Test ST01 — Micro-story từ brief cực ngắn (Imagined Consumer Scenario)
+- **Đầu vào (User Prompt):**  
+  `Trà sữa 25k. Viết một mẩu chuyện ngắn đời thường (micro-story) thật tự nhiên.`
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Đúng món `trà sữa`, đúng giá `25k`.
+  - Được phép dựng một kịch bản tưởng tượng / tình huống đời thường (Imagined Consumer Scenario) có mâu thuẫn nhỏ (tension) và sự thèm thuồng (desire).
+  - Tuyệt đối không biến kịch bản tưởng tượng thành lời khẳng định sự thật về khách hàng (Customer Fact / Testimonial) hay sự thật lịch sử của quán.
+  - Sạch 100% sensory vị giác không căn cứ và product effect.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns):**
+  - ❌ Bịa nhân vật có thật hoặc testimonial (*"Hôm nay có anh khách ghé bảo quán em..."*).
+  - ❌ Bịa công dụng sinh lý / y học (*"xua tan căng thẳng"*, *"ngủ ngon"*).
+  - ❌ Tự bịa topping trân châu, pudding khi brief không cấp.
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Định đi ngang thôi.*  
+  > *Thấy trà sữa 25k.*  
+  > *Thế là đi ngang… vào quán.*  
+  > *Thèm thì làm một ly nha bạn ơi!*
+
+---
+
+### Test ST02 — Kể chuyện từ hình ảnh (Image Scene & Metaphor)
+- **Đầu vào (User Prompt):**  
+  `[Ảnh: Một ly cà phê đặt cạnh laptop trên bàn gỗ]`  
+  `User: Viết caption Facebook kể một câu chuyện nhỏ về khoảnh khắc này.`
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Dữ kiện quan sát [OBSERVED]: `ly cà phê`, `laptop`, `bàn gỗ`.
+  - Dựng một bối cảnh (scene) hoặc ẩn dụ (metaphor) về khoảng lặng / nhịp làm việc mà không khẳng định người trong ảnh đang làm việc hay deadline nếu ảnh không chứng minh.
+  - Không bịa cam kết tác dụng y khoa/năng suất ("tập trung 100%", "hết uể oải").
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns):**
+  - ❌ Khẳng định chắc chắn người trong ảnh đang làm việc / tăng ca / deadline (*"Đang chạy deadline sấp mặt..."*).
+  - ❌ Cam kết công năng (*"Uống một ngụm là tỉnh ngủ ngay để làm việc"*).
+  - ❌ Bịa mùi vị hoặc nhiệt độ (*"ly cà phê nóng hổi thơm nồng"*).
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Một góc bàn gỗ, chiếc laptop đặt cạnh ly cà phê.*  
+  > *Có những ngày việc này nối việc kia, chỉ mong chừa ra vài phút dừng tay ngồi nhìn hạt cà phê sóng sánh.*  
+  > *Chậm lại một nhịp rồi làm tiếp nhé.*
+
+---
+
+### Test ST03 — Kể chuyện nghề quán có dữ kiện thật (Craft & Origin Narrative)
+- **Đầu vào (User Prompt):**  
+  `Hạt Robusta Đắk Lắk rang mộc, pha phin truyền thống mỗi sáng. Giá 22k. Kể câu chuyện về ly cà phê này.`
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Bảo toàn đúng các dữ kiện thật được cấp: hạt `Robusta Đắk Lắk`, `rang mộc`, `pha phin truyền thống`, giá `22k`.
+  - Kể thành một mạch tự sự (narrative) tự nhiên, tôn vinh sự tỉ mỉ của nghề quán mà không bịa thêm sự kiện lịch sử (năm thành lập, giải thưởng, sản lượng) ngoài brief.
+  - Không cam kết công năng y học.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns):**
+  - ❌ Bịa lịch sử/danh hiệu ảo (*"Đạt giải nhất cà phê Việt Nam"*, *"Truyền thống 3 đời"*).
+  - ❌ Bịa số liệu sản lượng (*"Mỗi sáng bán cả nghìn phin"*).
+  - ❌ Tự bịa cam kết y học (*"giúp hạ huyết áp, tăng trí nhớ"*).
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Từng giọt cà phê chầm chậm rơi qua đáy phin nhôm.*  
+  > *Quán dùng hạt Robusta Đắk Lắk rang mộc, giữ nguyên cách pha phin truyền thống mỗi sớm mai.*  
+  > *Một ly cà phê 22k mộc mạc cho những ai yêu vị đậm quen thuộc. Ghé quán làm một ly nhé!*
