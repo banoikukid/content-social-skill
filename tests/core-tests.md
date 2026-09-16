@@ -170,7 +170,7 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 
 > 🔴 **NGUYÊN TẮC ĐÁNH GIÁ CONSUMER INSIGHT:**  
 > - **Fact tells what we can say. Insight tells why the customer cares. Creative tells how to say it beautifully.**  
-> - **Insight may create relevance, but may not create evidence.**  
+> - **Insight may create relevance, but may not create evidence:** Insight là sự thấu cảm, tâm lý đời thường (human truth) giúp nội dung chạm đến người đọc (*"Có những lúc người ta không cần một lý do lớn để tự thưởng"*). Insight không cần chứng minh như một số liệu khoa học (statistic); nó chỉ không được giả dạng statistic hay gán ghép số liệu khảo sát, bằng chứng nhân chứng giả.  
 > - Không bịa chân dung khách hàng, hành vi cụ thể, bối cảnh thời gian hoặc công dụng sản phẩm để gán ghép insight.  
 > - Đạt yêu cầu: Đủ fact cốt lõi + Không vi phạm forbidden patterns + Có Reason to Care / Product Role tự nhiên + CTA phù hợp.
 
@@ -490,10 +490,12 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   - ❌ Bịa lịch sử/danh hiệu ảo (*"Đạt giải nhất cà phê Việt Nam"*, *"Truyền thống 3 đời"*).
   - ❌ Bịa số liệu sản lượng (*"Mỗi sáng bán cả nghìn phin"*).
   - ❌ Tự bịa cam kết y học (*"giúp hạ huyết áp, tăng trí nhớ"*).
+  - ❌ Tự bịa chất liệu dụng cụ không có trong brief (*"phin nhôm"*).
+  - ❌ Tự bịa sensory vị giác chưa được cung cấp (*"vị đậm"*, *"thơm lừng"*).
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
-  > *Từng giọt cà phê chầm chậm rơi qua đáy phin nhôm.*  
-  > *Quán dùng hạt Robusta Đắk Lắk rang mộc, giữ nguyên cách pha phin truyền thống mỗi sớm mai.*  
-  > *Một ly cà phê 22k mộc mạc cho những ai yêu vị đậm quen thuộc. Ghé quán làm một ly nhé!*
+  > *Từng giọt cà phê chầm chậm rơi qua phin.*  
+  > *Quán dùng hạt Robusta Đắk Lắk rang mộc, pha theo cách phin truyền thống mỗi sớm mai.*  
+  > *Một ly cà phê 22k cho những ai thích cái vị quen thuộc của một ly phin. Ghé quán làm một ly nhé!*
 
 ---
 

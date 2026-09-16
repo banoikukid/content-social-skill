@@ -9,7 +9,8 @@ Tài liệu cung cấp các công thức viết bài thực chiến cho ngành F
 >   *(Không bắt ép phải chọn công thức trước khi viết. Đọc brief, hiểu ý định, chọn cách diễn đạt tự nhiên nhất. Chỉ dùng công thức khi thực sự thấy có ích).*  
 > - **Luồng tư duy bán hàng linh hoạt (Sales Thinking Flow):**  
 >   `SITUATION` *(Bối cảnh đời thường)* $\rightarrow$ `INSIGHT / TENSION` *(Vì sao khách quan tâm)* $\rightarrow$ `PRODUCT ROLE` *(Sản phẩm đóng vai trò gì)* $\rightarrow$ `DESIRE / PAYOFF` *(Giá trị nhận lại)* $\rightarrow$ `ACTION / CTA` *(Kêu gọi hành động tự nhiên)*.  
-> - **Mô hình rút gọn:** `HOOK` $\rightarrow$ `WHY CARE` $\rightarrow$ `PRODUCT ROLE` $\rightarrow$ `CTA`.
+> - **Mô hình rút gọn:** `HOOK` $\rightarrow$ `WHY CARE` $\rightarrow$ `PRODUCT ROLE` $\rightarrow$ `CTA`.  
+> - **Nguyên tắc Insight:** *Insight tells why the customer cares. Insight may create relevance, but may not create evidence.* Insight là sự thấu cảm, tâm lý đời thường (human truth) giúp người đọc thấy đồng điệu (*"Có những lúc người ta không cần một lý do lớn để tự thưởng"*). Insight không cần chứng minh như một số liệu khoa học (statistic); nó chỉ không được giả dạng statistic hay gán ghép số liệu khảo sát, bằng chứng nhân chứng giả.
 
 ---
 

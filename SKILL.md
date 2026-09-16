@@ -134,6 +134,11 @@ Agent tuyệt đối không được nhầm lẫn giữa **Kịch bản sáng t�
 | *“Định đi ngang thôi. Thấy trà đào 29k. Thế là ghé vào.”* | 🟢 Micro-Story / Imagined Scenario | ✅ **Khuyến khích tối đa** |
 | *“Hôm qua có khách ghé khen trà đào nức nở.”* | 🔴 Fake Testimonial / Social Proof | ❌ **Cấm tuyệt đối** |
 
+> 💡 **Bản chất của Consumer Insight:**  
+> - **Insight tells why the customer cares. Creative tells how to say it beautifully.**  
+> - **Insight may create relevance, but may not create evidence.**  
+> - Insight là sự thấu cảm, tâm lý đời thường (human truth/creative insight) giúp nội dung chạm đến người đọc (*"Có những lúc người ta không cần một lý do lớn để tự thưởng"*). **Insight không cần chứng minh như một số liệu khoa học (statistic); nó chỉ không được giả dạng statistic hay gán ghép số liệu khảo sát, bằng chứng nhân chứng giả.**
+
 ### 🟢 SOFT GUIDANCE (Linh hoạt chọn lựa để bài viết hay nhất)
 - **Một ý tưởng chủ đạo (One Dominant Idea):** Mỗi bài viết chỉ truyền tải 1 ý tưởng trọng tâm (Mood, Món nước, Ưu đãi, hoặc Câu chuyện). Tuyệt đối không nhồi nhét tất cả vào một bài.
 - **Caption không đơn thuần tả ảnh (Caption ≠ Image Description):** Không chỉ liệt kê những gì có trong ảnh. Dùng hình ảnh làm điểm tựa hoặc chất xúc tác khơi nguồn cho một ý tưởng/cảm xúc.
