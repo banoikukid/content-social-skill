@@ -168,7 +168,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 #### Biến thể 1: Tối giản & Thẩm mỹ (Minimalist / Instagram)
 > Màu vàng ươm của mùa hè gói gọn trong một ly trà giải lao.
 > 
-> Nền trà lài thơm thanh quyện cùng mứt xoài chín ngọt dịu và thạch giòn đã miệng. Tự thưởng một ly giải lao cho nhẹ nhõm nha.
+> Nền trà lài thơm thanh quyện cùng mứt xoài chín ngọt dịu và thạch giòn đã miệng. Tự thưởng một ly giải lao trong ngày nha.
 > 
 > 🏷️ 38k/ly. Xem thêm món tại menu ở bio.
 
@@ -180,9 +180,9 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 > Ghé quán làm một ly giải lao cùng tụi mình nha!
 
 #### Biến thể 3: Cảm xúc & Lắng đọng (Emotional Mood / Fanpage)
-> Có những lúc chỉ muốn ngồi chậm lại một chút bên một ly nước thân quen, hít một hơi thật sâu để thấy lòng mình nhẹ nhõm lại.
+> Có những lúc chỉ muốn ngồi chậm lại một chút bên một ly nước thân quen, để nhịp ngày bớt vội vã.
 > 
-> Vị trà lài thanh thoát, lớp xoài chín vàng ươm dịu ngọt nâng niu vị giác sau những giờ tất bật.
+> Vị trà lài thơm thanh, xoài chín ngọt dịu thêm chút thạch giòn sau những giờ tất bật.
 > 
 > Hẹn bạn ghé quán nhâm nhi nhé.
 
@@ -195,7 +195,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Copy:**
   > Có những ngày công việc cứ dồn dập, càng cố tập trung lại càng thấy đầu óc lơ đễnh.
   > 
-  > Những lúc thế này, nghỉ tay một chút làm ngụm cà phê cho tỉnh táo lại rồi tính tiếp.
+  > Những lúc thế này, nghỉ tay một chút làm ngụm cà phê quen rồi tính tiếp.
   > 
   > Việc gì rồi cũng sẽ xong, đừng quên dành cho mình một khoảng giải lao ngắn. Ghé quán làm ly cafe nha bạn ơi!
 
@@ -204,14 +204,14 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Copy:**
   > Quyết tâm "hôm nay chỉ uống nước lọc" thường chỉ kéo dài cho đến khi ai đó nhắc tới trà sữa trân châu đường đen.
   > 
-  > Một ly trà sữa thơm ngọt béo ngậy, tự thưởng một chút cho vui vẻ rồi mai lại quyết tâm tiếp.
+  > Một ly trà sữa trân châu đường đen 35k, tự thưởng một chút rồi mai lại quyết tâm tiếp.
   > 
-  > Trà sữa trân châu đường đen 35k, ghé quán tụi mình làm một ly ngọt ngào nha!
+  > Hôm nay thèm thì ghé quán tụi mình làm một ly nha bạn ơi!
 
 ### Mẫu 3: Nỗi lòng ngày cuối tháng
 - **Bối cảnh:** Quán có món trà sữa truyền thống giá 29k.
 - **Copy:**
-  > Những ngày cuối tháng, muốn tìm một món gì đó ngọt thơm để giải lao mà mức giá vẫn vừa vặn.
+  > Những ngày cuối tháng, muốn tìm một món gì đó quen thuộc để giải lao mà mức giá vẫn vừa vặn.
   > 
   > Quán có ly trà sữa truyền thống 29k `[PROVIDED: giá menu]`, mộc mạc và vừa túi tiền để bạn tự thưởng cho mình một khoảng nghỉ nhỏ giữa ngày.
   > 
@@ -260,9 +260,9 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 ### Mẫu 1: Giới thiệu món mới đến khách hàng (Default / Safe Zalo 1-1)
 - **Brief:** "Quán có mẻ bánh chuối nướng mới ra lò giá 25k, nhắn tin cho khách trên Zalo."
 - **Copy:**
-  > "Bạn ơi, hôm nay quán tụi mình có mẻ bánh chuối nướng mới ra lò giá 25k thơm lừng nè.
+  > "Bạn ơi, hôm nay quán tụi mình có mẻ bánh chuối nướng mới ra lò giá 25k nè.
   > 
-  > Tiện đường ghé quán làm một chiếc ăn vặt giải lao nhé!"  
+  > Ghé quán làm một chiếc ăn vặt giải lao nhé!"  
   *(🔴 Tuyệt đối không tự bịa tên riêng của khách hay bịa lịch sử đặt hàng).*
 
 ### Mẫu 2: Nhắn tin khi brief ĐÃ CUNG CẤP tên khách và dặn trước (`[PROVIDED Context]`)
@@ -270,7 +270,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Copy:**
   > "Chị Lan ơi, nay quán em vừa lên món Trà Lài Đào Chuông mới thanh nhẹ như chị dặn nè.
   > 
-  > Khi nào tiện đường chị ghé em làm một ly thử vị nghen!"
+  > Khi nào rảnh chị ghé em làm một ly thử vị nghen!"
 
 ### Mẫu 3: Thông báo chương trình ưu đãi qua Zalo cá nhân (Chuẩn Test 4 Baseline)
 - **Brief:** "Giảm 5.000đ khi khách mang bình cá nhân. Áp dụng đến 30/9. Viết tin nhắn Zalo cá nhân."
@@ -290,9 +290,9 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Copy:**
   > Đi cà phê một mình thì bình yên, nhưng đi hai người thì luôn có thêm niềm vui chia sẻ.
   > 
-  > Tuần này ghé quán cùng bạn bè, khi gọi 2 ly nước bất kỳ, tụi mình xin gửi tặng bạn một đĩa bánh quy bơ nướng thơm nức để nhâm nhi cùng buổi trò chuyện.
+  > Tuần này ghé quán cùng bạn bè, khi gọi 2 ly nước bất kỳ, tụi mình xin gửi tặng bạn một đĩa bánh quy bơ nướng để nhâm nhi cùng buổi trò chuyện.
   > 
-  > Rủ ngay bạn thân ghé quán nhận quà ngọt ngào này nhé!
+  > Rủ ngay bạn thân ghé quán nhận phần quà nhỏ này nhé!
 
 ### Mẫu 2: Nâng size miễn phí trong khung giờ vàng
 - **Brief:** "Nâng size M lên size L miễn phí từ 13h - 16h các ngày trong tuần."

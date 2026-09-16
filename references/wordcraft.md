@@ -143,7 +143,7 @@ POLISHED FINAL
 
 ---
 
-## 4. Tiêu Chuẩn Đánh Giá Chất Lượng Ngôn Từ (Language Quality Evaluation)
+## 4. 8 Tiêu Chuẩn Đánh Giá Chất Lượng Ngôn Từ (8 Wordcraft Quality Dimensions)
 
 Bài viết xuất sắc không chỉ "không sai fact" mà còn phải chạm đến độ chín của câu từ qua 8 tiêu chí:
 1. **Naturalness (Độ tự nhiên):** Đọc to câu văn lên có trôi chảy, đúng cách người Việt nói chuyện hàng ngày không?

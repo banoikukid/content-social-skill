@@ -264,18 +264,17 @@
 
 ---
 
-### PHẦN 3: 9 BÀI KIỂM TRA HỒI QUY NGÔN TỪ (WORDCRAFT FIXTURES W01 ĐẾN W09)
+## PHẦN 3: 9 BÀI KIỂM TRA HỒI QUY NGÔN TỪ (WORDCRAFT FIXTURES W01 ĐẾN W09)
 
 > 🔴 **NGUYÊN TẮC ĐÁNH GIÁ WORDCRAFT:**  
 > - **Creative freedom applies to EXPRESSION, not EVIDENCE.** (Tự do sáng tạo thuộc về diễn đạt, không thuộc về bằng chứng).  
-> - **Tiêu chuẩn nghiệm thu Wordcraft:**  
+> - **6 Tiêu chuẩn nghiệm thu Wordcraft (6 Wordcraft Acceptance Gates):**  
 >   1. `No unsupported sensory claim` (Không tự thêm vị giác/nhiệt độ: thơm, béo, ngọt, đậm, mát khi chưa có dữ liệu).  
 >   2. `No product effect` (Không tự thêm tác dụng: tỉnh táo, thư giãn, dễ chịu, nạp năng lượng, giải nhiệt, nhẹ lòng).  
 >   3. `Natural Vietnamese` (Người Việt đời thường có thực sự nói/viết vậy không? Triệt tiêu cấu trúc dịch tiếng Anh).  
 >   4. `Concise & rhythmic` (Nhịp câu linh hoạt, tránh câu ghép lê thê 3-4 vế nối).  
->   5. `Contextual Cliché Control` (Coi "mang đến", "giúp bạn", "tận hưởng" là red flag; viết lại khi sáo rỗng/AI, giữ nguyên nếu tự nhiên).  
->   6. `Word Precision > Fancy Wording` (Ít chữ nhưng đúng chữ, từ ngữ cụ thể/đắt giá > tính từ chung chung).  
->   7. `Commercially usable` (Có lý do quan tâm tự nhiên, tạo động lực mua hàng nhẹ nhàng).
+>   5. `Contextual Cliché Control` (Coi "mang đến", "giúp bạn", "tận hưởng" là red flag ngữ cảnh; viết lại khi sáo rỗng/AI, giữ nguyên nếu tự nhiên).  
+>   6. `Commercially usable & precise` (Có lý do quan tâm tự nhiên, từ ngữ cụ thể/đắt giá > tính từ chung chung, tạo động lực mua hàng nhẹ nhàng).
 
 ---
 
@@ -355,7 +354,8 @@
   - ❌ Tự thêm máy lạnh, wifi, ổ cắm điện khi brief không nói.
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Trà đào 29k.*  
-  > *Có góc ngồi lại thoải mái, ghé tụi mình chơi nhé!*
+  > *Có không gian ngồi lại thoải mái.*  
+  > *Ghé tụi mình chơi nhé!*
 
 ---
 
