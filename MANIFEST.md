@@ -7,32 +7,32 @@
 ## Version
 
 ```yaml
-skill: 4.7.0
-release_type: zero_contradiction_edition
+skill: 4.8.0
+release_type: provenance_creative_boundary_edition
 last_updated: 2026-09-16
 purpose: "Lean, practical Vietnamese F&B social copywriter for chatbots (Hermes)"
 ```
 
 ---
 
-## Cấu Trúc Thư Mục Skill (v4.7.0)
+## Cấu Trúc Thư Mục Skill (v4.8.0)
 
 ```
 content-social-skill/
-├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes (v4.7.0)
-├── SKILL.md                 # Entry point, Prime Directive, Observation > Insight, Provenance Claim Check (v4.7.0)
-├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.7.0)
+├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes (v4.8.0)
+├── SKILL.md                 # Entry point, Prime Directive, Provenance & Creative Boundary, 10 DoD Checks (v4.8.0)
+├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.8.0)
 ├── references/
 │   ├── platforms.md         # Quy chuẩn 5 nền tảng (Facebook, IG, TikTok, Zalo OA, Zalo Personal, Soft heuristics)
 │   ├── tones.md             # 5 tone giọng F&B, Ma trận thông số Tone & [OBSERVED]/[PROVIDED]/[CREATIVE] tagged
 │   ├── formulas.md          # 4 công thức cốt lõi (Placeholder-driven, sạch 100% sensory/operational claims)
 │   ├── hooks.md             # Mở bài gọn gàng, Rhythm & Promise-Payoff (sạch 100% sensory claim mặc định)
 │   ├── storytelling.md      # 8 góc nhìn theo Reader Attention, khóa chặt Creative ≠ Factual & Hypothetical
-│   ├── psychology.md        # 7 kỹ thuật tâm lý thực chiến F&B (gắn nhãn dữ kiện rõ ràng)
-│   ├── pricing.md           # Kỹ thuật viết giá & ưu đãi an toàn bằng placeholder tagged
-│   └── examples.md          # 28+ bài viết mẫu chuẩn mực theo Source-Provenance Rule (v4.7.0)
+│   ├── psychology.md        # 7 kỹ thuật tâm lý thực chiến F&B (gắn nhãn dữ kiện rõ ràng, sạch claim nhiệt độ)
+│   ├── pricing.md           # Kỹ thuật viết giá & ưu đãi an toàn bằng placeholder (không tự thêm điều kiện promo)
+│   └── examples.md          # Tuyển tập 28+ bài viết mẫu chuẩn mực theo Source-Provenance Rule (v4.8.0)
 └── tests/
-    └── core-tests.md        # 10 kịch bản kiểm thử thực tế (v4.7.0)
+    └── core-tests.md        # 8 bài kiểm tra hồi quy ranh giới dữ kiện & 10 kịch bản thực tế (v4.8.0)
 ```
 
 ---
@@ -53,21 +53,41 @@ content-social-skill/
 
 | Tệp tin | Vai trò | Version | Trạng thái |
 | :--- | :--- | :--- | :--- |
-| `README.md` | Tài liệu giới thiệu tổng quan dự án | 4.7.0 | ✅ Active |
-| `SKILL.md` | Bộ não điều khiển, Prime Directive, Provenance Claim Check | 4.7.0 | ✅ Active |
-| `references/platforms.md` | Hướng dẫn định dạng 5 nền tảng, quy tắc gợi ý mềm (Soft Heuristics) | 4.7.0 | ✅ Active |
-| `references/tones.md` | 5 tone giọng F&B, Ma trận thông số Tone & Data-layer tagged | 4.7.0 | ✅ Active |
-| `references/formulas.md` | 4 công thức cốt lõi, khung placeholder an toàn, sạch địa chỉ & claim | 4.7.0 | ✅ Active |
-| `references/hooks.md` | Mở bài, 8 khuôn mẫu AI, Rhythm & Specificity bám sát 3 tầng dữ liệu | 4.7.0 | ✅ Active |
-| `references/storytelling.md` | 8 góc nhìn theo Reader Attention, khóa chặt Creative ≠ Factual | 4.7.0 | ✅ Active |
-| `references/psychology.md` | 7 kỹ thuật tâm lý thực chiến F&B, gắn nhãn dữ kiện rõ ràng | 4.7.0 | ✅ Active |
-| `references/pricing.md` | Trình bày giá & ưu đãi an toàn bằng placeholder tagged | 4.7.0 | ✅ Active |
-| `references/examples.md` | Tuyển tập 28+ bài mẫu F&B chuẩn theo Source-Provenance Rule | 4.7.0 | ✅ Active |
-| `tests/core-tests.md` | 10 kịch bản kiểm thử mẫu kiểm tra chất lượng copywriter | 4.7.0 | ✅ Active |
+| `README.md` | Tài liệu giới thiệu tổng quan dự án | 4.8.0 | ✅ Active |
+| `SKILL.md` | Bộ não điều khiển, Prime Directive, Provenance & Creative Boundary Check | 4.8.0 | ✅ Active |
+| `references/platforms.md` | Hướng dẫn định dạng 5 nền tảng, quy tắc gợi ý mềm (Soft Heuristics) | 4.8.0 | ✅ Active |
+| `references/tones.md` | 5 tone giọng F&B, Ma trận thông số Tone & Data-layer tagged | 4.8.0 | ✅ Active |
+| `references/formulas.md` | 4 công thức cốt lõi, khung placeholder an toàn, sạch địa chỉ & claim | 4.8.0 | ✅ Active |
+| `references/hooks.md` | Mở bài, 8 khuôn mẫu AI, Rhythm & Specificity bám sát 3 tầng dữ liệu | 4.8.0 | ✅ Active |
+| `references/storytelling.md` | 8 góc nhìn theo Reader Attention, khóa chặt Creative ≠ Factual | 4.8.0 | ✅ Active |
+| `references/psychology.md` | 7 kỹ thuật tâm lý thực chiến F&B, gắn nhãn dữ kiện rõ ràng | 4.8.0 | ✅ Active |
+| `references/pricing.md` | Trình bày giá & ưu đãi an toàn bằng placeholder tagged | 4.8.0 | ✅ Active |
+| `references/examples.md` | Tuyển tập 28+ bài mẫu F&B chuẩn theo Source-Provenance Rule | 4.8.0 | ✅ Active |
+| `tests/core-tests.md` | 8 bài kiểm tra hồi quy ranh giới dữ kiện & 10 kịch bản kiểm thử | 4.8.0 | ✅ Active |
 
 ---
 
 ## Nhật Ký Thay Đổi (Changelog)
+
+### v4.8.0 (2026-09-16) — Provenance & Creative Boundary Edition
+- **Ranh giới cốt lõi: Sáng tạo nghệ thuật ≠ Bịa đặt sự thật (Creative Freedom ≠ Factual Freedom):**
+  - Đóng khung 2 nguyên tắc tối cao: *"When facts are sparse, increase creativity — not fabrication"* & *"Creative can imagine the feeling, not the fact."*
+  - Cho phép tối đa tự do sáng tạo về mood, ẩn dụ, nhịp điệu, văn phong đời thường, góc nhìn cảm xúc; tuyệt đối ngăn chặn việc tự sáng tác các chi tiết mang hình thức factual claim.
+- **Triệt tiêu các suy diễn tinh vi (Subtle Grounding Prohibitions):**
+  - **Cấm suy diễn nhiệt độ từ hình ảnh:** Thấy đá viên $\rightarrow$ không tự suy diễn thành *"mát lạnh"*, *"đá lạnh"*, *"nóng hổi"*. Chỉ tả thị giác thuần túy (`đá viên`, `hạt sương đọng ngoài thành ly`).
+  - **Cấm suy diễn không gian / âm thanh / thời gian không thấy trong ảnh:** Bỏ các chi tiết tự suy diễn từ ảnh tĩnh như *"ngoài hiên"*, *"tiếng nhạc êm êm"*, *"chỗ ngồi mát mẻ"*.
+- **Bảo toàn chuẩn xác ngữ nghĩa số liệu (Semantic Fidelity):**
+  - Quy tắc bất biến: `khách ≠ ly`, `số đơn ≠ số ly`, `lượt khách ≠ số đơn`, `doanh thu ≠ lợi nhuận`.
+  - Cấm tự phong danh hiệu *"món bán chạy nhất"*, *"best-seller"* khi brief chỉ cung cấp số liệu bán hàng thông thường.
+  - Bổ sung Cặp 4 trực diện trong BAD vs GOOD về bảo toàn `126 khách`.
+- **Ngăn chặn ảo giác thay thế (No Replacement Hallucination):**
+  - Khi chặn một claim không hợp lệ (y khoa, best seller ảo), model chuyển sang ngôn từ cảm xúc mộc mạc, tuyệt đối không bịa một fact khác để bù vào (như bịa quán đông nghẹt).
+- **Không tự thêm điều kiện khuyến mãi ngoài brief:**
+  - Sửa bài mẫu Mẫu 3 Text Brief và template `pricing.md`, loại bỏ việc tự gán thêm các điều kiện ràng buộc như `"chỉ áp dụng mua mang đi"` hay `"giảm trên mỗi ly"`.
+- **Provenance là cơ chế ngầm (Internal Silent QA):**
+  - Quy định rõ ràng: các nhãn `[OBSERVED]`, `[PROVIDED]`, `[CREATIVE]`, `[HYPOTHETICAL]` chỉ dùng cho Silent QA nội bộ, không in ra bài viết cho khách hàng.
+- **Tích hợp 8 bài kiểm tra hồi quy ranh giới dữ kiện (`tests/core-tests.md`):**
+  - Đưa đầy đủ 8 Regression Test Cases vào bộ kiểm thử chính thức với tiêu chí Pass/Fail rõ ràng.
 
 ### v4.7.0 (2026-09-16) — Zero-Contradiction & Provenance Edition
 - **Nguyên tắc cốt lõi: Every Claim Must Have A Provenance (`SKILL.md`):** Tinh gọn Claim Check thành 4 nguồn gốc dữ liệu bắt buộc (`[OBSERVED]`, `[PROVIDED]`, `[CREATIVE]`, `[HYPOTHETICAL]`). Nếu factual claim không có provenance: BỎ HẲN hoặc VIẾT LẠI thành Creative/Hypothetical.

@@ -44,5 +44,6 @@ Người đọc mạng xã hội thích nhìn thấy giá một cách trực qua
 
 ### Mẫu 3: Ưu đãi mang bình cá nhân (Bảo vệ môi trường)
 > Cùng tụi mình sống xanh hơn mỗi ngày:  
-> Giảm ngay **[Mức giảm]k** trên mỗi ly khi bạn mang bình cá nhân ghé quán mua mang đi.  
-> Cảm ơn bạn đã cùng tụi mình giảm bớt rác thải nhựa!
+> Giảm ngay **[Mức giảm đã cung cấp]** khi bạn mang bình cá nhân ghé quán [theo điều kiện quán cung cấp].  
+> Cảm ơn bạn đã cùng tụi mình bớt đi những chiếc ly dùng một lần!  
+> *(🔴 Tuyệt đối không tự ý thêm các điều kiện như "chỉ áp dụng mua mang đi" hay "trên mỗi ly" nếu brief không nêu rõ).*

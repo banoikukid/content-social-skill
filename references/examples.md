@@ -1,21 +1,23 @@
 # Tuyển Tập Bài Viết Mẫu Thực Chiến (Gold-Standard Examples)
 
-Tài liệu cung cấp các bài viết mẫu chuẩn mực F&B, đạt 100% tiêu chuẩn **v4.7.0**:
+Tài liệu cung cấp các bài viết mẫu chuẩn mực F&B, đạt 100% tiêu chuẩn **v4.8.0**:
 - Đúng 1 ý tưởng chủ đạo (One Dominant Idea)
 - Caption không đơn thuần tả ảnh (Caption ≠ Image Description)
 - Mở bài có lời hứa & Thân bài có lời giải (Hook → Promise → Payoff)
 - Tiếng Việt tự nhiên đời thường, nhịp điệu sinh động, không sáo ngữ AI (Anti-AI)
 - Tuyệt đối sạch dữ kiện: Không bịa fact bán chạy, quy trình nội bộ, địa chỉ hay hiệu ứng cơ thể (Zero Hallucination).
+- Sáng tạo nghệ thuật ≠ Bịa đặt sự thật (Creative Freedom ≠ Factual Freedom): Khi dữ kiện ít, tăng sáng tạo ngôn từ — không tăng bịa đặt.
 
 ---
 
 ## 🌟 Nguyên Tắc Thể Hiện Nguồn Dữ Kiện Trong Bài Mẫu (Source-Provenance Rule)
 
 Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn gốc của claim:
-- **Nếu chỉ có ảnh (Visual Only):** Chỉ tả thị giác nhìn thấy (*"Màu trà trong veo, miếng đào vàng nổi bật trên lớp sương đá li ti ngoài thành ly"*).
+- **Nếu chỉ có ảnh (Visual Only):** Chỉ tả thị giác nhìn thấy rõ ràng (*"Màu trà trong veo, miếng đào vàng nổi bật trên nền trà có hạt sương đọng li ti ngoài thành ly"*). Không tự suy diễn nhiệt độ vật lý ("mát lạnh"), vị giác hay âm thanh không thấy trong ảnh.
 - **Nếu user/menu cung cấp taste (Provided Facts):** Mới được tả vị (*"Trà thơm thanh, hậu ngọt dịu, không bị khé cổ"*).
 - **Nếu là sáng tạo cảm xúc (Creative Metaphor):** Chỉ khơi gợi mood nhẹ nhàng (*"Nhìn ly này thôi là thấy chiều nay nên chậm lại một chút"*).
 - **Nếu là giả định bối cảnh (Hypothetical Framing):** Phải dùng ngôn từ giả định (*"Nếu chiều nay bạn đang cần một góc ngồi yên..."*).
+- **Provenance là cơ chế ngầm:** Các nhãn `[OBSERVED]`, `[PROVIDED]`, `[CREATIVE]`, `[HYPOTHETICAL]` chỉ phục vụ phân tích mẫu và kiểm định ngầm nội bộ, KHÔNG in ra trong bài viết cuối cùng cho khách.
 
 ---
 
@@ -25,9 +27,9 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Input:** [Hình ảnh ly cà phê có lớp kem trắng và cà phê phin bên dưới, chụp buổi sáng].
 - **Dominant Idea:** Vẻ ngoài hai tầng tương phản của ly cà phê muối đầu ngày.
 - **Copy:**
-  > Một ly cafe muối hai tầng rõ rệt: lớp kem trắng bồng bềnh bên trên, cà phê phin màu nâu sẫm bên dưới, thêm lớp sương đá lạnh đọng li ti ngoài thành ly.
+  > Một ly cafe muối hai tầng rõ rệt: lớp kem trắng bồng bềnh bên trên, cà phê phin màu nâu sẫm bên dưới, thêm lớp sương đọng li ti ngoài thành ly.
   > 
-  > Nếu sáng nay bạn có hẹn hay ghé ngang phố, góc bàn mộc ngoài hiên vẫn đang mở cửa đón bạn. ☕
+  > Nếu sáng nay bạn có hẹn hay ghé ngang phố, góc bàn mộc vẫn luôn sẵn sàng đón bạn. ☕
 
 ---
 
@@ -35,11 +37,11 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Input:** [Hình ảnh ly trà màu cam hổ phách, đá đầy, có 2 miếng đào vàng và cọng sả].
 - **Dominant Idea:** Cảm giác mát mắt giữa trưa oi bức.
 - **Copy:**
-  > Nhìn sương đá đọng li ti ngoài thành ly thôi cũng thấy dịu mắt giữa trưa oi ả.
+  > Nhìn những hạt nước đọng li ti ngoài thành ly thôi cũng thấy dịu mắt giữa trưa oi ả.
   > 
-  > Nền trà màu cam hổ phách, bên trên thả hai miếng đào vàng ươm cùng nhánh sả tươi. Đầy ắp đá lạnh từ đáy lên miệng ly, nhìn thôi là thấy đã mắt.
+  > Nền trà màu cam hổ phách, bên trên thả hai miếng đào vàng ươm cùng nhánh sả tươi. Đầy ắp đá viên từ đáy lên miệng ly, nhìn thôi là thấy đã mắt.
   > 
-  > Trưa nay nếu bạn tiện đường ghé ngang, quán có sẵn chỗ ngồi mát mẻ đón bạn nhé.
+  > Trưa nay nếu bạn tiện đường ghé ngang, ghé quán ngồi nghỉ chân một lát nha.
 
 ---
 
@@ -47,9 +49,9 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Input:** [Hình ảnh tách cacao gốm bốc khói nhẹ, hậu cảnh là cửa kính có giọt mưa].
 - **Dominant Idea:** Sự ấm cúng khi trú mưa tại quán.
 - **Copy:**
-  > Mưa rào dầm dề từ đầu giờ chiều tới giờ vẫn chưa dứt.
+  > Nhìn những vệt mưa đọng dài ngoài khung kính, tự nhiên thấy nhịp ngày chậm lại hẳn.
   > 
-  > Những lúc thế này, cầm trên tay tách cacao nóng bốc khói nhẹ, nghe tiếng mưa rơi đều đều ngoài khung kính tự nhiên thấy lòng yên ả lạ thường.
+  > Cầm trên tay tách cacao nóng bốc khói nhẹ, ngồi nhìn mưa rơi ngoài cửa tự nhiên thấy lòng yên ả lạ thường.
   > 
   > Nếu bạn cũng đang lỡ dở đường về vì cơn mưa, ghé quán ngồi trú chân cùng tụi mình nhé. Bàn cạnh cửa sổ vẫn đang chờ bạn.
 
@@ -61,7 +63,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Copy:**
   > Nắng chiều buông nghiêng vừa chạm mép bàn.
   > 
-  > Một ly trà mát, một trang sách mở dở, không gian chỉ có tiếng nhạc êm êm. Chiều nay chẳng cần vội vã, ngồi lại đây thêm một chút cũng được.
+  > Một ly trà có đá, một trang sách mở dở, thêm vệt nắng nghiêng êm ả. Chiều nay chẳng cần vội vã, ngồi lại đây thêm một chút cũng được.
   > 
   > Góc bàn mộc bên cửa sổ luôn sẵn sàng, mời bạn ghé chơi.
 
@@ -109,7 +111,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Brief:** "Giảm 5k cho khách mang bình cá nhân khi mua đồ uống mang đi."
 - **Dominant Idea:** Ưu đãi thiết thực khi chung tay giảm rác thải nhựa.
 - **Copy:**
-  > Mang bình riêng ghé quán mua mang đi, tụi mình giảm liền 5k trên mỗi ly nước nhé.
+  > Mang bình riêng ghé quán mua mang đi, tụi mình giảm liền 5k nhé.
   > 
   > Cùng tụi mình bớt đi một chiếc ly nhựa dùng một lần thải ra môi trường, vừa tiết kiệm vừa thêm một thói quen xanh nho nhỏ mỗi ngày.
   > 
@@ -133,7 +135,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Brief:** "Quán có thêm bánh Croissant nướng bơ nóng giòn xốp 28k ăn kèm cà phê buổi sáng."
 - **Dominant Idea:** Bữa sáng mộc mạc và trọn vẹn với cafe và bánh nóng.
 - **Copy:**
-  > Buổi sáng tròn trịa đôi khi chỉ cần một tách cà phê quen và một chiếc bánh sừng bò nóng hổi.
+  > Buổi sáng tròn trịa đôi khi chỉ cần một tách cà phê quen và một chiếc bánh sừng bò nướng bơ.
   > 
   > Bánh croissant nướng vừa tới vỏ ngoài giòn xốp, bên trong thơm nức mùi bơ. Chấm nhẹ vào lớp bọt cà phê hoặc nhấp một ngụm rồi cắn một miếng bánh là thấy buổi sáng đủ đầy.
   > 
@@ -146,7 +148,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 *Đề bài gốc: "Quán có món Trà Xoài Nhiệt Đới 38k, nền trà lài thơm thanh quyện mứt xoài chín ngọt dịu và thạch giòn đã miệng."*
 
 ### Biến thể 1: Tối giản & Thẩm mỹ (Minimalist / Instagram)
-> Màu vàng ươm của mùa hè gói gọn trong một ly trà mát.
+> Màu vàng ươm của mùa hè gói gọn trong một ly trà giải lao.
 > 
 > Nền trà lài thơm thanh quyện cùng sốt xoài chín ngọt dịu và thạch giòn đã miệng. Chiều nay làm một ly giải lao cho nhẹ nhõm nha.
 > 
@@ -157,10 +159,10 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 > 
 > Vị trà thơm thanh, xoài chín ngọt dịu thêm thạch giòn nhai đã miệng. 38 cành cho một buổi chiều giải lao êm ru, tội gì phải đắn đo!
 > 
-> Nhắn tui liền để tui chừa sẵn một ly mát mẻ nha.
+> Nhắn tui liền để tui chừa sẵn một ly giải lao nha!
 
 ### Biến thể 3: Cảm xúc & Lắng đọng (Emotional Mood / Fanpage)
-> Có những ngày đi ngoài đường bụi bặm, ghé vào quán gọi một ly nước mát, ngồi thở một hơi dài mới thấy người mình nhẹ nhõm lại.
+> Có những ngày đi ngoài đường bụi bặm, ghé vào quán gọi một ly nước thân quen, ngồi thở một hơi dài mới thấy người mình nhẹ nhõm lại.
 > 
 > Vị trà lài thanh thoát, lớp xoài chín vàng ươm dịu ngọt nâng niu vị giác sau những giờ tất bật.
 > 
@@ -276,12 +278,12 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 
 ---
 
-## 8. 3 Cặp Đối Sánh Trực Diện: Bài Dở vs Bài Hay (BAD vs GOOD)
+## 8. 4 Cặp Đối Sánh Trực Diện: Bài Dở vs Bài Hay (BAD vs GOOD)
 
 ### Cặp 1: Sáo ngữ AI đao to búa lớn vs Tiếng Việt đời thường
 - ❌ **BAD (AI-slop, sáo rỗng, triết lý lên lớp):**
   > *"Ly trà đào cam sả này không chỉ đơn thuần là một thức uống giải khát, mà còn là một bản giao hưởng tuyệt mỹ của hương vị, nơi thiên nhiên hòa quyện đánh thức mọi giác quan. Giữa nhịp sống hiện đại đầy hối hả và bon chen, hãy dành cho mình một khoảng lặng để tận hưởng sự thăng hoa của cuộc sống..."*
-- ✅ **GOOD (Chuẩn v4.6.0 — Cụ thể, tự nhiên, nhịp điệu đời thường — [Brief: Trà Đào Cam Sả nhiều đá ngày oi bức, có miếng đào giòn]):**
+- ✅ **GOOD (Chuẩn v4.8.0 — Cụ thể, tự nhiên, nhịp điệu đời thường — [Brief: Trà Đào Cam Sả nhiều đá ngày oi bức, có miếng đào giòn]):**
   > *"Chiều nay oi bức quá.*  
   > *Làm một ly trà đào cam sả đầy đá, nhai miếng đào giòn rụm cho đã miệng.*  
   > *Ngồi lại thêm mười phút ngắm đường phố rồi hẵng về bạn nhé. Quán vẫn mở cửa đón bạn."*
@@ -291,7 +293,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 ### Cặp 2: Bịa fact quy trình & social proof vs Bám sát dữ kiện thật
 - ❌ **BAD (Bịa kỷ lục bán hàng & quá trình nghiên cứu không có căn cứ):**
   > *"Đây là siêu phẩm best-seller bán chạy nhất tuần qua với hơn 1.000 ly đã bán ra! Tụi mình đã mất hơn 6 tháng ròng rã thử nghiệm 100 công thức để cho ra đời ly trà sữa hoàn hảo, đảm bảo bạn uống vào là tỉnh táo tức thì và tràn trề năng lượng..."*
-- ✅ **GOOD (Chuẩn v4.6.0 — Chân thật, bám sát dữ kiện vị giác đã được brief xác nhận):**
+- ✅ **GOOD (Chuẩn v4.8.0 — Chân thật, bám sát dữ kiện vị giác đã được brief xác nhận):**
   - **Brief cung cấp:** "Trà đen thơm mộc kết hợp sữa tươi béo dịu, ngọt thanh vừa vặn."
   - **Copy:**
     > *"Nếu bạn thích vị trà đậm mà ngại ngọt gắt, ly trà này sinh ra là dành cho bạn.*  
@@ -303,7 +305,18 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 ### Cặp 3: Tả ảnh như máy quét vs Dùng ảnh làm chất xúc tác cảm xúc
 - ❌ **BAD (Máy móc liệt kê những gì mắt thấy):**
   > *"Nhìn vào bức ảnh ta có thể thấy một ly nước màu cam, có đá viên bên trong, trên miệng ly đặt hai lát cam vàng và một chiếc ống hút giấy màu trắng, xung quanh là mặt bàn bằng gỗ sồi..."*
-- ✅ **GOOD (Chuẩn v4.6.0 — Caption ≠ Image Description, chỉ dùng thị giác từ ảnh + mood):**
-  > *"Màu cam vàng óng ả đọng sương đá bên ngoài nhìn thôi cũng thấy dịu mắt.*  
+- ✅ **GOOD (Chuẩn v4.8.0 — Caption ≠ Image Description, chỉ dùng thị giác từ ảnh + mood):**
+  > *"Màu cam vàng óng ả đọng sương nước bên ngoài nhìn thôi cũng thấy dịu mắt.*  
   > *Một ly trà đầy đá giữa trưa oi bức, đủ êm dịu để xua bớt cái ngột ngạt ngoài đường.*  
   > *Trưa nay nếu oi bức quá, ghé quán nghỉ chân một lát nha bạn ơi."*
+
+---
+
+### Cặp 4: Suy diễn số liệu sai lệch (Khách vs Ly) & Tự phong Best-seller vs Bảo toàn ngữ nghĩa (Semantic Fidelity)
+- **Brief cung cấp:** "Tuần này có 126 khách gọi Trà Xoài Nhiệt Đới."
+- ❌ **BAD (Hoán đổi khái niệm `khách` thành `ly`, tự xưng `best-seller`, suy diễn vô căn cứ):**
+  > *"Trà Xoài Nhiệt Đới chính là siêu phẩm best-seller bán chạy nhất quán tuần qua với 126 ly đã đến tay khách hàng! Ai uống cũng mê mẩn khen ngon nức nở..."*
+- ✅ **GOOD (Chuẩn v4.8.0 — Giữ nguyên `126 khách`, không bịa `ly` hay danh hiệu `best-seller`):**
+  > *"Tuần này có 126 vị khách đã chọn Trà Xoài Nhiệt Đới khi ghé quán.*  
+  > *Một ly trà thanh nhẹ cho những buổi chiều cần chút hương vị trái cây tươi tắn.*  
+  > *Cảm ơn bạn đã luôn ủng hộ tụi mình nha! Chiều nay ghé quán nhâm nhi nhé."*

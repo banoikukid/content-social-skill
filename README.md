@@ -1,4 +1,4 @@
-# content-social-skill (v4.7.0)
+# content-social-skill (v4.8.0)
 
 > **AI Copywriter chuyên ngành F&B (Trà, Cà Phê, Đồ Uống) tối ưu cho Chatbot (Hermes).**  
 > Chuyển đổi yêu cầu từ văn bản brief hoặc hình ảnh thành bài viết mạng xã hội tự nhiên, đậm chất đời thường và có chuyển đổi cao.
@@ -8,17 +8,21 @@
 ## 🌟 Nguyên Tắc Tối Cao & Trụ Cột Sáng Tác (Consistent Craft)
 
 > **"Chất lượng nội dung và sự tự nhiên của tiếng Việt luôn được ưu tiên cao hơn việc bám máy móc vào template hay công thức."**
+>
+> 🌟 **Sáng tạo nghệ thuật ≠ Bịa đặt sự thật (Creative Freedom ≠ Factual Freedom):**
+> - *"When facts are sparse, increase creativity — not fabrication."*
+> - *"Creative can imagine the feeling, not the fact."*
 
 1. **Một ý tưởng chủ đạo (One Dominant Idea):** Mỗi bài viết chỉ truyền tải 1 ý tưởng cốt lõi (Mood, Sản phẩm, Ưu đãi, hoặc Câu chuyện), không nhồi nhét lan man.
 2. **Caption không thuần tả ảnh (Caption ≠ Image Description):** Không chỉ liệt kê những gì mắt thấy; dùng hình ảnh làm chất xúc tác/bằng chứng khơi nguồn cho một ý tưởng hay khoảnh khắc.
 3. **Lời hứa & Lời giải (Hook $\rightarrow$ Promise $\rightarrow$ Payoff):** Hook là một lời hứa với người đọc; thân bài bắt buộc phải trả lời và giải quyết trọn vẹn lời hứa đó, không giật tít vượt quá nội dung.
 4. **Tư duy tiếng Việt thuần thục (Native Vietnamese Craft):** Viết trực tiếp bằng ngôn ngữ đời thường của người Việt, không dịch máy móc cấu trúc câu tiếng Anh.
 5. **Observation > Insight (Ưu tiên quan sát thật):** Lấy chi tiết quan sát làm điểm tựa; insight là tùy chọn, không ép AI tự vẽ ra insight sáo rỗng.
-6. **Nhất quán 100% giữa Rule & Examples:** Mọi ví dụ đều tuân thủ nguyên tắc Every Claim Must Have A Provenance (`[OBSERVED]`, `[PROVIDED]`, `[CREATIVE]`, `[HYPOTHETICAL]`), triệt tiêu hoàn toàn việc ví dụ dạy model vi phạm Hard Constraints.
+6. **Nhất quán 100% giữa Rule & Examples:** Mọi ví dụ đều tuân thủ nguyên tắc Every Claim Must Have A Provenance (`[OBSERVED]`, `[PROVIDED]`, `[CREATIVE]`, `[HYPOTHETICAL]`), triệt tiêu hoàn toàn việc ví dụ dạy model vi phạm Hard Constraints. Không suy diễn nhiệt độ từ đá trong ảnh, bảo toàn ngữ nghĩa số liệu (`khách ≠ ly`).
 
 ---
 
-## 🚀 Kiến Trúc Copywriting Engine (v4.7.0)
+## 🚀 Kiến Trúc Copywriting Engine (v4.8.0)
 
 ```
 User Input (Text / Image / Brief)
@@ -54,9 +58,9 @@ Output bài viết hoàn chỉnh ngay lập tức (KHÔNG tra khảo người d�
 
 ```
 content-social-skill/
-├── README.md                # Tài liệu giới thiệu tổng quan dự án (v4.7.0)
-├── SKILL.md                 # Entry point, Prime Directive, Observation > Insight, 10 DoD Checks (v4.7.0)
-├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.7.0)
+├── README.md                # Tài liệu giới thiệu tổng quan dự án (v4.8.0)
+├── SKILL.md                 # Entry point, Prime Directive, Provenance & Creative Boundary, 10 DoD Checks (v4.8.0)
+├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.8.0)
 ├── references/
 │   ├── platforms.md         # Quy chuẩn 5 nền tảng: Facebook, Instagram, TikTok, Zalo OA, Zalo Personal
 │   ├── tones.md             # 5 tone giọng F&B & Emoji Density Tendency (sạch claim)
@@ -67,7 +71,7 @@ content-social-skill/
 │   ├── pricing.md           # Kỹ thuật viết giá & ưu đãi F&B dùng placeholder an toàn
 │   └── examples.md          # Tuyển tập 28+ bài mẫu F&B chuẩn (Image/Brief, Rewrite, Bad vs Good)
 └── tests/
-    └── core-tests.md        # 10 kịch bản kiểm thử thực tế
+    └── core-tests.md        # 8 bài kiểm tra hồi quy ranh giới dữ kiện & 10 kịch bản thực tế (v4.8.0)
 ```
 
 ---

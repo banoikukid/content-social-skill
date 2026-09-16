@@ -38,7 +38,7 @@ Biến chuyện đời thường của khách thành tiếng cười đồng c�
 ### 5. Ưu đãi thẳng thắn (Direct Offer Hook — [PROVIDED])
 Nói thẳng quyền lợi khách hàng khi có chương trình thực tế từ quán:
 - *"Mua 1 tặng 1 duy nhất trong khung giờ 14h - 17h hôm nay!"* `[PROVIDED: deal thực tế]`
-- *"Mang bình cá nhân ghé quán, tụi mình giảm liền 5k mỗi ly nha."* `[PROVIDED: chính sách quán]`
+- *"Mang bình cá nhân ghé quán, tụi mình giảm liền 5k nha."* `[PROVIDED: chính sách quán]`
 
 ---
 
@@ -51,7 +51,7 @@ Không chỉ cấm một vài từ đơn lẻ, hãy **chặn đứng 8 khuôn m�
 | **1. Ẩn dụ đao to búa lớn** *(Grandiose Metaphor)* | "Bản giao hưởng vị giác", "Bản hòa ca tuyệt mỹ đánh thức tâm hồn" | Miêu tả thẳng cảm giác: "Lớp bọt sữa bồng bềnh nổi trên nền trà mộc" `[OBSERVED]` hoặc "Trà thanh, sữa béo dịu" `[PROVIDED: chỉ khi có dữ liệu vị]` |
 | **2. Khung cảnh sáo rỗng** *(Generic Emotional Framing)* | "Giữa nhịp sống hối hả bộn bề...", "Sau những giờ làm việc căng thẳng..." | Đi thẳng vào thời điểm thật: "Chiều tan ca đói bụng", "Trưa nắng gắt" `[CREATIVE]` |
 | **3. Xếp chồng tính từ rỗng** *(Empty Adjective Stacking)* | "Hương vị thơm ngon đậm đà khó cưỡng tuyệt hảo" | Dùng chi tiết cụ thể: "Trà đậm hậu vị mộc, pha cùng sữa tươi" `[PROVIDED: khi brief có dữ liệu vị]` hoặc chi tiết thị giác "Lớp bọt sữa trắng mịn dày khoảng một lóng tay" `[OBSERVED: khi nhận ảnh]` |
-| **4. Cấu trúc lặp công thức** *(Mechanical Parallelism)* | "Không chỉ là một thức uống, mà còn là một trải nghiệm sống..." | Bỏ hẳn cấu trúc này: "Một ly trà mát để bạn nhâm nhi buổi chiều" `[CREATIVE]` |
+| **4. Cấu trúc lặp công thức** *(Mechanical Parallelism)* | "Không chỉ là một thức uống, mà còn là một trải nghiệm sống..." | Bỏ hẳn cấu trúc này: "Một ly trà dịu nhẹ để bạn nhâm nhi buổi chiều" `[CREATIVE]` |
 | **5. Triết lý / Lên lớp cuộc sống** *(Motivational Lecturing)* | "Hãy nhớ rằng cuộc đời như tách cà phê, đắng trước ngọt sau..." | Không rao giảng đạo lý. Để người đọc tự cảm nhận không gian quán |
 | **6. Spam câu hỏi tu từ** *(Rhetorical-Question Spam)* | "Bạn có mệt mỏi? Bạn có đang tìm kiếm chốn bình yên? Bạn có muốn...?" | Đặt 1 câu hỏi trúng đích hoặc đi thẳng vào chia sẻ |
 | **7. Đóng khung sáo rỗng** *(Cliche Action / Invitation)* | "Hãy cùng chúng tôi đắm chìm...", "Mang đến cho bạn một cảm giác..." | Lời mời đời thường: "Ghé tụi mình làm một ly nha", "Chiều nay ghé quán chơi nhé" `[CREATIVE]` |

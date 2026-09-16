@@ -30,7 +30,7 @@ Giúp khách hàng cảm nhận được giá trị xứng đáng của món nư
 Giúp người đọc hình dung trải nghiệm thưởng thức hoặc khoảnh khắc thư giãn tại quán.
 - **🔴 LƯU Ý BẮT BUỘC:** **Phải dùng ngôn ngữ giả định**, không biến hình dung thành sự thật đã xảy ra.
   - ❌ *Không viết:* "Chiều nay tan làm, bạn ngồi bên cửa sổ, cầm ly trà này lên uống..." *(tự bịa hành vi khách)*.
-  - ✅ *Cách viết đúng:* *"Nếu chiều nay bạn đang tìm một góc yên tĩnh để ngồi lại một chút...", "Thử tưởng tượng giữa trưa nắng gắt được cầm trên tay ly nước mát lạnh này..."* `[HYPOTHETICAL]`
+  - ✅ *Cách viết đúng:* *"Nếu chiều nay bạn đang tìm một góc yên tĩnh để ngồi lại một chút...", "Thử tưởng tượng giữa trưa nắng gắt được cầm trên tay ly trà đầy đá này..."* `[HYPOTHETICAL]`
 
 ### 6. Sự Dễ Chịu Trong Tiếp Nhận (Cognitive Ease)
 Não bộ con người yêu thích những thứ dễ đọc, dễ hiểu và rõ ràng.

@@ -79,7 +79,7 @@ Mỗi góc nhìn cần được hỗ trợ bởi các kỹ thuật viết tươn
   - ❌ *Không viết:* *"Hôm nay có một anh khách ghé quán gạt chân chống xe...", "Chiều nay khách ngồi bên cửa sổ từ 2h đến 5h..."* (nếu brief hoặc ảnh không hề cho thấy điều đó).
   - ✅ *Dùng cách đóng khung giả định (Hypothetical Framing) hoặc cảm nhận không gian thuần túy:*  
     *Ví dụ:* *"Những ngày mưa thế này, ngồi bên cửa sổ ngắm vệt nước lăn dài trên kính luôn có một cảm giác rất đỗi bình yên."*  
-    *Ví dụ:* *"Có những buổi chiều chẳng cần kế hoạch gì lớn. Một góc ngồi quen, một ly nước mát, vậy là đủ."*
+    *Ví dụ:* *"Có những buổi chiều chẳng cần kế hoạch gì lớn. Một góc ngồi quen, một ly nước quen, vậy là đủ."*
 
 ---
 
