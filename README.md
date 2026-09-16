@@ -9,20 +9,17 @@
 
 > **"Chất lượng nội dung và sự tự nhiên của tiếng Việt luôn được ưu tiên cao hơn việc bám máy móc vào template hay công thức."**
 >
-> 🌟 **Tam Giác Cốt Lõi: Fact – Insight – Creative:**
-> - **FACT tells us what we can say.** *(Fact quyết định được nói gì — chống bịa đặt 100%)*
-> - **INSIGHT tells us why the customer may care.** *(Insight quyết định vì sao khách quan tâm — tạo lý do mua hàng)*
-> - **CREATIVE tells us how to say it beautifully.** *(Creative & Wordcraft quyết định nói như thế nào cho hay — tạo cảm xúc và văn phong)*
->
-> 🔴 **Ranh giới bất biến:**  
-> - *"Insight may create relevance, but may not create evidence."* (Insight tạo sự đồng cảm, không tạo ra bằng chứng hay dữ kiện mới).  
-> - *"Creative freedom applies to EXPRESSION, not EVIDENCE."* (Wordcraft mài giũa thanh âm, nhịp điệu và sự tự nhiên của tiếng Việt, không tự tiện thêm thắt fact, công dụng hay trải nghiệm chưa có).
+> 🌟 **Tự Do Sáng Tạo, Kỷ Luật Sự Thật (Creative Freedom, Factual Discipline):**
+> - **Factuality là hàng rào bảo vệ (Guardrail), không phải cái khung bóp chết sáng tạo.**
+> - **"Không bịa FACT. Được phép sáng tạo INSIGHT và ASSOCIATION."**
+> - **"Do not confuse creative invention with factual hallucination."**
+>   *(Được phép tưởng tượng tình huống, khoảnh khắc đời thường, sự đồng cảm, liên tưởng; tuyệt đối không bịa đặt cam kết về sản phẩm, giá, điều kiện, vận hành, tác dụng hay social proof).*
 
 1. **Một ý tưởng chủ đạo (One Dominant Idea):** Mỗi bài viết chỉ truyền tải 1 ý tưởng cốt lõi (Mood, Sản phẩm, Ưu đãi, hoặc Câu chuyện), không nhồi nhét lan man.
 2. **Caption không thuần tả ảnh (Caption ≠ Image Description):** Không chỉ liệt kê những gì mắt thấy; dùng hình ảnh làm chất xúc tác/bằng chứng khơi nguồn cho một ý tưởng hay khoảnh khắc.
 3. **Lời hứa & Lời giải (Hook $\rightarrow$ Promise $\rightarrow$ Payoff):** Hook là một lời hứa với người đọc; thân bài bắt buộc phải trả lời và giải quyết trọn vẹn lời hứa đó, không giật tít vượt quá nội dung.
 4. **Tư duy tiếng Việt thuần thục (Native Vietnamese Craft & Wordcraft):** Viết trực tiếp bằng ngôn ngữ đời thường của người Việt, lọc bỏ sáo ngữ AI, kiểm soát nhịp điệu và độ đắt của từng câu chữ.
-5. **Thấu cảm có căn cứ (Grounded Consumer Insight):** Tìm ra lý do khách hàng quan tâm (Tension, Desire, Product Role) mà không bịa đặt chân dung nhân khẩu học hay công dụng sản phẩm.
+5. **Thấu cảm có căn cứ (Grounded Consumer Insight & Association):** Tìm ra lý do khách hàng quan tâm (Tension, Desire, Product Role) và tạo liên tưởng sống động mà không biến thành claim rủi ro.
 6. **Nhất quán 100% giữa Rule & Examples:** Mọi ví dụ đều tuân thủ nguyên tắc Every Claim Must Have A Provenance (`[OBSERVED]`, `[PROVIDED]`, `[CREATIVE]`, `[HYPOTHETICAL]`), triệt tiêu hoàn toàn việc ví dụ dạy model vi phạm Hard Constraints. Không suy diễn nhiệt độ từ đá trong ảnh, bảo toàn ngữ nghĩa số liệu (`khách ≠ ly`).
 
 ---
@@ -40,22 +37,24 @@
        (Brief ngắn, viết hàng ngày)    (Chiến dịch, ra mắt món, story)
                  │                               │
                  ▼                               ▼
-      FACT (Món, giá, dữ kiện)        OBSERVE & PROVENANCE
+      FACT (Món, giá, dữ kiện)        HIỂU KHÁCH HÀNG & PROVENANCE
                  │                               │
                  ▼                               ▼
-      WHY CARE? (Lý do quan tâm)      CONSUMER INSIGHT (Tension & Role)
+      INSIGHT & ASSOCIATION           INSIGHT, TENSION & DESIRE
+      (Khoảnh khắc, tâm lý thèm)      (Liên tưởng hình ảnh trong đầu)
                  │                               │
                  ▼                               ▼
-      ONE IDEA (Ý tưởng mộc mạc)      ONE DOMINANT IDEA & ANGLE
+      DRAFT (Bản nháp sống động)      BIG IDEA, ANGLE & HOOK
                  │                               │
                  ▼                               ▼
-      WRITE (Bản nháp tự nhiên)       HOOK → PROMISE → PAYOFF
+      QUICK WORDCRAFT (Ngôn từ)       DRAFT (Bản nháp kích thích thèm)
                  │                               │
                  ▼                               ▼
-      QUICK WORDCRAFT (Ngôn từ)       DEEP WORDCRAFT (8-Point Polish)
-                 │                               │
-                 ▼                               ▼
-      QUICK QA (Đúng fact, no trap)   CLAIM CHECK & FULL QA
+      FACTUALITY GUARD                DEEP WORDCRAFT (8 Dimensions)
+      (Chốt chặn cam kết sự thật)                │
+                 │                               ▼
+                 │                    FACTUALITY GUARD & FULL QA
+                 │                    (Rà soát ranh giới claim & số liệu)
                  │                               │
                  └───────────────┬───────────────┘
                                  │

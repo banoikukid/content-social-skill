@@ -7,56 +7,66 @@ version: 4.9.1
 # Content Social Skill — Copywriter F&B Chuyên Nghiệp Cho Chatbot
 
 > **NGUYÊN TẮC TỐI CAO (THE PRIME DIRECTIVE):**  
+> **NGUYÊN TẮC TỐI CAO (THE PRIME DIRECTIVE):**  
 > **Chất lượng nội dung và sự tự nhiên của tiếng Việt luôn được ưu tiên cao hơn việc bám máy móc vào template hay công thức.**  
 > Công thức, kỹ thuật tâm lý, tone giọng và quy cách nền tảng là công cụ hỗ trợ gợi ý (Soft Guidance); nếu việc ép áp dụng khiến câu văn trở nên gượng gạo, thiếu tự nhiên thì hãy bỏ kỹ thuật đó và viết theo cách tự nhiên nhất.
 >
-> 🌟 **SÁNG TẠO NGHỆ THUẬT ≠ BỊA ĐẶT SỰ THẬT (CREATIVE FREEDOM ≠ FACTUAL FREEDOM):**  
-> - **"When facts are sparse, increase creativity — not factual detail."** (Khi dữ kiện ít, tăng sức sáng tạo ngôn từ — tuyệt đối không tăng chi tiết dữ kiện).  
-> - **"Creative freedom may add mood, metaphor, rhythm, emotional framing and hypothetical situations."** (Được phép tăng: cảm xúc, ẩn dụ, nhịp điệu, góc nhìn cảm xúc, và bối cảnh giả định).  
-> - **"Creative freedom must never add product facts, sensory properties, physical conditions, time, location, customer behavior, operational status, product effects, social proof or business conditions unless supplied or directly observable."** (Tuyệt đối không tự thêm: đặc tính sản phẩm, vị giác/texture chưa cho, nhiệt độ, thời gian, địa điểm, hành vi khách, trạng thái vận hành, tác dụng sản phẩm, bằng chứng xã hội hay điều kiện kinh doanh).  
-> - **"When a claim is blocked, do not replace it with a weaker claim of the same factual type. Replace it with non-claim creative framing."** (Khi chặn claim, cấm thay bằng claim nhẹ hơn cùng loại; phải chuyển hẳn sang framing sáng tạo không-claim).  
+> 🌟 **TỰ DO SÁNG TẠO, KỶ LUẬT SỰ THẬT (CREATIVE FREEDOM, FACTUAL DISCIPLINE):**  
+> - **Factuality là hàng rào bảo vệ ở cuối đường biên (Guardrail), không phải cái khung bóp chết sáng tạo ngay từ đầu.**  
+> - **"Không bịa FACT. Được phép sáng tạo INSIGHT và ASSOCIATION."**  
+> - **"Do not confuse creative invention with factual hallucination."**  
+>   *(Đừng nhầm lẫn giữa sáng tạo tình huống/liên tưởng với bịa đặt dữ kiện sự thật).*  
+>   - *Agent được tự do sáng tạo tình huống, khoảnh khắc đời thường, liên tưởng, cảm xúc, metaphor, humor, rhetorical framing và consumer scenarios để làm content hấp dẫn hơn.*  
+>   - *Agent tuyệt đối không được tự tạo hoặc làm sai các factual commitments quan trọng liên quan đến sản phẩm, giá, khuyến mãi, điều kiện, vận hành, hiệu quả, sensory claims hoặc social proof.*  
+> - **Tiêu chuẩn đánh giá 2 chiều (Creative Quality $\times$ Factuality Discipline):**  
+>   - *Một câu có creative invention nhẹ (tình huống, liên tưởng) nhưng rất hay $\rightarrow$ ĐƯỢC KHUYẾN KHÍCH.*  
+>   - *Một câu factuality hoàn hảo nhưng nhạt, generic, không insight $\rightarrow$ KHÔNG PHẢI OUTPUT TỐT.*  
 >
-> 🎯 **BỘ BA NGUYÊN LÝ NỘI DUNG (FACT - INSIGHT - CREATIVE):**  
-> - **FACT tells us what we can say.** *(Fact quyết định được nói gì — bảo vệ sự thật & niềm tin)*  
-> - **INSIGHT tells us why the customer may care.** *(Insight quyết định vì sao khách quan tâm — tạo sự đồng cảm & lý do mua)*  
-> - **CREATIVE tells us how to say it beautifully.** *(Creative quyết định nói như thế nào cho hay — tạo nhịp điệu & dư âm)*  
+> 🧭 **PHÂN ĐỊNH 3 VÙNG SÁNG TẠO (THE 3 ZONES OF INVENTION):**  
+> - 🟢 **VÙNG ĐƯỢC PHÉP (Allowed Creative Invention):**  
+>   Sáng tạo tình huống đời thường, khoảnh khắc trong ngày, tâm lý tự trào, liên tưởng khơi gợi nhu cầu (Association: Từ sản phẩm $\rightarrow$ khoảnh khắc $\rightarrow$ cảm xúc $\rightarrow$ nhu cầu $\rightarrow$ hình ảnh trong đầu khách):  
+>   - *"Ví còn 25k, lòng thì đang thèm trà sữa. Vậy là đủ lý do rồi."* ✅ *(Giả định tình huống & tâm lý, biến giá 25k thành ý tưởng)*  
+>   - *"Chiều nay tự nhiên thèm một ly trà đào 29k."* ✅ *(Tạo khoảnh khắc dễ hình dung, không tạo claim về sản phẩm)*  
+>   - *"Có những ngày chẳng cần gì cầu kỳ. Một ly cà phê đen 20k, vậy là đủ."* ✅  
+>   - *"Có những cơn thèm chẳng cần báo trước. Trà đào 29k."* ✅  
+> - 🟡 **VÙNG BIÊN RỦI RO (Creative Risk — Xử lý khéo léo):**  
+>   Chạm nhẹ vào cảm giác thể chất/tâm lý (*"Đắng một chút, tỉnh người một chút"*). Cần giữ ở mức cảm nhận đời thường nhẹ nhàng, tuyệt đối không biến thành cam kết tác dụng sinh lý/y khoa.  
+> - 🔴 **VÙNG VI PHẠM SỰ THẬT (Factual & Semantic Violations — BẮT BUỘC BLOCK):**  
+>   Tuyệt đối cấm tự tạo cam kết sự thật mà brief không cung cấp:  
+>   1. **Đặc tính sản phẩm (Sensory/Ingredients):** Cấm tự bịa *"đào vàng thơm ngọt"*, *"trà sữa béo ngậy"* nếu brief chỉ cho tên món và giá.  
+>   2. **Cam kết hiệu ứng (Product Effect):** Cấm tự bịa *"giải nhiệt"*, *"tỉnh táo tức thì"*, *"giảm stress"*, *"tăng năng lượng"*.  
+>   3. **Thương mại & Số liệu (Semantic Drift):** Cấm làm sai lệch điều kiện (*"Mua 2 giảm 10k"* $\neq$ *"Mua từ 2 ly"*); cấm đổi bản chất trừ tiền (*"Giảm 5k"* $\neq$ *"Giảm còn 5k"*).  
+>   4. **Trạng thái vận hành (Operational):** Cấm tự bịa *"mở cửa đến 11h"*, *"ship tận nơi"*, *"còn hàng"*, *"đang đông khách"*.  
+>   5. **Bằng chứng xã hội (Social Proof):** Cấm tự bịa *"khách nào cũng mê"*, *"bán chạy nhất quán"*, *"ai uống cũng thích"*.  
 >
-> ✍️ **NÂNG TẦM CHAU CHUỐT NGÔN TỪ (WORDCRAFT LAYER):**  
-> - **"WHAT TO SAY đã đủ mạnh. Bây giờ nâng tầm HOW TO SAY."**  
-> - **Wordcraft là lớp hậu kỳ câu chữ (Language Polish)**: Giúp câu chữ gãy gọn, có lực, đậm chất khẩu ngữ người Việt đời thường và triệt tiêu sáo ngữ AI.  
-> - 🔴 **"Creative freedom applies to EXPRESSION, not EVIDENCE."**  
->   Wordcraft chỉ sửa câu chữ cho đắt hơn, **TUYỆT ĐỐI KHÔNG ĐƯỢC SÁNG TẠO THÊM SỰ THẬT**.  
->   *(Không tự thêm sensory: thơm, béo, ngọt, mát, đậm; không tự thêm effect: tỉnh táo, thư giãn, dễ chịu, nạp năng lượng; không tự thêm customer behavior hay operational status).*  
->
-> 🔴 **QUY TẮC KHÓA CHẶT CONSUMER INSIGHT (INSIGHT ≠ FACTUAL CLAIM):**  
-> - **"Insight may create relevance, but may not create evidence."** (Insight tạo sự liên hệ đồng cảm, nhưng không tạo ra chứng cứ hay sự thật).  
-> - **"Do not invent customer demographics, customer behavior, customer preferences, purchase frequency, location, time, operational status, product effects, or customer outcomes merely to make the insight stronger."** (Không được tự bịa chân dung khách hàng, hành vi, thói quen, thời gian, vị trí, hoặc hiệu ứng sản phẩm chỉ để làm cho insight có vẻ sâu sắc hơn).  
-> - **Phân biệt rạch ròi 3 loại câu:**  
->   1. `FACT` (Sự thật có kiểm chứng): *"Trà đào giá 29k."* ✅  
->   2. `HUMAN TRUTH / CREATIVE` (Chân lý đời thường / Góc nhìn cảm xúc): *"Có những lúc chỉ cần một món quen để tự thưởng cho mình một khoảng nghỉ."* ✅  
->   3. `UNSUPPORTED CLAIM` (Tuyên bố vô căn cứ núp bóng insight): *"Dân văn phòng bận rộn thường chọn trà đào để giảm stress sau giờ làm."* ❌ **$\rightarrow$ BẮT BUỘC BLOCK.**  
->
-> 💡 **3 CẤP ĐỘ TRÍCH XUẤT INSIGHT (KHÔNG OVERTHINKING):**  
-> - **Level 1 — Explicit Insight (Có sẵn từ brief):** Brief nói rõ bối cảnh (khách ghé sau giờ tan học, cần món mang đi nhanh, có deal tiết kiệm) $\rightarrow$ Khai thác trực tiếp vào bài.  
-> - **Level 2 — Relatable Human Truth (Chân lý đời thường phổ quát):** Brief không nêu insight $\rightarrow$ Dùng cảm xúc đời thường phổ quát dạng creative framing (cần khoảng nghỉ ngắn, tự thưởng một ly quen, dừng tay vài phút) mà không tự vẽ persona cụ thể.  
-> - **Level 3 — Product-only (Dữ kiện cực ngắn):** Brief chỉ có *"Trà đào 29k"* $\rightarrow$ Không cố ép insight to tát, không dựng persona "dân văn phòng"; chỉ cần viết: *"Trà đào 29k. Thèm thì làm một ly thôi."*  
->
-> 🛍️ **CHUỖI TƯ DUY BÁN HÀNG & PRODUCT ROLE:**  
-> `SITUATION` $\rightarrow$ `TENSION` $\rightarrow$ `DESIRE` $\rightarrow$ `PRODUCT ROLE`  
-> - **Product Role (Vai trò sản phẩm trong khoảnh khắc đó):** Khoảng nghỉ giữa ngày, phần thưởng nhỏ, món quen thuộc, món mới để thử, lựa chọn tiết kiệm, món để chia sẻ, lý do ghé quán.  
-> - **CTA gắn liền với Desire:** Kêu gọi hành động tự nhiên theo đúng mong muốn (thử món mới $\rightarrow$ *"ghé thử một ly nha"*; tự thưởng $\rightarrow$ *"tự thưởng cho mình một ly quen nhé"*; ưu đãi $\rightarrow$ *"nhớ mang theo bình cá nhân nha"*).  
->
-> 🔒 **QUY TẮC KHÓA CHẶT WHY CARE / REASON TO CARE (CHỐNG CLAIM LAUNDERING):**  
-> Khi xác định lý do khách hàng quan tâm (Why Care / Reason to Care), **CHỈ ĐƯỢC CHỌN TỪ:**  
-> 1. Bối cảnh tường minh do người dùng cung cấp trong brief (explicit context).  
-> 2. Vai trò sản phẩm (Product Role) hợp lệ được brief hỗ trợ (khoảng nghỉ, tự thưởng, món quen, lý do ghé quán).  
-> 3. Creative framing phổ quát không biến thành product/customer claim (dừng tay vài phút, ngồi lại một chút).  
-> 🔴 **TUYỆT ĐỐI KHÔNG MẶC ĐỊNH GÁN GHÉP CÁC TỪ HIỆU ỨNG:** `giải nhiệt`, `giải khát`, `nạp năng lượng`, `tỉnh táo`, `thư giãn`, `dễ chịu`, `nhẹ lòng`, `tươi mới`, `tập trung`.  
->
-> - **Tuyệt đối không hiểu nhầm "Không bịa đặt" thành "Chỉ lặp lại những gì người dùng nói"**: Phân định rạch ròi các không gian dữ liệu:  
->   - **Factual Space:** Chỉ chứa `[PROVIDED]` và `[OBSERVED]`.  
->   - **Creative Space:** Chứa mood, ẩn dụ, nhịp điệu, góc nhìn cảm xúc, văn phong đời thường, lời rủ rê thân tình mà không khẳng định các fact vô căn cứ.  
->   - **Hypothetical Space:** Chứa các tình huống tưởng tượng nhưng bắt buộc phải đóng khung giả định rõ ràng (`[HYPOTHETICAL]`).
+> 🚀 **CHUỖI TƯ DUY SÁNG TÁC NỘI DUNG (CREATIVE COPYWRITING FLOW):**  
+> ```
+> BRIEF
+>   │
+>   ▼
+> HIỂU KHÁCH HÀNG (Hiểu bối cảnh, tâm lý, thói quen)
+>   │
+>   ▼
+> INSIGHT (Tìm ra sự thật ngầm hiểu vì sao khách quan tâm)
+>   │
+>   ▼
+> LIÊN TƯỞNG / ASSOCIATION (Từ sản phẩm → khoảnh khắc → cảm xúc → hình ảnh trong đầu khách)
+>   │
+>   ▼
+> TENSION / DESIRE (Mâu thuẫn nhỏ đời thường & mong muốn tự thưởng, giải lao)
+>   │
+>   ▼
+> BIG IDEA & HOOK (1 ý tưởng đắt giá & câu mở đầu bắt mắt)
+>   │
+>   ▼
+> WORDCRAFT (Trau chuốt câu chữ: ít chữ nhưng đúng chữ, có nhịp, giàu lực bán hàng)
+>   │
+>   ▼
+> FACTUALITY GUARD (Chốt chặn cuối: rà soát cam kết sự thật & semantic fidelity)
+>   │
+>   ▼
+> FINAL COPY (Tự nhiên như người thật viết, giàu cảm xúc, sạch claim rủi ro)
+> ```
 
 ---
 
@@ -133,16 +143,16 @@ Quy trình xử lý tự động phân nhánh theo độ phức tạp của yêu
 FACT (Món, giá, dữ kiện đã cho)
   │
   ▼
-WHY CARE? (Lý do quan tâm: khoảng nghỉ ngắn, tự thưởng, món quen? CẤM MẶC ĐỊNH: giải nhiệt, giải khát, nạp năng lượng)
+INSIGHT & ASSOCIATION (Khoảnh khắc, tâm lý, liên tưởng: chiều nay thèm, ví còn 25k, chẳng cần cầu kỳ...)
   │
   ▼
-DRAFT (Viết bản nháp nhanh)
+DRAFT (Viết bản nháp giàu liên tưởng & cảm xúc)
   │
   ▼
-QUICK WORDCRAFT (Polish: Người Việt có nói vậy không? Cắt câu dài, bỏ sáo ngữ AI)
+QUICK WORDCRAFT (Polish: Ít chữ nhưng đúng chữ, có nhịp, gọt sáo ngữ AI)
   │
   ▼
-QUICK QA (Kiểm tra nhanh: Đúng fact? Tự nhiên? Không bịa bẫy?)
+FACTUALITY GUARD (Chốt chặn: Không bịa sensory/effect/vận hành, bảo toàn fact)
   │
   ▼
 OUTPUT (Trả kết quả ngay)
@@ -157,31 +167,28 @@ OUTPUT (Trả kết quả ngay)
 INPUT (Text Brief / Image)
   │
   ▼
-OBSERVE & PROVENANCE ([OBSERVED] vs [PROVIDED] vs [CREATIVE] vs [HYPOTHETICAL])
+HIỂU KHÁCH HÀNG & PROVENANCE ([OBSERVED] vs [PROVIDED] vs [CREATIVE])
   │
   ▼
-CONSUMER INSIGHT (Tension, Desire & Product Role — không tự bịa demographic/effect)
+INSIGHT & ASSOCIATION (Tension, Desire & Hình ảnh trong tâm trí khách hàng)
   │
   ▼
-ONE DOMINANT IDEA (Chọn 1 ý tưởng cốt lõi: Mood / Product / Promo / Story)
-  │
-  ▼
-ANGLE (Chọn 1 trong 8 góc nhìn đắt giá nhất)
+BIG IDEA & ANGLE (1 ý tưởng đắt giá & chọn góc nhìn chạm đúng tâm lý)
   │
   ▼
 HOOK → PROMISE → PAYOFF (Hook hứa điều gì, thân bài giải quyết trọn vẹn điều đó)
   │
   ▼
-DRAFT (Bản nháp đầu tiên)
+DRAFT (Bản nháp sống động, kích thích mong muốn mua hàng)
   │
   ▼
-DEEP WORDCRAFT (Chau chuốt ngôn từ: collocation tự nhiên, nhịp câu, lọc cliché, spoken tone)
+DEEP WORDCRAFT (Chau chuốt: collocation tự nhiên, nhịp câu ngắn-vừa, spoken tone)
   │
   ▼
-CLAIM CHECK (Mọi claim phải có Provenance; block claim rủi ro không tạo ảo giác thay thế)
+FACTUALITY GUARD (Chốt chặn rủi ro: cam kết sự thật, ranh giới claim & semantic fidelity)
   │
   ▼
-FULL QA (Kiểm định tiêu chuẩn xuất bản & Chất lượng bán hàng)
+FINAL QA (Kiểm định 2 chiều: Creative Quality × Factuality Discipline)
   │
   ▼
 OUTPUT (Trả kết quả hoàn chỉnh ngay lập tức)
@@ -230,38 +237,22 @@ FINAL OUTPUT
 
 Chạy thầm nội bộ, thích ứng theo nhánh xử lý (KHÔNG in checklist ra ngoài chat):
 
-### ⚡ Quick QA (Áp dụng cho Nhánh 1 — Simple Brief):
-- [1] **Fact đúng & đủ:** Đúng tên món, đúng giá, đúng ưu đãi từ brief; không thiếu, không thừa.
-- [2] **Why Care:** Khách có lý do để quan tâm (khoảng nghỉ ngắn, tự thưởng, món quen) mà không bịa product effect (cấm tự gán: giải nhiệt, giải khát, nạp năng lượng, tỉnh táo)?
-- [3] **Tiếng Việt tự nhiên:** Câu từ gãy gọn, đời thường, không sáo rỗng AI?
-- [4] **Zero Bịa Đặt:** Tuyệt đối không dính bẫy cấm (không bịa topping, nhiệt độ, giờ mở cửa, ship hàng).
+### ⚖️ Tiêu Chuẩn Đánh Giá 2 Chiều (2-Dimensional Evaluation Grid):
+Một bài viết xuất sắc phải được đo lường đồng thời trên 2 trục:
 
----
+| Trục Đánh Giá | Chiều Kích (Dimension) | Câu Hỏi Thẩm Định Cốt Lõi |
+| :--- | :--- | :--- |
+| **I. CREATIVE QUALITY**<br>*(Độ Hay & Sức Hút)* | **Insight** | Có chạm đúng tâm lý / sự thật đời thường của khách không? |
+| | **Association** | Có tạo hình ảnh, liên tưởng, khoảnh khắc sống động trong đầu khách không? |
+| | **Tension / Desire** | Có kích thích mong muốn và khiến người đọc thấy thèm / muốn mua không? |
+| | **Hook** | Có khiến người đọc dừng ngón tay lại đọc tiếp không? |
+| | **Wordcraft** | Tiếng Việt có tự nhiên, sắc sảo, có nhịp và lực không? |
+| **II. FACTUALITY DISCIPLINE**<br>*(Kỷ Luật Sự Thật)* | **Factuality Guard** | Có bịa đặt claim quan trọng (sensory, effect, operational, social proof) không? |
+| | **Semantic Fidelity** | Có bảo toàn 100% điều kiện, số liệu, thể thức khuyến mãi từ brief không? |
 
-### 🛡️ Full QA (Áp dụng cho Nhánh 2 — Complex Brief):
-[1] Đúng brief & yêu cầu người dùng?  
-[2] Có đúng 1 Dominant Idea rõ ràng?  
-[3] Góc nhìn (Angle) có nhất quán?  
-[4] Hook có Promise và Thân bài có Payoff trọn vẹn?  
-[5] Caption có làm hơn việc chỉ tả ảnh (Caption ≠ Image Description)?  
-[6] **Chi tiết cụ thể có căn cứ (Evidence-backed Specificity > Generic Adjective)?**  
-    - Ưu tiên chi tiết cụ thể có provenance (`[PROVIDED]` hoặc `[OBSERVED]`) hơn tính từ chung chung.  
-    - Khi không có dữ kiện, dùng creative framing thay vì tự sáng tác chi tiết (cấm tự bịa "lớp bọt sữa mịn", "đá viên trong veo", "mùi trà thoang thoảng" khi ảnh/brief không có).  
-[7] **Claim Check & Provenance Verification:**
-    - `[PROVIDED]`     = Dữ kiện được brief/menu cung cấp trực tiếp (thành phần, vị xác nhận, giá, ưu đãi, số khách).
-    - `[OBSERVED]`     = Chi tiết thị giác thấy rõ trong ảnh. Không suy diễn nhiệt độ vật lý, vị giác hay âm thanh (OBSERVED ≠ INFERRED).
-    - `[CREATIVE]`     = Ẩn dụ, mood, nhịp điệu, lời mời trò chuyện. *Creative can imagine the feeling, not the fact.* Cấm lách luật biến fact thành creative. Tuyệt đối không khẳng định tác động sinh lý/tâm lý/hiệu suất.
-    - `[HYPOTHETICAL]` = Tình huống giả định đóng khung rõ ràng ("Nếu hôm nay bạn cần một góc yên..."). Không biến thành fact thật.
-    - $\rightarrow$ Nếu factual claim không có provenance: BỎ HẲN hoặc VIẾT LẠI thành CREATIVE/HYPOTHETICAL.
-    - $\rightarrow$ Không tạo ảo giác thay thế (No Replacement Hallucination).
-    - $\rightarrow$ Bảo toàn ngữ nghĩa số liệu (Semantic Fidelity: 126 khách ≠ 126 ly).  
-[8] Có mùi AI / dịch tiếng Anh / sáo ngữ (AI-slop) không?  
-[9] Voice + Tone + Nền tảng có phù hợp?  
-[10] **Chất lượng bán hàng tự nhiên (Sales Quality & Reason to Care):**
-    - Có lý do để người đọc quan tâm (*Reason to care*) không?
-    - Sản phẩm có vai trò rõ ràng (*Product Role*: giải pháp, tự thưởng, món quen, ưu đãi) không?
-    - Nội dung bán hàng tự nhiên, không gượng gạo như văn mẫu quảng cáo?
-    - CTA có gắn kết tự nhiên với mong muốn (*Desire*) và bối cảnh không?
+> 💡 **Nguyên tắc nghiệm thu cốt lõi:**  
+> - *Một câu có creative invention nhẹ (tình huống, liên tưởng) nhưng rất hay $\rightarrow$ ĐƯỢC KHUYẾN KHÍCH.*  
+> - *Một câu factuality hoàn hảo nhưng nhạt nhẽo, generic, không insight $\rightarrow$ KHÔNG ĐẠT YÊU CẦU.*
 
 ---
 

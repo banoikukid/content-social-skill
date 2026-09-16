@@ -64,15 +64,27 @@ content-social-skill/
 | `references/storytelling.md` | 8 góc nhìn theo Reader Attention, khóa chặt Creative ≠ Factual | 4.9.1 | ✅ Active |
 | `references/psychology.md` | Chuỗi tâm lý bán hàng (Attention → Relevance → Desire → Action) | 4.9.1 | ✅ Active |
 | `references/pricing.md` | Trình bày giá & ưu đãi an toàn bằng placeholder tagged | 4.9.1 | ✅ Active |
-| `references/regression-fixtures.md` | 8 bài Provenance + 5 bài Consumer Insight + 8 bài Wordcraft (W01-W08) | 4.9.1 | ✅ Active |
+| `references/regression-fixtures.md` | 8 bài Provenance + 5 bài Consumer Insight + 9 bài Wordcraft (W01-W09) | 4.9.1 | ✅ Active |
 | `references/examples.md` | Tuyển tập 28+ bài mẫu F&B chuẩn theo Source-Provenance Rule | 4.9.1 | ✅ Active |
-| `tests/core-tests.md` | 8 bài Provenance + 5 bài Consumer Insight + 8 bài Wordcraft + 10 kịch bản | 4.9.1 | ✅ Active |
+| `tests/core-tests.md` | 8 bài Provenance + 5 bài Consumer Insight + 9 bài Wordcraft + 10 kịch bản | 4.9.1 | ✅ Active |
 
 ---
 
 ## Nhật Ký Thay Đổi (Changelog)
 
-### v4.9.1 (2026-09-16) — Wordcraft & Language Polish Edition
+### v4.9.1 (2026-09-16) — Wordcraft & Creative Association Edition
+- **Nâng cấp triết lý cốt lõi: Tự Do Sáng Tạo, Kỷ Luật Sự Thật (Creative Freedom, Factual Discipline):**
+  - Đóng khung nguyên tắc tối cao: *"Factuality là hàng rào bảo vệ ở cuối đường (Guardrail), không phải cái khung sắt bóp chết ngòi bút ở đầu vào."*
+  - Khẳng định ranh giới: *"Không đánh đồng sáng tạo nghệ thuật (Creative Invention) với bịa đặt sự thật (Factual Hallucination)."* Sáng tạo tình huống đời thường, khoảnh khắc, tâm lý tự trào, liên tưởng khơi gợi mong muốn là bản chất của copywriting xuất sắc.
+  - Chuỗi quy trình sáng tạo: `BRIEF → HIỂU KHÁCH HÀNG → INSIGHT → LIÊN TƯỞNG / ASSOCIATION → TENSION / DESIRE → BIG IDEA → HOOK → WORDCRAFT → FACTUALITY GUARD → FINAL COPY`.
+  - Phân định **3 Vùng Sáng Tạo (3 Zones of Invention)**:
+    - 🟢 *Vùng Được Phép (Creative Invention):* Tình huống đời thường, khoảnh khắc, tâm lý tự trào, liên tưởng thèm món (*"Ví còn 25k, lòng thì thèm trà sữa..."*, *"Có những ngày chẳng cần cầu kỳ..."*, *"Chiều nay tự nhiên thèm..."*).
+    - 🟡 *Vùng Rủi Ro (Creative Risk):* Cảm giác thể chất/tâm lý nhẹ nhàng (*"đắng một chút, tỉnh người một chút"*), cần khéo léo để không thành cam kết công năng.
+    - 🔴 *Vùng Cấm Tuyệt Đối (Factual & Semantic Violations):* Bịa sensory không có provenance (*"đào vàng giòn ngọt"*), cam kết công dụng (*"giải nhiệt"*, *"tỉnh ngủ ngay"*), bóp méo số liệu/thương mại (*"giảm 5k"* $\neq$ *"giảm còn 5k"*), tự dựng trạng thái vận hành (*"bánh mới ra lò"*) hay best-seller ảo.
+  - Thiết lập **Tiêu Chuẩn Đánh Giá 2 Chiều (2-Dimensional Evaluation Grid)**:
+    - *Creative Quality:* Insight, Association, Tension/Desire, Hook, Wordcraft.
+    - *Factuality Discipline:* Factuality Guard, Semantic Fidelity.
+    - *Quy tắc nghiệm thu:* Một câu có creative invention nhẹ nhưng chạm insight $\rightarrow$ ĐƯỢC KHUYẾN KHÍCH. Một câu factuality an toàn 100% nhưng khô khan, generic $\rightarrow$ KHÔNG ĐẠT YÊU CẦU.
 - **Bổ sung tầng hậu kỳ ngôn từ (Wordcraft / Language Polish Layer):**
   - Đóng khung nguyên tắc: *"WHAT TO SAY đã đủ mạnh. Bây giờ nâng tầm HOW TO SAY."*
   - Ranh giới cốt lõi: *"Creative freedom applies to EXPRESSION, not EVIDENCE."* (Wordcraft chỉ sửa câu chữ cho đắt hơn, tuyệt đối không được sáng tạo thêm sự thật).
