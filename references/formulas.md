@@ -4,7 +4,9 @@ Tài liệu cung cấp các công thức viết bài thực chiến cho ngành F
 
 > **NGUYÊN TẮC CỐT LÕI VỀ CÔNG THỨC:**  
 > - **Formula là công cụ tư duy gợi ý (Thinking Tool), không phải biểu mẫu bắt buộc phải điền (Mandatory Template).**  
-> - Không bắt mọi caption phải gượng ép đủ từng bước. Nếu bài viết ngắn gọn, tự nhiên và chạm đúng cảm xúc thì hãy ưu tiên sự mộc mạc của tiếng Việt.  
+> - **Tư duy cấu trúc tự nhiên (Intent-First Writing):**  
+>   $$\text{Understand intent} \longrightarrow \text{Choose natural structure} \longrightarrow \text{Use formula only if useful}$$  
+>   *(Không bắt ép phải chọn công thức trước khi viết. Đọc brief, hiểu ý định, chọn cách diễn đạt tự nhiên nhất. Chỉ dùng công thức khi thực sự thấy có ích).*  
 > - **Luồng tư duy bán hàng linh hoạt (Sales Thinking Flow):**  
 >   `SITUATION` *(Bối cảnh đời thường)* $\rightarrow$ `INSIGHT / TENSION` *(Vì sao khách quan tâm)* $\rightarrow$ `PRODUCT ROLE` *(Sản phẩm đóng vai trò gì)* $\rightarrow$ `DESIRE / PAYOFF` *(Giá trị nhận lại)* $\rightarrow$ `ACTION / CTA` *(Kêu gọi hành động tự nhiên)*.  
 > - **Mô hình rút gọn:** `HOOK` $\rightarrow$ `WHY CARE` $\rightarrow$ `PRODUCT ROLE` $\rightarrow$ `CTA`.
@@ -20,7 +22,7 @@ Công thức trực diện nhất cho các bài đăng sản phẩm, khuyến m�
 - **CTA (Kêu gọi hành động 1 câu):** Gắn kết tự nhiên với mong muốn (Desire) của người đọc (nhắn tin, ghé tiệm).
 
 > **Ví dụ khung mẫu (Dùng placeholder bám sát dữ kiện):**  
-> Chiều nay oi bức, ghé quán làm một ly [Tên món nước] nha bạn ơi! *(Hook - Bối cảnh [CREATIVE])*  
+> Nếu bạn đang tìm một ly nước thanh mát để giải lao, ghé quán làm một ly [Tên món nước] nha bạn ơi! *(Hook - Lời mời / Lý do quan tâm)*  
 > [Nền trà/cà phê đã được cung cấp] kết hợp cùng [thành phần/topping đã được cung cấp]. [Chi tiết trải nghiệm/vị giác đã được brief xác nhận]. *(Value - [PROVIDED])*  
 > 🏷️ Giá [Mức giá đã cung cấp]k/ly. Ghé quán hoặc nhắn tin cho tụi mình nha! *(CTA)*
 
@@ -28,15 +30,18 @@ Công thức trực diện nhất cho các bài đăng sản phẩm, khuyến m�
 
 ## 2. Công Thức PAS (Problem - Agitation - Solution)
 
-Hiệu quả cao khi đánh vào nhu cầu thời tiết (nắng gắt, mưa gió), áp lực công việc (deadline dí, buồn ngủ gật gù).
+Hiệu quả cao khi giải quyết nhu cầu giải khát, giải nhiệt hoặc tìm một khoảng nghỉ giữa ngày.
 
-- **Problem (Nêu vấn đề):** Trạng thái khó chịu quen thuộc mà khách hàng đang trải qua [CREATIVE].
-- **Agitation (Xoáy sâu cảm xúc):** Làm cho vấn đề trở nên sống động, đồng cảm cùng khách [CREATIVE].
+- **Problem (Nêu điểm nghẽn / Relatable Tension):** Một trạng thái hoặc nhu cầu quen thuộc dạng chân lý đời thường phổ quát hoặc bối cảnh giả định `[HYPOTHETICAL]`.
+- **Agitation (Đồng cảm cảm xúc):** Làm cho nhu cầu trở nên gần gũi, thấu hiểu cảm xúc của người đọc.
 - **Solution (Giải pháp là món nước):** Món của quán xuất hiện như một gợi ý giải tỏa [PROVIDED: chỉ dùng thành phần/vị giác đã xác nhận].
 
-> **Ví dụ khung mẫu:**  
-> Buổi chiều 2 giờ mắt cứ díp lại mà việc trước mặt vẫn chưa chạy xong? *(Problem)*  
-> Càng cố tập trung thì càng thấy uể oải, chỉ muốn tìm thứ gì đó để nhâm nhi giải lao. *(Agitation)*  
+> 🔴 **CẢNH BÁO CHỐNG BẪY DỮ KIỆN GIẢ (FACTUAL-LOOKING CONTEXTS):**  
+> Tuyệt đối **không tự bịa mốc thời gian cụ thể** (*"2 giờ chiều"*, *"sáng sớm"*, *"vừa tan làm"*), **tình huống cơ học cụ thể** (*"deadline dí"*, *"mắt díp lại"*, *"gõ phím"*) nếu brief không cung cấp. Hãy dùng bối cảnh giả định hoặc sự thật đời thường phổ quát.
+
+> **Ví dụ khung mẫu chuẩn mực:**  
+> Có những lúc việc bộn bề, chỉ muốn tìm một khoảng nghỉ ngắn để lấy lại tinh thần? *(Problem / Relatable Tension)*  
+> Càng cố gắng thì đầu óc càng mỏi, nghỉ tay vài phút nhâm nhi một món quen sẽ thấy nhẹ nhõm hơn nhiều. *(Agitation)*  
 > Ghé làm liền một ly [Tên món nước] nha bạn ơi. [Thành phần chính đã được cung cấp] kết hợp cùng [chi tiết vị giác/topping đã được xác nhận]. *(Solution)*  
 > 📍 [Địa chỉ quán nếu có], ghé tụi mình nhâm nhi nha! *(CTA)*
 

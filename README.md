@@ -25,35 +25,40 @@
 
 ---
 
-## 🚀 Kiến Trúc Copywriting Engine (v4.9.0)
+## 🚀 Kiến Trúc Copywriting Engine Thích Ứng (Adaptive Reasoning)
+
+> ⚡ **Lean Reasoning Rule:** *"Do not run the full reasoning framework for simple briefs. Use the minimum reasoning needed to produce a natural, relevant, and commercially useful caption."*
 
 ```
-User Input (Text / Image / Brief)
-            │
-            ▼
-1. BÓC TÁCH DỮ LIỆU & THẤU CẢM KHÁCH HÀNG (Observation & Insight)
-   - Bóc tách Fact: [OBSERVED], [PROVIDED], [CREATIVE], [HYPOTHETICAL]
-   - Thấu cảm (Consumer Insight): SITUATION → TENSION → DESIRE → PRODUCT ROLE
-   - Trả lời câu hỏi: "Vì sao khách hàng lại quan tâm bài viết này?"
-   - Chọn 1 ý tưởng chủ đạo (One Dominant Idea) & 1 góc nhìn đắt giá (8 Angles)
-   - Ngầm tạo 2–3 hook ứng viên (Hook gắn với Lời hứa & Reason to care)
-            │
-            ▼
-2. VIẾT BÀI VỚI VĂN PHONG TỰ NHIÊN & CÓ NHỊP ĐIỆU (Writing & Rhythm)
-   - Triệt tiêu 8 khuôn mẫu sáo rỗng AI (AI Cliché Patterns)
-   - Kỹ thuật nhịp điệu (Sentence Rhythm Engineering): xen kẽ câu ngắn, câu dài, câu punchline
-   - Chi tiết cụ thể có căn cứ (Evidence-backed Specificity > Generic Adjective)
-   - Phân biệt Voice (bản sắc quán) vs Tone (tâm trạng bài viết)
-   - Định dạng chuẩn theo nền tảng (User request ghi đè mặc định)
-            │
-            ▼
-3. KIỂM ĐỊNH TIÊU CHUẨN XUẤT BẢN (Definition of Done QA — 10 Silent Checks)
-   - Chạy thầm 10 câu hỏi kiểm tra nội bộ (KHÔNG in checklist ra ngoài chat):
-     [1] Brief fit  [2] 1 Dominant Idea  [3] Angle rõ  [4] Hook Promise-Payoff  [5] Caption ≠ Image Desc
-     [6] Evidence-backed Specificity  [7] Claim Check (nguồn dữ kiện)  [8] Anti-AI / No slop  [9] Voice/Tone/Platform  [10] Natural CTA & Sales Quality
-            │
-            ▼
-Output bài viết hoàn chỉnh ngay lập tức (KHÔNG tra khảo người dùng)
+                 User Input (Text / Image / Brief)
+                                 │
+                 ┌───────────────┴───────────────┐
+                 ▼                               ▼
+       [NHÁNH 1: FAST PATH]            [NHÁNH 2: DEEP PATH]
+       (Brief ngắn, viết hàng ngày)    (Chiến dịch, ra mắt món, story)
+                 │                               │
+                 ▼                               ▼
+      FACT (Món, giá, dữ kiện)        OBSERVE & PROVENANCE
+                 │                               │
+                 ▼                               ▼
+      WHY CARE? (Lý do quan tâm)      CONSUMER INSIGHT (Tension & Role)
+                 │                               │
+                 ▼                               ▼
+      ONE IDEA (Ý tưởng mộc mạc)      ONE DOMINANT IDEA & ANGLE
+                 │                               │
+                 ▼                               ▼
+      WRITE (Viết tự nhiên + CTA)     HOOK → PROMISE → PAYOFF
+                 │                               │
+                 ▼                               ▼
+      QUICK QA (Đúng fact, no trap)   NATIVE VIETNAMESE & HUMANIZE
+                 │                               │
+                 ▼                               ▼
+                                      CLAIM CHECK & FULL QA
+                                                 │
+                 └───────────────┬───────────────┘
+                                 │
+                                 ▼
+         Output bài viết hoàn chỉnh ngay (Zero Interrogation)
 ```
 
 ---

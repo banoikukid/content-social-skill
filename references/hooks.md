@@ -17,7 +17,7 @@ Hook không chỉ là "giật tít gây chú ý", mà phải tạo được **s�
 Chạm trúng trạng thái cảm xúc quen thuộc của người đọc mà không tự tạo bối cảnh mang hình thức sự thật:
 - *"Có những ngày chẳng cần gì nhiều, chỉ cần một khoảng nghỉ nhỏ để chậm lại một chút..."*
 - *"Sau một ngày dài tất bật, chỉ thèm một góc nhỏ ngồi thở một chút."*
-- *"Có những lúc chỉ muốn buông chuột năm phút để tìm chút cảm giác nhẹ nhõm..."*
+- *"Có những lúc chỉ muốn dừng tay một chút để tìm lại cảm giác nhẹ nhõm..."*
 
 ### 2. Tò mò & Khoảng trống thông tin (Curiosity Hook)
 Nêu một chi tiết gợi mở hoặc câu hỏi thú vị mà không tự bịa đặt giải thưởng hay kỷ lục bán hàng:
@@ -119,8 +119,8 @@ Trước khi viết, chatbot ngầm hình dung 2–3 hướng mở bài và ch�
 
 | Kiểu văn dịch từ tiếng Anh ❌ | Lối nói tự nhiên của người Việt đời thường ✅ |
 | :--- | :--- |
-| "Hãy trải nghiệm một buổi chiều tuyệt vời với ly trà đào..." | "Chiều nay mát trời, ghé quán làm ly trà đào nha bạn." `[CREATIVE]` |
-| "Món nước này được làm thủ công để mang lại sự thư giãn..." | "Chiều nay ghé quán nhâm nhi ly trà cho nhẹ nhõm nha." `[CREATIVE]` |
+| "Hãy trải nghiệm một buổi chiều tuyệt vời với ly trà đào..." | "Trời mát mẻ, ghé quán làm ly trà đào giải lao nha bạn." `[CREATIVE]` |
+| "Món nước này được làm thủ công để mang lại sự thư giãn..." | "Ghé quán nhâm nhi ly trà quen cho nhẹ nhõm nha." `[CREATIVE]` |
 | "Nó được phục vụ với đá và lát cam tươi..." | "Ly nước đầy đá, bên trên có thêm lát cam tươi." `[OBSERVED]` |
 | "Đừng ngần ngại liên hệ chúng tôi để nhận sự hỗ trợ..." | "Cần món gì bạn cứ nhắn tin cho tụi mình nha." `[CREATIVE]` |
 | "Là một sự kết hợp độc đáo giữa trà và sữa..." | "Trà đậm quyện cùng sữa tươi [PROVIDED: khi brief có vị] hoặc 'Tách nước hai tầng nâu trắng rõ rệt' [OBSERVED: khi nhận ảnh]" |

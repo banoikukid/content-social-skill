@@ -74,7 +74,7 @@ Mục tiêu: Đưa ra lời mời nhẹ nhàng, rào cản thấp, phù hợp v�
 
 ### 4.1. Kêu Gọi Hành Động Rào Cản Thấp (Low Friction CTA)
 Lời mời tự nhiên như bạn bè rủ nhau, không ép mua thô bạo.
-- **Ví dụ:** *"Trưa nay ghé quán làm một ly mát lạnh nha bạn ơi!"*, *"Tiện đường ghé lấy một ly rồi bắt đầu buổi chiều nghen."*
+- **Ví dụ:** *"Ghé quán làm một ly giải lao nha bạn ơi!"*, *"Tiện đường ghé lấy một ly rồi tiếp tục công việc nghen."*
 
 ### 4.2. Mệnh Đề Giá Trị Rõ Ràng (Clear Value Proposition)
 Khách biết chính xác họ nhận được gì: tên món, giá cả, ưu đãi (nếu có) được nêu rõ ràng, minh bạch.

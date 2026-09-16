@@ -43,26 +43,26 @@ Tone giọng trong F&B không chỉ là thay đổi đại từ xưng hô, mà t
 ### Tone 1: Gần gũi / Chủ quán (Default)
 - **Đặc trưng:** Coi khách như bạn bè ghé chơi nhà. Câu văn ngắn gọn, chân tình, không dùng từ ngữ quảng cáo đao to búa lớn.
 - **Ví dụ:**
-  > Chiều nay trời mát mẻ ghé quán làm ly Ô Long Sữa Nướng nha bạn ơi. `[CREATIVE]`  
-  > Vị trà ô long rang đậm kết hợp cùng sữa béo vừa phải, không bị ngọt gắt `[PROVIDED: dữ kiện vị]`. Ngồi nhâm nhi ngắm xe cộ qua lại là vừa xinh cho một buổi chiều `[CREATIVE]`.  
+  > Trời mát mẻ, ghé quán làm ly Ô Long Sữa Nướng nha bạn ơi. `[CREATIVE]`  
+  > Vị trà ô long rang đậm kết hợp cùng sữa béo vừa phải, không bị ngọt gắt `[PROVIDED: dữ kiện vị]`. Nhâm nhi một chút là vừa xinh cho một khoảng giải lao `[CREATIVE]`.  
   > 📍 Ghé tụi mình tại [Địa chỉ] hoặc nhắn tin cho tụi mình nha! `[CTA]`
 
 ---
 
 ## Tone 2: Hài hước / Dí dỏm
-- **Đặc trưng:** Biết "tự trào", biến vấn đề thường ngày (deadline, uể oải, thèm ngọt) thành tiếng cười duyên dáng. Tránh đùa cợt thô lỗ, không đùa về chi phí y tế/khám bệnh.
+- **Đặc trưng:** Biết "tự trào", biến cảm xúc thường ngày (cơn thèm ngọt, muốn giải lao) thành tiếng cười duyên dáng. Tránh đùa cợt thô lỗ, không đùa về chi phí y tế/khám bệnh.
 - **Ví dụ:**
-  > Nghe nói chiều nay có người đang thở dài vì deadline dí? `[CREATIVE]`  
-  > Thôi buông chuột 5 phút, giải lao với Ô Long Sữa Nướng đi rồi tính tiếp. Trà rang đậm vị quyện lớp sữa béo dịu `[PROVIDED: dữ kiện vị]`, nhâm nhi một chút cho thảnh thơi đầu óc `[CREATIVE]`.  
-  > 35 cành một ly `[PROVIDED: giá 35k]`, vừa vặn cho một buổi chiều giải lao. Ghé quán làm một ly cùng tụi mình nha! `[CTA]`
+  > Có những lúc việc chưa chạy xong mà cơn thèm ngọt đã gõ cửa? `[CREATIVE]`  
+  > Nghỉ tay 5 phút, giải lao với Ô Long Sữa Nướng đi rồi tính tiếp. Trà rang đậm vị quyện lớp sữa béo dịu `[PROVIDED: dữ kiện vị]`, nhâm nhi một chút cho nhẹ đầu `[CREATIVE]`.  
+  > 35 cành một ly `[PROVIDED: giá 35k]`, vừa vặn cho một khoảng giải lao. Ghé quán làm một ly cùng tụi mình nha! `[CTA]`
 
 ---
 
 ### Tone 3: Trẻ trung / Rủ rê
 - **Đặc trưng:** Nhịp điệu sôi nổi, thôi thúc hành động rủ bạn bè, hội nhóm tụ tập. Dùng từ ngữ đời thường của giới trẻ một cách tự nhiên.
 - **Ví dụ:**
-  > Kèo chiều nay chốt đơn Ô Long Sữa Nướng chưa mấy bồ ơi? `[CREATIVE]`  
-  > Trà đậm rang thơm quyện sữa béo dịu `[PROVIDED: dữ kiện vị]`. Tan làm rủ liền đứa bạn thân ghé quán làm một ly tám chuyện rôm rả đi nào! `[CREATIVE]`  
+  > Kèo hôm nay chốt đơn Ô Long Sữa Nướng chưa mấy bồ ơi? `[CREATIVE]`  
+  > Trà đậm rang thơm quyện sữa béo dịu `[PROVIDED: dữ kiện vị]`. Rủ liền đứa bạn thân ghé quán làm một ly tám chuyện rôm rả đi nào! `[CREATIVE]`  
   > Tag nhẹ đồng đội vô đây để set kèo liền tay nha! `[CTA]`
 
 ---

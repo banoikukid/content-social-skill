@@ -25,8 +25,8 @@ Chọn 1 góc nhìn đắt giá nhất để viết (Choose Best Angle)
 | Góc nhìn (Angle) | Người đọc chú ý vào điều gì? (Reader Attention) | Bản chất nội dung | Ví dụ mở đầu gợi ý |
 | :--- | :--- | :--- | :--- |
 | **1. Sản phẩm (Product)** | **Món nước** (màu sắc, tầng lớp, topping, nguyên liệu) | Tập trung vào thị giác ly nước thật mắt thấy. | *"Màu cam óng ả đọng sương đá bên ngoài ly..."* |
-| **2. Cảm xúc (Mood)** | **Cảm giác** (khoảng lặng, nhịp sống chậm, sự thư thái) | Tạo không khí êm đềm của buổi chiều hay tối muộn. | *"Có những buổi chiều chỉ cần một góc nhỏ tĩnh lặng..."* |
-| **3. Đời thường (Relatable)** | **Tình huống quen thuộc** (uể oải khi làm việc, thèm chút gì giải lao) | Đánh vào thói quen đời thường của người đọc [CREATIVE]. | *"Có những lúc làm việc mệt mỏi, chỉ muốn buông chuột năm phút tìm thứ gì đó giải lao..."* |
+| **2. Cảm xúc (Mood)** | **Cảm giác** (khoảng lặng, nhịp sống chậm, sự thư thái) | Tạo không khí êm đềm, nhẹ nhõm. | *"Có những ngày chỉ cần một góc nhỏ tĩnh lặng bên ly nước quen..."* |
+| **3. Đời thường (Relatable)** | **Tình huống quen thuộc** (cần khoảng nghỉ, thèm chút gì giải lao) | Đánh vào thói quen đời thường của người đọc [CREATIVE]. | *"Có những lúc mỏi mệt, chỉ muốn nghỉ tay một chút tìm thứ gì đó thơm thơm giải lao..."* |
 | **4. Hài hước (Humor)** | **Sự tương phản hóm hỉnh** (đùa deadline, ví tiền, cơn thèm đồ uống) | Tự trào nhẹ nhàng về những mâu thuẫn dễ thương. | *"Ví tiền bảo tiết kiệm, nhưng cái miệng lại bảo order..."* |
 | **5. Tò mò (Curiosity)** | **Chi tiết lạ** (khoảng trống thông tin trong món/quán) | Gợi mở một điểm đặc biệt để người đọc tò mò. | *"Nhìn đơn giản vậy thôi — bạn đoán điểm thú vị nằm ở đâu?"* |
 | **6. Nghề quán (Craft)** | **Cách làm / Sự chăm chút** (thao tác quầy, chuẩn bị) | Sự cẩn trọng của người làm quán [chỉ dùng khi quán chia sẻ fact thật]. | *"Nếu quán có quy trình chuẩn bị: 'Sáng sớm mở quầy...' [khi có dữ liệu]"* |

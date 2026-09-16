@@ -88,6 +88,14 @@ content-social-skill/
   - `references/hooks.md`: Bổ sung 6 dạng Hook thấu cảm & khơi gợi lý do quan tâm (Recognition, Curiosity, Desire, Situation, Contrast, Identity, Direct Offer).
   - `references/formulas.md`: Bổ sung luồng tư duy bán hàng linh hoạt, thoát ly khỏi template cứng nhắc.
   - `SKILL.md`: Bổ sung tiêu chuẩn kiểm định chất lượng bán hàng tự nhiên (Sales Quality & Reason to Care) trong Silent QA [10].
+- **Cơ chế suy luận thích ứng (Adaptive Reasoning Pipeline):**
+  - Đưa vào nguyên tắc tinh gọn tối thượng: *"Do not run the full reasoning framework for simple briefs. Use the minimum reasoning needed to produce a natural, relevant, and commercially useful caption."*
+  - Phân tách 2 nhánh rõ rệt: **Fast Path** (Simple brief: `FACT → WHY CARE → ONE IDEA → WRITE → QUICK QA`) và **Deep Path** (Complex brief: `FACT + PROVENANCE → INSIGHT/TENSION → DESIRE/ROLE → ANGLE → HOOK → PAYOFF → WRITE → FULL QA`).
+  - Phân tầng QA: Quick QA (4 tiêu chí nhanh gọn cho bài đơn giản) vs Full QA (cho chiến dịch/storytelling sâu).
+- **Thanh lọc toàn diện tín hiệu giảng dạy (Teaching Signal Cleanup):**
+  - `references/examples.md`: Xóa bỏ triệt để các bối cảnh tạo cảm giác sự thật giả (`"buông chuột 5 phút"`, `"mắt díp lại"`, `"Sáng nay vừa tự nhủ"`, `"Đến xế chiều đồng nghiệp"`, claim mới `"ví tiền vẫn an toàn tuyệt đối"`). Mọi gold-standard example đều sạch hơn output thông thường.
+  - `references/formulas.md`: Thiết lập nguyên tắc *Intent-First Writing* (`Understand intent → Choose natural structure → Use formula only if useful`). Sửa cấu trúc PAS thành `Problem (Relatable tension / Hypothetical situation) → Agitation → Solution`, xóa ví dụ "2 giờ chiều mắt díp lại".
+  - `references/hooks.md`, `references/storytelling.md`, `references/tones.md`, `references/psychology.md`: Rà soát và loại bỏ các mốc thời gian ("chiều nay"), đạo cụ làm việc cụ thể không có trong brief.
 - **Bổ sung 5 bài kiểm tra hồi quy Consumer Insight (`references/regression-fixtures.md` & `tests/core-tests.md`):**
   - Đưa 5 bài kiểm tra hồi quy chuẩn mực (`Test CI-1` đến `Test CI-5`) đánh giá khả năng tạo lý do mua hàng mà không vi phạm ranh giới dữ kiện.
 

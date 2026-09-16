@@ -168,19 +168,19 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 #### Biến thể 1: Tối giản & Thẩm mỹ (Minimalist / Instagram)
 > Màu vàng ươm của mùa hè gói gọn trong một ly trà giải lao.
 > 
-> Nền trà lài thơm thanh quyện cùng mứt xoài chín ngọt dịu và thạch giòn đã miệng. Chiều nay làm một ly giải lao cho nhẹ nhõm nha.
+> Nền trà lài thơm thanh quyện cùng mứt xoài chín ngọt dịu và thạch giòn đã miệng. Tự thưởng một ly giải lao cho nhẹ nhõm nha.
 > 
 > 🏷️ 38k/ly. Xem thêm món tại menu ở bio.
 
 #### Biến thể 2: Hài hước & Tự trào (Humor / Facebook)
-> Ví tiền bảo "chiều nay uống nước lọc đi", nhưng thời tiết oi bức lại bảo "gọi ngay ly Trà Xoài đi bạn ơi".
+> Ví tiền bảo "uống nước lọc thôi", nhưng cái miệng lại bảo "gọi ngay ly Trà Xoài đi bạn ơi".
 > 
-> Vị trà thơm thanh, xoài chín ngọt dịu thêm thạch giòn cho đã miệng. 38 cành cho một buổi chiều giải lao êm ru, tội gì phải đắn đo!
+> Vị trà thơm thanh, xoài chín ngọt dịu thêm thạch giòn cho đã miệng. 38 cành cho một khoảng nghỉ êm ru, tội gì phải đắn đo!
 > 
 > Ghé quán làm một ly giải lao cùng tụi mình nha!
 
 #### Biến thể 3: Cảm xúc & Lắng đọng (Emotional Mood / Fanpage)
-> Có những ngày đi ngoài đường bụi bặm, ghé vào quán gọi một ly nước thân quen, ngồi thở một hơi dài mới thấy người mình nhẹ nhõm lại.
+> Có những lúc chỉ muốn ngồi chậm lại một chút bên một ly nước thân quen, hít một hơi thật sâu để thấy lòng mình nhẹ nhõm lại.
 > 
 > Vị trà lài thanh thoát, lớp xoài chín vàng ươm dịu ngọt nâng niu vị giác sau những giờ tất bật.
 > 
@@ -190,28 +190,32 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 
 ## 4. 3 Mẫu Hài Hước & Hóm Hỉnh (Humor & Relatable)
 
-### Mẫu 1: Chuyện trêu deadline và công việc
-> Có những lúc mở chục cái tab công việc mà mắt cứ díp lại như muốn biểu tình.
-> 
-> Những lúc thế này có cố gõ phím cũng chỉ ra lỗi chính tả. Thôi thì buông chuột năm phút, làm một ngụm cà phê rồi giải quyết tiếp.
-> 
-> Việc gì rồi cũng xong, nghỉ tay một chút rồi hãy làm tiếp. Ghé quán làm ly cafe nha bạn ơi!
+### Mẫu 1: Chuyện giải lao giữa ngày làm việc
+- **Brief:** "Quán có cà phê đen và nâu đá. Viết caption vui vẻ, tự trào cho ngày làm việc."
+- **Copy:**
+  > Có những ngày công việc cứ dồn dập, càng cố tập trung lại càng thấy đầu óc lơ đễnh.
+  > 
+  > Những lúc thế này, nghỉ tay một chút làm ngụm cà phê cho tỉnh táo lại rồi tính tiếp.
+  > 
+  > Việc gì rồi cũng sẽ xong, đừng quên dành cho mình một khoảng giải lao ngắn. Ghé quán làm ly cafe nha bạn ơi!
 
 ### Mẫu 2: Chuyện quyết tâm tiết kiệm bất thành
-> Sáng nay vừa tự nhủ lòng: "Hôm nay mang bình nước lọc đi làm cho tiết kiệm".
-> 
-> Đến xế chiều đồng nghiệp lướt menu hỏi: "Uống trà sữa trân châu đường đen không tao order luôn?", thế là bàn tay tự động chuyển khoản không chút do dự.
-> 
-> Kế hoạch tiết kiệm để mai tính, hôm nay cứ phải vui trước đã. Ghé quán làm một ly ngọt ngào nha!
+- **Brief:** "Quán có trà sữa trân châu đường đen 35k. Viết caption vui vẻ, tự trào."
+- **Copy:**
+  > Quyết tâm "hôm nay chỉ uống nước lọc" thường chỉ kéo dài cho đến khi ai đó nhắc tới trà sữa trân châu đường đen.
+  > 
+  > Một ly trà sữa thơm ngọt béo ngậy, tự thưởng một chút cho vui vẻ rồi mai lại quyết tâm tiếp.
+  > 
+  > Trà sữa trân châu đường đen 35k, ghé quán tụi mình làm một ly ngọt ngào nha!
 
 ### Mẫu 3: Nỗi lòng ngày cuối tháng
 - **Bối cảnh:** Quán có món trà sữa truyền thống giá 29k.
 - **Copy:**
-  > Những ngày cuối tháng, nhìn vào tài khoản thấy hơi trầm ngâm, nhưng cái miệng thì vẫn thèm một thứ gì đó thơm thơm béo béo.
+  > Những ngày cuối tháng, muốn tìm một món gì đó ngọt thơm để giải lao mà mức giá vẫn vừa vặn.
   > 
-  > Quán có ly trà sữa mộc mạc giá chỉ 29k `[PROVIDED: giá menu]`, vừa vặn để bạn tự thưởng cho bản thân một buổi chiều mà ví tiền vẫn an toàn tuyệt đối.
+  > Quán có ly trà sữa truyền thống 29k `[PROVIDED: giá menu]`, mộc mạc và vừa túi tiền để bạn tự thưởng cho mình một khoảng nghỉ nhỏ giữa ngày.
   > 
-  > Ghé quán nhâm nhi giải lao nha!
+  > Ghé quán tụi mình làm một ly nhé!
 
 ---
 
@@ -318,7 +322,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - ❌ **BAD (AI-slop, sáo rỗng, triết lý lên lớp):**
   > *"Ly trà đào cam sả này không chỉ đơn thuần là một thức uống giải khát, mà còn là một bản giao hưởng tuyệt mỹ của hương vị, nơi thiên nhiên hòa quyện đánh thức mọi giác quan. Giữa nhịp sống hiện đại đầy hối hả và bon chen, hãy dành cho mình một khoảng lặng để tận hưởng sự thăng hoa của cuộc sống..."*
 - ✅ **GOOD (Cụ thể, tự nhiên, nhịp điệu đời thường — [Brief: Trà Đào Cam Sả nhiều đá ngày oi bức, có miếng đào giòn]):**
-  > *"Chiều nay oi bức quá.*  
+  > *"Trời oi bức quá.*  
   > *Làm một ly trà đào cam sả đầy đá, thêm miếng đào giòn cho đã miệng.*  
   > *Ngồi lại thêm mười phút ngắm đường phố rồi hẵng về bạn nhé. Ghé quán cùng tụi mình nha."*
 
@@ -331,7 +335,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
   - **Brief cung cấp:** "Trà đen thơm mộc kết hợp sữa tươi béo dịu, ngọt thanh vừa vặn."
   - **Copy:**
     > *"Nếu bạn thích vị trà đậm mà ngại ngọt gắt, ly trà này sinh ra là dành cho bạn.*  
-    > *Trà đen thơm mộc kết hợp cùng sữa tươi béo dịu, ngọt thanh vừa vặn. Nhấp một ngụm êm ái, ngồi làm việc hay đọc sách chiều nay đều rất hợp.*  
+    > *Trà đen thơm mộc kết hợp cùng sữa tươi béo dịu, ngọt thanh vừa vặn. Nhấp một ngụm êm ái, ngồi làm việc hay đọc sách đều rất hợp.*  
     > *Hôm nay ghé quán nhâm nhi cùng tụi mình nhé."*
 
 ---
