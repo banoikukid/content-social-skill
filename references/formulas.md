@@ -17,7 +17,7 @@ Công thức trực diện nhất cho các bài đăng sản phẩm, khuyến m�
 > **Ví dụ khung mẫu (Dùng placeholder bám sát dữ kiện):**  
 > Chiều nay oi bức, ghé quán làm một ly [Tên món nước] nha bạn ơi! *(Hook - Bối cảnh [CREATIVE])*  
 > [Nền trà/cà phê đã được cung cấp] kết hợp cùng [thành phần/topping đã được cung cấp]. [Chi tiết trải nghiệm/vị giác đã được brief xác nhận]. *(Value - [PROVIDED])*  
-> 🏷️ Giá [Mức giá đã cung cấp]k/ly. Nhắn tin để tụi mình chuẩn bị trước nha! *(CTA)*
+> 🏷️ Giá [Mức giá đã cung cấp]k/ly. Ghé quán hoặc nhắn tin cho tụi mình nha! *(CTA)*
 
 ---
 
@@ -33,7 +33,7 @@ Hiệu quả cao khi đánh vào nhu cầu thời tiết (nắng gắt, mưa gi�
 > Buổi chiều 2 giờ mắt cứ díp lại mà việc trước mặt vẫn chưa chạy xong? *(Problem)*  
 > Càng cố tập trung thì càng thấy uể oải, chỉ muốn tìm thứ gì đó để nhâm nhi giải lao. *(Agitation)*  
 > Ghé làm liền một ly [Tên món nước] nha bạn ơi. [Thành phần chính đã được cung cấp] kết hợp cùng [chi tiết vị giác/topping đã được xác nhận]. *(Solution)*  
-> 📍 Đang mở cửa tại [Địa chỉ quán], ghé tụi mình liền nha! *(CTA)*
+> 📍 [Địa chỉ quán nếu có], ghé tụi mình nhâm nhi nha! *(CTA)*
 
 ---
 

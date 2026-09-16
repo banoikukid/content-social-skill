@@ -6,9 +6,14 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 
 ## PHẦN 1: 8 BÀI KIỂM TRA HỒI QUY RANH GIỚI DỮ KIỆN (NORMATIVE REGRESSION FIXTURES)
 
-> **CƠ CHẾ KIỂM ĐỊNH HỒI QUY (REGRESSION EVALUATION PIPELINE):**  
-> `Regression Test` $\rightarrow$ `Input` $\rightarrow$ `Expected Invariants` $\rightarrow$ `Generated Output` $\rightarrow$ `Claim & Provenance Check` $\rightarrow$ `PASS / FAIL`.  
-> *Lưu ý: Model không bắt buộc phải sinh đúng từng chữ như Mẫu Output Chuẩn (Canonical Pass Reference), nhưng BẮT BUỘC phải thỏa mãn toàn bộ Expected Invariants và TUYỆT ĐỐI KHÔNG chứa bất kỳ Forbidden Pattern nào.*
+> **CƠ CHẾ KIỂM ĐỊNH HỒI QUY (NORMATIVE REGRESSION EVALUATION):**  
+> `Regression Test` $\rightarrow$ `Input` $\rightarrow$ `Expected Invariants` $\rightarrow$ `Forbidden Patterns` $\rightarrow$ `Generated Output` $\rightarrow$ `Claim Check` $\rightarrow$ `PASS / FAIL`.  
+> 
+> 🔴 **NGUYÊN TẮC ĐÁNH GIÁ CỐT LÕI (CORE EVALUATION INVARIANTS):**  
+> - **"Canonical references are examples, not exact-output targets."** (Mẫu tham chiếu là ví dụ minh họa, không phải đích đến bắt buộc đúng từng từ).  
+> - **"The agent passes when all required invariants are preserved, all forbidden patterns are avoided, and no unsupported factual detail is introduced. Wording may differ naturally."**  
+> - **Invariant > Canonical wording** (Bảo toàn bất biến dữ liệu quan trọng hơn việc trùng khớp câu chữ mẫu).  
+> - **Forbidden pattern > Stylistic preference** (Không dính bẫy vi phạm là điều kiện tiên quyết, vượt trên sở thích hành văn).
 
 ---
 
@@ -90,8 +95,9 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   `[Gửi ảnh quán cà phê buổi tối]`  
   `User: Viết một caption kể chuyện về quán.`
 - **Bất biến bắt buộc (Expected Invariants):**
-  - Dùng hình ảnh quán buổi tối làm chất xúc tác cảm xúc / khoảng lặng [CREATIVE].
-  - Áp dụng kỹ thuật đóng khung giả định rõ ràng [HYPOTHETICAL] (*"Nếu tối nay..."*).
+  - Bối cảnh buổi tối từ hình ảnh (`[OBSERVED]` / `[PROVIDED]`).
+  - Có thể dùng cảm nhận không gian thuần túy hoặc khung giả định `[HYPOTHETICAL]` (đây là kỹ thuật viết tùy chọn, không ép mọi output phải dùng cùng một mẫu câu).
+  - Giữ âm hưởng mộc mạc, bình yên, không kịch tính hóa.
 - **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
   - ❌ Tự bịa nhân vật khách hàng (*"tối nay có cặp đôi ghé quán..."*, *"anh khách quen..."*).
   - ❌ Khẳng định hiện trạng vật lý / âm thanh không chứng minh (*"phố xá lên đèn"*, *"ánh vàng ấm áp"*, *"tĩnh lặng"*, *"tiếng nhạc êm"*).
@@ -124,8 +130,9 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 - **Đầu vào (User Prompt):**  
   `Cà phê hạt mộc rang đậm, uống vào tỉnh táo tức thì làm việc thấu đêm không mệt mỏi. Viết caption.`
 - **Bất biến bắt buộc (Expected Invariants):**
+  - Món nước: `Cà phê hạt mộc rang đậm` $\rightarrow$ `[PROVIDED]`.
+  - Bối cảnh làm việc: Chỉ được dùng vì input có *"làm việc thấu đêm"*; tuyệt đối không suy ra địa điểm vật lý có thật (văn phòng cụ thể, deadline cụ thể, hiệu suất) mà chỉ dùng như context/mood không-claim (ví dụ: *"bên bàn làm việc"*).
   - Loại bỏ 100% cam kết y khoa/thể chất ("tỉnh táo tức thì", "làm việc thấu đêm không mệt mỏi").
-  - Tiếp tục viết bài hoàn chỉnh tập trung vào gu cà phê hạt mộc rang đậm và bối cảnh bàn làm việc.
   - Chuyển hẳn sang framing sáng tạo hoàn toàn không-claim.
 - **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
   - ❌ Giữ lại claim y khoa / thể chất.
