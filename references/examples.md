@@ -111,13 +111,13 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 
 ### Mẫu 3: Ưu đãi giảm 5k khi mang bình cá nhân (Góc: Direct Offer)
 - **Brief:** "Giảm 5.000đ khi mang bình cá nhân. Áp dụng đến hết 30/9."
-- **Dominant Idea:** Ưu đãi thiết thực khi chung tay giảm rác thải nhựa.
+- **Dominant Idea:** Ưu đãi trực tiếp khi mang bình cá nhân ghé tiệm.
 - **Copy:**
   > Mang bình riêng ghé quán, tụi mình giảm liền 5.000đ nha.
   > 
-  > Cùng tụi mình bớt đi một chiếc ly dùng một lần thải ra môi trường, vừa tiết kiệm vừa thêm một thói quen xanh nho nhỏ mỗi ngày. Ưu đãi áp dụng đến hết ngày 30/9.
+  > Ưu đãi áp dụng từ hôm nay đến hết ngày 30/9 khi bạn mang theo bình cá nhân.
   > 
-  > Ghé quán làm ly nước quen nhé!
+  > Khi nào ghé nhớ mang theo bình cá nhân nhé!
 
 ---
 

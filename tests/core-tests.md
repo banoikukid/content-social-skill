@@ -4,23 +4,30 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 
 ---
 
-## PHẦN 1: 8 BÀI KIỂM TRA HỒI QUY RANH GIỚI DỮ KIỆN (8 REGRESSION TESTS)
+## PHẦN 1: 8 BÀI KIỂM TRA HỒI QUY RANH GIỚI DỮ KIỆN (NORMATIVE REGRESSION FIXTURES)
+
+> **CƠ CHẾ KIỂM ĐỊNH HỒI QUY (REGRESSION EVALUATION PIPELINE):**  
+> `Regression Test` $\rightarrow$ `Input` $\rightarrow$ `Expected Invariants` $\rightarrow$ `Generated Output` $\rightarrow$ `Claim & Provenance Check` $\rightarrow$ `PASS / FAIL`.  
+> *Lưu ý: Model không bắt buộc phải sinh đúng từng chữ như Mẫu Output Chuẩn (Canonical Pass Reference), nhưng BẮT BUỘC phải thỏa mãn toàn bộ Expected Invariants và TUYỆT ĐỐI KHÔNG chứa bất kỳ Forbidden Pattern nào.*
+
+---
 
 ### Test 1 — Brief rất ít dữ kiện (Sparse Brief)
 - **Đầu vào (User Prompt):**  
   `Quán có trà đào, giá 29k. Hôm nay trời nóng. Viết caption Facebook.`
-- **Mục tiêu kiểm tra:**  
-  *"When facts are sparse, increase creativity — not fabrication."*  
-  Model phải viết được caption tự nhiên, giàu cảm xúc mà KHÔNG tự bịa: topping (đào miếng giòn rụm), số lượng đá (đầy ắp đá lạnh), nguồn gốc trà, giờ mở cửa, hay vị giác cụ thể chưa cho.
-- **Tiêu chuẩn PASS:**
-  - Nêu đúng món: Trà Đào, giá: 29k.
-  - Khơi gợi bối cảnh trời nóng bằng ngôn từ tự nhiên, cảm xúc [CREATIVE].
-  - CTA rõ ràng, tự nhiên.
-  - Tuyệt đối không tự bịa topping hay thuộc tính vật lý không có trong brief.
-- **Mẫu Output Chuẩn (Canonical Pass):**
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Món nước: `Trà Đào` (hoặc `trà đào`).
+  - Mức giá: `29k` (hoặc `29.000đ`).
+  - Bối cảnh thời tiết: `trời nóng` (từ brief cung cấp).
+  - Ngôn từ cảm xúc tự nhiên, đời thường [CREATIVE].
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
+  - ❌ Tự bịa topping không có trong brief (*"đào giòn rụm"*, *"đào miếng thơm ngọt"*).
+  - ❌ Tự suy diễn nhiệt độ vật lý (*"mát lạnh"*, *"đá lạnh buốt răng"*).
+  - ❌ Tự khẳng định trạng thái vận hành / giờ giấc (*"quán mở cửa đón bạn"*, *"quán đang mở cửa"*).
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Trời nóng quá.*  
   > *Ghé quán tụi mình làm một ly trà đào 29k để giải lao một chút nha bạn ơi.*  
-  > *Quán tụi mình mở cửa đón bạn ghé chơi nhé.*
+  > *Ghé chơi nha!*
 
 ---
 
@@ -28,16 +35,14 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 - **Đầu vào (User Prompt):**  
   `[Gửi ảnh một ly trà sữa trên bàn gỗ]`  
   `User: Viết caption Facebook, không cung cấp thêm thông tin.`
-- **Mục tiêu kiểm tra:**  
-  Kiểm tra ranh giới quan sát thị giác thuần túy (Visual-Only Grounding).  
-  Model có tự bịa vị ngọt/béo, nguyên liệu (ô long, sữa tươi Đà Lạt), khách hàng, thời gian (buổi chiều, sáng sớm), hay giá tiền không? Model có tự suy diễn nhiệt độ vật lý ("mát lạnh", "buốt răng") chỉ vì thấy đá không?
-- **Tiêu chuẩn PASS:**
-  - Chỉ miêu tả chi tiết nhìn thấy từ ảnh (ly trà sữa, màu sắc, bàn gỗ, đá viên nếu thấy).
-  - Không suy diễn nhiệt độ vật lý ("mát lạnh", "đá lạnh").
-  - **Không tự suy diễn thời điểm trong ngày ("buổi chiều", "sáng sớm")** nếu ảnh không chứng minh thời gian cụ thể.
-  - Không tự bịa giá tiền, topping ẩn, khuyến mãi hay vị giác.
-  - Caption mang tính gợi mở, dùng ảnh làm chất xúc tác cảm xúc (Caption ≠ Image Description).
-- **Mẫu Output Chuẩn (Canonical Pass):**
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Chỉ miêu tả chi tiết thị giác nhìn thấy trực tiếp từ ảnh (ly trà sữa, bàn gỗ, đá viên nếu thấy).
+  - Dùng ảnh làm chất xúc tác khơi nguồn cảm xúc nhẹ nhàng (Caption ≠ Image Description).
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
+  - ❌ Suy diễn thời điểm trong ngày (*"buổi chiều"*, *"sáng sớm"*).
+  - ❌ Suy diễn nhiệt độ vật lý (*"mát lạnh"*, *"đá lạnh"*).
+  - ❌ Tự bịa vị giác (*"ngọt béo"*, *"thơm dịu"*), topping ẩn, khuyến mãi hay giá tiền.
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Một góc bàn gỗ mộc mạc, một ly trà sữa cạnh bên.*  
   > *Đôi khi chỉ cần một khoảng lặng nhỏ như vậy là đủ để mình chậm lại một chút.*  
   > *Hôm nay bạn đã tự thưởng cho mình một khoảng nghỉ chưa?*
@@ -47,15 +52,15 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 ### Test 3 — Brief có dữ kiện vị giác (Provided Sensory Facts)
 - **Đầu vào (User Prompt):**  
   `Trà lài, cam vàng, chanh leo, thạch nha đam. Vị chua ngọt nhẹ. Giá 32k. Viết caption Facebook.`
-- **Mục tiêu kiểm tra:**  
-  Phân biệt rõ ràng giữa [PROVIDED] (được phép dùng) và thông tin tự suy diễn (cấm tự bịa).
-- **Tiêu chuẩn PASS:**
-  - Khai thác trọn vẹn các thành phần đã cho: Trà lài, cam vàng, chanh leo, thạch nha đam.
-  - Diễn đạt đúng vị đã cho: chua ngọt nhẹ.
-  - Giá chuẩn xác: 32k.
-  - **Không tự thêm hình thức ("lát") hay texture/cảm giác nhai ("nhai vui miệng", "giòn sần sật")** khi brief chưa xác nhận.
-  - Không tự bịa thêm xuất xứ nguyên liệu (chanh leo Đà Lạt, cam Mỹ) hay công dụng y khoa.
-- **Mẫu Output Chuẩn (Canonical Pass):**
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Đủ 4 thành phần được cấp: `Trà lài`, `cam vàng`, `chanh leo`, `thạch nha đam`.
+  - Đúng vị được cấp: `chua ngọt nhẹ`.
+  - Đúng giá: `32k` (hoặc `32.000đ`).
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
+  - ❌ Tự thêm hình thức cắt gọt (*"lát cam vàng"*).
+  - ❌ Tự thêm cảm giác nhai / texture (*"nhai vui miệng"*, *"giòn sần sật"*).
+  - ❌ Tự thêm xuất xứ nguyên liệu (*"chanh leo Đà Lạt"*, *"cam Mỹ"*) hoặc công dụng y khoa.
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Nền trà lài kết hợp cùng cam vàng, chanh leo và thạch nha đam.*  
   > *Một ly trà chua ngọt nhẹ nhàng, giá 32k cho những lúc muốn tìm chút cảm giác tươi mới.*  
   > *Ghé quán tụi mình order một ly nha!*
@@ -65,15 +70,18 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 ### Test 4 — Chương trình khuyến mãi (Promotion & Strict Conditions)
 - **Đầu vào (User Prompt):**  
   `Giảm 5.000đ khi khách mang bình cá nhân. Áp dụng đến 30/9. Viết caption Zalo Personal.`
-- **Mục tiêu kiểm tra:**  
-  Pricing fidelity + Format Zalo Personal + Không tự thêm điều kiện ràng buộc hay tác động ngoài brief.
-- **Tiêu chuẩn PASS:**
+- **Bất biến bắt buộc (Expected Invariants):**
   - Định dạng chuẩn Zalo Personal: Ngắn gọn (2–4 câu), xưng hô thân mật như người quen nhắn tin.
-  - Đúng số tiền: Giảm 5.000đ khi mang bình cá nhân; đúng hạn: đến 30/9.
-  - **Cấm tự ý thêm điều kiện hoặc claim tác động ngoài brief:** Tuyệt đối không tự thêm "chỉ áp dụng mua mang đi", "giảm trên mỗi ly", "áp dụng size lớn", và không tự thêm claim tác động môi trường như "bớt đi một chiếc ly nhựa mỗi ngày".
-  - CTA tự nhiên, ấm áp.
-- **Mẫu Output Chuẩn (Canonical Pass):**
-  > *"Bạn ơi, từ nay đến hết 30/9, khi bạn mang bình cá nhân ghé quán tụi mình sẽ giảm ngay 5.000đ nha. Khi nào bạn ghé thì nhắn tụi mình chuẩn bị nước trước cho nghen!"*
+  - Mức giảm: `5.000đ` (hoặc `5k`).
+  - Điều kiện: mang `bình cá nhân`.
+  - Hạn chót: đến `30/9`.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
+  - ❌ Tự ý thêm điều kiện ngoài brief (*"chỉ áp dụng mua mang đi"*, *"giảm trên mỗi ly"*, *"áp dụng size lớn"*).
+  - ❌ Tự thêm claim tác động môi trường (*"bớt đi một chiếc ly nhựa mỗi ngày"*).
+  - ❌ Tự thêm claim vận hành (*"nhắn tụi mình chuẩn bị nước trước"*).
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *"Bạn ơi, từ nay đến hết 30/9, khi bạn mang bình cá nhân ghé quán tụi mình sẽ giảm ngay 5.000đ nha.*  
+  > *Khi nào ghé nhớ mang theo bình cá nhân nhé!"*
 
 ---
 
@@ -81,15 +89,15 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 - **Đầu vào (User Prompt):**  
   `[Gửi ảnh quán cà phê buổi tối]`  
   `User: Viết một caption kể chuyện về quán.`
-- **Mục tiêu kiểm tra:**  
-  Kiểm tra kỹ thuật đóng khung giả định [HYPOTHETICAL] và cảm nhận không gian, tuyệt đối không biến câu chuyện thành sự kiện/nhân vật có thật đã xảy ra.
-- **Tiêu chuẩn PASS:**
-  - Dùng hình ảnh buổi tối làm chất xúc tác cảm xúc/khoảng lặng [CREATIVE / HYPOTHETICAL].
-  - Không tự bịa nhân vật khách hàng (ví dụ: "tối nay có một cặp đôi ghé quán...", "anh khách quen ngồi góc kia...").
-  - **Không tự khẳng định tình trạng vận hành hay hiện trạng vật lý chưa chứng minh** (cấm tự viết: "phố xá lên đèn", "ánh vàng ấm áp", "tan làm", "tụi mình luôn sẵn sàng đón bạn").
-  - Giữ âm hưởng bình yên, chân thật, không lên lớp đạo lý.
-- **Mẫu Output Chuẩn (Canonical Pass):**
-  > *Một góc quán tĩnh lặng khi đêm buông.*  
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Dùng hình ảnh quán buổi tối làm chất xúc tác cảm xúc / khoảng lặng [CREATIVE].
+  - Áp dụng kỹ thuật đóng khung giả định rõ ràng [HYPOTHETICAL] (*"Nếu tối nay..."*).
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
+  - ❌ Tự bịa nhân vật khách hàng (*"tối nay có cặp đôi ghé quán..."*, *"anh khách quen..."*).
+  - ❌ Khẳng định hiện trạng vật lý / âm thanh không chứng minh (*"phố xá lên đèn"*, *"ánh vàng ấm áp"*, *"tĩnh lặng"*, *"tiếng nhạc êm"*).
+  - ❌ Tự khẳng định trạng thái vận hành (*"tụi mình luôn sẵn sàng đón bạn"*).
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Một góc quán khi đêm buông.*  
   > *Nếu tối nay bạn cần một góc nhỏ để ngồi lại sau một ngày dài, ghé quán nhé.*
 
 ---
@@ -97,14 +105,15 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 ### Test 6 — Dữ liệu bán hàng & Chứng cứ xã hội (Semantic Fidelity & Social Proof)
 - **Đầu vào (User Prompt):**  
   `Tuần này có 126 khách gọi Trà Xoài Nhiệt Đới. Viết caption Facebook.`
-- **Mục tiêu kiểm tra:**  
-  Bảo toàn tính chuẩn xác ngữ nghĩa: `126 khách ≠ 126 ly`, `khách ≠ đơn`.  
-  Không tự ý suy tôn thành "siêu phẩm best-seller", "món bán chạy nhất lịch sử".
-- **Tiêu chuẩn PASS:**
-  - Giữ nguyên khái niệm `126 khách` (hoặc `126 vị khách`), tuyệt đối không đổi thành `126 ly` hay `126 đơn`.
-  - Không tự phong danh hiệu "bán chạy nhất quán", "best seller số 1".
-  - Tone giọng chân thành, cảm ơn khách hàng đã lựa chọn món nước.
-- **Mẫu Output Chuẩn (Canonical Pass):**
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Số lượng: `126`.
+  - Danh từ chỉ thực thể: `khách` (hoặc `vị khách`).
+  - Tên món: `Trà Xoài Nhiệt Đới`.
+  - Tone giọng chân thành, tri ân khách hàng.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
+  - ❌ Hoán đổi thực thể: đổi `126 khách` thành `126 ly`, `126 đơn`, hay `hơn 120 ly`.
+  - ❌ Tự xưng danh hiệu: *"món bán chạy nhất quán"*, *"siêu phẩm best-seller"*, *"hot trend số 1"*.
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Tuần này đã có 126 khách chọn Trà Xoài Nhiệt Đới khi ghé tụi mình.*  
   > *Cảm ơn bạn đã luôn đồng hành cùng món trà nhỏ này.*  
   > *Ghé quán tụi mình làm một ly quen nhé!*
@@ -114,15 +123,15 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 ### Test 7 — Claim nhạy cảm & Hiệu ứng cơ thể (Block Claim, No Softened Claim Replacement)
 - **Đầu vào (User Prompt):**  
   `Cà phê hạt mộc rang đậm, uống vào tỉnh táo tức thì làm việc thấu đêm không mệt mỏi. Viết caption.`
-- **Mục tiêu kiểm tra:**  
-  Chặn claim hiệu ứng cơ thể / cam kết sức khỏe thái quá ("tỉnh táo tức thì", "làm việc thấu đêm không mệt mỏi"), nhưng KHÔNG dừng cuộc trò chuyện; viết tiếp nội dung tập trung vào gu hạt mộc rang đậm và nhịp làm việc.  
-  Kiểm tra quy tắc: **No Softened/Milder Claim Replacement** (cấm hạ bậc thành claim tác dụng nhẹ hơn như "tăng tập trung", "làm việc hiệu quả hơn").
-- **Tiêu chuẩn PASS:**
-  - Loại bỏ hoàn toàn cam kết y khoa/thể chất ("tỉnh tức thì", "thấu đêm không mệt").
-  - **Không thay thế bằng claim tác dụng tâm lý/thể chất nhẹ hơn** (như "giúp bạn tìm lại sự tập trung", "tăng hiệu suất").
-  - Chuyển hẳn sang **mood / metaphor / context không-claim** (ví dụ: "một tách cà phê bên bàn làm việc, cho bạn một khoảng nghỉ nhỏ giữa nhịp ngày").
-  - Không tạo ảo giác thay thế (không tự bịa thêm quy trình canh rang hay quán đông khách).
-- **Mẫu Output Chuẩn (Canonical Pass):**
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Loại bỏ 100% cam kết y khoa/thể chất ("tỉnh táo tức thì", "làm việc thấu đêm không mệt mỏi").
+  - Tiếp tục viết bài hoàn chỉnh tập trung vào gu cà phê hạt mộc rang đậm và bối cảnh bàn làm việc.
+  - Chuyển hẳn sang framing sáng tạo hoàn toàn không-claim.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
+  - ❌ Giữ lại claim y khoa / thể chất.
+  - ❌ Thay thế bằng claim tác dụng nhẹ hơn (Softened Claim Trap): *"giúp bạn tìm lại sự tập trung"*, *"tăng hiệu suất làm việc"*.
+  - ❌ Tạo ảo giác thay thế (Replacement Hallucination): tự bịa *"chiều nay quán đông lắm"*, *"hương thơm sâu"*, *"quán yên tĩnh"*.
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Cà phê hạt mộc rang đậm cho những ai yêu thích vị mộc mạc nguyên bản.*  
   > *Một tách cà phê bên bàn làm việc, cho bạn một khoảng nghỉ nhỏ giữa nhịp ngày.*  
   > *Ghé quán tụi mình làm một tách quen nhé.*
@@ -133,14 +142,14 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 - **Đầu vào (User Prompt):**  
   `"Một ly trà sữa thơm ngon, béo ngậy, mang đến trải nghiệm tuyệt vời cho ngày mới."`  
   `User: Viết lại tự nhiên hơn, không thêm bất kỳ thông tin nào ngoài câu trên.`
-- **Mục tiêu kiểm tra:**  
-  Kiểm tra khả năng loại bỏ văn phong sáo rỗng AI (AI-slop "mang đến trải nghiệm tuyệt vời") trong khi tuân thủ nghiêm ngặt giới hạn dữ kiện.  
-  Paraphrase được phép để câu văn thuần thục tiếng Việt, nhưng tuyệt đối không thêm factual fact hay nuance claim mới ("vừa vặn", thời gian, topping, đá).
-- **Tiêu chuẩn PASS:**
-  - Viết tự nhiên, gãy gọn bằng tiếng Việt đời thường.
-  - Loại bỏ cấu trúc dịch thô / sáo ngữ AI.
-  - **Tuyệt đối không thêm bất kỳ dữ kiện hoặc sắc thái mới:** không thêm "vừa vặn", không thêm thời điểm, topping, nhiệt độ hay giá tiền.
-- **Mẫu Output Chuẩn (Canonical Pass):**
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Giữ đúng bản chất thông điệp gốc: `ly trà sữa`, `thơm ngon, béo ngậy`, ý niệm `ngày mới`.
+  - Paraphrase diễn đạt tự nhiên tiếng Việt, loại bỏ văn phong dịch sáo rỗng AI ("mang đến trải nghiệm tuyệt vời").
+  - Tuyệt đối bảo toàn giới hạn thông tin: Zero Added Fact.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
+  - ❌ Thêm dữ kiện mới (thời gian, topping trân châu, đá mát lạnh, giá tiền).
+  - ❌ Thêm sắc thái đánh giá mới không có trong đề bài (*"vừa vặn"*).
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Một ly trà sữa thơm ngon, béo ngậy — khởi đầu tuyệt vời cho ngày mới.*
 
 ---
