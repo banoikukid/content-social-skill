@@ -1,4 +1,4 @@
-# Bộ Kiểm Thử Cốt Lõi (Core Test Suite - v4.9.0)
+# Bộ Kiểm Thử Cốt Lõi (Core Test Suite - v4.9.1)
 
 Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill F&B Copywriter, bao gồm:
 1. **8 bài kiểm tra hồi quy ranh giới dữ kiện & sáng tạo (Provenance & Creative Boundary Regression)**

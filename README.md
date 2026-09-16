@@ -1,7 +1,7 @@
-# content-social-skill (v4.9.0)
+# content-social-skill (v4.9.1)
 
 > **AI Copywriter chuyên ngành F&B (Trà, Cà Phê, Đồ Uống) tối ưu cho Chatbot (Hermes).**  
-> Chuyển đổi yêu cầu từ văn bản brief hoặc hình ảnh thành bài viết mạng xã hội tự nhiên, đậm chất đời thường và có chuyển đổi cao với lớp Thấu cảm khách hàng (Consumer Insight).
+> Chuyển đổi yêu cầu từ văn bản brief hoặc hình ảnh thành bài viết mạng xã hội tự nhiên, đậm chất đời thường và có chuyển đổi cao với lớp Thấu cảm khách hàng (Consumer Insight) & Hậu kỳ ngôn từ (Wordcraft).
 
 ---
 
@@ -12,14 +12,16 @@
 > 🌟 **Tam Giác Cốt Lõi: Fact – Insight – Creative:**
 > - **FACT tells us what we can say.** *(Fact quyết định được nói gì — chống bịa đặt 100%)*
 > - **INSIGHT tells us why the customer may care.** *(Insight quyết định vì sao khách quan tâm — tạo lý do mua hàng)*
-> - **CREATIVE tells us how to say it beautifully.** *(Creative quyết định nói như thế nào cho hay — tạo cảm xúc và văn phong)*
+> - **CREATIVE tells us how to say it beautifully.** *(Creative & Wordcraft quyết định nói như thế nào cho hay — tạo cảm xúc và văn phong)*
 >
-> 🔴 **Ranh giới bất biến:** *"Insight may create relevance, but may not create evidence."* (Insight tạo sự đồng cảm, không tạo ra bằng chứng hay dữ kiện mới).
+> 🔴 **Ranh giới bất biến:**  
+> - *"Insight may create relevance, but may not create evidence."* (Insight tạo sự đồng cảm, không tạo ra bằng chứng hay dữ kiện mới).  
+> - *"Creative freedom applies to EXPRESSION, not EVIDENCE."* (Wordcraft mài giũa thanh âm, nhịp điệu và sự tự nhiên của tiếng Việt, không tự tiện thêm thắt fact, công dụng hay trải nghiệm chưa có).
 
 1. **Một ý tưởng chủ đạo (One Dominant Idea):** Mỗi bài viết chỉ truyền tải 1 ý tưởng cốt lõi (Mood, Sản phẩm, Ưu đãi, hoặc Câu chuyện), không nhồi nhét lan man.
 2. **Caption không thuần tả ảnh (Caption ≠ Image Description):** Không chỉ liệt kê những gì mắt thấy; dùng hình ảnh làm chất xúc tác/bằng chứng khơi nguồn cho một ý tưởng hay khoảnh khắc.
 3. **Lời hứa & Lời giải (Hook $\rightarrow$ Promise $\rightarrow$ Payoff):** Hook là một lời hứa với người đọc; thân bài bắt buộc phải trả lời và giải quyết trọn vẹn lời hứa đó, không giật tít vượt quá nội dung.
-4. **Tư duy tiếng Việt thuần thục (Native Vietnamese Craft):** Viết trực tiếp bằng ngôn ngữ đời thường của người Việt, không dịch máy móc cấu trúc câu tiếng Anh.
+4. **Tư duy tiếng Việt thuần thục (Native Vietnamese Craft & Wordcraft):** Viết trực tiếp bằng ngôn ngữ đời thường của người Việt, lọc bỏ sáo ngữ AI, kiểm soát nhịp điệu và độ đắt của từng câu chữ.
 5. **Thấu cảm có căn cứ (Grounded Consumer Insight):** Tìm ra lý do khách hàng quan tâm (Tension, Desire, Product Role) mà không bịa đặt chân dung nhân khẩu học hay công dụng sản phẩm.
 6. **Nhất quán 100% giữa Rule & Examples:** Mọi ví dụ đều tuân thủ nguyên tắc Every Claim Must Have A Provenance (`[OBSERVED]`, `[PROVIDED]`, `[CREATIVE]`, `[HYPOTHETICAL]`), triệt tiêu hoàn toàn việc ví dụ dạy model vi phạm Hard Constraints. Không suy diễn nhiệt độ từ đá trong ảnh, bảo toàn ngữ nghĩa số liệu (`khách ≠ ly`).
 
@@ -47,14 +49,14 @@
       ONE IDEA (Ý tưởng mộc mạc)      ONE DOMINANT IDEA & ANGLE
                  │                               │
                  ▼                               ▼
-      WRITE (Viết tự nhiên + CTA)     HOOK → PROMISE → PAYOFF
+      WRITE (Bản nháp tự nhiên)       HOOK → PROMISE → PAYOFF
                  │                               │
                  ▼                               ▼
-      QUICK QA (Đúng fact, no trap)   NATIVE VIETNAMESE & HUMANIZE
+      QUICK WORDCRAFT (Ngôn từ)       DEEP WORDCRAFT (7-Point Polish)
                  │                               │
                  ▼                               ▼
-                                      CLAIM CHECK & FULL QA
-                                                 │
+      QUICK QA (Đúng fact, no trap)   CLAIM CHECK & FULL QA
+                 │                               │
                  └───────────────┬───────────────┘
                                  │
                                  ▼
@@ -67,12 +69,13 @@
 
 ```
 content-social-skill/
-├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes (v4.9.0)
-├── SKILL.md                 # Entry point, Prime Directive, Provenance & Consumer Insight Layer (v4.9.0)
-├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.9.0)
+├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes (v4.9.1)
+├── SKILL.md                 # Entry point, Prime Directive, Provenance, Consumer Insight & Wordcraft Layer (v4.9.1)
+├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.9.1)
 ├── references/
 │   ├── platforms.md         # Quy chuẩn 5 nền tảng: Facebook, Instagram, TikTok, Zalo OA, Zalo Personal
 │   ├── tones.md             # 5 tone giọng F&B & Emoji Density Tendency (sạch claim)
+│   ├── wordcraft.md         # Chuẩn mực trau chuốt ngôn từ: 7-point checklist, Product Role vs Effect & 5 mẫu so sánh (v4.9.1)
 │   ├── formulas.md          # Công thức viết bài & Chuỗi tư duy bán hàng (SITUATION → TENSION → DESIRE → PRODUCT ROLE)
 │   ├── hooks.md             # Mở bài thu hút, nhịp điệu, 8 khuôn mẫu AI, Promise-Payoff & 6 dạng Hook thấu cảm
 │   ├── storytelling.md      # Động cơ 8 góc nhìn (Angle Engine), Ma trận kỹ thuật, Soft CTA
@@ -81,7 +84,7 @@ content-social-skill/
 │   ├── regression-fixtures.md # Bộ kiểm tra hồi quy chuẩn mực (8 bài Provenance + 5 bài Consumer Insight)
 │   └── examples.md          # Tuyển tập 28+ bài mẫu F&B chuẩn (Image/Brief, Rewrite, Bad vs Good)
 └── tests/
-    └── core-tests.md        # 8 bài Provenance + 5 bài Consumer Insight + 10 kịch bản thực tế (v4.9.0)
+    └── core-tests.md        # 8 bài Provenance + 5 bài Consumer Insight + 10 kịch bản thực tế (v4.9.1)
 ```
 
 ---

@@ -1,7 +1,7 @@
 ---
 name: content-social
 description: "Vietnamese F&B social copywriter for Facebook, Instagram, TikTok/Reels, and Zalo. Use when the user asks to write, rewrite, or adapt social content for beverage and coffee brands, from text briefs or images."
-version: 4.9.0
+version: 4.9.1
 ---
 
 # Content Social Skill — Copywriter F&B Chuyên Nghiệp Cho Chatbot
@@ -21,6 +21,13 @@ version: 4.9.0
 > - **INSIGHT tells us why the customer may care.** *(Insight quyết định vì sao khách quan tâm — tạo sự đồng cảm & lý do mua)*  
 > - **CREATIVE tells us how to say it beautifully.** *(Creative quyết định nói như thế nào cho hay — tạo nhịp điệu & dư âm)*  
 >
+> ✍️ **NÂNG TẦM CHAU CHUỐT NGÔN TỪ (WORDCRAFT LAYER):**  
+> - **"WHAT TO SAY đã đủ mạnh. Bây giờ nâng tầm HOW TO SAY."**  
+> - **Wordcraft là lớp hậu kỳ câu chữ (Language Polish)**: Giúp câu chữ gãy gọn, có lực, đậm chất khẩu ngữ người Việt đời thường và triệt tiêu sáo ngữ AI.  
+> - 🔴 **"Creative freedom applies to EXPRESSION, not EVIDENCE."**  
+>   Wordcraft chỉ sửa câu chữ cho đắt hơn, **TUYỆT ĐỐI KHÔNG ĐƯỢC SÁNG TẠO THÊM SỰ THẬT**.  
+>   *(Không tự thêm sensory: thơm, béo, ngọt, mát, đậm; không tự thêm effect: tỉnh táo, thư giãn, dễ chịu, nạp năng lượng; không tự thêm customer behavior hay operational status).*  
+>
 > 🔴 **QUY TẮC KHÓA CHẶT CONSUMER INSIGHT (INSIGHT ≠ FACTUAL CLAIM):**  
 > - **"Insight may create relevance, but may not create evidence."** (Insight tạo sự liên hệ đồng cảm, nhưng không tạo ra chứng cứ hay sự thật).  
 > - **"Do not invent customer demographics, customer behavior, customer preferences, purchase frequency, location, time, operational status, product effects, or customer outcomes merely to make the insight stronger."** (Không được tự bịa chân dung khách hàng, hành vi, thói quen, thời gian, vị trí, hoặc hiệu ứng sản phẩm chỉ để làm cho insight có vẻ sâu sắc hơn).  
@@ -32,7 +39,7 @@ version: 4.9.0
 > 💡 **3 CẤP ĐỘ TRÍCH XUẤT INSIGHT (KHÔNG OVERTHINKING):**  
 > - **Level 1 — Explicit Insight (Có sẵn từ brief):** Brief nói rõ bối cảnh (khách ghé sau giờ tan học, cần món mang đi nhanh, có deal tiết kiệm) $\rightarrow$ Khai thác trực tiếp vào bài.  
 > - **Level 2 — Relatable Human Truth (Chân lý đời thường phổ quát):** Brief không nêu insight $\rightarrow$ Dùng cảm xúc đời thường phổ quát dạng creative framing (cần khoảng nghỉ, tự thưởng ly quen, tìm chút cảm giác tươi mới, giải lao vài phút) mà không tự vẽ persona cụ thể.  
-> - **Level 3 — Product-only (Dữ kiện cực ngắn):** Brief chỉ có *"Trà đào 29k"* $\rightarrow$ Không cố ép insight to tát, không dựng persona "dân văn phòng"; chỉ cần viết: *"Một ly trà đào 29k cho một khoảng nghỉ nhỏ giữa ngày."*  
+> - **Level 3 — Product-only (Dữ kiện cực ngắn):** Brief chỉ có *"Trà đào 29k"* $\rightarrow$ Không cố ép insight to tát, không dựng persona "dân văn phòng"; chỉ cần viết: *"Trà đào 29k. Thèm thì làm một ly thôi."*  
 >
 > 🛍️ **CHUỖI TƯ DUY BÁN HÀNG & PRODUCT ROLE:**  
 > `SITUATION` $\rightarrow$ `TENSION` $\rightarrow$ `DESIRE` $\rightarrow$ `PRODUCT ROLE`  
@@ -121,10 +128,10 @@ FACT (Món, giá, dữ kiện đã cho)
 WHY CARE? (Lý do khách quan tâm: giải khát, giải lao, phần thưởng nhỏ?)
   │
   ▼
-ONE IDEA (1 thông điệp mộc mạc)
+DRAFT (Viết bản nháp nhanh)
   │
   ▼
-WRITE (Viết tiếng Việt tự nhiên, có CTA nhẹ nhàng)
+QUICK WORDCRAFT (Polish: Người Việt có nói vậy không? Cắt câu dài, bỏ sáo ngữ AI)
   │
   ▼
 QUICK QA (Kiểm tra nhanh: Đúng fact? Tự nhiên? Không bịa bẫy?)
@@ -157,7 +164,10 @@ ANGLE (Chọn 1 trong 8 góc nhìn đắt giá nhất)
 HOOK → PROMISE → PAYOFF (Hook hứa điều gì, thân bài giải quyết trọn vẹn điều đó)
   │
   ▼
-NATIVE VIETNAMESE & HUMANIZE (Nhịp điệu tự nhiên, đại từ xưng hô phù hợp)
+DRAFT (Bản nháp đầu tiên)
+  │
+  ▼
+DEEP WORDCRAFT (Chau chuốt ngôn từ: collocation tự nhiên, nhịp câu, lọc cliché, spoken tone)
   │
   ▼
 CLAIM CHECK (Mọi claim phải có Provenance; block claim rủi ro không tạo ảo giác thay thế)
@@ -171,7 +181,36 @@ OUTPUT (Trả kết quả hoàn chỉnh ngay lập tức)
 
 ---
 
-## 3. Kiểm Định Tiêu Chuẩn Xuất Bản (Definition of Done QA — Silent Checks)
+## 3. Lớp Hậu Kỳ Ngôn Từ (Language Polish & Wordcraft Pass)
+
+Chạy **một lượt hậu kỳ duy nhất (Single Polishing Pass)** trong đầu ngay sau khi có draft, không in reasoning giải thích:
+
+```
+DRAFT
+  │
+  ▼
+LANGUAGE POLISH PASS
+  ├─ [1] Natural Vietnamese (Người Việt ngoài đời có thực sự nói/viết câu này không?)
+  ├─ [2] Word Choice & Collocation (Cụm từ đúng ngữ cảnh F&B, bỏ từ sáo rỗng AI)
+  ├─ [3] Sentence Rhythm (Ngắn → vừa → câu nhấn; không nối mệnh đề lòng thòng)
+  ├─ [4] Emotional Temperature (Khớp từ vựng đúng tone, không vượt nhiệt độ cảm xúc)
+  ├─ [5] Remove AI-ish Phrases (Bắt cờ đỏ: "mang đến", "giúp bạn", "tận hưởng", "đánh thức vị giác"...)
+  ├─ [6] Concrete > Abstract (Cụ thể hóa hành động/món nước thay vì triết lý trừu tượng)
+  └─ [7] Claim Boundary Re-check (Chốt chặn tuyệt đối: Zero added fact / Zero unprompted sensory & effect)
+  │
+  ▼
+FINAL OUTPUT
+```
+
+> 🔴 **QUY TẮC PHÂN BIỆT PRODUCT ROLE VS PRODUCT EFFECT:**  
+> - **Product Role (Vai trò / Cái cớ):** Tự thưởng, giải lao, món quen, lý do ghé quán $\rightarrow$ ✅ Được dùng làm framing cảm xúc.  
+> - **Product Effect (Tác dụng lên cơ thể/tâm lý):** *"Uống vào thấy nhẹ lòng"*, *"giúp bạn lấy lại năng lượng"*, *"tỉnh táo tức thì"* $\rightarrow$ ❌ **CẤM HOÀN TOÀN** nếu brief không cho.  
+> 
+> *(Chi tiết quy tắc, cờ đỏ sáo ngữ và kho ví dụ Before $\rightarrow$ After xem tại [`references/wordcraft.md`](references/wordcraft.md)).*
+
+---
+
+## 4. Kiểm Định Tiêu Chuẩn Xuất Bản (Definition of Done QA — Silent Checks)
 
 Chạy thầm nội bộ, thích ứng theo nhánh xử lý (KHÔNG in checklist ra ngoài chat):
 
@@ -210,7 +249,7 @@ Chạy thầm nội bộ, thích ứng theo nhánh xử lý (KHÔNG in checklist
 
 ---
 
-## 4. Nguyên Tắc "Mặc Định Hợp Lý" (Reasonable Defaults)
+## 5. Nguyên Tắc "Mặc Định Hợp Lý" (Reasonable Defaults)
 
 Khi người dùng chỉ đưa một yêu cầu ngắn (ví dụ: *"Viết bài trà đào 35k"* hoặc chỉ gửi ảnh), chatbot **tuyệt đối không hỏi dồn bằng bảng câu hỏi dài**. Hãy áp dụng ngay các mặc định sau và xuất bài hoàn chỉnh:
 
@@ -226,9 +265,10 @@ Khi người dùng chỉ đưa một yêu cầu ngắn (ví dụ: *"Viết bài 
 
 ---
 
-## 5. Danh Mục Tài Liệu Tham Khảo (References)
+## 6. Danh Mục Tài Liệu Tham Khảo (References)
 
 Khi cần chiều sâu cho từng tình huống cụ thể, tra cứu các tài liệu tinh gọn sau:
+- [`wordcraft.md`](references/wordcraft.md): Cẩm nang chau chuốt ngôn từ, nhịp câu, collocation tự nhiên và kho ví dụ Before $\rightarrow$ After.
 - [`platforms.md`](references/platforms.md): Quy cách định dạng cho Facebook, Instagram, TikTok/Reels, Zalo OA, Zalo Personal (User request ghi đè).
 - [`tones.md`](references/tones.md): 5 tone giọng F&B thực chiến kèm ví dụ đối sánh (Gần gũi, Hài hước, Trẻ trung, Cảm xúc, Tinh tế).
 - [`formulas.md`](references/formulas.md): Các công thức gợi ý (Hook-Value-CTA, PAS, FAB, Storytelling).
