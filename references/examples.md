@@ -1,6 +1,6 @@
 # Tuyển Tập Bài Viết Mẫu Thực Chiến (Gold-Standard Examples)
 
-Tài liệu cung cấp các bài viết mẫu chuẩn mực F&B, đạt 100% tiêu chuẩn **v4.6.0**:
+Tài liệu cung cấp các bài viết mẫu chuẩn mực F&B, đạt 100% tiêu chuẩn **v4.7.0**:
 - Đúng 1 ý tưởng chủ đạo (One Dominant Idea)
 - Caption không đơn thuần tả ảnh (Caption ≠ Image Description)
 - Mở bài có lời hứa & Thân bài có lời giải (Hook → Promise → Payoff)
@@ -21,15 +21,13 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 
 ## 1. 5 Mẫu Xử Lý Hình Ảnh → Bài Viết (Image → Caption)
 
-### Mẫu 1: Ảnh ly cà phê muối buổi sáng (Góc: Relatable / Mood)
+### Mẫu 1: Ảnh ly cà phê muối buổi sáng (Góc: Minimalist / Visual & Mood)
 - **Input:** [Hình ảnh ly cà phê có lớp kem trắng và cà phê phin bên dưới, chụp buổi sáng].
-- **Dominant Idea:** Khoảnh khắc êm ả đầu ngày trước khi vào việc.
+- **Dominant Idea:** Vẻ ngoài hai tầng tương phản của ly cà phê muối đầu ngày.
 - **Copy:**
-  > Sáng sớm chưa vội mở việc, nhìn ly cafe muối hai tầng ngoài hiên thấy lòng êm ả lạ.
+  > Một ly cafe muối hai tầng rõ rệt: lớp kem trắng bồng bềnh bên trên, cà phê phin màu nâu sẫm bên dưới, thêm lớp sương đá lạnh đọng li ti ngoài thành ly.
   > 
-  > Lớp kem trắng bồng bềnh nổi trên nền cà phê nâu sẫm, đá lạnh đọng sương li ti ngoài thành ly. Chẳng cần vội vàng khuấy đảo, cứ thong thả ngồi ngắm phố xá bắt đầu nhộn nhịp thêm mười lăm phút, tự khắc thấy nhẹ nhõm hơn hẳn để sẵn sàng cho một ngày dài.
-  > 
-  > Sáng nay của bạn thế nào rồi? Ghé quán ngồi một lát rồi hẵng vào guồng nhé. ☕
+  > Nếu sáng nay bạn có hẹn hay ghé ngang phố, góc bàn mộc ngoài hiên vẫn đang mở cửa đón bạn. ☕
 
 ---
 
@@ -37,11 +35,11 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Input:** [Hình ảnh ly trà màu cam hổ phách, đá đầy, có 2 miếng đào vàng và cọng sả].
 - **Dominant Idea:** Cảm giác mát mắt giữa trưa oi bức.
 - **Copy:**
-  > Nhìn sương đá đọng li ti ngoài thành ly thôi cũng thấy cái nóng trưa nay dịu đi một nửa.
+  > Nhìn sương đá đọng li ti ngoài thành ly thôi cũng thấy dịu mắt giữa trưa oi ả.
   > 
-  > Nền trà màu cam hổ phách mát mắt, bên trên thả hai miếng đào vàng ươm cùng nhánh sả tươi. Đầy ắp đá lạnh, nhìn là thấy muốn gọi liền một ly để giải nhiệt.
+  > Nền trà màu cam hổ phách, bên trên thả hai miếng đào vàng ươm cùng nhánh sả tươi. Đầy ắp đá lạnh từ đáy lên miệng ly, nhìn thôi là thấy đã mắt.
   > 
-  > Trưa nay oi quá thì ghé quán trú chân một lát nha bạn ơi.
+  > Trưa nay nếu bạn tiện đường ghé ngang, quán có sẵn chỗ ngồi mát mẻ đón bạn nhé.
 
 ---
 
@@ -65,7 +63,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
   > 
   > Một ly trà mát, một trang sách mở dở, không gian chỉ có tiếng nhạc êm êm. Chiều nay chẳng cần vội vã, ngồi lại đây thêm một chút cũng được.
   > 
-  > Quán mở cửa tới 22h, mời bạn ghé chơi.
+  > Góc bàn mộc bên cửa sổ luôn sẵn sàng, mời bạn ghé chơi.
 
 ---
 
@@ -111,11 +109,11 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Brief:** "Giảm 5k cho khách mang bình cá nhân khi mua đồ uống mang đi."
 - **Dominant Idea:** Ưu đãi thiết thực khi chung tay giảm rác thải nhựa.
 - **Copy:**
-  > Mang bình riêng ghé quán, tụi mình giảm liền 5k trên mỗi ly nước nhé.
+  > Mang bình riêng ghé quán mua mang đi, tụi mình giảm liền 5k trên mỗi ly nước nhé.
   > 
-  > Vừa giữ nhiệt cho ly nước của bạn ngon trọn vẹn suốt cả buổi, vừa cùng tụi mình bớt đi một chiếc ly nhựa thải ra môi trường.
+  > Cùng tụi mình bớt đi một chiếc ly nhựa dùng một lần thải ra môi trường, vừa tiết kiệm vừa thêm một thói quen xanh nho nhỏ mỗi ngày.
   > 
-  > Chiều nay ghé quán, nhớ mang theo chiếc bình quen thuộc của bạn nha!
+  > Chiều nay ghé quán mua mang đi, nhớ mang theo chiếc bình quen thuộc của bạn nha!
 
 ---
 
@@ -139,7 +137,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
   > 
   > Bánh croissant nướng vừa tới vỏ ngoài giòn xốp, bên trong thơm nức mùi bơ. Chấm nhẹ vào lớp bọt cà phê hoặc nhấp một ngụm rồi cắn một miếng bánh là thấy buổi sáng đủ đầy.
   > 
-  > 🏷️ Bánh mới ra lò mỗi sáng, giá 28k/chiếc. Mời bạn ghé tiệm ăn sáng nhé.
+  > 🏷️ Bánh nướng bơ giòn xốp giá 28k/chiếc, ăn kèm cà phê sáng rất hợp. Mời bạn ghé tiệm thử bánh nhé.
 
 ---
 
@@ -175,16 +173,16 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 ### Mẫu 1: Chuyện trêu deadline chiều thứ Hai
 > 2 giờ chiều thứ Hai, mở 10 cái tab công việc mà mắt cứ díp lại như muốn biểu tình.
 > 
-> Những lúc thế này có cố gõ phím cũng chỉ ra lỗi chính tả. Thôi thì buông chuột năm phút, làm một ngụm cà phê cho tỉnh người rồi giải quyết tiếp.
+> Những lúc thế này có cố gõ phím cũng chỉ ra lỗi chính tả. Thôi thì buông chuột năm phút, làm một ngụm cà phê lấy lại nhịp làm việc rồi giải quyết tiếp.
 > 
-> Deadline vẫn ở đó, nhưng người thì phải tỉnh đã. Ghé quán làm ly cafe nha bạn ơi!
+> Deadline vẫn ở đó, nghỉ tay một chút rồi hẵng chạy tiếp. Ghé quán làm ly cafe nha bạn ơi!
 
-### Mẫu 2: Chuyện giảm cân bất thành
-> Sáng nay vừa tự nhủ lòng: "Tuần này nhất định kiêng ngọt để giữ dáng".
+### Mẫu 2: Chuyện quyết tâm tiết kiệm bất thành
+> Sáng nay vừa tự nhủ lòng: "Hôm nay mang bình nước lọc đi làm cho tiết kiệm".
 > 
 > Đến 3 giờ chiều đồng nghiệp lướt menu hỏi: "Uống trà sữa trân châu đường đen không tao order luôn?", thế là bàn tay tự động chuyển khoản không chút do dự.
 > 
-> Giảm cân để tuần sau tính, chiều nay cứ phải vui trước đã. Nhắn tụi mình chuẩn bị sẵn ly ngọt ngào cho nha!
+> Kế hoạch tiết kiệm để mai tính, chiều nay cứ phải vui trước đã. Nhắn tụi mình chuẩn bị sẵn ly ngọt ngào cho nha!
 
 ### Mẫu 3: Nỗi lòng ngày cuối tháng
 - **Bối cảnh:** Quán có món trà sữa truyền thống giá 29k.
@@ -193,28 +191,35 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
   > 
   > Quán có ly trà sữa mộc mạc giá chỉ 29k `[PROVIDED: giá menu]`, vừa vặn để bạn tự thưởng cho bản thân một buổi chiều mà ví tiền vẫn an toàn tuyệt đối.
   > 
-  > Chiều nay ghé quán nhâm nhi xả stress nha!
+  > Chiều nay ghé quán nhâm nhi giải lao nha!
 
 ---
 
 ## 5. 3 Mẫu Kể Chuyện Chân Thật (Authentic Storytelling)
 
-### Mẫu 1: Buổi chiều trú mưa bất chợt (Góc: Thời tiết & Mood)
-> Cơn mưa rào bất chợt đổ ào xuống phố, ngoài đường ai nấy vội tấp xe vào hiên trú tạm.
-> 
-> Những lúc thế này, ghé vào một góc quán quen, gọi một ly nước ấm rồi ngồi nghe tiếng mưa rơi đều đều ngoài mái hiên, tự dưng thấy nhịp sống chậm lại một nhịp rất êm.
-> 
-> Sài Gòn mùa này hay mưa, đi đâu bạn nhớ mang theo áo mưa nhé. Quán vẫn luôn mở cửa đón bạn trú chân.
+### Mẫu 1: Buổi chiều trú mưa bất chợt (Góc: Thời tiết & Mood — [HYPOTHETICAL Scene])
+- **Bối cảnh:** Giả định bối cảnh ngày mưa rào (Hypothetical Scene).
+- **Dominant Idea:** Cảm giác êm ả khi ngồi trú mưa trong góc quán quen.
+- **Copy:**
+  > Có những chiều mưa rào bất chợt đổ xuống phố, ngoài đường ai nấy vội tấp xe vào hiên trú tạm.
+  > 
+  > Nếu lúc ấy bạn đang ngồi trong một góc quán quen, gọi một ly nước ấm rồi lắng nghe tiếng mưa rơi đều đều ngoài khung kính, tự khắc thấy nhịp sống chậm lại một nhịp rất êm.
+  > 
+  > Nếu chiều nay trời đổ mưa, ghé quán trú chân cùng tụi mình nhé.
 
-### Mẫu 2: Góc bàn quen đón nắng chiều (Góc: Không gian & Giả định)
-> Quán có một góc bàn nhỏ cạnh kệ sách, nơi những vệt nắng chiều luôn dừng lại lâu nhất.
-> 
-> Ở góc ấy, chỉ cần một ly cà phê lạnh, cuốn sổ tay và vài dòng ghi chép dang dở, bạn có thể ngồi yên từ lúc nắng còn vàng rực đến tận khi thành phố lên đèn. Thỉnh thoảng người ta chẳng cần gì nhiều, chỉ cần một góc quen yên tĩnh để sắp xếp lại những suy nghĩ của mình.
-> 
-> Nếu chiều nay bạn cũng cần một khoảng lặng, góc bàn ấy vẫn luôn ở đây chờ bạn.
+### Mẫu 2: Góc bàn quen đón nắng chiều (Góc: Không gian & Giả định — [HYPOTHETICAL Scene])
+- **Bối cảnh:** Giả định không gian góc quán (Hypothetical Scene).
+- **Dominant Idea:** Khoảng lặng riêng tư bên góc bàn quen.
+- **Copy:**
+  > Quán có một góc bàn nhỏ cạnh kệ sách, nơi những vệt nắng chiều thường dừng lại lâu nhất.
+  > 
+  > Nếu bạn đang cần một khoảng lặng để đọc dở cuốn sách, ghi chép vài dòng hay chỉ đơn giản là ngồi nhâm nhi ly cà phê lạnh, góc bàn ấy vẫn luôn ở đây đón bạn.
+  > 
+  > Chiều nay quán mở cửa, mời bạn ghé chơi.
 
-### Mẫu 3: Khoảnh khắc dọn quầy chuẩn bị mở cửa (Góc: Nghề quán / Ghi chép từ chủ quán)
-- **Bối cảnh:** Chia sẻ chân thật từ chủ quán về khoảnh khắc chuẩn bị quầy đầu ngày.
+### Mẫu 3: Khoảnh khắc dọn quầy chuẩn bị mở cửa (Góc: Nghề quán — [PROVIDED Fact])
+- **Brief từ quán:** "Chủ quán chia sẻ thói quen mở quầy lúc 6h sáng: lau sạch bàn gỗ, bật nhạc jazz quen thuộc và pha thử tách cà phê đầu tiên để kiểm tra dòng chảy."
+- **Dominant Idea:** Sự chăm chút đầu ngày của người làm quán.
 - **Copy:**
   > 6 giờ sáng, con phố trước quán vẫn còn mờ sương và chưa nhiều tiếng còi xe.
   > 
@@ -276,7 +281,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 ### Cặp 1: Sáo ngữ AI đao to búa lớn vs Tiếng Việt đời thường
 - ❌ **BAD (AI-slop, sáo rỗng, triết lý lên lớp):**
   > *"Ly trà đào cam sả này không chỉ đơn thuần là một thức uống giải khát, mà còn là một bản giao hưởng tuyệt mỹ của hương vị, nơi thiên nhiên hòa quyện đánh thức mọi giác quan. Giữa nhịp sống hiện đại đầy hối hả và bon chen, hãy dành cho mình một khoảng lặng để tận hưởng sự thăng hoa của cuộc sống..."*
-- ✅ **GOOD (Chuẩn v4.6.0 — Cụ thể, tự nhiên, nhịp điệu đời thường — [Brief: Trà Đào Cam Sả giải khát trưa oi bức, có miếng đào giòn]):**
+- ✅ **GOOD (Chuẩn v4.6.0 — Cụ thể, tự nhiên, nhịp điệu đời thường — [Brief: Trà Đào Cam Sả nhiều đá ngày oi bức, có miếng đào giòn]):**
   > *"Chiều nay oi bức quá.*  
   > *Làm một ly trà đào cam sả đầy đá, nhai miếng đào giòn rụm cho đã miệng.*  
   > *Ngồi lại thêm mười phút ngắm đường phố rồi hẵng về bạn nhé. Quán vẫn mở cửa đón bạn."*
@@ -301,4 +306,4 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - ✅ **GOOD (Chuẩn v4.6.0 — Caption ≠ Image Description, chỉ dùng thị giác từ ảnh + mood):**
   > *"Màu cam vàng óng ả đọng sương đá bên ngoài nhìn thôi cũng thấy dịu mắt.*  
   > *Một ly trà đầy đá giữa trưa oi bức, đủ êm dịu để xua bớt cái ngột ngạt ngoài đường.*  
-  > *Trưa nay quán có sẵn điều hòa mát mẻ, mời bạn ghé nghỉ chân nhé."*
+  > *Trưa nay nếu oi bức quá, ghé quán nghỉ chân một lát nha bạn ơi."*

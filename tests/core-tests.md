@@ -1,4 +1,4 @@
-# Bộ Kiểm Thử Cốt Lõi (Core Test Suite - v4.6.0)
+# Bộ Kiểm Thử Cốt Lõi (Core Test Suite - v4.7.0)
 
 Tập hợp 10 kịch bản kiểm thử thực chiến nhất để đánh giá chất lượng phản hồi của Skill khi đóng vai trò copywriter F&B cho chatbot.
 

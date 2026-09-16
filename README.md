@@ -1,4 +1,4 @@
-# content-social-skill (v4.6.0)
+# content-social-skill (v4.7.0)
 
 > **AI Copywriter chuyên ngành F&B (Trà, Cà Phê, Đồ Uống) tối ưu cho Chatbot (Hermes).**  
 > Chuyển đổi yêu cầu từ văn bản brief hoặc hình ảnh thành bài viết mạng xã hội tự nhiên, đậm chất đời thường và có chuyển đổi cao.
@@ -14,11 +14,11 @@
 3. **Lời hứa & Lời giải (Hook $\rightarrow$ Promise $\rightarrow$ Payoff):** Hook là một lời hứa với người đọc; thân bài bắt buộc phải trả lời và giải quyết trọn vẹn lời hứa đó, không giật tít vượt quá nội dung.
 4. **Tư duy tiếng Việt thuần thục (Native Vietnamese Craft):** Viết trực tiếp bằng ngôn ngữ đời thường của người Việt, không dịch máy móc cấu trúc câu tiếng Anh.
 5. **Observation > Insight (Ưu tiên quan sát thật):** Lấy chi tiết quan sát làm điểm tựa; insight là tùy chọn, không ép AI tự vẽ ra insight sáo rỗng.
-6. **Nhất quán 100% giữa Rule & Examples:** Mọi ví dụ đều được phân tầng dữ liệu rõ ràng (`[OBSERVED]`, `[PROVIDED]`, `[CREATIVE]`), không để bất kỳ ví dụ nào dạy model vi phạm Hard Constraints.
+6. **Nhất quán 100% giữa Rule & Examples:** Mọi ví dụ đều tuân thủ nguyên tắc Every Claim Must Have A Provenance (`[OBSERVED]`, `[PROVIDED]`, `[CREATIVE]`, `[HYPOTHETICAL]`), triệt tiêu hoàn toàn việc ví dụ dạy model vi phạm Hard Constraints.
 
 ---
 
-## 🚀 Kiến Trúc Copywriting Engine (v4.6.0)
+## 🚀 Kiến Trúc Copywriting Engine (v4.7.0)
 
 ```
 User Input (Text / Image / Brief)
@@ -54,9 +54,9 @@ Output bài viết hoàn chỉnh ngay lập tức (KHÔNG tra khảo người d�
 
 ```
 content-social-skill/
-├── README.md                # Tài liệu giới thiệu tổng quan dự án (v4.6.0)
-├── SKILL.md                 # Entry point, Prime Directive, Observation > Insight, 10 DoD Checks
-├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.6.0)
+├── README.md                # Tài liệu giới thiệu tổng quan dự án (v4.7.0)
+├── SKILL.md                 # Entry point, Prime Directive, Observation > Insight, 10 DoD Checks (v4.7.0)
+├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.7.0)
 ├── references/
 │   ├── platforms.md         # Quy chuẩn 5 nền tảng: Facebook, Instagram, TikTok, Zalo OA, Zalo Personal
 │   ├── tones.md             # 5 tone giọng F&B & Emoji Density Tendency (sạch claim)

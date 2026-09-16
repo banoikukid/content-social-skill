@@ -62,7 +62,7 @@ Tone giọng trong F&B không chỉ là thay đổi đại từ xưng hô, mà t
 - **Đặc trưng:** Nhịp điệu sôi nổi, thôi thúc hành động rủ bạn bè, hội nhóm tụ tập. Dùng từ ngữ đời thường của giới trẻ một cách tự nhiên.
 - **Ví dụ:**
   > Kèo chiều nay chốt đơn Ô Long Sữa Nướng chưa mấy bồ ơi? `[CREATIVE]`  
-  > Trà đậm hậu thơm quyện sữa béo bùi `[PROVIDED: dữ kiện vị]`, ly đầy ắp đá mát lạnh `[OBSERVED: thấy đá trong ly]`. Tan làm rủ liền đứa bạn thân ghé quán làm một ly tám chuyện rôm rả đi nào! `[CREATIVE]`  
+  > Trà đậm rang thơm quyện sữa béo dịu `[PROVIDED: dữ kiện vị]`. Tan làm rủ liền đứa bạn thân ghé quán làm một ly tám chuyện rôm rả đi nào! `[CREATIVE]`  
   > Tag nhẹ đồng đội vô đây để set kèo liền tay nha! `[CTA]`
 
 ---
@@ -71,7 +71,7 @@ Tone giọng trong F&B không chỉ là thay đổi đại từ xưng hô, mà t
 - **Đặc trưng:** Khơi gợi không gian, giác quan và kỷ niệm. Nhịp điệu chậm, câu chữ giàu hình ảnh và sự tĩnh lặng.
 - **Ví dụ:**
   > Có những buổi chiều tan tầm, chỉ muốn tìm một góc quen ngồi nhìn phố xá chậm lại một chút. `[CREATIVE]`  
-  > Ly Ô Long Sữa Nướng trên bàn gỗ, ngoài hiên đón gió `[OBSERVED: bối cảnh bàn quán]`, không gian chỉ có tiếng nhạc nhẹ êm êm `[CREATIVE]`.  
+  > Nhâm nhi một ly trà thơm dịu `[PROVIDED: dữ kiện vị]`, nghe tiếng nhạc nhẹ êm êm giữa góc quán quen `[CREATIVE]`.  
   > Tụi mình vẫn luôn mở cửa chờ bạn ghé qua. `[CTA mở]`
 
 ---
@@ -79,7 +79,7 @@ Tone giọng trong F&B không chỉ là thay đổi đại từ xưng hô, mà t
 ### Tone 5: Tinh tế / Chuyên môn
 - **Đặc trưng:** Tập trung vào thành phần thực tế, kỹ thuật pha chế đã được cung cấp và trải nghiệm thưởng thức. Lời văn trang nhã, thể hiện sự am hiểu và tôn trọng khách hàng.
 - **Ví dụ:**
-  > Một tách Ô Long Sữa Nướng kết hợp giữa nền trà ô long và sữa tươi béo thanh theo công thức của quán `[PROVIDED: thành phần]`. Vị trà đậm đà, vị sữa dịu nhẹ `[PROVIDED: dữ kiện vị]`, tạo nên tổng thể mộc mạc và chỉn chu.  
+  > Một tách Ô Long Sữa Nướng kết hợp giữa nền trà ô long và sữa tươi béo thanh theo dữ kiện quán cung cấp `[PROVIDED: thành phần]`. Vị trà đậm đà, vị sữa dịu nhẹ `[PROVIDED: dữ kiện vị]`, tạo nên tổng thể mộc mạc và chỉn chu.  
   > Kính mời bạn ghé trải nghiệm thức uống này tại quán vào chiều nay. `[CTA lịch sự]`
 
 ---

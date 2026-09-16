@@ -7,32 +7,32 @@
 ## Version
 
 ```yaml
-skill: 4.6.0
-release_type: consistent_edition
+skill: 4.7.0
+release_type: zero_contradiction_edition
 last_updated: 2026-09-16
 purpose: "Lean, practical Vietnamese F&B social copywriter for chatbots (Hermes)"
 ```
 
 ---
 
-## Cấu Trúc Thư Mục Skill (v4.6.0)
+## Cấu Trúc Thư Mục Skill (v4.7.0)
 
 ```
 content-social-skill/
-├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes (v4.6.0)
-├── SKILL.md                 # Entry point, Prime Directive, Observation > Insight, Decision-Tree Claim Check (v4.6.0)
-├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.6.0)
+├── README.md                # Giới thiệu tổng quan & hướng dẫn tích hợp Hermes (v4.7.0)
+├── SKILL.md                 # Entry point, Prime Directive, Observation > Insight, Provenance Claim Check (v4.7.0)
+├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.7.0)
 ├── references/
-│   ├── platforms.md         # Quy chuẩn 5 nền tảng (Facebook, IG, TikTok, Zalo OA, Zalo Personal, Soft tendencies)
+│   ├── platforms.md         # Quy chuẩn 5 nền tảng (Facebook, IG, TikTok, Zalo OA, Zalo Personal, Soft heuristics)
 │   ├── tones.md             # 5 tone giọng F&B, Ma trận thông số Tone & [OBSERVED]/[PROVIDED]/[CREATIVE] tagged
 │   ├── formulas.md          # 4 công thức cốt lõi (Placeholder-driven, sạch 100% sensory/operational claims)
-│   ├── hooks.md             # Mở bài, Rhythm & Promise-Payoff (sạch 100% claim, bỏ stat 3 giây)
-│   ├── storytelling.md      # 8 góc nhìn theo Reader Attention, khóa chặt Creative ≠ Factual
+│   ├── hooks.md             # Mở bài gọn gàng, Rhythm & Promise-Payoff (sạch 100% sensory claim mặc định)
+│   ├── storytelling.md      # 8 góc nhìn theo Reader Attention, khóa chặt Creative ≠ Factual & Hypothetical
 │   ├── psychology.md        # 7 kỹ thuật tâm lý thực chiến F&B (gắn nhãn dữ kiện rõ ràng)
 │   ├── pricing.md           # Kỹ thuật viết giá & ưu đãi an toàn bằng placeholder tagged
-│   └── examples.md          # 28+ bài viết mẫu chuẩn mực theo Source-Provenance Rule
+│   └── examples.md          # 28+ bài viết mẫu chuẩn mực theo Source-Provenance Rule (v4.7.0)
 └── tests/
-    └── core-tests.md        # 10 kịch bản kiểm thử thực tế
+    └── core-tests.md        # 10 kịch bản kiểm thử thực tế (v4.7.0)
 ```
 
 ---
@@ -41,9 +41,9 @@ content-social-skill/
 
 | Platform | Định dạng chính | Hành vi mặc định |
 | :--- | :--- | :--- |
-| `facebook` | Post chia sẻ, bán hàng, tương tác | Mở bài 3 dòng, ngắt dòng thoáng, hashtag tùy chọn |
+| `facebook` | Post chia sẻ, bán hàng, tương tác | Mở bài gãy gọn, ngắt dòng thoáng, hashtag tùy chọn |
 | `instagram` | Caption thẩm mỹ, ảnh đẹp | Ngắn gọn, tập trung cảm xúc/không gian, hashtag thẩm mỹ |
-| `tiktok_reels` | Kịch bản video dọc ngắn (15-45s) | Bảng 3 cột: Thời gian \| Hình ảnh/Góc quay \| Lời thoại/Voiceover |
+| `tiktok_reels` | Kịch bản video dọc ngắn | Bảng phân cảnh: Thời gian \| Hình ảnh/Góc quay \| Lời thoại/Voiceover |
 | `zalo_oa` | Tin nhắn thông báo Broadcast | Tiêu đề in hoa, nội dung súc tích, đính kèm nút hành động |
 | `zalo_personal` | Tin nhắn riêng tư 1:1, nhóm Zalo | Giọng người quen nói chuyện, không hashtag, CTA nhắn tin trực tiếp |
 
@@ -53,21 +53,40 @@ content-social-skill/
 
 | Tệp tin | Vai trò | Version | Trạng thái |
 | :--- | :--- | :--- | :--- |
-| `README.md` | Tài liệu giới thiệu tổng quan dự án | 4.6.0 | ✅ Active |
-| `SKILL.md` | Bộ não điều khiển, Prime Directive, Decision-Tree Claim Check | 4.6.0 | ✅ Active |
-| `references/platforms.md` | Hướng dẫn định dạng 5 nền tảng, xu hướng mềm, user overrides | 4.6.0 | ✅ Active |
-| `references/tones.md` | 5 tone giọng F&B, Ma trận thông số Tone & Data-layer tagged | 4.6.0 | ✅ Active |
-| `references/formulas.md` | 4 công thức cốt lõi, khung placeholder an toàn, sạch địa chỉ & claim | 4.6.0 | ✅ Active |
-| `references/hooks.md` | Mở bài, 8 khuôn mẫu AI, Rhythm & Specificity bám sát 3 tầng dữ liệu | 4.6.0 | ✅ Active |
-| `references/storytelling.md` | 8 góc nhìn theo Reader Attention, khóa chặt Creative ≠ Factual | 4.6.0 | ✅ Active |
-| `references/psychology.md` | 7 kỹ thuật tâm lý thực chiến F&B, gắn nhãn dữ kiện rõ ràng | 4.6.0 | ✅ Active |
-| `references/pricing.md` | Trình bày giá & ưu đãi an toàn bằng placeholder tagged | 4.6.0 | ✅ Active |
-| `references/examples.md` | Tuyển tập 28+ bài mẫu F&B chuẩn theo Source-Provenance Rule | 4.6.0 | ✅ Active |
-| `tests/core-tests.md` | 10 kịch bản kiểm thử mẫu kiểm tra chất lượng copywriter | 4.6.0 | ✅ Active |
+| `README.md` | Tài liệu giới thiệu tổng quan dự án | 4.7.0 | ✅ Active |
+| `SKILL.md` | Bộ não điều khiển, Prime Directive, Provenance Claim Check | 4.7.0 | ✅ Active |
+| `references/platforms.md` | Hướng dẫn định dạng 5 nền tảng, quy tắc gợi ý mềm (Soft Heuristics) | 4.7.0 | ✅ Active |
+| `references/tones.md` | 5 tone giọng F&B, Ma trận thông số Tone & Data-layer tagged | 4.7.0 | ✅ Active |
+| `references/formulas.md` | 4 công thức cốt lõi, khung placeholder an toàn, sạch địa chỉ & claim | 4.7.0 | ✅ Active |
+| `references/hooks.md` | Mở bài, 8 khuôn mẫu AI, Rhythm & Specificity bám sát 3 tầng dữ liệu | 4.7.0 | ✅ Active |
+| `references/storytelling.md` | 8 góc nhìn theo Reader Attention, khóa chặt Creative ≠ Factual | 4.7.0 | ✅ Active |
+| `references/psychology.md` | 7 kỹ thuật tâm lý thực chiến F&B, gắn nhãn dữ kiện rõ ràng | 4.7.0 | ✅ Active |
+| `references/pricing.md` | Trình bày giá & ưu đãi an toàn bằng placeholder tagged | 4.7.0 | ✅ Active |
+| `references/examples.md` | Tuyển tập 28+ bài mẫu F&B chuẩn theo Source-Provenance Rule | 4.7.0 | ✅ Active |
+| `tests/core-tests.md` | 10 kịch bản kiểm thử mẫu kiểm tra chất lượng copywriter | 4.7.0 | ✅ Active |
 
 ---
 
 ## Nhật Ký Thay Đổi (Changelog)
+
+### v4.7.0 (2026-09-16) — Zero-Contradiction & Provenance Edition
+- **Nguyên tắc cốt lõi: Every Claim Must Have A Provenance (`SKILL.md`):** Tinh gọn Claim Check thành 4 nguồn gốc dữ liệu bắt buộc (`[OBSERVED]`, `[PROVIDED]`, `[CREATIVE]`, `[HYPOTHETICAL]`). Nếu factual claim không có provenance: BỎ HẲN hoặc VIẾT LẠI thành Creative/Hypothetical.
+- **Thanh lọc toàn diện các bài mẫu Image $\rightarrow$ Caption (`references/examples.md`):**
+  - Mẫu 1 (Cafe muối): Xóa bỏ suy diễn hành vi khách ("ngồi ngắm phố 15 phút") và tác động cảm xúc ("tự khắc thấy nhẹ nhõm"); chuyển sang 100% thị giác (`hai tầng rõ rệt`, `sương đá đọng li ti`) và lời mời giả định.
+  - Mẫu 2 (Trà đào cam sả): Loại bỏ claim tác dụng "giải nhiệt", thay bằng cảm quan thị giác ("dịu mắt giữa trưa hè").
+  - Mẫu 4 (Góc bàn gỗ): Loại bỏ fact vận hành tự bịa về giờ mở cửa ("Quán mở cửa tới 22h").
+- **Triệt tiêu Factual Hallucination trong Text Brief (`references/examples.md`):**
+  - Mẫu 3 (Giảm 5k bình cá nhân): Xóa bỏ claim tính năng sản phẩm ("Vừa giữ nhiệt cho ly nước của bạn ngon trọn vẹn suốt cả buổi").
+  - Mẫu 5 (Bánh Croissant): Xóa bỏ fact vận hành không có trong brief ("Bánh mới ra lò mỗi sáng").
+  - Mẫu Humor: Loại bỏ các từ khóa thể chất/chế độ ăn (`"giữ dáng"`, `"giảm cân"`), chuyển sang chuyện tiết kiệm ví tiền; loại bỏ `"xả stress"`, `"cho tỉnh người"`.
+  - Mẫu Storytelling: Đóng khung 100% bối cảnh ngày mưa/không gian góc bàn thành `[HYPOTHETICAL Scene]`; bổ sung brief thực tế cho góc Craft (6h sáng mở quầy).
+  - Cặp BAD vs GOOD: Loại bỏ claim tiện ích tự bịa ("quán có sẵn điều hòa mát mẻ") trong Cặp 3.
+- **Chuyển đổi quy chuẩn nền tảng sang Soft Heuristics (`references/platforms.md`):**
+  - Xóa bỏ giả định UI dễ thay đổi ("Chữ bị ẩn sau 3 dòng đầu").
+  - Chuyển các định mức số (Facebook 3 dòng, Instagram hashtag, TikTok timing, Zalo từ) thành quy tắc gợi ý mềm (Soft Heuristics).
+- **Anti-AI và Giọng văn không dạy model claim mặc định (`hooks.md`, `tones.md`):**
+  - Loại bỏ các sensory claim mặc định trong bảng Anti-AI; luôn bổ sung phương án thị giác `[OBSERVED]` song song.
+  - Loại bỏ các tag `[OBSERVED]` giả tạo trong các đề bài chỉ là text brief của `tones.md`.
 
 ### v4.6.0 (2026-09-16) — 100% Consistent Edition (Instruction & Demonstration Alignment)
 - **Phân loại 3 tầng dữ liệu cho mọi ví dụ (`[OBSERVED]` / `[PROVIDED]` / `[CREATIVE]`):** Rà soát và gắn nhãn tường minh toàn bộ ví dụ trong `hooks.md`, `tones.md`, `psychology.md`, `pricing.md`. Không để bất kỳ ví dụ nào gây hiểu lầm thành fact tự sinh.

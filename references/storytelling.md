@@ -27,10 +27,10 @@ Chọn 1 góc nhìn đắt giá nhất để viết (Choose Best Angle)
 | **1. Sản phẩm (Product)** | **Món nước** (màu sắc, tầng lớp, topping, nguyên liệu) | Tập trung vào thị giác ly nước thật mắt thấy. | *"Màu cam óng ả đọng sương đá bên ngoài ly..."* |
 | **2. Cảm xúc (Mood)** | **Cảm giác** (khoảng lặng, nhịp sống chậm, sự thư thái) | Tạo không khí êm đềm của buổi chiều hay tối muộn. | *"Có những buổi chiều chỉ cần một góc nhỏ tĩnh lặng..."* |
 | **3. Đời thường (Relatable)** | **Tình huống quen thuộc** (2h chiều buồn ngủ, tan ca đói) | Đánh vào thói quen đời thường của người đọc. | *"2 giờ chiều mắt díp lại, chỉ muốn tìm thứ gì đó giải lao..."* |
-| **4. Hài hước (Humor)** | **Sự tương phản hóm hỉnh** (đùa deadline, giảm cân, ví tiền) | Tự trào nhẹ nhàng về những mâu thuẫn dễ thương. | *"Ví tiền bảo tiết kiệm, nhưng cái miệng lại bảo order..."* |
+| **4. Hài hước (Humor)** | **Sự tương phản hóm hỉnh** (đùa deadline, ví tiền, cơn thèm đồ uống) | Tự trào nhẹ nhàng về những mâu thuẫn dễ thương. | *"Ví tiền bảo tiết kiệm, nhưng cái miệng lại bảo order..."* |
 | **5. Tò mò (Curiosity)** | **Chi tiết lạ** (khoảng trống thông tin trong món/quán) | Gợi mở một điểm đặc biệt để người đọc tò mò. | *"Nhìn đơn giản vậy thôi — bạn đoán điểm thú vị nằm ở đâu?"* |
-| **6. Nghề quán (Craft)** | **Cách làm / Sự chăm chút** (thao tác quầy, chuẩn bị) | Sự cẩn trọng của người làm quán [chỉ dùng khi có fact]. | *"Nếu quán có quy trình chuẩn bị: 'Sáng sớm mở quầy...' [khi có dữ liệu]"* |
-| **7. Dịp / Thời điểm (Occasion)** | **Bối cảnh sử dụng** (ngày mưa, sáng cuối tuần, hẹn bạn) | Gắn món nước với khoảnh khắc thời tiết/dịp cụ thể. | *"Mưa rào bất chợt ghé ngang phố, ghé quán trú chân một lát..."* |
+| **6. Nghề quán (Craft)** | **Cách làm / Sự chăm chút** (thao tác quầy, chuẩn bị) | Sự cẩn trọng của người làm quán [chỉ dùng khi quán chia sẻ fact thật]. | *"Nếu quán có quy trình chuẩn bị: 'Sáng sớm mở quầy...' [khi có dữ liệu]"* |
+| **7. Dịp / Thời điểm (Occasion)** | **Bối cảnh sử dụng** (ngày mưa, sáng cuối tuần, hẹn bạn) | Gắn món nước với khoảnh khắc thời tiết/dịp cụ thể [HYPOTHETICAL]. | *"Nếu chiều nay trời mưa rào ghé ngang phố, ghé quán trú chân một lát nha..."* |
 | **8. Tối giản (Minimalist)** | **Thẩm mỹ thanh lịch + 1 ý nghĩ cô đọng** | 1–2 câu ngắn, để vẻ đẹp của ảnh tự cất tiếng. | *"Một ngày êm dịu, một ly trà vừa ý. Thế là đủ."* |
 
 ---
@@ -87,5 +87,5 @@ Mỗi góc nhìn cần được hỗ trợ bởi các kỹ thuật viết tươn
 
 - **Tuyệt đối không chốt sale thô bạo** trong bài tâm sự/kể chuyện (tránh: *"👉 Mua ngay!", "Inbox đặt bàn gấp!"*).
 - **Để mở cảm xúc hoặc dùng lời chào thân tình:**  
-  - *"Tụi mình mở cửa tới 22h, hẹn bạn ghé chơi nha."*
+  - *"Tụi mình luôn sẵn sàng mở cửa đón bạn ghé chơi nha."* [hoặc nêu khung giờ cụ thể khi có fact]
   - Hoặc hoàn toàn không cần CTA, để bài viết dừng lại ở dư âm cảm xúc lắng đọng.

@@ -1,6 +1,6 @@
 # Kỹ Thuật Mở Bài, Nhịp Điệu & Chống Mùi AI (Hooks, Rhythm & Anti-AI)
 
-Trên mạng xã hội, người xem quyết định rất nhanh có tiếp tục lướt qua hay dừng lại đọc tiếp. Mở bài xuất sắc phải tự nhiên, gãy gọn, có nhịp điệu và đánh trúng tâm lý, tuyệt đối không dùng các cấu trúc sáo rỗng của AI.
+Trên mạng xã hội, phần mở đầu cần đủ gọn để người đọc nhanh chóng hiểu bài đang nói gì. Mở bài xuất sắc phải tự nhiên, gãy gọn, có nhịp điệu và đánh trúng tâm lý, tuyệt đối không dùng các cấu trúc sáo rỗng của AI.
 
 > **QUY TẮC PHÂN LOẠI DỮ KIỆN CHO MỌI VÍ DỤ (3 TẦNG DỮ LIỆU):**  
 > - `[OBSERVED]` $\rightarrow$ Chỉ dùng chi tiết thị giác/âm thanh quan sát trực tiếp từ hình ảnh/video.  
@@ -32,8 +32,8 @@ Mở đầu bằng chi tiết quan sát được trực tiếp từ ảnh hoặc
 ### 4. Tự trào & Hóm hỉnh (Relatable Humor Hook — [CREATIVE])
 Biến chuyện đời thường của khách thành tiếng cười đồng cảm:
 - *"Ví tiền bảo 'thôi', nhưng cái miệng lại bảo 'order một ly trà sữa đi'."*
-- *"Bảo giảm cân mà đồng nghiệp rủ làm ly trà sữa là tay bấm chọn món liền."*
-- *"Bảo giảm ngọt mà chiều nào mắt díp lại cũng muốn tìm một ly giải lao."*
+- *"Bảo tiết kiệm mà đồng nghiệp rủ làm ly trà sữa là tay bấm order liền."*
+- *"Bảo kiềm chế mà chiều nào mắt díp lại cũng muốn tìm một ly giải lao."*
 
 ### 5. Ưu đãi thẳng thắn (Direct Offer Hook — [PROVIDED])
 Nói thẳng quyền lợi khách hàng khi có chương trình thực tế từ quán:
@@ -48,9 +48,9 @@ Không chỉ cấm một vài từ đơn lẻ, hãy **chặn đứng 8 khuôn m�
 
 | Khuôn mẫu AI (AI Patterns) ❌ | Ví dụ điển hình cần tránh | Cách sửa tự nhiên của người thật ✅ |
 | :--- | :--- | :--- |
-| **1. Ẩn dụ đao to búa lớn** *(Grandiose Metaphor)* | "Bản giao hưởng vị giác", "Bản hòa ca tuyệt mỹ đánh thức tâm hồn" | Miêu tả thẳng cảm giác: "Lớp bọt sữa bồng bềnh nổi trên nền trà mộc" `[OBSERVED]` hoặc "Trà thanh, sữa béo dịu" `[PROVIDED]` |
+| **1. Ẩn dụ đao to búa lớn** *(Grandiose Metaphor)* | "Bản giao hưởng vị giác", "Bản hòa ca tuyệt mỹ đánh thức tâm hồn" | Miêu tả thẳng cảm giác: "Lớp bọt sữa bồng bềnh nổi trên nền trà mộc" `[OBSERVED]` hoặc "Trà thanh, sữa béo dịu" `[PROVIDED: chỉ khi có dữ liệu vị]` |
 | **2. Khung cảnh sáo rỗng** *(Generic Emotional Framing)* | "Giữa nhịp sống hối hả bộn bề...", "Sau những giờ làm việc căng thẳng..." | Đi thẳng vào thời điểm thật: "Chiều tan ca đói bụng", "Trưa nắng gắt" `[CREATIVE]` |
-| **3. Xếp chồng tính từ rỗng** *(Empty Adjective Stacking)* | "Hương vị thơm ngon đậm đà khó cưỡng tuyệt hảo" | Dùng chi tiết cụ thể: "Trà thơm thanh, hậu ngọt dịu, không bị khé cổ" `[PROVIDED: dữ kiện vị]` |
+| **3. Xếp chồng tính từ rỗng** *(Empty Adjective Stacking)* | "Hương vị thơm ngon đậm đà khó cưỡng tuyệt hảo" | Dùng chi tiết cụ thể: "Trà đậm hậu vị mộc, pha cùng sữa tươi" `[PROVIDED: khi brief có dữ liệu vị]` hoặc chi tiết thị giác "Lớp bọt sữa trắng mịn dày khoảng một lóng tay" `[OBSERVED: khi nhận ảnh]` |
 | **4. Cấu trúc lặp công thức** *(Mechanical Parallelism)* | "Không chỉ là một thức uống, mà còn là một trải nghiệm sống..." | Bỏ hẳn cấu trúc này: "Một ly trà mát để bạn nhâm nhi buổi chiều" `[CREATIVE]` |
 | **5. Triết lý / Lên lớp cuộc sống** *(Motivational Lecturing)* | "Hãy nhớ rằng cuộc đời như tách cà phê, đắng trước ngọt sau..." | Không rao giảng đạo lý. Để người đọc tự cảm nhận không gian quán |
 | **6. Spam câu hỏi tu từ** *(Rhetorical-Question Spam)* | "Bạn có mệt mỏi? Bạn có đang tìm kiếm chốn bình yên? Bạn có muốn...?" | Đặt 1 câu hỏi trúng đích hoặc đi thẳng vào chia sẻ |
@@ -108,6 +108,6 @@ Trước khi viết, chatbot ngầm hình dung 2–3 hướng mở bài và ch�
 | "Món nước này được làm thủ công để mang lại sự thư giãn..." | "Chiều nay ghé quán nhâm nhi ly trà cho nhẹ nhõm nha." `[CREATIVE]` |
 | "Nó được phục vụ với đá và lát cam tươi..." | "Ly nước đầy đá, bên trên có thêm lát cam tươi." `[OBSERVED]` |
 | "Đừng ngần ngại liên hệ chúng tôi để nhận sự hỗ trợ..." | "Cần món gì bạn cứ nhắn tin cho tụi mình nha." `[CREATIVE]` |
-| "Là một sự kết hợp độc đáo giữa trà và sữa..." | "Trà đậm quyện cùng sữa béo vừa vặn." `[PROVIDED: dữ kiện vị]` |
+| "Là một sự kết hợp độc đáo giữa trà và sữa..." | "Trà đậm quyện cùng sữa tươi [PROVIDED: khi brief có vị] hoặc 'Tách nước hai tầng nâu trắng rõ rệt' [OBSERVED: khi nhận ảnh]" |
 
 
