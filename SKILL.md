@@ -22,22 +22,37 @@ version: 4.9.1
 >   - *Một câu có creative invention nhẹ (tình huống, liên tưởng) nhưng rất hay $\rightarrow$ ĐƯỢC KHUYẾN KHÍCH.*  
 >   - *Một câu factuality hoàn hảo nhưng nhạt, generic, không insight $\rightarrow$ KHÔNG PHẢI OUTPUT TỐT.*  
 >
-> 🧭 **PHÂN ĐỊNH 3 VÙNG SÁNG TẠO (THE 3 ZONES OF INVENTION):**  
-> - 🟢 **VÙNG ĐƯỢC PHÉP (Allowed Creative Invention):**  
->   Sáng tạo tình huống đời thường, khoảnh khắc trong ngày, tâm lý tự trào, liên tưởng khơi gợi nhu cầu (Association: Từ sản phẩm $\rightarrow$ khoảnh khắc $\rightarrow$ cảm xúc $\rightarrow$ nhu cầu $\rightarrow$ hình ảnh trong đầu khách):  
->   - *"Ví còn 25k, lòng thì đang thèm trà sữa. Vậy là đủ lý do rồi."* ✅ *(Giả định tình huống & tâm lý, biến giá 25k thành ý tưởng)*  
->   - *"Chiều nay tự nhiên thèm một ly trà đào 29k."* ✅ *(Tạo khoảnh khắc dễ hình dung, không tạo claim về sản phẩm)*  
->   - *"Có những ngày chẳng cần gì cầu kỳ. Một ly cà phê đen 20k, vậy là đủ."* ✅  
->   - *"Có những cơn thèm chẳng cần báo trước. Trà đào 29k."* ✅  
-> - 🟡 **VÙNG BIÊN RỦI RO (Creative Risk — Xử lý khéo léo):**  
->   Chạm nhẹ vào cảm giác thể chất/tâm lý (*"Đắng một chút, tỉnh người một chút"*). Cần giữ ở mức cảm nhận đời thường nhẹ nhàng, tuyệt đối không biến thành cam kết tác dụng sinh lý/y khoa.  
-> - 🔴 **VÙNG VI PHẠM SỰ THẬT (Factual & Semantic Violations — BẮT BUỘC BLOCK):**  
->   Tuyệt đối cấm tự tạo cam kết sự thật mà brief không cung cấp:  
->   1. **Đặc tính sản phẩm (Sensory/Ingredients):** Cấm tự bịa *"đào vàng thơm ngọt"*, *"trà sữa béo ngậy"* nếu brief chỉ cho tên món và giá.  
->   2. **Cam kết hiệu ứng (Product Effect):** Cấm tự bịa *"giải nhiệt"*, *"tỉnh táo tức thì"*, *"giảm stress"*, *"tăng năng lượng"*.  
->   3. **Thương mại & Số liệu (Semantic Drift):** Cấm làm sai lệch điều kiện (*"Mua 2 giảm 10k"* $\neq$ *"Mua từ 2 ly"*); cấm đổi bản chất trừ tiền (*"Giảm 5k"* $\neq$ *"Giảm còn 5k"*).  
->   4. **Trạng thái vận hành (Operational):** Cấm tự bịa *"mở cửa đến 11h"*, *"ship tận nơi"*, *"còn hàng"*, *"đang đông khách"*.  
->   5. **Bằng chứng xã hội (Social Proof):** Cấm tự bịa *"khách nào cũng mê"*, *"bán chạy nhất quán"*, *"ai uống cũng thích"*.  
+> 💎 **NGUYÊN TẮC VÀNG 3 BƯỚC (THE 3-STEP GOLDEN RULE):**  
+> *"First create a compelling thought. Then make it beautiful. Finally verify that creativity did not cross into factual commitment."*  
+> *(Trước tiên phải có một ý hay. Sau đó mới trau chuốt thành câu hay. Cuối cùng mới kiểm tra xem sự sáng tạo có vượt ranh giới thông tin hay không.)*  
+>  
+> ⚠️ **Đừng bắt Wordcraft đánh bóng một cái khung rỗng!** Nếu Content Brain bị bóp nghẹt thành *"Trà đào 29k. Ghé quán thưởng thức nhé"*, Wordcraft có cố sửa cũng chỉ quanh quẩn những câu thô, phẳng, thiếu hình ảnh. Hãy trao cho Content Brain quyền tưởng tượng trước: tạo liên tưởng, khoảnh khắc, cảm xúc để Wordcraft có nguyên liệu trau chuốt thành câu từ có nhịp và lực.
+>
+> 🧭 **BIÊN ĐỘ TƯỞNG TƯỢNG (SAFE CREATIVE ZONE vs FACTUAL RISK):**  
+> ```
+> FACT (Sản phẩm, giá, ưu đãi gốc từ brief — Tuyệt đối chính xác)
+> │
+> ├────────────── SAFE CREATIVE ZONE (Content Brain & Wordcraft) ──────────────┐
+> │                                                                            │
+> │  Insight                 (Sự thật ngầm hiểu, tâm lý đời thường)           │
+> │  Association             (Liên tưởng: sản phẩm → khoảnh khắc → hình ảnh)    │
+> │  Metaphor                (Ẩn dụ, hình tượng hóa cảm xúc)                   │
+> │  Emotion                 (Cảm xúc, sự đồng điệu, khoảng lặng)              │
+> │  Consumer scenario       (Tình huống người dùng: kẹt xe, tan ca, lỡ cỡ đói)│
+> │  Humor & Self-deprecation(Hài hước, tự trào số dư ví tiền, cơn thèm)      │
+> │  Implied mood            (Không khí nhẹ nhàng, chậm rãi, thư thả)          │
+> │  Conversational framing  (Khẩu ngữ mộc mạc: "chẳng cần gì nhiều", "làm một ly")
+> │                                                                            │
+> └────────────────────────────────────────────────────────────────────────────┤
+>                                                                              │
+>                                              🔴 FACTUAL RISK (CẤM TỰ BỊA)     │
+>                                              - Product claim (thành phần ảo) │
+>                                              - Product effect (cam kết y học)│
+>                                              - Social proof (best-seller ảo) │
+>                                              - Promotion drift (sai điều kiện)
+>                                              - Operational fact (bịa mở cửa) │
+>                                              - Sensory claim (vị giác chưa rõ)
+> ```
 >
 > 🚀 **CHUỖI TƯ DUY SÁNG TÁC NỘI DUNG (CREATIVE COPYWRITING FLOW):**  
 > ```
@@ -47,22 +62,16 @@ version: 4.9.1
 > HIỂU KHÁCH HÀNG (Hiểu bối cảnh, tâm lý, thói quen)
 >   │
 >   ▼
-> INSIGHT (Tìm ra sự thật ngầm hiểu vì sao khách quan tâm)
+> INSIGHT & SAFE CREATIVE ZONE (Tưởng tượng: khoảnh khắc đời thường, liên tưởng, tension)
 >   │
 >   ▼
-> LIÊN TƯỞNG / ASSOCIATION (Từ sản phẩm → khoảnh khắc → cảm xúc → hình ảnh trong đầu khách)
+> BIG IDEA & COMPELLING THOUGHT (Tạo ra 1 Ý TƯỞNG ĐẮT GIÁ trước tiên)
 >   │
 >   ▼
-> TENSION / DESIRE (Mâu thuẫn nhỏ đời thường & mong muốn tự thưởng, giải lao)
+> WORDCRAFT (Trau chuốt ý tưởng thành CÂU TỪ HAY: có nhịp, giàu hình ảnh, khẩu ngữ sống động)
 >   │
 >   ▼
-> BIG IDEA & HOOK (1 ý tưởng đắt giá & câu mở đầu bắt mắt)
->   │
->   ▼
-> WORDCRAFT (Trau chuốt câu chữ: ít chữ nhưng đúng chữ, có nhịp, giàu lực bán hàng)
->   │
->   ▼
-> FACTUALITY GUARD (Chốt chặn cuối: rà soát cam kết sự thật & semantic fidelity)
+> FACTUALITY GUARD (Chốt chặn cuối: rà soát không vượt ranh giới cam kết sự thật)
 >   │
 >   ▼
 > FINAL COPY (Tự nhiên như người thật viết, giàu cảm xúc, sạch claim rủi ro)

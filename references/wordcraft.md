@@ -10,10 +10,59 @@ $$\begin{array}{ccc}
 \text{Hook (Promise) \& Payoff} & & \text{AI Cliché Removal \& Human Test}
 \end{array}$$
 
+> 💎 **NGUYÊN TẮC VÀNG 3 BƯỚC (THE 3-STEP GOLDEN RULE):**  
+> *"First create a compelling thought. Then make it beautiful. Finally verify that creativity did not cross into factual commitment."*  
+> *(Trước tiên phải có một ý hay. Sau đó mới trau chuốt thành câu hay. Cuối cùng mới kiểm tra xem sự sáng tạo có vượt ranh giới thông tin hay không.)*  
+>
 > 🔴 **NGUYÊN TẮC BẤT BIẾN CỐT LÕI (CORE CONSTRAINT):**  
 > **"Creative freedom applies to EXPRESSION, not EVIDENCE."**  
 > *(Tự do sáng tạo thuộc về cách diễn đạt ngôn từ, tuyệt đối không thuộc về dữ kiện hay bằng chứng).*  
 > **Wordcraft chỉ sửa câu chữ cho hay và đắt hơn, TUYỆT ĐỐI KHÔNG ĐƯỢC SÁNG TẠO THÊM SỰ THẬT.**
+
+---
+
+## 0. Quy Tắc Nền Tảng: Đừng Bắt Wordcraft Đánh Bóng Một Cái Khung Rỗng
+
+Nếu ép Content Brain chỉ được nói đúng những gì brief cung cấp một cách máy móc, kết quả sẽ là một cái khung rỗng:
+> *“Cà phê sữa 22k. Ghé quán mua một ly nhé.”*
+
+Không sai về fact. Nhưng thô, phẳng, thiếu hình ảnh và cạn kiệt cảm xúc. Đến bước Wordcraft, dù có cố gắng sửa đến mấy cũng chỉ quanh quẩn:
+> *“Cà phê sữa 22k. Ghé làm một ly nha.”* $\rightarrow$ **Vẫn thô và nhạt.**
+
+### 💡 Khai phóng trí tưởng tượng của Content Brain:
+Phải cho Content Brain quyền đi xa trong **Vùng Sáng Tạo An Toàn (Safe Creative Zone)** để tìm ra một **Ý Tưởng Cuốn Hút (Compelling Thought)**. Khi đó Wordcraft mới có nguyên liệu phong phú để trau chuốt:
+
+| Bước Xử Lý | Nội Dung | Giá Trị Mang Lại |
+| :--- | :--- | :--- |
+| **Brief Gốc** | `Cà phê sữa 22k.` | Dữ kiện thô. |
+| **Content Brain (Ý Hay)** | *"Có những ngày chẳng cần gì nhiều. Một ly cà phê sữa 22k, ngồi yên một chút là được."* | - Tạo khoảnh khắc đời thường thay vì chỉ bán sản phẩm.<br>- Chạm sự thật ngầm hiểu về nhu cầu sống chậm. |
+| **Wordcraft Phân Tích (Câu Hay)** | - `"chẳng cần gì nhiều"` $\rightarrow$ Khẩu ngữ mộc mạc, khiêm nhường.<br>- `"một ly"` $\rightarrow$ Cụ thể hóa hình ảnh thị giác.<br>- `"ngồi yên một chút"` $\rightarrow$ Framing cảm xúc, khoảng lặng êm ả.<br>- Nhịp câu ngắn, gọn $\rightarrow$ Tự nhiên, dễ đọc, không một mỹ từ sáo rỗng. | Câu chữ có nhịp điệu, có sức nặng bán hàng tự nhiên mà không cần nhồi nhét tính từ. |
+| **Factuality Guard** | Kiểm tra: Có bịa nguồn gốc hạt? Không. Có cam kết "tỉnh ngủ tức thì"? Không. Đúng giá 22k? Đúng. | **100% Sạch Claim Rủi Ro.** |
+
+```
+FACT (Sản phẩm, giá, ưu đãi gốc từ brief — Tuyệt đối chính xác)
+│
+├────────────── SAFE CREATIVE ZONE (Content Brain & Wordcraft) ──────────────┐
+│                                                                            │
+│  Insight                 (Sự thật ngầm hiểu, tâm lý đời thường)           │
+│  Association             (Liên tưởng: sản phẩm → khoảnh khắc → hình ảnh)    │
+│  Metaphor                (Ẩn dụ, hình tượng hóa cảm xúc)                   │
+│  Emotion                 (Cảm xúc, sự đồng điệu, khoảng lặng)              │
+│  Consumer scenario       (Tình huống người dùng: kẹt xe, tan ca, lỡ cỡ đói)│
+│  Humor & Self-deprecation(Hài hước, tự trào số dư ví tiền, cơn thèm)      │
+│  Implied mood            (Không khí nhẹ nhàng, chậm rãi, thư thả)          │
+│  Conversational framing  (Khẩu ngữ mộc mạc: "chẳng cần gì nhiều", "làm một ly")
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┤
+                                                                             │
+                                             🔴 FACTUAL RISK (CẤM TỰ BỊA)     │
+                                             - Product claim (thành phần ảo) │
+                                             - Product effect (cam kết y học)│
+                                             - Social proof (best-seller ảo) │
+                                             - Promotion drift (sai điều kiện)
+                                             - Operational fact (bịa mở cửa) │
+                                             - Sensory claim (vị giác chưa rõ)
+```
 
 ---
 

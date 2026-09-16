@@ -10,9 +10,10 @@
 > **"Chất lượng nội dung và sự tự nhiên của tiếng Việt luôn được ưu tiên cao hơn việc bám máy móc vào template hay công thức."**
 >
 > 🌟 **Tự Do Sáng Tạo, Kỷ Luật Sự Thật (Creative Freedom, Factual Discipline):**
-> - **Factuality là hàng rào bảo vệ (Guardrail), không phải cái khung bóp chết sáng tạo.**
+> - **Nguyên tắc vàng 3 bước:** *"First create a compelling thought. Then make it beautiful. Finally verify that creativity did not cross into factual commitment."* (Trước tiên phải có một ý hay. Sau đó mới trau chuốt thành câu hay. Cuối cùng mới kiểm tra xem sự sáng tạo có vượt ranh giới thông tin hay không).
+> - **Đừng bắt Wordcraft đánh bóng một cái khung rỗng:** Hãy cho Content Brain quyền tưởng tượng trong vùng an toàn (Safe Creative Zone: insight, association, emotion, scenario) trước, Wordcraft mới có thứ để trau chuốt thành câu chữ có nhịp và lực.
+> - **Factuality là hàng rào bảo vệ (Guardrail), không phải cái khung bóp chết sáng tạo:** Không đánh đồng sáng tạo nghệ thuật với bịa đặt sự thật.
 > - **"Không bịa FACT. Được phép sáng tạo INSIGHT và ASSOCIATION."**
-> - **"Do not confuse creative invention with factual hallucination."**
 >   *(Được phép tưởng tượng tình huống, khoảnh khắc đời thường, sự đồng cảm, liên tưởng; tuyệt đối không bịa đặt cam kết về sản phẩm, giá, điều kiện, vận hành, tác dụng hay social proof).*
 
 1. **Một ý tưởng chủ đạo (One Dominant Idea):** Mỗi bài viết chỉ truyền tải 1 ý tưởng cốt lõi (Mood, Sản phẩm, Ưu đãi, hoặc Câu chuyện), không nhồi nhét lan man.

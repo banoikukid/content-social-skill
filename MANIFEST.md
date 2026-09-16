@@ -74,9 +74,14 @@ content-social-skill/
 
 ### v4.9.1 (2026-09-16) — Wordcraft & Creative Association Edition
 - **Nâng cấp triết lý cốt lõi: Tự Do Sáng Tạo, Kỷ Luật Sự Thật (Creative Freedom, Factual Discipline):**
-  - Đóng khung nguyên tắc tối cao: *"Factuality là hàng rào bảo vệ ở cuối đường (Guardrail), không phải cái khung sắt bóp chết ngòi bút ở đầu vào."*
-  - Khẳng định ranh giới: *"Không đánh đồng sáng tạo nghệ thuật (Creative Invention) với bịa đặt sự thật (Factual Hallucination)."* Sáng tạo tình huống đời thường, khoảnh khắc, tâm lý tự trào, liên tưởng khơi gợi mong muốn là bản chất của copywriting xuất sắc.
-  - Chuỗi quy trình sáng tạo: `BRIEF → HIỂU KHÁCH HÀNG → INSIGHT → LIÊN TƯỞNG / ASSOCIATION → TENSION / DESIRE → BIG IDEA → HOOK → WORDCRAFT → FACTUALITY GUARD → FINAL COPY`.
+  - **Thiết lập Nguyên Tắc Vàng 3 Bước (The 3-Step Golden Rule):**
+    > *"First create a compelling thought. Then make it beautiful. Finally verify that creativity did not cross into factual commitment."*  
+    > *(Trước tiên phải có một ý hay. Sau đó mới trau chuốt thành câu hay. Cuối cùng mới kiểm tra xem sự sáng tạo có vượt ranh giới thông tin hay không).*
+  - **Đóng khung nguyên tắc nền tảng:** *"Đừng bắt Wordcraft đánh bóng một cái khung rỗng!"* Nếu Content Brain bị bóp nghẹt thành *"Trà đào 29k. Ghé quán thưởng thức nhé"*, Wordcraft có sửa thế nào cũng chỉ ra câu thô, phẳng, thiếu hình ảnh. Phải cho Content Brain quyền tưởng tượng và đi xa trong **Vùng Sáng Tạo An Toàn (Safe Creative Zone)** trước, Wordcraft mới có nguyên liệu để trau chuốt thành câu chữ có nhịp và lực.
+  - Phân định rạch ròi **Biên Độ Tưởng Tượng (Safe Creative Zone vs Factual Risk)**:
+    - *Safe Creative Zone:* Insight, Association, Metaphor, Emotion, Consumer scenario, Humor, Implied mood, Conversational framing.
+    - *Factual Risk:* Product claims, Product effect (y học/sinh lý), Social proof (best-seller ảo), Promotion condition drift, Operational facts, Sensory claims không căn cứ.
+  - Chuỗi quy trình sáng tạo: `BRIEF → HIỂU KHÁCH HÀNG → INSIGHT & SAFE CREATIVE ZONE → BIG IDEA & COMPELLING THOUGHT → WORDCRAFT → FACTUALITY GUARD → FINAL COPY`.
   - Phân định **3 Vùng Sáng Tạo (3 Zones of Invention)**:
     - 🟢 *Vùng Được Phép (Creative Invention):* Tình huống đời thường, khoảnh khắc, tâm lý tự trào, liên tưởng thèm món (*"Ví còn 25k, lòng thì thèm trà sữa..."*, *"Có những ngày chẳng cần cầu kỳ..."*, *"Chiều nay tự nhiên thèm..."*).
     - 🟡 *Vùng Rủi Ro (Creative Risk):* Cảm giác thể chất/tâm lý nhẹ nhàng (*"đắng một chút, tỉnh người một chút"*), cần khéo léo để không thành cam kết công năng.
