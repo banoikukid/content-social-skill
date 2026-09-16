@@ -37,17 +37,17 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 
 ### Mẫu 2: Ảnh ly trà đào cam sả (Góc: Product & Visual Sensory)
 - **Input:** [Hình ảnh ly trà màu cam hổ phách, đá đầy, có 2 miếng đào vàng và cọng sả].
-- **Dominant Idea:** Cảm giác dịu mắt giữa ngày oi bức.
+- **Dominant Idea:** Cảm giác dịu mắt từ màu sắc ly trà.
 - **Copy:**
-  > Nhìn những hạt nước đọng li ti ngoài thành ly thôi cũng thấy dịu mắt giữa ngày oi ả.
+  > Nhìn những hạt nước đọng li ti ngoài thành ly thôi cũng thấy dịu mắt.
   > 
-  > Nền trà màu cam hổ phách, bên trên thả hai miếng đào vàng cùng nhánh sả tươi, thêm lớp đá viên đầy từ đáy lên miệng ly.
+  > Nền trà màu cam hổ phách, bên trên thả hai miếng đào vàng cùng nhánh sả, thêm lớp đá viên đầy từ đáy lên miệng ly.
   > 
-  > Một ly nước cho những lúc muốn ngồi xuống chậm lại một chút giữa ngày. Ghé quán ngồi nghỉ chân nha.
+  > Một ly nước cho những lúc muốn ngồi xuống chậm lại một chút. Ghé quán ngồi nghỉ chân nha!
 
 ---
 
-### Mẫu 3: Ảnh tách cacao nóng ngày mưa (Góc: Mood & Khoảng lặng)
+### Mẫu 3: Ảnh tách cacao bốc khói ngày mưa (Góc: Mood & Khoảng lặng)
 - **Input:** [Hình ảnh tách cacao gốm bốc khói nhẹ, hậu cảnh là cửa kính có giọt mưa].
 - **Dominant Idea:** Sự ấm cúng khi trú mưa tại quán.
 - **Copy:**
@@ -77,7 +77,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Copy:**
   > Bàn đầy đủ sắc màu từ ly trà trái cây có đá đến ly trà sữa bồng bềnh lớp bọt.
   > 
-  > Được ngồi lại rôm rả cùng bạn bè luôn là khoảng thời gian dễ chịu nhất trong ngày.
+  > Được ngồi lại rôm rả cùng bạn bè, vậy là đủ vui cho một buổi gặp nhau rồi.
   > 
   > Khi nào có dịp, rủ bạn ghé quán ngồi lại một chút nha!
 
@@ -93,7 +93,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
   > 
   > Trà Sữa Vân Nam được nấu chậm trong niêu đất, giữ trọn vị trà đậm đà đặc trưng quyện cùng sữa tươi béo thanh. Không quá ngọt, hậu vị đọng lại êm và thơm rất lâu.
   > 
-  > 🏷️ Món mới đã chính thức lên quầy hôm nay với giá 45k/ly. Nhắn tin cho tụi mình để thử ngay ly đầu tiên nhé!
+  > 🏷️ Món mới chính thức lên quầy với giá 45k/ly. Nhắn tin cho tụi mình để thử ngay ly đầu tiên nhé!
 
 ---
 
@@ -227,7 +227,7 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - **Copy:**
   > Có những chiều mưa rào bất chợt đổ xuống phố, ngoài đường ai nấy vội tấp xe vào hiên trú tạm.
   > 
-  > Nếu lúc ấy bạn đang ngồi trong một góc quán quen, gọi một ly nước ấm rồi lắng nghe tiếng mưa rơi đều đều ngoài khung kính, tự khắc thấy nhịp sống chậm lại một nhịp rất êm.
+  > Nếu lúc ấy bạn đang ngồi trong một góc quán quen, gọi một ly nước rồi lắng nghe tiếng mưa rơi đều đều ngoài khung kính, tự khắc thấy nhịp sống chậm lại một nhịp rất êm.
   > 
   > Nếu chiều nay trời đổ mưa, ghé quán trú chân cùng tụi mình nhé.
 
