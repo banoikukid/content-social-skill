@@ -17,7 +17,7 @@ Hook không chỉ là "giật tít gây chú ý", mà phải tạo được **s�
 Chạm trúng trạng thái cảm xúc quen thuộc của người đọc mà không tự tạo bối cảnh mang hình thức sự thật:
 - *"Có những ngày chẳng cần gì nhiều, chỉ cần một khoảng nghỉ nhỏ để chậm lại một chút..."*
 - *"Sau một ngày dài tất bật, chỉ thèm một góc nhỏ ngồi thở một chút."*
-- *"Có những lúc chỉ muốn dừng tay một chút để tìm lại cảm giác nhẹ nhõm..."*
+- *"Có những lúc chỉ muốn dừng tay một chút giữa ngày bận rộn..."*
 
 ### 2. Tò mò & Khoảng trống thông tin (Curiosity Hook)
 Nêu một chi tiết gợi mở hoặc câu hỏi thú vị mà không tự bịa đặt giải thưởng hay kỷ lục bán hàng:
@@ -27,7 +27,7 @@ Nêu một chi tiết gợi mở hoặc câu hỏi thú vị mà không tự b�
 
 ### 3. Mong muốn & Tự thưởng (Desire & Self-Reward Hook — [CREATIVE])
 Khai thác mong muốn chăm sóc bản thân một cách mộc mạc:
-- *"Muốn tự thưởng cho mình một chút ngọt ngào để lấy lại năng lượng..."*
+- *"Đôi khi chỉ muốn tự thưởng cho mình một ly sau ngày bận rộn..."*
 - *"Đôi khi niềm vui trong ngày chỉ đơn giản là gọi được ly nước đúng ý."*
 
 ### 4. Tình huống & Thời tiết (Situation Hook — [PROVIDED])
@@ -37,7 +37,7 @@ Khai thác mong muốn chăm sóc bản thân một cách mộc mạc:
 
 ### 5. Tương phản & Tự trào (Contrast & Humor Hook — [CREATIVE])
 Biến mâu thuẫn đời thường thành tiếng cười dễ thương:
-- *"Không cần gì nhiều, chỉ cần một ly nước quen là thấy ngày nhẹ hẳn."*
+- *"Không cần gì nhiều, chỉ cần một ly nước quen là đủ."*
 - *"Ví tiền bảo 'thôi', nhưng cái miệng lại bảo 'order một ly trà sữa đi'."*
 - *"Bảo tiết kiệm mà đồng nghiệp rủ làm ly trà sữa là tay bấm chuyển khoản liền."*
 

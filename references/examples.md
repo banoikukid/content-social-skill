@@ -156,9 +156,9 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 - ❌ **BAD 2 (Thêm sắc thái đánh giá mới chưa có trong câu gốc):**
   > *"Một ly trà sữa béo thơm vừa vặn cho một ngày mới."*  
   > *(Mặc dù "béo thơm" là paraphrase hợp lý, nhưng "vừa vặn" là sắc thái mới tự chêm vào).*
-- ✅ **GOOD (Paraphrase tự nhiên, chuẩn xác 100% dữ kiện gốc):**
-  > *"Một ly trà sữa thơm ngon, béo ngậy — khởi đầu tuyệt vời cho ngày mới."*  
-  > *(Loại bỏ văn phong dịch sáo ngữ AI "mang đến trải nghiệm tuyệt vời", diễn đạt gãy gọn mà không thêm bất kỳ fact hay sắc thái mới nào).*
+- ✅ **GOOD (Paraphrase tự nhiên, gọt sạch sáo ngữ AI, chuẩn xác 100% dữ kiện gốc):**
+  > *"Một ly trà sữa thơm ngon, béo ngậy cho ngày mới."*  
+  > *(Loại bỏ hoàn toàn văn phong dịch sáo ngữ AI "mang đến trải nghiệm tuyệt vời" và từ sáo rỗng "tuyệt vời", diễn đạt gãy gọn mà không thêm bất kỳ fact hay sắc thái mới nào).*
 
 ---
 

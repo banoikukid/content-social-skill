@@ -52,7 +52,7 @@
       WRITE (Bản nháp tự nhiên)       HOOK → PROMISE → PAYOFF
                  │                               │
                  ▼                               ▼
-      QUICK WORDCRAFT (Ngôn từ)       DEEP WORDCRAFT (7-Point Polish)
+      QUICK WORDCRAFT (Ngôn từ)       DEEP WORDCRAFT (8-Point Polish)
                  │                               │
                  ▼                               ▼
       QUICK QA (Đúng fact, no trap)   CLAIM CHECK & FULL QA
@@ -75,16 +75,16 @@ content-social-skill/
 ├── references/
 │   ├── platforms.md         # Quy chuẩn 5 nền tảng: Facebook, Instagram, TikTok, Zalo OA, Zalo Personal
 │   ├── tones.md             # 5 tone giọng F&B & Emoji Density Tendency (sạch claim)
-│   ├── wordcraft.md         # Chuẩn mực trau chuốt ngôn từ: 7-point checklist, Product Role vs Effect & 5 mẫu so sánh (v4.9.1)
+│   ├── wordcraft.md         # Chuẩn mực trau chuốt ngôn từ: 8-point checklist, Product Role vs Effect & 5 mẫu so sánh (v4.9.1)
 │   ├── formulas.md          # Công thức viết bài & Chuỗi tư duy bán hàng (SITUATION → TENSION → DESIRE → PRODUCT ROLE)
 │   ├── hooks.md             # Mở bài thu hút, nhịp điệu, 8 khuôn mẫu AI, Promise-Payoff & 6 dạng Hook thấu cảm
 │   ├── storytelling.md      # Động cơ 8 góc nhìn (Angle Engine), Ma trận kỹ thuật, Soft CTA
 │   ├── psychology.md        # Chuỗi tâm lý bán hàng F&B (Attention → Relevance → Desire → Action, sạch claim)
 │   ├── pricing.md           # Kỹ thuật viết giá & ưu đãi F&B dùng placeholder an toàn
-│   ├── regression-fixtures.md # Bộ kiểm tra hồi quy chuẩn mực (8 bài Provenance + 5 bài Consumer Insight)
+│   ├── regression-fixtures.md # Bộ kiểm tra hồi quy chuẩn mực (8 Provenance + 5 Consumer Insight + 8 Wordcraft)
 │   └── examples.md          # Tuyển tập 28+ bài mẫu F&B chuẩn (Image/Brief, Rewrite, Bad vs Good)
 └── tests/
-    └── core-tests.md        # 8 bài Provenance + 5 bài Consumer Insight + 10 kịch bản thực tế (v4.9.1)
+    └── core-tests.md        # 8 Provenance + 5 Consumer Insight + 8 Wordcraft + 10 kịch bản thực tế (v4.9.1)
 ```
 
 ---

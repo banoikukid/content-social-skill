@@ -1,4 +1,4 @@
-# Bộ Kiểm Tra Hồi Quy Chuẩn Mực (Normative Regression Fixtures - v4.9.0)
+# Bộ Kiểm Tra Hồi Quy Chuẩn Mực (Normative Regression Fixtures - v4.9.1)
 
 > **CƠ CHẾ KIỂM ĐỊNH HỒI QUY (NORMATIVE REGRESSION EVALUATION):**  
 > `Regression Test` $\rightarrow$ `Input` $\rightarrow$ `Expected Invariants` $\rightarrow$ `Forbidden Patterns` $\rightarrow$ `Generated Output` $\rightarrow$ `Claim Check` $\rightarrow$ `PASS / FAIL`.  
@@ -152,7 +152,7 @@
   - ❌ Thêm dữ kiện mới (thời gian, topping trân châu, đá mát lạnh, giá tiền).
   - ❌ Thêm sắc thái đánh giá mới không có trong đề bài (*"vừa vặn"*).
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
-  > *Một ly trà sữa thơm ngon, béo ngậy — khởi đầu tuyệt vời cho ngày mới.*
+  > *Một ly trà sữa thơm ngon, béo ngậy cho ngày mới.*
 
 ---
 
@@ -172,16 +172,17 @@
 - **Bất biến bắt buộc (Expected Invariants):**
   - Món nước: `Trà đào` (hoặc `trà đào`).
   - Mức giá: `29k` (hoặc `29.000đ`).
-  - Lý do quan tâm & Vai trò sản phẩm (Reason to Care & Product Role): Giải khát, khoảng nghỉ ngơi nhẹ nhàng giữa ngày, phần thưởng nhỏ hạ nhiệt (dùng human truth / creative framing rộng).
+  - Lý do quan tâm & Vai trò sản phẩm (Reason to Care & Product Role): Khoảng nghỉ ngắn, tự thưởng một ly quen (dùng human truth / creative framing rộng, không tự gán giải nhiệt/giải khát/tỉnh táo/nạp năng lượng).
   - Kêu gọi hành động (CTA) tự nhiên, rào cản thấp.
 - **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
   - ❌ Tự bịa topping không có trong brief (*"miếng đào giòn tan"*, *"thạch giòn"*).
-  - ❌ Tự suy diễn nhiệt độ vật lý hoặc thuộc tính cảm quan (*"mát lạnh buốt răng"*).
+  - ❌ Tự suy diễn nhiệt độ vật lý hoặc thuộc tính cảm quan (*"mát lạnh buốt răng"*, *"ngọt thơm"*).
+  - ❌ Tự bịa tác dụng sản phẩm (*"nạp lại hứng khởi"*, *"giải nhiệt"*, *"tỉnh táo"*).
   - ❌ Tự khẳng định trạng thái vận hành / giờ mở cửa (*"quán đang mở cửa"*, *"ghé quán liền nha quán đang đợi"*).
   - ❌ Tự bịa chân dung khách hàng cụ thể (*"dân văn phòng quận 1"*, *"học sinh tan trường"*).
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
-  > *Một ly trà đào 29k cho một khoảng nghỉ ngắn giữa ngày làm việc.*  
-  > *Nếu bạn đang cần chút ngọt thơm để nạp lại hứng khởi, ghé quán tụi mình làm một ly nha bạn ơi!*
+  > *Trà đào 29k cho một khoảng nghỉ ngắn.*  
+  > *Hôm nay thèm thì ghé tụi mình làm một ly nghen!*
 
 ---
 
@@ -231,14 +232,14 @@
 - **Bất biến bắt buộc (Expected Invariants):**
   - Món nước: `Trà đào` và mức giá `29k`.
   - Dữ kiện brief cung cấp: `Khách hay ghé mua sau giờ tan học` (khai thác khéo léo, tự nhiên).
-  - Vai trò sản phẩm: Món giải nhiệt / chỗ dừng chân thân thuộc sau giờ học tan trường.
+  - Vai trò sản phẩm: Món quen / chỗ dừng chân thân thuộc sau giờ tan học.
 - **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
   - ❌ Tự bịa tên trường học cụ thể (*"các bạn trường Nguyễn Thị Minh Khai"*).
   - ❌ Tự bịa cảm xúc thi cử hay tình huống học đường cụ thể (*"sau giờ kiểm tra 1 tiết căng thẳng"*, *"kỳ thi đại học"*).
   - ❌ Tự bịa quy mô nhóm bạn (*"nhóm 4-5 bạn rủ nhau"*).
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Tầm giờ tan học, quán lại rộn ràng hơn một chút khi các bạn ghé mua trà đào mang đi.*  
-  > *Một ly trà đào 29k vừa quen vừa mát lòng, ghé ngang làm một ly rồi thong thả về nhà nghen bạn ơi!*
+  > *Một ly trà đào 29k quen thuộc, ghé ngang làm một ly rồi thong thả về nhà nghen bạn ơi!*
 
 ---
 
@@ -253,6 +254,154 @@
   - ❌ Tự bịa giá tiền (*"chỉ 25k"* hay *"29k"*).
   - ❌ Tự bịa topping, nguyên liệu (*"đào ngâm giòn sần sật"*).
   - ❌ Tự gượng ép tạo bối cảnh giả tạo (*"chiều nay ghé quán ngồi làm việc ngắm mưa"*).
+  - ❌ Tự bịa hiệu ứng cảm xúc (*"thấy nhẹ lòng"*, *"ngụm trà thơm"*).
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
-  > *Đôi khi không cần nghĩ ngợi quá nhiều, chỉ cần một ly trà đào quen thuộc là đủ thấy nhẹ lòng.*  
-  > *Hôm nay thèm một ngụm trà thơm thì ghé quán tụi mình nha!*
+  > *Đôi khi chẳng cần gì phức tạp, chỉ một ly trà đào quen thuộc là đủ.*  
+  > *Hôm nay thèm thì ghé quán tụi mình làm một ly nha bạn ơi!*
+
+---
+
+## PHẦN 3: 8 BÀI KIỂM TRA HỒI QUY NGÔN TỪ (WORDCRAFT FIXTURES W01 ĐẾN W08)
+
+> 🔴 **NGUYÊN TẮC ĐÁNH GIÁ WORDCRAFT:**  
+> - **Creative freedom applies to EXPRESSION, not EVIDENCE.** (Tự do sáng tạo thuộc về diễn đạt, không thuộc về bằng chứng).  
+> - **6 Tiêu chuẩn nghiệm thu Wordcraft:**  
+>   1. `No unsupported sensory claim` (Không tự thêm vị giác/nhiệt độ: thơm, béo, ngọt, đậm, mát khi chưa có dữ liệu).  
+>   2. `No product effect` (Không tự thêm tác dụng: tỉnh táo, thư giãn, dễ chịu, nạp năng lượng, giải nhiệt, nhẹ lòng).  
+>   3. `Natural Vietnamese` (Người Việt đời thường có thực sự nói/viết vậy không? Triệt tiêu cấu trúc dịch tiếng Anh).  
+>   4. `Concise & rhythmic` (Nhịp câu linh hoạt, tránh câu ghép lê thê 3-4 vế nối).  
+>   5. `Human-like (Zero AI Cliché)` (Quét sạch: "mang đến", "giúp bạn", "tận hưởng", "đánh thức giác quan", "khởi đầu tuyệt vời").  
+>   6. `Commercially usable` (Có lý do quan tâm tự nhiên, tạo động lực mua hàng nhẹ nhàng).
+
+---
+
+### Test W01 — Triệt tiêu sáo ngữ AI (AI Cliché Removal)
+- **Đầu vào (User Prompt):**  
+  `Trà đào 29k. Viết caption Facebook tự nhiên.`
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Món: `Trà đào` (hoặc `trà đào`), giá: `29k` (hoặc `29.000đ`).
+  - Lọc sạch 100% các cụm sáo rỗng AI ("mang đến trải nghiệm tuyệt vời", "bản giao hưởng", "đánh thức vị giác", "sự kết hợp hoàn hảo").
+  - Không thêm sensory/effect không có trong brief.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns):**
+  - ❌ *"mang đến..."*, *"giúp bạn..."*, *"tận hưởng..."*, *"thư giãn"*, *"tuyệt vời"*.
+  - ❌ Tự bịa vị *"thơm ngọt mát lạnh"*.
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Trà đào 29k.*  
+  > *Thèm thì làm một ly thôi.*
+
+---
+
+### Test W02 — Khẩu ngữ đời thường người Việt (Spoken Vietnamese)
+- **Đầu vào (User Prompt):**  
+  `Trà sữa truyền thống 25k. Viết caption Facebook ngắn, giọng thân thiện, có CTA nhẹ.`
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Món: `Trà sữa truyền thống` (hoặc `trà sữa`), giá: `25k`.
+  - Giọng khẩu ngữ tự nhiên người Việt (dùng từ xưng hô / lời rủ rê thân tình: "làm một ly", "ghé quán nha").
+  - Câu từ gãy gọn, không đao to búa lớn.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns):**
+  - ❌ Dùng cấu trúc hành chính / PR ("kính mời quý khách thưởng thức sản phẩm").
+  - ❌ Tự phong "best-seller", tự bịa topping trân châu.
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Trà sữa truyền thống 25k.*  
+  > *Ghé quán làm một ly quen rồi tiếp tục công việc nha bạn ơi.*
+
+---
+
+### Test W03 — Kết hợp từ tự nhiên F&B (Collocation Accuracy)
+- **Đầu vào (User Prompt):**  
+  `Khách văn phòng ghé mua mang đi giữa giờ. Cà phê đen 20k. Viết caption ngắn.`
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Món: `Cà phê đen` (hoặc `cà phê`), giá: `20k`.
+  - Kết hợp từ tự nhiên đúng ngữ cảnh F&B ("ghé ngang lấy một ly", "mang đi", "tranh thủ giữa giờ").
+  - Tránh các cụm từ ghép kiểu AI ("thực hiện việc nạp năng lượng", "tối ưu hóa khoảng nghỉ").
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns):**
+  - ❌ Tự bịa effect: "tỉnh táo tức thì", "đánh thức sự tập trung", "xua tan cơn buồn ngủ".
+  - ❌ Tự bịa vị "đắng đậm thơm lừng".
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Tranh thủ vài phút giữa giờ ghé ngang lấy ly cà phê đen 20k mang đi.*  
+  > *Một chút giải lao trước khi quay lại bàn làm việc.*
+
+---
+
+### Test W04 — Kỹ thuật nhịp điệu câu chữ (Sentence Rhythm)
+- **Đầu vào (User Prompt):**  
+  `Trà sữa 25k. Viết caption Facebook cho người muốn tự thưởng sau ngày bận rộn.`
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Món: `Trà sữa` (hoặc `trà sữa 25k`), giá: `25k`.
+  - Nhịp điệu câu linh hoạt (ngắn → vừa → câu buông/lời mời), tránh câu ghép 3-4 vế lê thê.
+  - Thấu cảm tâm lý tự thưởng mà không khẳng định tác dụng tâm sinh lý.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns):**
+  - ❌ Câu ghép dài dòng ("Sau những giờ làm việc mệt mỏi đầy căng thẳng giữa nhịp sống hối hả...").
+  - ❌ Tự bịa effect: "xua tan áp lực", "thấy nhẹ lòng", "lấy lại năng lượng".
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Ngày bận rộn thì cứ bận rộn.*  
+  > *Xong việc rồi, tự thưởng một ly trà sữa 25k cũng đâu có quá nhiều.*  
+  > *Ghé quán làm một ly nha bạn ơi!*
+
+---
+
+### Test W05 — Triệt tiêu trùng lặp ngôn từ (Repetition Removal)
+- **Đầu vào (User Prompt):**  
+  `Quán có trà đào 29k. Không gian ngồi lại thoải mái. Viết caption Facebook 3 câu.`
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Món: `Trà đào`, giá: `29k`, không gian: `ngồi lại thoải mái` (từ brief).
+  - Không lặp từ khóa (tránh lặp 3 lần từ "ly", "quán", "thoải mái" trong bài ngắn 3 câu).
+  - Đa dạng cấu trúc mở đầu câu.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns):**
+  - ❌ Lặp từ thô thiển hoặc lặp cấu trúc ngữ pháp liên tục.
+  - ❌ Tự thêm máy lạnh, wifi, ổ cắm điện khi brief không nói.
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Trà đào 29k.*  
+  > *Bàn ghế sẵn sàng, ghé quán tìm một góc ngồi lại thong thả nhâm nhi.*  
+  > *Ghé tụi mình chơi nhé!*
+
+---
+
+### Test W06 — Khớp sắc thái cảm xúc đúng tone (Tone Matching)
+- **Đầu vào (User Prompt):**  
+  `Trà đào 29k. Viết caption theo tone Hài hước / Tự trào.`
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Món: `Trà đào 29k`.
+  - Sắc thái: Hài hước, tự trào nhẹ nhàng, hóm hỉnh đời thường.
+  - Ngôn từ trẻ trung nhưng không tục tĩu, không lố, không đao to búa lớn.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns):**
+  - ❌ Bịa đặt biến cố tài chính/lương bổng cụ thể ("chưa nhận lương", "hết tiền").
+  - ❌ Bịa claim sản phẩm "ngon nhức nách", "uống vào là hết buồn".
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Ví tiền dặn hôm nay phải tiết kiệm.*  
+  > *Nhưng trà đào 29k thì... tự cho phép ngoại lệ một lần vậy.*  
+  > *Ghé quán làm một ly không bạn ơi?*
+
+---
+
+### Test W07 — Cụ thể hóa không bịa đặt (Abstract to Concrete without Hallucination)
+- **Đầu vào (User Prompt):**  
+  `[Ảnh một ly cà phê đặt trên bàn gỗ, cạnh laptop và sổ tay]`  
+  `Viết caption Facebook ngắn gọn, có chất làm việc/lifestyle.`
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Dữ kiện quan sát [OBSERVED]: `ly cà phê`, `bàn gỗ`, `laptop`, `sổ tay`.
+  - Cụ thể hóa hành động thực tế thay vì dùng khái niệm trừu tượng ("trải nghiệm làm việc thăng hoa").
+  - Tuyệt đối không suy diễn nhiệt độ ly cà phê, mùi vị hay thời gian trong ngày.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns):**
+  - ❌ Tự bịa effect: "tập trung cao độ", "khơi nguồn sáng tạo", "tỉnh táo làm việc".
+  - ❌ Tự bịa thời gian: "buổi sáng 8h", "chiều muộn".
+  - ❌ Tự suy đoán vị: "cà phê đen đậm đắng thơm nồng".
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Một góc bàn gỗ, cuốn sổ mở sẵn bên ly cà phê.*  
+  > *Gõ vài dòng việc, nhấp một ngụm rồi lại tiếp tục.*
+
+---
+
+### Test W08 — Viết lại chuẩn xác ngữ nghĩa & gọt bỏ sáo rỗng (Strict Rewrite + Semantic Fidelity)
+- **Đầu vào (User Prompt):**  
+  `Câu gốc: "Một ly trà đào cam sả thơm ngon mát lành mang đến cho bạn trải nghiệm tuyệt vời để xua tan cơn khát."`  
+  `Yêu cầu: Viết lại tự nhiên hơn, gọt bỏ sáo ngữ AI, giữ trọn vẹn dữ kiện gốc (không thêm fact mới).`
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Bảo toàn đúng các dữ kiện gốc: món `trà đào cam sả`, đặc tính `thơm ngon`, `mát lành` (vì câu gốc đã có sẵn).
+  - Loại bỏ hoàn toàn sáo ngữ AI: *"mang đến cho bạn trải nghiệm tuyệt vời"*, *"xua tan cơn khát"*.
+  - Diễn đạt trôi chảy, thuần khẩu ngữ tiếng Việt, không chêm thêm topping hay giá tiền.
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns):**
+  - ❌ Giữ lại "tuyệt vời", "trải nghiệm tuyệt vời" hoặc thay bằng "khởi đầu tuyệt vời".
+  - ❌ Thêm giá tiền, thêm topping trân châu, thêm thời gian.
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Một ly trà đào cam sả thơm ngon, mát lành cho ngày mới.*

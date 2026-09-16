@@ -29,55 +29,56 @@ Một lỗi phổ biến khi trau chuốt câu chữ là biến **Vai trò sản
 
 ---
 
-## 2. 7 Kiểm Tra Hậu Kỳ Ngôn Ngữ (Language Polish Checklist)
+## 2. 8 Tiêu Chuẩn Hậu Kỳ Ngôn Từ (Wordcraft 8-Point Checklist)
 
-Khi chạy bước hậu kỳ (ngầm thực hiện trong đầu, không xuất reasoning ra ngoài), rà soát 7 điểm:
+Khi chạy bước hậu kỳ (ngầm thực hiện trong đầu một lượt duy nhất, không xuất reasoning ra ngoài chat), rà soát 8 điểm:
 
-### [1] Natural Vietnamese (Người Việt Có Nói Thế Này Không?)
-- Đọc từng câu và tự hỏi: *"Người bán hàng hoặc một người Việt bình thường có thực sự nói câu này ngoài đời không?"*
-- Nếu câu nghe giống văn dịch tiếng Anh, văn mẫu quảng cáo tập đoàn, hay sách kỹ năng sống $\rightarrow$ **Viết lại ngay**.
+### [1] Word Choice (Chọn Từ Chuẩn F&B Đời Thường)
+- Dùng từ ngữ gần gũi, chính xác, có độ nảy của tiếng Việt ẩm thực.
+- Tránh xa từ ngữ hành chính, học thuật hoặc sách kỹ năng sống (*"thực hiện thưởng thức"*, *"tối ưu hóa năng lượng"*, *"giá trị thăng hoa"*).
 
-### [2] Word Choice & F&B Collocation (Cụm Từ Tự Nhiên Đúng Ngành)
+### [2] Collocation (Cụm Từ Tự Nhiên Theo Thói Quen Người Việt)
 - **Ưu tiên collocation tự nhiên:**
-  - *"một khoảng nghỉ"* ✅ | *"ghé làm một ly"* ✅ | *"thưởng cho mình một ly"* ✅ | *"ngồi lại một chút"* ✅
+  - *"một khoảng nghỉ"* ✅ | *"ghé làm một ly"* ✅ | *"tự thưởng một ly"* ✅ | *"ngồi lại một chút"* ✅
   - Tránh collocation sáo rỗng: *"khoảng nghỉ ngọt ngào"* ⚠️ | *"khoảnh khắc diệu kỳ"* ❌
-- **Cảnh giác các cụm từ AI quen thuộc:**
-  - ❌ *"nạp lại cảm giác tươi mới"* $\rightarrow$ ✅ *"tìm chút cảm giác nhẹ nhõm"* hoặc *"cho một khoảng nghỉ"*
-  - ❌ *"lấy lại cảm giác dễ chịu"* $\rightarrow$ ✅ *"thấy lòng mình êm lại"* hoặc *"chậm lại một nhịp"*
+- **Cảnh giác các cụm từ AI cliché núp bóng cảm xúc (Claim Laundering):**
+  - ❌ *"nạp lại cảm giác tươi mới"* $\rightarrow$ ✅ *"cho một khoảng nghỉ ngắn"* hoặc *"dừng tay vài phút"*
+  - ❌ *"lấy lại cảm giác dễ chịu"* $\rightarrow$ ✅ *"chậm lại một nhịp"* hoặc *"làm một ly quen"*
   - ❌ *"đánh thức mọi giác quan / bùng nổ hương vị"* $\rightarrow$ ✅ Dùng mô tả thị giác cụ thể từ ảnh/menu.
-  - ❌ *"mang đến trải nghiệm tuyệt vời / nâng tầm trải nghiệm"* $\rightarrow$ ✅ Đi thẳng vào hành động: *"Ghé quán làm một ly quen nhé."*
+  - ❌ *"mang đến trải nghiệm tuyệt vời / khởi đầu tuyệt vời"* $\rightarrow$ ✅ Đi thẳng vào thực tế: *"Ghé quán làm một ly nhé."* hoặc *"Một ly trà sữa béo ngậy cho ngày mới."*
 
 ### [3] Sentence Rhythm (Nhịp Điệu Câu)
-- **Cấu trúc nhịp tối ưu:** Câu ngắn $\rightarrow$ Câu vừa $\rightarrow$ Một câu nhấn/punchline.
+- **Cấu trúc nhịp tối ưu:** Câu ngắn $\rightarrow$ Câu vừa $\rightarrow$ Một câu buông/punchline.
 - **Tránh câu dài lòng thòng nhiều vế nối:**
   - ❌ *"Giữa những ngày bận rộn với rất nhiều công việc cần phải hoàn thành thì đôi khi chúng ta cũng cần dành cho mình một khoảng thời gian nhỏ để nghỉ ngơi..."*
   - ✅ *"Ngày bận rộn thì cứ bận rộn. Nhưng cũng nên chừa cho mình vài phút."*
 
-### [4] Emotional Temperature & Tone Matching
+### [4] Tone Matching (Khớp Sắc Thái Cảm Xúc)
 - **Khớp từ vựng với Tone bài viết:**
   - Tone nhẹ nhàng / tâm sự: Tránh từ đao to búa lớn (*"cực phẩm"*, *"bùng nổ"*, *"đỉnh của chóp"*).
   - Tone vui vẻ / hài hước: Dùng ngôn ngữ tự trào, khẩu ngữ tự nhiên, không triết lý nặng nề.
   - Tone tối giản / thẩm mỹ: Câu từ cô đọng, ít tính từ, ngắt dòng thoáng.
   - Tone cao cấp / specialty: Lịch thiệp, chuẩn xác, hạn chế tiếng lóng.
 
-### [5] Remove AI-like Language (Cờ Đỏ Ngôn Từ Sáo Rỗng)
-Cảnh giác cao độ với các cấu trúc khuôn mẫu của AI:
+### [5] Spoken Vietnamese (Khẩu Ngữ Đời Thường)
+- Đọc to từng câu và tự hỏi: *"Người bán hàng hoặc một người Việt bình thường có thực sự nói/viết câu này ngoài đời không?"*
+- Nếu câu nghe giống văn dịch tiếng Anh, văn mẫu brochure tập đoàn $\rightarrow$ **Viết lại ngay** bằng ngôn ngữ giao tiếp tự nhiên (*"Thèm thì làm một ly thôi."*).
+
+### [6] AI Cliché Removal (Triệt Tiêu Sáo Ngữ AI)
+Cảnh giác cao độ và loại bỏ các cấu trúc khuôn mẫu của AI:
 - `không chỉ... mà còn...`
 - `mang đến...`
 - `giúp bạn...`
 - `tận hưởng... / trải nghiệm...`
 - `chạm đến cảm xúc / đánh thức...`
 - `hành trình... / trọn vẹn từng khoảnh khắc...`
-- `sự kết hợp hoàn hảo...`
+- `sự kết hợp hoàn hảo... / khởi đầu tuyệt vời...`
 
-*Không cần blacklist cực đoan, nhưng nếu có cách nói đời thường tự nhiên hơn $\rightarrow$ ưu tiên cách nói đời thường.*
+### [7] Repetition Removal (Lọc Bỏ Trùng Lặp)
+- Triệt tiêu việc lặp đi lặp lại một từ khóa trong cùng một đoạn văn (ví dụ: xuất hiện 3 lần từ *"ly"*, 2 lần từ *"ngày mới"*).
+- Đa dạng hóa cấu trúc ngữ pháp giữa các câu, tránh tình trạng 3 câu liên tiếp đều mở đầu bằng *"Một..."* hoặc *"Đôi khi..."*.
 
-### [6] Concrete > Abstract (Cụ Thể Hóa Ngôn Từ, Không Bịa Fact)
-- Trừu tượng: *"Một trải nghiệm đồ uống khó quên."* ❌
-- Cụ thể (nhưng không bịa fact): *"Trà đào 29k. Ghé quán làm một ly rồi nghỉ một lát nha bạn ơi."* ✅
-- 🔴 **Tuyệt đối không biến concrete thành hallucination:** Không tự thêm topping (*"đào giòn sần sật"*), nhiệt độ (*"mát rượi"*), hay thời gian (*"chiều nay 2h"*) khi brief không cho.
-
-### [7] Claim Boundary Re-check (Chốt Chặn Ranh Giới Dữ Kiện Lần Cuối)
+### [8] Claim Boundary Re-check (Chốt Chặn Ranh Giới Dữ Kiện)
 Trước khi xuất bản, rà soát lại xem câu chữ vừa trau chuốt có vô tình làm rò rỉ:
 - **Product attributes:** thơm, béo, ngọt, đậm, mát, tươi, thơm ngọt (nếu brief chưa cho).
 - **Customer effect:** tỉnh táo, thư giãn, dễ chịu, nhẹ lòng, nạp năng lượng, giảm stress, giải nhiệt.
@@ -123,7 +124,7 @@ Dưới đây là các ví dụ minh họa cách Wordcraft nâng tầm câu ch�
   *(Lỗi: bịa effect "đánh thức tập trung", bịa vận hành "không mất nhiều thời gian chờ đợi", sáo ngữ "hãy tận hưởng giải pháp").*
 - ✅ **EXCELLENT WORDCRAFT (Cụ thể, thấu cảm, nhịp câu có lực):**  
   > *Vài phút giữa giờ, kịp ghé làm ly trà đào 29k rồi quay lại bàn làm việc.*  
-  > *Một khoảng dừng ngắn vậy thôi, mà thấy nhịp ngày nhẹ hẳn đi.*  
+  > *Một khoảng dừng ngắn vậy thôi trước khi tiếp tục công việc.*  
   > *Tiện đường ghé quán lấy một ly mang đi nhé!*
 
 ---

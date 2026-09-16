@@ -51,14 +51,14 @@ Mục tiêu: Chuyển từ "đọc thấy hay" sang "muốn thưởng thức mó
 
 ### 3.1. Vai Trò Sản Phẩm Rõ Ràng (Product Role as Solution / Reward)
 Món nước không chỉ là một danh từ với giá tiền, mà đóng một vai trò cụ thể trong đời sống khách:
-- **Giải pháp:** Xua tan cơn khát, giải nhiệt buổi trưa hè.
-- **Phần thưởng nhỏ:** Tự thưởng một chút ngọt ngào sau vài tiếng tập trung.
+- **Khoảng nghỉ:** Dừng tay vài phút, nhâm nhi một món quen giữa ngày.
+- **Phần thưởng nhỏ:** Tự thưởng một ly sau ngày bận rộn.
 - **Điểm kết nối:** Món nước mang đi chia sẻ cùng bạn bè, đồng nghiệp.
 
 ### 3.2. Giá Trị Mỏ Neo & So Sánh Tương Quan (Anchoring & Value Contrast)
 Giúp khách cảm nhận sự xứng đáng và vừa vặn của món nước so với giá trị nó mang lại.
 - **Cách dùng:** So sánh mức giá với một niềm vui nho nhỏ trong ngày.
-- **Ví dụ đúng:** *"Chỉ 29k cho một khoảng nghỉ mát lành giữa trưa..."* `[CREATIVE: so sánh mỏ neo, giữ đúng giá 29k]`.
+- **Ví dụ đúng:** *"Chỉ 29k cho một khoảng nghỉ nhỏ giữa ngày..."* `[CREATIVE: so sánh mỏ neo, giữ đúng giá 29k]`.
 
 ### 3.3. Tưởng Tượng Giả Định (Hypothetical Future Pacing)
 Giúp người đọc hình dung khoảnh khắc thưởng thức hoặc trải nghiệm hương vị.

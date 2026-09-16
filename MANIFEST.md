@@ -30,10 +30,10 @@ content-social-skill/
 │   ├── hooks.md             # Kỹ thuật mở bài, Rhythm & Promise-Payoff, 6 dạng Hook thấu cảm & Reason to Care
 │   ├── psychology.md        # Tâm lý bán hàng F&B (Attention → Relevance → Desire → Action, giữ nghiêm Semantic Fidelity)
 │   ├── pricing.md           # Kỹ thuật viết giá & ưu đãi an toàn bằng placeholder (không tự thêm điều kiện promo)
-│   ├── regression-fixtures.md # Bộ kiểm tra hồi quy chuẩn mực (8 bài ranh giới dữ kiện + 5 bài Consumer Insight CI-1..CI-5)
+│   ├── regression-fixtures.md # Bộ kiểm tra hồi quy chuẩn mực (8 Provenance + 5 Consumer Insight + 8 Wordcraft)
 │   └── examples.md          # Tuyển tập 28+ bài viết mẫu chuẩn mực theo Source-Provenance Rule (v4.9.1)
 └── tests/
-    └── core-tests.md        # Bộ kiểm thử cốt lõi (8 bài Provenance + 5 bài Consumer Insight + 10 kịch bản thực tế)
+    └── core-tests.md        # Bộ kiểm thử cốt lõi (8 Provenance + 5 Consumer Insight + 8 Wordcraft + 10 kịch bản thực tế)
 ```
 
 ---
@@ -56,7 +56,7 @@ content-social-skill/
 | :--- | :--- | :--- | :--- |
 | `README.md` | Tài liệu giới thiệu tổng quan dự án | 4.9.1 | ✅ Active |
 | `SKILL.md` | Bộ não điều khiển, Prime Directive, Wordcraft Layer, Adaptive Pipeline | 4.9.1 | ✅ Active |
-| `references/wordcraft.md` | Hướng dẫn chau chuốt ngôn từ, nhịp điệu, collocation, Before $\rightarrow$ After | 4.9.1 | ✅ Active |
+| `references/wordcraft.md` | Hướng dẫn chau chuốt ngôn từ: 8-point check, collocation, Before $\rightarrow$ After | 4.9.1 | ✅ Active |
 | `references/platforms.md` | Hướng dẫn định dạng 5 nền tảng, quy tắc gợi ý mềm (Soft Heuristics) | 4.9.1 | ✅ Active |
 | `references/tones.md` | 5 tone giọng F&B, Ma trận thông số Tone & Data-layer tagged | 4.9.1 | ✅ Active |
 | `references/formulas.md` | Công thức cốt lõi & Chuỗi tư duy bán hàng tự nhiên | 4.9.1 | ✅ Active |
@@ -64,9 +64,9 @@ content-social-skill/
 | `references/storytelling.md` | 8 góc nhìn theo Reader Attention, khóa chặt Creative ≠ Factual | 4.9.1 | ✅ Active |
 | `references/psychology.md` | Chuỗi tâm lý bán hàng (Attention → Relevance → Desire → Action) | 4.9.1 | ✅ Active |
 | `references/pricing.md` | Trình bày giá & ưu đãi an toàn bằng placeholder tagged | 4.9.1 | ✅ Active |
-| `references/regression-fixtures.md` | 8 bài hồi quy Provenance + 5 bài Consumer Insight (CI-1 đến CI-5) | 4.9.1 | ✅ Active |
+| `references/regression-fixtures.md` | 8 bài Provenance + 5 bài Consumer Insight + 8 bài Wordcraft (W01-W08) | 4.9.1 | ✅ Active |
 | `references/examples.md` | Tuyển tập 28+ bài mẫu F&B chuẩn theo Source-Provenance Rule | 4.9.1 | ✅ Active |
-| `tests/core-tests.md` | 8 bài Provenance + 5 bài Consumer Insight + 10 kịch bản thực chiến | 4.9.1 | ✅ Active |
+| `tests/core-tests.md` | 8 bài Provenance + 5 bài Consumer Insight + 8 bài Wordcraft + 10 kịch bản | 4.9.1 | ✅ Active |
 
 ---
 
@@ -76,10 +76,19 @@ content-social-skill/
 - **Bổ sung tầng hậu kỳ ngôn từ (Wordcraft / Language Polish Layer):**
   - Đóng khung nguyên tắc: *"WHAT TO SAY đã đủ mạnh. Bây giờ nâng tầm HOW TO SAY."*
   - Ranh giới cốt lõi: *"Creative freedom applies to EXPRESSION, not EVIDENCE."* (Wordcraft chỉ sửa câu chữ cho đắt hơn, tuyệt đối không được sáng tạo thêm sự thật).
-  - Tích hợp 1 lượt hậu kỳ duy nhất (Single Language Polish Pass) với 7 tiêu chuẩn ngầm: Natural Vietnamese, Word choice & Collocation, Sentence Rhythm, Emotional Temperature, Remove AI-like phrases, Concrete > Abstract, Claim Boundary Re-check.
+  - Tích hợp 1 lượt hậu kỳ duy nhất (Single Language Polish Pass) với **8 tiêu chuẩn kiểm tra ngầm**: Word choice, Collocation, Rhythm, Tone, Spoken Vietnamese, AI cliché, Repetition, Claim boundary.
   - Phân biệt tuyệt đối **Product Role** (vai trò sản phẩm / cái cớ ghé quán: self-reward, occasion, familiar choice) vs **Product Effect** (tác dụng tâm lý/sinh lý: "uống vào thấy nhẹ lòng", "lấy lại năng lượng", "tập trung" $\rightarrow$ cấm nếu brief không có).
   - Tích hợp tài liệu mới [`references/wordcraft.md`](references/wordcraft.md) cung cấp hướng dẫn chuyên sâu và kho ví dụ Before $\rightarrow$ After.
-  - Thích ứng hóa theo Adaptive Pipeline: Fast Path dùng *Quick Wordcraft* (gần như không tốn thêm token), Deep Path dùng *Deep Wordcraft* cho chiến dịch sâu.
+  - Thích ứng hóa theo Adaptive Pipeline: Fast Path dùng *Quick Wordcraft*, Deep Path dùng *Deep Wordcraft* (8-point).
+- **Khóa chặt Why Care / Reason to Care (Triệt tiêu Claim Laundering):**
+  - Cấm mặc định gán ghép các từ hiệu ứng sản phẩm/tâm sinh lý (`giải nhiệt`, `giải khát`, `nạp năng lượng`, `tỉnh táo`, `thư giãn`, `dễ chịu`, `nhẹ lòng`, `tươi mới`, `tập trung`) trong cả Fast Path lẫn Quick QA.
+  - Chỉ chọn Why Care từ: (1) Explicit context từ brief, (2) Product Role hợp lệ, (3) Universal creative framing không tạo claim.
+- **Thanh lọc toàn diện tín hiệu giảng dạy (Teaching Signal Cleanup):**
+  - Sửa mẫu Strict Rewrite trong `examples.md`, `regression-fixtures.md` và `tests/core-tests.md`: gọt sạch sáo ngữ AI *"khởi đầu tuyệt vời"*, chỉ giữ *"Một ly trà sữa thơm ngon, béo ngậy cho ngày mới."*
+  - Làm sạch mẫu CI-1 (xóa *"ngọt thơm"*, *"nạp lại hứng khởi"*), CI-4 (xóa *"mát lòng"*), CI-5 (xóa *"thấy nhẹ lòng"*, *"ngụm trà thơm"*).
+  - Rà soát sạch các tham chiếu trong `hooks.md`, `formulas.md`, `psychology.md`.
+- **Bổ sung 8 bài kiểm tra hồi quy ngôn từ Wordcraft (W01 đến W08):**
+  - W01 (AI cliché removal), W02 (Spoken Vietnamese), W03 (Collocation), W04 (Sentence rhythm), W05 (Repetition), W06 (Tone matching), W07 (Abstract → concrete without hallucination), W08 (Strict rewrite + semantic fidelity).
 
 ### v4.9.0 (2026-09-16) — Consumer Insight & Sales Writing Edition
 - **Tích hợp lớp Consumer Insight nhẹ nhàng trước Dominant Idea:**

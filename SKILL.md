@@ -38,13 +38,21 @@ version: 4.9.1
 >
 > 💡 **3 CẤP ĐỘ TRÍCH XUẤT INSIGHT (KHÔNG OVERTHINKING):**  
 > - **Level 1 — Explicit Insight (Có sẵn từ brief):** Brief nói rõ bối cảnh (khách ghé sau giờ tan học, cần món mang đi nhanh, có deal tiết kiệm) $\rightarrow$ Khai thác trực tiếp vào bài.  
-> - **Level 2 — Relatable Human Truth (Chân lý đời thường phổ quát):** Brief không nêu insight $\rightarrow$ Dùng cảm xúc đời thường phổ quát dạng creative framing (cần khoảng nghỉ, tự thưởng ly quen, tìm chút cảm giác tươi mới, giải lao vài phút) mà không tự vẽ persona cụ thể.  
+> - **Level 2 — Relatable Human Truth (Chân lý đời thường phổ quát):** Brief không nêu insight $\rightarrow$ Dùng cảm xúc đời thường phổ quát dạng creative framing (cần khoảng nghỉ ngắn, tự thưởng một ly quen, dừng tay vài phút) mà không tự vẽ persona cụ thể.  
 > - **Level 3 — Product-only (Dữ kiện cực ngắn):** Brief chỉ có *"Trà đào 29k"* $\rightarrow$ Không cố ép insight to tát, không dựng persona "dân văn phòng"; chỉ cần viết: *"Trà đào 29k. Thèm thì làm một ly thôi."*  
 >
 > 🛍️ **CHUỖI TƯ DUY BÁN HÀNG & PRODUCT ROLE:**  
 > `SITUATION` $\rightarrow$ `TENSION` $\rightarrow$ `DESIRE` $\rightarrow$ `PRODUCT ROLE`  
-> - **Product Role (Vai trò sản phẩm trong khoảnh khắc đó):** Giải pháp giải lao, phần thưởng nhỏ trong ngày, món quen thuộc, món mới để thử, lựa chọn tiết kiệm, món để chia sẻ, lý do ghé quán.  
+> - **Product Role (Vai trò sản phẩm trong khoảnh khắc đó):** Khoảng nghỉ giữa ngày, phần thưởng nhỏ, món quen thuộc, món mới để thử, lựa chọn tiết kiệm, món để chia sẻ, lý do ghé quán.  
 > - **CTA gắn liền với Desire:** Kêu gọi hành động tự nhiên theo đúng mong muốn (thử món mới $\rightarrow$ *"ghé thử một ly nha"*; tự thưởng $\rightarrow$ *"tự thưởng cho mình một ly quen nhé"*; ưu đãi $\rightarrow$ *"nhớ mang theo bình cá nhân nha"*).  
+>
+> 🔒 **QUY TẮC KHÓA CHẶT WHY CARE / REASON TO CARE (CHỐNG CLAIM LAUNDERING):**  
+> Khi xác định lý do khách hàng quan tâm (Why Care / Reason to Care), **CHỈ ĐƯỢC CHỌN TỪ:**  
+> 1. Bối cảnh tường minh do người dùng cung cấp trong brief (explicit context).  
+> 2. Vai trò sản phẩm (Product Role) hợp lệ được brief hỗ trợ (khoảng nghỉ, tự thưởng, món quen, lý do ghé quán).  
+> 3. Creative framing phổ quát không biến thành product/customer claim (dừng tay vài phút, ngồi lại một chút).  
+> 🔴 **TUYỆT ĐỐI KHÔNG MẶC ĐỊNH GÁN GHÉP CÁC TỪ HIỆU ỨNG:** `giải nhiệt`, `giải khát`, `nạp năng lượng`, `tỉnh táo`, `thư giãn`, `dễ chịu`, `nhẹ lòng`, `tươi mới`, `tập trung`.  
+>
 > - **Tuyệt đối không hiểu nhầm "Không bịa đặt" thành "Chỉ lặp lại những gì người dùng nói"**: Phân định rạch ròi các không gian dữ liệu:  
 >   - **Factual Space:** Chỉ chứa `[PROVIDED]` và `[OBSERVED]`.  
 >   - **Creative Space:** Chứa mood, ẩn dụ, nhịp điệu, góc nhìn cảm xúc, văn phong đời thường, lời rủ rê thân tình mà không khẳng định các fact vô căn cứ.  
@@ -125,7 +133,7 @@ Quy trình xử lý tự động phân nhánh theo độ phức tạp của yêu
 FACT (Món, giá, dữ kiện đã cho)
   │
   ▼
-WHY CARE? (Lý do khách quan tâm: giải khát, giải lao, phần thưởng nhỏ?)
+WHY CARE? (Lý do quan tâm: khoảng nghỉ ngắn, tự thưởng, món quen? CẤM MẶC ĐỊNH: giải nhiệt, giải khát, nạp năng lượng)
   │
   ▼
 DRAFT (Viết bản nháp nhanh)
@@ -149,13 +157,13 @@ OUTPUT (Trả kết quả ngay)
 INPUT (Text Brief / Image)
   │
   ▼
-OBSERVE / UNDERSTAND (Bóc tách Fact: [PROVIDED], [OBSERVED])
+OBSERVE & PROVENANCE ([OBSERVED] vs [PROVIDED] vs [CREATIVE] vs [HYPOTHETICAL])
   │
   ▼
-CONSUMER INSIGHT (Tension, Desire, Product Role)
+CONSUMER INSIGHT (Tension, Desire & Product Role — không tự bịa demographic/effect)
   │
   ▼
-ONE DOMINANT IDEA (1 thông điệp chủ đạo)
+ONE DOMINANT IDEA (Chọn 1 ý tưởng cốt lõi: Mood / Product / Promo / Story)
   │
   ▼
 ANGLE (Chọn 1 trong 8 góc nhìn đắt giá nhất)
@@ -189,14 +197,15 @@ Chạy **một lượt hậu kỳ duy nhất (Single Polishing Pass)** trong đ�
 DRAFT
   │
   ▼
-LANGUAGE POLISH PASS
-  ├─ [1] Natural Vietnamese (Người Việt ngoài đời có thực sự nói/viết câu này không?)
-  ├─ [2] Word Choice & Collocation (Cụm từ đúng ngữ cảnh F&B, bỏ từ sáo rỗng AI)
-  ├─ [3] Sentence Rhythm (Ngắn → vừa → câu nhấn; không nối mệnh đề lòng thòng)
-  ├─ [4] Emotional Temperature (Khớp từ vựng đúng tone, không vượt nhiệt độ cảm xúc)
-  ├─ [5] Remove AI-ish Phrases (Bắt cờ đỏ: "mang đến", "giúp bạn", "tận hưởng", "đánh thức vị giác"...)
-  ├─ [6] Concrete > Abstract (Cụ thể hóa hành động/món nước thay vì triết lý trừu tượng)
-  └─ [7] Claim Boundary Re-check (Chốt chặn tuyệt đối: Zero added fact / Zero unprompted sensory & effect)
+LANGUAGE POLISH PASS (Wordcraft 8-Point Check)
+  ├─ [1] Word Choice (Chọn từ chuẩn F&B, đắt giá, không dùng từ sách vở)
+  ├─ [2] Collocation (Cụm từ tự nhiên theo thói quen người Việt, bỏ cụm dịch thô)
+  ├─ [3] Sentence Rhythm (Nhịp câu: ngắn → vừa → câu buông; tránh câu ghép lê thê)
+  ├─ [4] Tone Matching (Khớp sắc thái cảm xúc của bài, không quá đà với món bình dân)
+  ├─ [5] Spoken Vietnamese (Khẩu ngữ đời thường, người Việt có thực sự nói/viết vậy không?)
+  ├─ [6] AI Cliché Removal (Quét sạch: "mang đến", "giúp bạn", "tận hưởng", "đánh thức vị giác", "khởi đầu tuyệt vời"...)
+  ├─ [7] Repetition Removal (Triệt tiêu lặp từ, lặp cấu trúc ngữ pháp giữa các câu)
+  └─ [8] Claim Boundary (Chốt chặn tuyệt đối: Zero added fact / Zero unprompted sensory & effect / Product Role ≠ Product Effect)
   │
   ▼
 FINAL OUTPUT
@@ -216,7 +225,7 @@ Chạy thầm nội bộ, thích ứng theo nhánh xử lý (KHÔNG in checklist
 
 ### ⚡ Quick QA (Áp dụng cho Nhánh 1 — Simple Brief):
 - [1] **Fact đúng & đủ:** Đúng tên món, đúng giá, đúng ưu đãi từ brief; không thiếu, không thừa.
-- [2] **Why Care:** Khách có lý do để quan tâm (giải nhiệt, khoảng nghỉ, món quen) không?
+- [2] **Why Care:** Khách có lý do để quan tâm (khoảng nghỉ ngắn, tự thưởng, món quen) mà không bịa product effect (cấm tự gán: giải nhiệt, giải khát, nạp năng lượng, tỉnh táo)?
 - [3] **Tiếng Việt tự nhiên:** Câu từ gãy gọn, đời thường, không sáo rỗng AI?
 - [4] **Zero Bịa Đặt:** Tuyệt đối không dính bẫy cấm (không bịa topping, nhiệt độ, giờ mở cửa, ship hàng).
 
