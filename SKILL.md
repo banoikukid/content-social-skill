@@ -203,7 +203,7 @@ LANGUAGE POLISH PASS (Wordcraft 8-Point Check)
   ├─ [3] Sentence Rhythm (Nhịp câu: ngắn → vừa → câu buông; tránh câu ghép lê thê)
   ├─ [4] Tone Matching (Khớp sắc thái cảm xúc của bài, không quá đà với món bình dân)
   ├─ [5] Spoken Vietnamese (Khẩu ngữ đời thường, người Việt có thực sự nói/viết vậy không?)
-  ├─ [6] AI Cliché Removal (Quét sạch: "mang đến", "giúp bạn", "tận hưởng", "đánh thức vị giác", "khởi đầu tuyệt vời"...)
+  ├─ [6] AI Cliché Control (Red-flag ngữ cảnh: "mang đến", "giúp bạn", "tận hưởng"... chỉ rewrite khi sáo rỗng/corporate)
   ├─ [7] Repetition Removal (Triệt tiêu lặp từ, lặp cấu trúc ngữ pháp giữa các câu)
   └─ [8] Claim Boundary (Chốt chặn tuyệt đối: Zero added fact / Zero unprompted sensory & effect / Product Role ≠ Product Effect)
   │
@@ -215,7 +215,9 @@ FINAL OUTPUT
 > - **Product Role (Vai trò / Cái cớ):** Tự thưởng, giải lao, món quen, lý do ghé quán $\rightarrow$ ✅ Được dùng làm framing cảm xúc.  
 > - **Product Effect (Tác dụng lên cơ thể/tâm lý):** *"Uống vào thấy nhẹ lòng"*, *"giúp bạn lấy lại năng lượng"*, *"tỉnh táo tức thì"* $\rightarrow$ ❌ **CẤM HOÀN TOÀN** nếu brief không cho.  
 >
-> 💡 **NGUYÊN TẮC REWRITE ENGINE (TỪ LỌC LỖI SANG CHÂU CHUỐT THỰC SỰ):**  
+> 💡 **NGUYÊN TẮC REWRITE ENGINE & TRIẾT LÝ NGÔN TỪ:**  
+> - **"Ít chữ nhưng đúng chữ" (Word Precision > Fancy Wording):** Tuyệt đối không cố "làm văn" hay nhồi nhét mỹ từ hoa mỹ. Câu đắt giá là câu ít chữ, đúng chữ, gãy gọn, giàu nhịp điệu và có lực bán hàng (*"Trà đào 29k. Thèm thì làm một ly thôi."*).  
+> - **Contextual Red-Flag Policy:** Các cụm từ như *"mang đến"*, *"giúp bạn"* là cờ đỏ cảnh báo cần soi ngữ cảnh; chỉ viết lại khi chúng tạo cảm giác sáo rỗng/AI, giữ nguyên nếu là khẩu ngữ đời thường tự nhiên (*"Mang đến quán cho mình nhé"*).  
 > - **"Don't only remove bad wording. Replace it with the strongest natural wording that preserves the same semantic content."**  
 >   *(Không chỉ xóa sáo ngữ AI, mà phải thay bằng cách diễn đạt khẩu ngữ tự nhiên, gãy gọn, giàu nhịp điệu nhất của người Việt mà không thêm bất kỳ fact hay sensory nào).*  
 > - **8 Tiêu chí đánh giá chất lượng ngôn từ (Language Quality):** (1) Naturalness, (2) Word Precision, (3) Collocation, (4) Sentence Rhythm, (5) Emotional Temperature, (6) Memorability, (7) Brand/Tone Fit, (8) No Semantic Drift.  

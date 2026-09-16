@@ -273,17 +273,18 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 
 ---
 
-## PHẦN 3: 8 BÀI KIỂM TRA HỒI QUY NGÔN TỪ (WORDCRAFT REGRESSION W01 ĐẾN W08)
+## PHẦN 3: 9 BÀI KIỂM TRA HỒI QUY NGÔN TỪ (WORDCRAFT REGRESSION W01 ĐẾN W09)
 
 > 🔴 **NGUYÊN TẮC ĐÁNH GIÁ WORDCRAFT:**  
 > - **Creative freedom applies to EXPRESSION, not EVIDENCE.** (Tự do sáng tạo thuộc về diễn đạt, không thuộc về bằng chứng).  
-> - **6 Tiêu chuẩn nghiệm thu Wordcraft:**  
+> - **Tiêu chuẩn nghiệm thu Wordcraft:**  
 >   1. `No unsupported sensory claim` (Không tự thêm vị giác/nhiệt độ: thơm, béo, ngọt, đậm, mát khi chưa có dữ liệu).  
 >   2. `No product effect` (Không tự thêm tác dụng: tỉnh táo, thư giãn, dễ chịu, nạp năng lượng, giải nhiệt, nhẹ lòng).  
 >   3. `Natural Vietnamese` (Người Việt đời thường có thực sự nói/viết vậy không? Triệt tiêu cấu trúc dịch tiếng Anh).  
 >   4. `Concise & rhythmic` (Nhịp câu linh hoạt, tránh câu ghép lê thê 3-4 vế nối).  
->   5. `Human-like (Zero AI Cliché)` (Quét sạch: "mang đến", "giúp bạn", "tận hưởng", "đánh thức giác quan", "khởi đầu tuyệt vời").  
->   6. `Commercially usable` (Có lý do quan tâm tự nhiên, tạo động lực mua hàng nhẹ nhàng).
+>   5. `Contextual Cliché Control` (Coi "mang đến", "giúp bạn", "tận hưởng" là red flag; viết lại khi sáo rỗng/AI, giữ nguyên nếu tự nhiên).  
+>   6. `Word Precision > Fancy Wording` (Ít chữ nhưng đúng chữ, từ ngữ cụ thể/đắt giá > tính từ chung chung).  
+>   7. `Commercially usable` (Có lý do quan tâm tự nhiên, tạo động lực mua hàng nhẹ nhàng).
 
 ---
 
@@ -292,11 +293,11 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   `Trà đào 29k. Viết caption Facebook tự nhiên.`
 - **Bất biến bắt buộc (Expected Invariants):**
   - Món: `Trà đào` (hoặc `trà đào`), giá: `29k` (hoặc `29.000đ`).
-  - Lọc sạch 100% các cụm sáo rỗng AI ("mang đến trải nghiệm tuyệt vời", "bản giao hưởng", "đánh thức vị giác", "sự kết hợp hoàn hảo").
-  - Không thêm sensory/effect không có trong brief.
+  - Dùng khẩu ngữ mộc mạc người Việt, đi thẳng vào ý định mua/thưởng thức.
+  - Loại bỏ hoàn toàn các cấu trúc AI brochure.
 - **Bẫy vi phạm cấm kỵ (Forbidden Patterns):**
-  - ❌ *"mang đến..."*, *"giúp bạn..."*, *"tận hưởng..."*, *"thư giãn"*, *"tuyệt vời"*.
-  - ❌ Tự bịa vị *"thơm ngọt mát lạnh"*.
+  - ❌ Dùng cụm từ AI khuôn mẫu ("mang đến trải nghiệm tuyệt vời", "khởi đầu tuyệt vời", "đánh thức mọi giác quan").
+  - ❌ Tự bịa vị giác ("chua ngọt thanh mát", "đào giòn rụm") hoặc effect ("xua tan cơn khát").
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Trà đào 29k.*  
   > *Thèm thì làm một ly thôi.*
@@ -315,7 +316,7 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   - ❌ Tự phong "best-seller", tự bịa topping trân châu.
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Trà sữa truyền thống 25k.*  
-  > *Ghé quán làm một ly quen rồi tiếp tục công việc nha bạn ơi.*
+  > *Ghé quán làm một ly quen nha bạn ơi!*
 
 ---
 
@@ -330,8 +331,7 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   - ❌ Tự bịa effect: "tỉnh táo tức thì", "đánh thức sự tập trung", "xua tan cơn buồn ngủ".
   - ❌ Tự bịa vị "đắng đậm thơm lừng".
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
-  > *Tranh thủ vài phút giữa giờ ghé ngang lấy ly cà phê đen 20k mang đi.*  
-  > *Một chút giải lao trước khi quay lại bàn làm việc.*
+  > *Tranh thủ vài phút giữa giờ, ghé ngang lấy ly cà phê đen 20k mang đi.*
 
 ---
 
@@ -347,7 +347,7 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   - ❌ Tự bịa effect: "xua tan áp lực", "thấy nhẹ lòng", "lấy lại năng lượng".
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Ngày bận rộn thì cứ bận rộn.*  
-  > *Xong việc rồi, tự thưởng một ly trà sữa 25k cũng đâu có quá nhiều.*  
+  > *Tự thưởng cho mình một ly trà sữa 25k cũng đâu có quá nhiều.*  
   > *Ghé quán làm một ly nha bạn ơi!*
 
 ---
@@ -364,8 +364,7 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   - ❌ Tự thêm máy lạnh, wifi, ổ cắm điện khi brief không nói.
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Trà đào 29k.*  
-  > *Bàn ghế sẵn sàng, ghé quán tìm một góc ngồi lại thong thả nhâm nhi.*  
-  > *Ghé tụi mình chơi nhé!*
+  > *Có góc ngồi lại thoải mái, ghé tụi mình chơi nhé!*
 
 ---
 
@@ -419,6 +418,22 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   - ❌ Thêm giá tiền, thêm topping trân châu.
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Một ly trà đào cam sả thơm ngon, mát lành.*
+
+---
+
+### Test W09 — Chọn từ chuẩn xác, đắt giá (Word Precision)
+- **Đầu vào (User Prompt):**  
+  `Trà đào 29k. Viết caption Facebook ngắn, nhẹ nhàng.`
+- **Bất biến bắt buộc (Expected Invariants):**
+  - Món: `Trà đào 29k` (hoặc `Trà đào`, `29k`).
+  - Dùng từ ngữ cụ thể, có lực, thuần khẩu ngữ đời thường; loại bỏ tính từ chung chung mông lung.
+  - Cân bằng tự nhiên, dễ nhớ, không thêm bất kỳ dữ kiện hay tác dụng nào (Word Precision > Generic Adjectives).
+- **Bẫy vi phạm cấm kỵ (Forbidden Patterns):**
+  - ❌ Nhồi nhét tính từ chung chung sáo rỗng (*"một thức uống tuyệt vời"*, *"một trải nghiệm thú vị"*, *"một lựa chọn hoàn hảo"*, *"hương vị tuyệt hảo"*).
+  - ❌ Tự bịa sensory/effect (*"thơm ngọt mát lành"*, *"xua tan cơn khát"*, *"tỉnh táo"*).
+- **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
+  > *Trà đào 29k.*  
+  > *Thèm thì làm một ly thôi.*
 
 ---
 

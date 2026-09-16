@@ -81,10 +81,10 @@ content-social-skill/
 │   ├── storytelling.md      # Động cơ 8 góc nhìn (Angle Engine), Ma trận kỹ thuật, Soft CTA
 │   ├── psychology.md        # Chuỗi tâm lý bán hàng F&B (Attention → Relevance → Desire → Action, sạch claim)
 │   ├── pricing.md           # Kỹ thuật viết giá & ưu đãi F&B dùng placeholder an toàn
-│   ├── regression-fixtures.md # Bộ kiểm tra hồi quy chuẩn mực (8 Provenance + 5 Consumer Insight + 8 Wordcraft)
+│   ├── regression-fixtures.md # Bộ kiểm tra hồi quy chuẩn mực (8 Provenance + 5 Consumer Insight + 9 Wordcraft = 22 fixtures)
 │   └── examples.md          # Tuyển tập 28+ bài mẫu F&B chuẩn (Image/Brief, Rewrite, Bad vs Good)
 └── tests/
-    └── core-tests.md        # 8 Provenance + 5 Consumer Insight + 8 Wordcraft + 10 kịch bản thực tế (v4.9.1)
+    └── core-tests.md        # 8 Provenance + 5 Consumer Insight + 9 Wordcraft + 10 kịch bản thực tế (v4.9.1)
 ```
 
 ---

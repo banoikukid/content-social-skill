@@ -30,10 +30,10 @@ content-social-skill/
 │   ├── hooks.md             # Kỹ thuật mở bài, Rhythm & Promise-Payoff, 6 dạng Hook thấu cảm & Reason to Care
 │   ├── psychology.md        # Tâm lý bán hàng F&B (Attention → Relevance → Desire → Action, giữ nghiêm Semantic Fidelity)
 │   ├── pricing.md           # Kỹ thuật viết giá & ưu đãi an toàn bằng placeholder (không tự thêm điều kiện promo)
-│   ├── regression-fixtures.md # Bộ kiểm tra hồi quy chuẩn mực (8 Provenance + 5 Consumer Insight + 8 Wordcraft)
+│   ├── regression-fixtures.md # Bộ kiểm tra hồi quy chuẩn mực (8 Provenance + 5 Consumer Insight + 9 Wordcraft = 22 fixtures)
 │   └── examples.md          # Tuyển tập 28+ bài viết mẫu chuẩn mực theo Source-Provenance Rule (v4.9.1)
 └── tests/
-    └── core-tests.md        # Bộ kiểm thử cốt lõi (8 Provenance + 5 Consumer Insight + 8 Wordcraft + 10 kịch bản thực tế)
+    └── core-tests.md        # Bộ kiểm thử cốt lõi (8 Provenance + 5 Consumer Insight + 9 Wordcraft + 10 kịch bản thực tế)
 ```
 
 ---
@@ -88,10 +88,15 @@ content-social-skill/
 - **Thanh lọc toàn diện tín hiệu giảng dạy (Teaching Signal Cleanup):**
   - Sửa mẫu Strict Rewrite trong `examples.md`, `regression-fixtures.md` và `tests/core-tests.md`: gọt sạch sáo ngữ AI *"khởi đầu tuyệt vời"*, chỉ giữ *"Một ly trà sữa thơm ngon, béo ngậy cho ngày mới."*
   - Làm sạch toàn bộ canonical outputs: CI-1 (xóa *"ngọt thơm"*, *"nạp lại hứng khởi"*), CI-2 (xóa *"mỗi món nước"*, *"tiện mang đi làm đi học"*), CI-3 (xóa *"ngọt ngào"*, *"xoa dịu tâm trạng"*), CI-4 (xóa *"mát lòng"*), CI-5 (xóa *"thấy nhẹ lòng"*, *"ngụm trà thơm"*).
+  - Làm sạch triệt để các rò rỉ bối cảnh nhỏ trong W02 (xóa *"tiếp tục công việc"*), W03 (xóa *"quay lại bàn làm việc"*), W04/wordcraft.md (xóa *"xong việc rồi"*), W05 (xóa *"bàn ghế sẵn sàng"*).
   - Sửa W06 thành joke ví tiền sạch, W07 visual-grounding chuẩn (xóa suy diễn hành động *"gõ việc, nhấp ngụm"*), W08 semantic fidelity chuẩn (xóa bối cảnh thời gian *"cho ngày mới"*).
   - Rà soát sạch các tham chiếu trong `hooks.md`, `formulas.md`, `psychology.md`.
-- **Bổ sung 8 bài kiểm tra hồi quy ngôn từ Wordcraft (W01 đến W08):**
-  - W01 (AI cliché removal), W02 (Spoken Vietnamese), W03 (Collocation), W04 (Sentence rhythm), W05 (Repetition), W06 (Tone matching), W07 (Abstract → concrete without hallucination), W08 (Strict rewrite + semantic fidelity).
+- **Chuyển đổi tư duy Blacklist sang Contextual Red-Flag & "Ít chữ nhưng đúng chữ":**
+  - Không cấm máy móc theo mặt chữ; coi từ khóa là cờ đỏ báo động (Red Flag) cần soi ngữ cảnh: chỉ viết lại khi tạo sáo ngữ AI/corporate, giữ nguyên nếu là khẩu ngữ tự nhiên (*"mang đến quán cho mình nhé"*).
+  - Định hình triết lý Wordcraft: Tuyệt đối không cố "làm văn" hay nhồi nhét chữ đẹp; mục tiêu là *ít chữ nhưng đúng chữ*, có nhịp, giàu lực bán hàng, zero hallucination.
+- **Bổ sung 9 bài kiểm tra hồi quy ngôn từ Wordcraft (W01 đến W09):**
+  - W01 (AI cliché removal), W02 (Spoken Vietnamese), W03 (Collocation), W04 (Sentence rhythm), W05 (Repetition), W06 (Tone matching), W07 (Abstract → concrete without hallucination), W08 (Strict rewrite + semantic fidelity), W09 (Word precision > generic adjectives).
+  - Tổng cộng 22 Normative Regression Fixtures (8 Provenance + 5 Consumer Insight + 9 Wordcraft).
 
 ### v4.9.0 (2026-09-16) — Consumer Insight & Sales Writing Edition
 - **Tích hợp lớp Consumer Insight nhẹ nhàng trước Dominant Idea:**

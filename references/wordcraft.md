@@ -64,15 +64,33 @@ Khi chạy bước hậu kỳ (ngầm thực hiện trong đầu một lượt d
 - Đọc to từng câu và tự hỏi: *"Người bán hàng hoặc một người Việt bình thường có thực sự nói/viết câu này ngoài đời không?"*
 - Nếu câu nghe giống văn dịch tiếng Anh, văn mẫu brochure tập đoàn $\rightarrow$ **Viết lại ngay** bằng ngôn ngữ giao tiếp tự nhiên (*"Thèm thì làm một ly thôi."*).
 
-### [6] AI Cliché Removal (Triệt Tiêu Sáo Ngữ AI)
-Cảnh giác cao độ và loại bỏ các cấu trúc khuôn mẫu của AI:
-- `không chỉ... mà còn...`
-- `mang đến...`
-- `giúp bạn...`
-- `tận hưởng... / trải nghiệm...`
-- `chạm đến cảm xúc / đánh thức...`
-- `hành trình... / trọn vẹn từng khoảnh khắc...`
-- `sự kết hợp hoàn hảo... / khởi đầu tuyệt vời...`
+### [6] AI Cliché Control & Contextual Red-Flag (Kiểm Soát Sáo Ngữ Theo Ngữ Cảnh)
+Coi các cụm từ khuôn mẫu phổ biến là **Tín hiệu cảnh báo (Red Flag)** cần kiểm tra ngữ cảnh, không cấm máy móc theo mặt chữ:
+
+```
+Cụm từ nghi vấn (Red Flag Pattern)
+          │
+          ▼
+Kiểm tra ngữ cảnh (Check Context)
+          │
+          ▼
+Có thực sự sáo rỗng / corporate / AI-like?
+    ├─ YES ──► Viết lại bằng khẩu ngữ tự nhiên người Việt
+    └─ NO  ──► Giữ nguyên (Ví dụ: "Mang đến quán cho mình nhé" là khẩu ngữ hoàn toàn tự nhiên)
+```
+
+**Danh sách Red Flag cần đặc biệt lưu tâm:**
+- `không chỉ... mà còn...` (Rập khuôn sách vở)
+- `mang đến...` (Khi mang nghĩa PR: *"mang đến trải nghiệm tuyệt vời"* ❌)
+- `giúp bạn...` (Khi tạo claim hiệu ứng: *"giúp bạn xua tan căng thẳng"* ❌)
+- `tận hưởng... / trải nghiệm...` (Từ vựng corporate rỗng nghĩa)
+- `chạm đến cảm xúc / đánh thức mọi giác quan / bùng nổ hương vị` (Ẩn dụ quá đà)
+- `hành trình... / trọn vẹn từng khoảnh khắc...` (Văn mẫu brochure)
+- `sự kết hợp hoàn hảo... / khởi đầu tuyệt vời...` (Tính từ rỗng, thiếu sức nặng)
+
+> 💡 **Triết Lý Cốt Lõi: Ít Chữ Nhưng Đúng Chữ (Word Precision > Fancy Wording)**  
+> Wordcraft tuyệt đối không phải là "làm văn" hay cố nhồi nhét mỹ từ hoa mỹ. Một câu đắt giá là câu ít chữ, đúng chữ, giàu nhịp điệu và có lực bán hàng:  
+> *Trà đào 29k. Thèm thì làm một ly thôi.* (Không một tính từ thừa, không bịa fact, mà đọc vào là muốn mua).
 
 ### [7] Repetition Removal (Lọc Bỏ Trùng Lặp)
 - Triệt tiêu việc lặp đi lặp lại một từ khóa trong cùng một đoạn văn (ví dụ: xuất hiện 3 lần từ *"ly"*, 2 lần từ *"ngày mới"*).
@@ -163,8 +181,8 @@ Dưới đây là các ví dụ minh họa cách Wordcraft nâng tầm câu ch�
   *(Lỗi: tự bịa effect "xua tan áp lực", "thư thái trọn vẹn", sáo ngữ "sau một ngày dài đầy căng thẳng").*
 - ✅ **EXCELLENT WORDCRAFT (Nhịp câu gãy gọn, đúng tâm lý, zero claim):**  
   > *Ngày bận rộn thì cứ bận rộn.*  
-  > *Nhưng xong việc rồi, tự thưởng cho mình một ly trà sữa 25k cũng đâu có quá nhiều.*  
-  > *Ghé quán làm một ly quen nha bạn ơi!*
+  > *Tự thưởng cho mình một ly trà sữa 25k cũng đâu có quá nhiều.*  
+  > *Ghé quán làm một ly nha bạn ơi!*
 
 ---
 
@@ -174,9 +192,9 @@ Dưới đây là các ví dụ minh họa cách Wordcraft nâng tầm câu ch�
   *"Không gian làm việc bận rộn khiến bạn cảm thấy uể oải? Hãy tận hưởng giải pháp nhanh chóng với trà đào 29k giúp đánh thức sự tập trung tức thì mà không mất nhiều thời gian chờ đợi."*  
   *(Lỗi: bịa effect "đánh thức tập trung", bịa vận hành "không mất nhiều thời gian chờ đợi", sáo ngữ "hãy tận hưởng giải pháp").*
 - ✅ **EXCELLENT WORDCRAFT (Cụ thể, thấu cảm, nhịp câu có lực):**  
-  > *Vài phút giữa giờ, kịp ghé làm ly trà đào 29k rồi quay lại bàn làm việc.*  
-  > *Một khoảng dừng ngắn vậy thôi trước khi tiếp tục công việc.*  
-  > *Tranh thủ ghé lấy một ly mang đi nhé!*
+  > *Tranh thủ vài phút giữa giờ, ghé ngang lấy ly trà đào 29k mang đi.*  
+  > *Một khoảng nghỉ ngắn trong ngày.*  
+  > *Ghé quán tụi mình lấy một ly nha bạn ơi!*
 
 ---
 
