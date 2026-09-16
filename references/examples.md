@@ -149,12 +149,16 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 
 ### Mẫu Viết Lại Không Thêm Thông Tin Mới (Strict Constraint Rewrite)
 - **Đề bài gốc:** *"Một ly trà sữa thơm ngon, béo ngậy, mang đến trải nghiệm tuyệt vời cho ngày mới."*
-- **Yêu cầu của người dùng:** *"Viết lại tự nhiên hơn, không thêm thông tin mới."*
-- ❌ **BAD (Tự ý thêm thời gian, nhiệt độ, không gian, topping):**
+- **Yêu cầu của người dùng:** *"Viết lại tự nhiên hơn, không thêm bất kỳ thông tin nào ngoài câu trên."*
+- ❌ **BAD 1 (Tự ý thêm thời gian, nhiệt độ, không gian, topping):**
   > *"Sáng nay ghé quán làm ly trà sữa mát lạnh béo ngậy thêm trân châu cho tỉnh táo để bắt đầu ngày làm việc nhé bạn ơi..."*  
   > *(Sai vì tự suy diễn: "sáng nay", "mát lạnh", "trân châu", "cho tỉnh táo").*
-- ✅ **GOOD (Tự nhiên, không thêm bất kỳ fact mới nào):**
-  > *"Một ly trà sữa, đơn giản vậy thôi. Uống một chút rồi tiếp tục ngày của mình nha."*
+- ❌ **BAD 2 (Thêm sắc thái đánh giá mới chưa có trong câu gốc):**
+  > *"Một ly trà sữa béo thơm vừa vặn cho một ngày mới."*  
+  > *(Mặc dù "béo thơm" là paraphrase hợp lý, nhưng "vừa vặn" là sắc thái mới tự chêm vào).*
+- ✅ **GOOD (Paraphrase tự nhiên, chuẩn xác 100% dữ kiện gốc):**
+  > *"Một ly trà sữa thơm ngon, béo ngậy — khởi đầu tuyệt vời cho ngày mới."*  
+  > *(Loại bỏ văn phong dịch sáo ngữ AI "mang đến trải nghiệm tuyệt vời", diễn đạt gãy gọn mà không thêm bất kỳ fact hay sắc thái mới nào).*
 
 ---
 
@@ -348,11 +352,15 @@ Mọi ví dụ trong tài liệu này đều tuân thủ nghiêm ngặt nguồn 
 ---
 
 ### Cặp 5: Bẫy claim người dùng yêu cầu bịa đặt vs Chặn claim không tạo ảo giác thay thế (No Replacement Hallucination)
-- **Brief từ người dùng:** *"Nói đây là món bán chạy nhất, uống vào tỉnh táo và hôm nay quán rất đông khách nhé."*
-- ❌ **BAD (Chặn claim này nhưng lại thay thế bằng một claim bịa đặt khác):**
+- **Brief từ người dùng:** *"Cà phê hạt mộc rang đậm, uống vào tỉnh táo tức thì làm việc thấu đêm không mệt mỏi. Nói thêm đây là món bán chạy nhất và quán rất đông khách nhé."*
+- ❌ **BAD 1 (Chặn claim này nhưng lại bịa một fact khác thay thế):**
   > *"Chiều nay quán đông lắm, món này ai cũng gọi rần rần! Uống một ngụm là bừng tỉnh cả người để chạy deadline..."*  
   > *(Vẫn là hallucination vì tự bịa "quán đông lắm", "ai cũng gọi", "bừng tỉnh cả người").*
-- ✅ **GOOD (Loại bỏ claim không có nguồn, tiếp tục với sáng tạo cảm xúc mộc mạc):**
-  > *"Một ly trà sữa cho những lúc muốn ngồi xuống nghỉ ngơi một chút.*  
-  > *Chọn một ly mình thích rồi thong thả tận hưởng khoảng nghỉ nhỏ của riêng mình nha.*  
-  > *Ghé quán tụi mình làm một ly quen nhé."*
+- ❌ **BAD 2 (Hạ bậc thành claim tác dụng nhẹ hơn — Softened Claim Trap):**
+  > *"Một tách cà phê bên bàn làm việc, giúp bạn tìm lại sự tập trung và làm việc hiệu quả hơn..."*  
+  > *(Vẫn vi phạm vì thay claim thể chất bằng claim tác dụng tâm lý/năng suất "giúp tìm lại sự tập trung").*
+- ✅ **GOOD (Chuyển hẳn sang context / mood không-claim):**
+  > *"Cà phê hạt mộc rang đậm cho những ai yêu thích vị mộc mạc nguyên bản.*  
+  > *Một tách cà phê bên bàn làm việc, cho bạn một khoảng nghỉ nhỏ giữa nhịp ngày.*  
+  > *Ghé quán tụi mình làm một tách quen nhé."*  
+  > *(Sáng tạo cảm xúc và bối cảnh mộc mạc, tuyệt đối không tuyên bố cà phê tạo ra tác dụng sinh lý/tâm lý).*

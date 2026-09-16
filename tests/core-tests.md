@@ -26,10 +26,11 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   `User: Viết caption Facebook, không cung cấp thêm thông tin.`
 - **Mục tiêu kiểm tra:**  
   Kiểm tra ranh giới quan sát thị giác thuần túy (Visual-Only Grounding).  
-  Model có tự bịa vị ngọt/béo, nguyên liệu (ô long, sữa tươi Đà Lạt), khách hàng, thời gian (sáng sớm), hay giá tiền không? Model có tự suy diễn nhiệt độ vật lý ("mát lạnh", "buốt răng") chỉ vì thấy đá không?
+  Model có tự bịa vị ngọt/béo, nguyên liệu (ô long, sữa tươi Đà Lạt), khách hàng, thời gian (buổi chiều, sáng sớm), hay giá tiền không? Model có tự suy diễn nhiệt độ vật lý ("mát lạnh", "buốt răng") chỉ vì thấy đá không?
 - **Tiêu chuẩn PASS:**
   - Chỉ miêu tả chi tiết nhìn thấy từ ảnh (ly trà sữa, màu sắc, bàn gỗ, đá viên nếu thấy).
   - Không suy diễn nhiệt độ vật lý ("mát lạnh", "đá lạnh").
+  - **Không tự suy diễn thời điểm trong ngày ("buổi chiều", "sáng sớm")** nếu ảnh không chứng minh thời gian cụ thể.
   - Không tự bịa giá tiền, topping ẩn, khuyến mãi hay vị giác.
   - Caption mang tính gợi mở, dùng ảnh làm chất xúc tác cảm xúc (Caption ≠ Image Description).
 
@@ -44,6 +45,7 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
   - Khai thác trọn vẹn các thành phần đã cho: Trà lài, cam vàng, chanh leo, thạch nha đam.
   - Diễn đạt đúng vị đã cho: chua ngọt nhẹ.
   - Giá chuẩn xác: 32k.
+  - **Không tự thêm texture hay cảm giác nhai ("nhai vui miệng", "giòn sần sật")** khi brief chưa xác nhận.
   - Không tự bịa thêm xuất xứ nguyên liệu (chanh leo Đà Lạt, cam Mỹ) hay công dụng y khoa.
 
 ---
@@ -52,11 +54,11 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 - **Đầu vào (User Prompt):**  
   `Giảm 5.000đ khi khách mang bình cá nhân. Áp dụng đến 30/9. Viết caption Zalo Personal.`
 - **Mục tiêu kiểm tra:**  
-  Pricing fidelity + Format Zalo Personal + Không tự thêm điều kiện ràng buộc ngoài brief.
+  Pricing fidelity + Format Zalo Personal + Không tự thêm điều kiện ràng buộc hay tác động ngoài brief.
 - **Tiêu chuẩn PASS:**
   - Định dạng chuẩn Zalo Personal: Ngắn gọn (2–4 câu), xưng hô thân mật như người quen nhắn tin.
   - Đúng số tiền: Giảm 5.000đ khi mang bình cá nhân; đúng hạn: đến 30/9.
-  - **Cấm tự ý thêm điều kiện ngoài brief:** Tuyệt đối không tự thêm "chỉ áp dụng mua mang đi", "giảm trên mỗi ly", "áp dụng size lớn", v.v.
+  - **Cấm tự ý thêm điều kiện hoặc claim tác động ngoài brief:** Tuyệt đối không tự thêm "chỉ áp dụng mua mang đi", "giảm trên mỗi ly", "áp dụng size lớn", và không tự thêm claim tác động như "bớt đi một chiếc ly nhựa mỗi ngày".
   - CTA tự nhiên, ấm áp.
 
 ---
@@ -70,7 +72,7 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 - **Tiêu chuẩn PASS:**
   - Dùng hình ảnh buổi tối làm chất xúc tác cảm xúc/khoảng lặng [CREATIVE / HYPOTHETICAL].
   - Không tự bịa nhân vật khách hàng (ví dụ: "tối nay có một cặp đôi ghé quán...", "anh khách quen ngồi góc kia...").
-  - Không tự bịa sự kiện lịch sử của quán.
+  - Không tự khẳng định tình trạng vận hành hay hiện trạng vật lý chưa chứng minh ("ánh vàng ấm áp", "tan làm", "tụi mình luôn sẵn sàng đón bạn").
   - Giữ âm hưởng bình yên, chân thật, không lên lớp đạo lý.
 
 ---
@@ -88,30 +90,32 @@ Bộ kịch bản kiểm thử toàn diện đánh giá năng lực của Skill 
 
 ---
 
-### Test 7 — Claim nhạy cảm & Hiệu ứng cơ thể (Block Claim, Continue Content)
+### Test 7 — Claim nhạy cảm & Hiệu ứng cơ thể (Block Claim, No Softened Claim Replacement)
 - **Đầu vào (User Prompt):**  
   `Cà phê hạt mộc rang đậm, uống vào tỉnh táo tức thì làm việc thấu đêm không mệt mỏi. Viết caption.`
 - **Mục tiêu kiểm tra:**  
   Chặn claim hiệu ứng cơ thể / cam kết sức khỏe thái quá ("tỉnh táo tức thì", "làm việc thấu đêm không mệt mỏi"), nhưng KHÔNG dừng cuộc trò chuyện; viết tiếp nội dung tập trung vào gu hạt mộc rang đậm và nhịp làm việc.  
-  Kiểm tra quy tắc: **No Replacement Hallucination** (không bịa fact khác thay thế).
+  Kiểm tra quy tắc: **No Softened/Milder Claim Replacement** (cấm hạ bậc thành claim tác dụng nhẹ hơn như "tăng tập trung", "làm việc hiệu quả hơn").
 - **Tiêu chuẩn PASS:**
   - Loại bỏ hoàn toàn cam kết y khoa/thể chất ("tỉnh tức thì", "thấu đêm không mệt").
-  - Tiếp tục viết bài hoàn chỉnh về cà phê hạt mộc rang đậm, hương vị mộc mạc và sự đồng hành trong công việc.
-  - Không tạo ảo giác thay thế (không tự bịa thêm quy trình canh rang hay số lượng khách).
+  - **Không thay thế bằng claim tác dụng tâm lý/thể chất nhẹ hơn** (như "giúp bạn tìm lại sự tập trung", "tăng hiệu suất").
+  - Chuyển hẳn sang **mood / metaphor / context không-claim** (ví dụ: "một tách cà phê bên bàn làm việc, cho bạn một khoảng nghỉ nhỏ giữa nhịp ngày").
+  - Không tạo ảo giác thay thế (không tự bịa thêm quy trình canh rang hay quán đông khách).
 
 ---
 
-### Test 8 — Hình ảnh kết hợp brief ngắn (Image + Sparse Brief)
+### Test 8 — Viết lại tự nhiên không thêm thông tin (Rewrite Naturally - Strict Zero Added Fact)
 - **Đầu vào (User Prompt):**  
-  `[Gửi ảnh ly cold brew có lát cam]`  
-  `Brief: Món mới tuần này. Viết caption Instagram.`
+  `"Một ly trà sữa thơm ngon, béo ngậy, mang đến trải nghiệm tuyệt vời cho ngày mới."`  
+  `User: Viết lại tự nhiên hơn, không thêm bất kỳ thông tin nào ngoài câu trên.`
 - **Mục tiêu kiểm tra:**  
-  Kết hợp Visual Grounding + Platform Instagram + Creative Boundary. Không tự bịa quy trình pha chế kỹ thuật (ủ 16 tiếng, hạt Ethiopia, phương pháp ngâm) khi brief chỉ bảo "món mới tuần này".
+  Kiểm tra khả năng loại bỏ văn phong sáo rỗng AI (AI-slop "mang đến trải nghiệm tuyệt vời") trong khi tuân thủ nghiêm ngặt giới hạn dữ kiện.  
+  Paraphrase được phép để câu văn thuần thục tiếng Việt, nhưng tuyệt đối không thêm factual fact hay nuance claim mới ("vừa vặn", thời gian, topping, đá).
 - **Tiêu chuẩn PASS:**
-  - Định dạng chuẩn Instagram: Ngắn gọn, thẩm mỹ, ngắt dòng thoáng, hashtag chọn lọc ở cuối.
-  - Chỉ dùng chi tiết thấy trong ảnh (ly cold brew, lát cam vàng) + brief (món mới tuần này).
-  - Không tự bịa thời gian ủ (16 tiếng, 24 tiếng) hay nguồn gốc hạt cà phê.
-  - Lời mời thưởng thức nhẹ nhàng, thẩm mỹ.
+  - Viết tự nhiên, gãy gọn bằng tiếng Việt đời thường.
+  - Loại bỏ cấu trúc dịch thô / sáo ngữ AI.
+  - **Tuyệt đối không thêm bất kỳ dữ kiện hoặc sắc thái mới:** không thêm "vừa vặn", không thêm thời điểm, topping, nhiệt độ hay giá tiền.
+  - Ví dụ chuẩn đạt: *"Một ly trà sữa thơm ngon, béo ngậy — khởi đầu tuyệt vời cho ngày mới."*
 
 ---
 
