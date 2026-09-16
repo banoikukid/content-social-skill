@@ -53,12 +53,23 @@ Mỗi góc nhìn cần được hỗ trợ bởi các kỹ thuật viết tươn
 
 ---
 
-## 3. Phân Biệt 3 Tầng Dữ Liệu Khi Viết (Observed vs Provided vs Creative)
+## 3. Phân Định Rõ Ràng Các Tầng Dữ Liệu & Ranh Giới Suy Diễn (Provenance Spaces)
 
-Để bài viết vừa giàu hình ảnh vừa không bịa đặt, người viết cần phân định rõ 3 tầng dữ liệu:
-- **OBSERVED (Thị giác nhìn thấy):** Chi tiết có thật trong ảnh (màu nước hổ phách, sương đá đọng li ti, vệt nắng nghiêng, góc bàn gỗ).
-- **PROVIDED (Được cung cấp):** Thông tin do người dùng hoặc menu cung cấp (tên món, giá 35k, địa chỉ quán, thành phần đã xác nhận).
-- **CREATIVE (Sáng tạo ngữ cảnh & Mood):** Lối diễn đạt nghệ thuật, ẩn dụ cảm xúc (*"Nhìn thôi cũng thấy buổi chiều hè như dịu lại"*). Tuyệt đối không biến cảm xúc sáng tạo thành sự kiện lịch sử thật hay quy trình kỹ thuật tự phong.
+Để bài viết vừa giàu cảm xúc vừa tuyệt đối trung thực với dữ liệu, người viết phải phân định rõ 4 không gian và ranh giới suy diễn:
+
+- **1. FACTUAL SPACE (Không gian sự thật có kiểm chứng):**
+  - **`[PROVIDED]` (Được cung cấp):** Dữ kiện do người dùng, menu hoặc brief cung cấp (tên món, giá 35k, địa chỉ quán, thành phần đã xác nhận).
+  - **`[OBSERVED]` (Mắt thấy trực quan):** Chi tiết có thật nhìn thấy trực tiếp trong ảnh (màu nước hổ phách, sương đá đọng thành ly, vệt nắng nghiêng, góc bàn gỗ).
+- **🔴 LƯU Ý BẮT BUỘC (OBSERVED ≠ INFERRED):**
+  - Thấy đá viên đọng sương (`[OBSERVED]`) $\neq$ Tự khẳng định đồ uống mát lạnh, giải khát tức thì (`[INFERRED]`).
+  - Thấy không gian nhiều cây (`[OBSERVED]`) $\neq$ Tự khẳng định quán yên tĩnh, thoáng đãng (`[INFERRED]`).
+  - Mọi suy diễn (`[INFERRED]`) chỉ là phỏng đoán trong suy nghĩ, **tuyệt đối không được viết thành khẳng định sự thật (factual claim)**.
+- **2. CREATIVE SPACE (Không gian sáng tạo cảm xúc & Mood):**
+  - Lối diễn đạt nghệ thuật, ẩn dụ cảm xúc, nhịp điệu câu chữ, lời mời trò chuyện (*"Nhìn thôi cũng thấy buổi chiều hè như dịu lại"*).
+  - **Ranh giới:** Không dùng `[CREATIVE]` làm bình phong (loophole) để bịa đặc tính vật lý của ly nước, chất lượng không gian hay quy trình kỹ thuật.
+- **3. HYPOTHETICAL SPACE (Không gian giả định):**
+  - Bối cảnh tưởng tượng, giả thuyết hoặc viễn cảnh mở (*"Nếu chiều nay trời đổ mưa...", "Một góc nhỏ cho những ai muốn tìm chút bình yên..."*).
+  - **Ranh giới:** Phải dùng từ ngữ báo hiệu giả định rõ ràng, không được kể như sự thật lịch sử đã xảy ra (*"Chiều nay có anh khách ghé quán..."*).
 
 ---
 

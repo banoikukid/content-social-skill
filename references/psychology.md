@@ -18,8 +18,12 @@ Mở đầu bằng một phát biểu đi ngược lại định kiến thông t
 
 ### 3. Bằng Chứng Thực Tế (Social Proof — Quy tắc chặt chẽ)
 Tạo niềm tin thông qua phản hồi thực tế của khách hàng hoặc số liệu có thật.
-- **🔴 LƯU Ý BẮT BUỘC:** **Chỉ dùng khi người dùng/quán cung cấp dữ liệu thật.** Tuyệt đối không tự bịa hành vi khách hàng (cấm tự viết: *"Khách nào ghé quán cũng mê mẩn...", "10 người uống thì 9 người khen..."* nếu không có trong brief).
-- **Ví dụ đúng:** *"Cảm ơn bạn [Tên khách] đã ghé quán và gửi cho tụi mình bức ảnh feedback siêu dễ thương này nha!"*
+- **🔴 LƯU Ý BẮT BUỘC:** **Chỉ dùng khi người dùng/quán cung cấp dữ liệu thật.**
+  - Tuyệt đối không tự bịa hành vi khách hàng (cấm tự viết: *"Khách nào ghé quán cũng mê mẩn...", "10 người uống thì 9 người khen..."* nếu không có trong brief).
+  - **Bảo toàn ngữ nghĩa số liệu (Semantic Fidelity):** Giữ đúng bản chất số liệu từ brief (`126 khách ≠ 126 ly`, `khách ≠ đơn`, `đơn ≠ sản phẩm`, `doanh thu ≠ lợi nhuận`).
+  - **Cấm tự phong danh hiệu:** Không tự xưng *"best seller"*, *"món bán chạy nhất"*, *"hot trend của quán"* nếu brief không khẳng định.
+- **Ví dụ đúng khi có số liệu:** Brief *"126 khách đặt món A trong tuần này. Giá 39k"* $\rightarrow$ *"Tuần này có 126 vị khách đã chọn món A đồng hành cùng những giờ làm việc..."* (giữ đúng `126 khách`, không đổi thành `126 ly`, không tự phong best-seller).
+- **Ví dụ đúng khi có feedback:** *"Cảm ơn bạn [Tên khách] đã ghé quán và gửi cho tụi mình bức ảnh feedback siêu dễ thương này nha!"*
 
 ### 4. Giá Trị Mỏ Neo (Anchoring & Value Contrast)
 Giúp khách hàng cảm nhận được giá trị xứng đáng của món nước khi so sánh với một trải nghiệm quen thuộc.

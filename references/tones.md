@@ -70,8 +70,8 @@ Tone giọng trong F&B không chỉ là thay đổi đại từ xưng hô, mà t
 ### Tone 4: Cảm xúc / Chiêm nghiệm
 - **Đặc trưng:** Khơi gợi không gian, giác quan và kỷ niệm. Nhịp điệu chậm, câu chữ giàu hình ảnh và sự tĩnh lặng.
 - **Ví dụ:**
-  > Có những buổi chiều tan tầm, chỉ muốn tìm một góc quen ngồi nhìn phố xá chậm lại một chút. `[CREATIVE]`  
-  > Nhâm nhi một ly trà thơm dịu `[PROVIDED: dữ kiện vị]`, nghe tiếng nhạc nhẹ êm êm giữa góc quán quen `[CREATIVE]`.  
+  > Có những buổi chiều tan tầm, chỉ muốn tìm một góc quen ngồi nhìn phố xá thong thả trôi qua. `[CREATIVE]`  
+  > Nhâm nhi một ly trà thơm dịu `[PROVIDED: dữ kiện vị]`, để lòng mình chùng xuống một nhịp dịu êm `[CREATIVE]`.  
   > Tụi mình vẫn luôn mở cửa chờ bạn ghé qua. `[CTA mở]`
 
 ---
