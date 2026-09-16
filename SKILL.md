@@ -214,8 +214,13 @@ FINAL OUTPUT
 > 🔴 **QUY TẮC PHÂN BIỆT PRODUCT ROLE VS PRODUCT EFFECT:**  
 > - **Product Role (Vai trò / Cái cớ):** Tự thưởng, giải lao, món quen, lý do ghé quán $\rightarrow$ ✅ Được dùng làm framing cảm xúc.  
 > - **Product Effect (Tác dụng lên cơ thể/tâm lý):** *"Uống vào thấy nhẹ lòng"*, *"giúp bạn lấy lại năng lượng"*, *"tỉnh táo tức thì"* $\rightarrow$ ❌ **CẤM HOÀN TOÀN** nếu brief không cho.  
+>
+> 💡 **NGUYÊN TẮC REWRITE ENGINE (TỪ LỌC LỖI SANG CHÂU CHUỐT THỰC SỰ):**  
+> - **"Don't only remove bad wording. Replace it with the strongest natural wording that preserves the same semantic content."**  
+>   *(Không chỉ xóa sáo ngữ AI, mà phải thay bằng cách diễn đạt khẩu ngữ tự nhiên, gãy gọn, giàu nhịp điệu nhất của người Việt mà không thêm bất kỳ fact hay sensory nào).*  
+> - **8 Tiêu chí đánh giá chất lượng ngôn từ (Language Quality):** (1) Naturalness, (2) Word Precision, (3) Collocation, (4) Sentence Rhythm, (5) Emotional Temperature, (6) Memorability, (7) Brand/Tone Fit, (8) No Semantic Drift.  
 > 
-> *(Chi tiết quy tắc, cờ đỏ sáo ngữ và kho ví dụ Before $\rightarrow$ After xem tại [`references/wordcraft.md`](references/wordcraft.md)).*
+> *(Chi tiết quy tắc, bảng chuyển hóa mẫu câu và kho ví dụ Before $\rightarrow$ After xem tại [`references/wordcraft.md`](references/wordcraft.md)).*
 
 ---
 

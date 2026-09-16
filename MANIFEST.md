@@ -77,15 +77,18 @@ content-social-skill/
   - Đóng khung nguyên tắc: *"WHAT TO SAY đã đủ mạnh. Bây giờ nâng tầm HOW TO SAY."*
   - Ranh giới cốt lõi: *"Creative freedom applies to EXPRESSION, not EVIDENCE."* (Wordcraft chỉ sửa câu chữ cho đắt hơn, tuyệt đối không được sáng tạo thêm sự thật).
   - Tích hợp 1 lượt hậu kỳ duy nhất (Single Language Polish Pass) với **8 tiêu chuẩn kiểm tra ngầm**: Word choice, Collocation, Rhythm, Tone, Spoken Vietnamese, AI cliché, Repetition, Claim boundary.
+  - Nâng cấp Wordcraft từ "bộ lọc cấm đoán" (Anti-AI Filter) thành **Động cơ viết lại ngôn từ (Rewrite Engine)**: `BAD DRAFT → IDENTIFY PROBLEM → PRESERVE INTENT → SELECT BETTER VIETNAMESE → CLAIM CHECK`.
+  - Thiết lập **8 tiêu chí đánh giá chất lượng ngôn từ (Language Quality Evaluation)**: Naturalness, Word Precision, Collocation, Sentence Rhythm, Emotional Temperature, Memorability, Brand/Tone Fit, No Semantic Drift.
   - Phân biệt tuyệt đối **Product Role** (vai trò sản phẩm / cái cớ ghé quán: self-reward, occasion, familiar choice) vs **Product Effect** (tác dụng tâm lý/sinh lý: "uống vào thấy nhẹ lòng", "lấy lại năng lượng", "tập trung" $\rightarrow$ cấm nếu brief không có).
-  - Tích hợp tài liệu mới [`references/wordcraft.md`](references/wordcraft.md) cung cấp hướng dẫn chuyên sâu và kho ví dụ Before $\rightarrow$ After.
+  - Tích hợp tài liệu mới [`references/wordcraft.md`](references/wordcraft.md) cung cấp bảng chuyển hóa mẫu câu thực chiến và kho ví dụ Before $\rightarrow$ After.
   - Thích ứng hóa theo Adaptive Pipeline: Fast Path dùng *Quick Wordcraft*, Deep Path dùng *Deep Wordcraft* (8-point).
 - **Khóa chặt Why Care / Reason to Care (Triệt tiêu Claim Laundering):**
   - Cấm mặc định gán ghép các từ hiệu ứng sản phẩm/tâm sinh lý (`giải nhiệt`, `giải khát`, `nạp năng lượng`, `tỉnh táo`, `thư giãn`, `dễ chịu`, `nhẹ lòng`, `tươi mới`, `tập trung`) trong cả Fast Path lẫn Quick QA.
   - Chỉ chọn Why Care từ: (1) Explicit context từ brief, (2) Product Role hợp lệ, (3) Universal creative framing không tạo claim.
 - **Thanh lọc toàn diện tín hiệu giảng dạy (Teaching Signal Cleanup):**
   - Sửa mẫu Strict Rewrite trong `examples.md`, `regression-fixtures.md` và `tests/core-tests.md`: gọt sạch sáo ngữ AI *"khởi đầu tuyệt vời"*, chỉ giữ *"Một ly trà sữa thơm ngon, béo ngậy cho ngày mới."*
-  - Làm sạch mẫu CI-1 (xóa *"ngọt thơm"*, *"nạp lại hứng khởi"*), CI-4 (xóa *"mát lòng"*), CI-5 (xóa *"thấy nhẹ lòng"*, *"ngụm trà thơm"*).
+  - Làm sạch toàn bộ canonical outputs: CI-1 (xóa *"ngọt thơm"*, *"nạp lại hứng khởi"*), CI-2 (xóa *"mỗi món nước"*, *"tiện mang đi làm đi học"*), CI-3 (xóa *"ngọt ngào"*, *"xoa dịu tâm trạng"*), CI-4 (xóa *"mát lòng"*), CI-5 (xóa *"thấy nhẹ lòng"*, *"ngụm trà thơm"*).
+  - Sửa W06 thành joke ví tiền sạch, W07 visual-grounding chuẩn (xóa suy diễn hành động *"gõ việc, nhấp ngụm"*), W08 semantic fidelity chuẩn (xóa bối cảnh thời gian *"cho ngày mới"*).
   - Rà soát sạch các tham chiếu trong `hooks.md`, `formulas.md`, `psychology.md`.
 - **Bổ sung 8 bài kiểm tra hồi quy ngôn từ Wordcraft (W01 đến W08):**
   - W01 (AI cliché removal), W02 (Spoken Vietnamese), W03 (Collocation), W04 (Sentence rhythm), W05 (Repetition), W06 (Tone matching), W07 (Abstract → concrete without hallucination), W08 (Strict rewrite + semantic fidelity).

@@ -193,17 +193,19 @@
   - Mức ưu đãi: `Giảm 5.000đ` (hoặc `5k`).
   - Điều kiện: `Mang bình cá nhân` (hoặc `bình riêng`).
   - Thời hạn: `Áp dụng đến 30/9`.
-  - Lý do để khách tham gia (Reason to Care): Tiết kiệm một chút mỗi ngày, hình thành thói quen nhỏ tiện lợi, gọn gàng khi mang đi.
+  - Lý do để khách tham gia (Reason to Care): Tiết kiệm một chút khi mua nước, thói quen mang bình riêng thân thuộc.
   - Giọng văn tự nhiên, thân thiện, không biến thành văn bản thông báo khuyến mãi khô cứng.
 - **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
   - ❌ Tự bịa danh mục đồ uống áp dụng (*"áp dụng cho trà sữa và cà phê"*).
   - ❌ Tự bịa kích thước bình hoặc dung tích (*"bình từ 500ml trở lên"*).
   - ❌ Tự bịa cam kết bảo vệ môi trường vĩ mô hay số liệu rác thải nhựa nếu brief không cung cấp (*"bớt đi 1 chiếc ly nhựa mỗi ngày", "chung tay cứu trái đất"*).
   - ❌ Tự bịa giờ giấc áp dụng (*"áp dụng khung giờ vàng"*).
+  - ❌ Tự thêm điều kiện hạn mức (*"mỗi món nước"*, *"mua mang đi"*).
+  - ❌ Tự vẽ thêm hành vi khách hàng (*"tiện mang đi làm đi học"*, *"tiết kiệm mỗi ngày"*).
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
   > *Thêm một lý do nhỏ để bạn mang theo chiếc bình quen thuộc khi ghé quán:*  
-  > *Từ nay đến hết 30/9, tụi mình giảm ngay 5.000đ cho mỗi món nước khi bạn mang bình cá nhân.*  
-  > *Vừa tiện mang đi làm đi học, vừa tiết kiệm được một chút mỗi ngày. Lần tới ghé quán nhớ mang theo bình nha bạn ơi!*
+  > *Từ nay đến hết 30/9, tụi mình giảm ngay 5.000đ khi bạn mang theo bình cá nhân.*  
+  > *Lần tới ghé nhớ mang theo bình nghen bạn ơi!*
 
 ---
 
@@ -213,16 +215,17 @@
 - **Bất biến bắt buộc (Expected Invariants):**
   - Món nước: `Trà sữa`.
   - Mức giá: `35k` (hoặc `35.000đ`).
-  - Cảm xúc & Vai trò sản phẩm (Product Role as Self-Reward): Khoảnh khắc tự thưởng một chút ngọt ngào, xoa dịu tâm trạng sau những giờ làm việc / học tập.
+  - Cảm xúc & Vai trò sản phẩm (Product Role as Self-Reward): Khoảnh khắc tự thưởng một ly quen sau ngày bận rộn.
   - Văn phong hợp vibe Instagram: Câu từ ngắn gọn, thẩm mỹ, nhẹ nhàng, tự nhiên.
 - **Bẫy vi phạm cấm kỵ (Forbidden Patterns / Hallucination Traps):**
   - ❌ Tự bịa topping (*"trân châu đường đen"*, *"pudding trứng"*).
-  - ❌ Tự bịa hương vị / thành phần sâu (*"trà ô long nướng"*, *"sữa tươi thanh trùng"*).
+  - ❌ Tự bịa hương vị / thành phần sâu (*"trà ô long nướng"*, *"sữa tươi thanh trùng"*, *"ngọt ngào"*).
+  - ❌ Tự bịa tác dụng tâm lý (*"xoa dịu tâm trạng"*).
   - ❌ Tự bịa địa chỉ quán hoặc không gian quán (*"view tầng 2 ngắm hoàng hôn"*).
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
-  > *Một chút ngọt ngào để xoa dịu một ngày bận rộn.*  
-  > *Trà sữa 35k, một niềm vui nho nhỏ vừa vặn để tự thưởng cho chính mình.*  
-  > *Hôm nay bạn đã uống trà sữa chưa?*
+  > *Tự thưởng cho mình một ly trà sữa 35k sau ngày bận rộn.*  
+  > *Một niềm vui nhỏ vừa vặn.*  
+  > *Hôm nay bạn đã ghé quán chưa?*
 
 ---
 
@@ -368,8 +371,8 @@
   - ❌ Bịa đặt biến cố tài chính/lương bổng cụ thể ("chưa nhận lương", "hết tiền").
   - ❌ Bịa claim sản phẩm "ngon nhức nách", "uống vào là hết buồn".
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
-  > *Ví tiền dặn hôm nay phải tiết kiệm.*  
-  > *Nhưng trà đào 29k thì... tự cho phép ngoại lệ một lần vậy.*  
+  > *29k thôi mà.*  
+  > *Ví tiền cho phép hôm nay ngoại lệ một lần.*  
   > *Ghé quán làm một ly không bạn ơi?*
 
 ---
@@ -380,15 +383,16 @@
   `Viết caption Facebook ngắn gọn, có chất làm việc/lifestyle.`
 - **Bất biến bắt buộc (Expected Invariants):**
   - Dữ kiện quan sát [OBSERVED]: `ly cà phê`, `bàn gỗ`, `laptop`, `sổ tay`.
-  - Cụ thể hóa hành động thực tế thay vì dùng khái niệm trừu tượng ("trải nghiệm làm việc thăng hoa").
-  - Tuyệt đối không suy diễn nhiệt độ ly cà phê, mùi vị hay thời gian trong ngày.
+  - Cụ thể hóa khung cảnh thực tế thay vì dùng khái niệm trừu tượng ("trải nghiệm làm việc thăng hoa").
+  - Tuyệt đối không suy diễn hành động của người trong ảnh (không suy diễn "đang gõ", "đã uống"), không suy diễn nhiệt độ ly cà phê, mùi vị hay thời gian trong ngày (OBSERVED ≠ INFERRED).
 - **Bẫy vi phạm cấm kỵ (Forbidden Patterns):**
+  - ❌ Tự suy diễn hành động cơ học không thấy trong ảnh (*"gõ vài dòng việc"*, *"nhấp một ngụm rồi lại tiếp tục"*).
   - ❌ Tự bịa effect: "tập trung cao độ", "khơi nguồn sáng tạo", "tỉnh táo làm việc".
   - ❌ Tự bịa thời gian: "buổi sáng 8h", "chiều muộn".
   - ❌ Tự suy đoán vị: "cà phê đen đậm đắng thơm nồng".
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
-  > *Một góc bàn gỗ, cuốn sổ mở sẵn bên ly cà phê.*  
-  > *Gõ vài dòng việc, nhấp một ngụm rồi lại tiếp tục.*
+  > *Một góc bàn gỗ, laptop và cuốn sổ cạnh ly cà phê.*  
+  > *Một góc nhỏ cho những việc còn dang dở.*
 
 ---
 
@@ -399,9 +403,10 @@
 - **Bất biến bắt buộc (Expected Invariants):**
   - Bảo toàn đúng các dữ kiện gốc: món `trà đào cam sả`, đặc tính `thơm ngon`, `mát lành` (vì câu gốc đã có sẵn).
   - Loại bỏ hoàn toàn sáo ngữ AI: *"mang đến cho bạn trải nghiệm tuyệt vời"*, *"xua tan cơn khát"*.
-  - Diễn đạt trôi chảy, thuần khẩu ngữ tiếng Việt, không chêm thêm topping hay giá tiền.
+  - Diễn đạt trôi chảy, thuần khẩu ngữ tiếng Việt, tuyệt đối không tự thêm bối cảnh thời gian ("cho ngày mới", "buổi sáng") hay giá tiền, topping.
 - **Bẫy vi phạm cấm kỵ (Forbidden Patterns):**
   - ❌ Giữ lại "tuyệt vời", "trải nghiệm tuyệt vời" hoặc thay bằng "khởi đầu tuyệt vời".
-  - ❌ Thêm giá tiền, thêm topping trân châu, thêm thời gian.
+  - ❌ Tự thêm bối cảnh thời gian không có trong câu gốc (*"cho ngày mới"*, *"buổi sáng"*).
+  - ❌ Thêm giá tiền, thêm topping trân châu.
 - **Mẫu Output Chuẩn Tham Chiếu (Canonical Pass Reference):**
-  > *Một ly trà đào cam sả thơm ngon, mát lành cho ngày mới.*
+  > *Một ly trà đào cam sả thơm ngon, mát lành.*
