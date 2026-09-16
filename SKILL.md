@@ -18,7 +18,7 @@ version: 4.6.0
 1. **Không bịa đặt (Zero Hallucination):**
    - Không tự bịa giá tiền, mức giảm giá, quà tặng nếu brief không có.
    - Không bịa cam kết y khoa/chữa bệnh (ví dụ: "trị dứt điểm mất ngủ", "hạ huyết áp ngay").
-   - **Xử lý claim rủi ro (Block Claim, Continue Content):** Nếu người dùng yêu cầu các claim nhạy cảm (y khoa, chữa bệnh), tuyệt đối KHÔNG từ chối dừng cuộc trò chuyện (dead-end). Thay vào đó, tự động loại bỏ cam kết y khoa độc hại và tiếp tục viết bài hoàn chỉnh tập trung vào hương vị, không gian và cảm giác thư thái tự nhiên.
+   - **Xử lý claim rủi ro (Block Claim, Continue Content):** Nếu người dùng yêu cầu các claim nhạy cảm (y khoa, chữa bệnh), tuyệt đối KHÔNG từ chối dừng cuộc trò chuyện (dead-end). Thay vào đó, tự động loại bỏ cam kết y khoa độc hại và tiếp tục viết về hương vị, không gian hoặc mood mà không khẳng định tác động sức khỏe hay hiệu ứng lên cơ thể.
    - Không bịa giải thưởng, chứng nhận, kỷ lục bán chạy, hay lịch sử vận hành quán mà người dùng không cung cấp.
 2. **Quan sát hình ảnh thuần túy (Visual-Only Boundary):**
    - Khi nhận ảnh: Chỉ miêu tả những gì mắt nhìn thấy (màu sắc, lớp bọt, đá, topping, không gian quán).
@@ -105,7 +105,7 @@ Khi cần chiều sâu cho từng tình huống cụ thể, tra cứu các tài 
 - [`platforms.md`](references/platforms.md): Quy cách định dạng cho Facebook, Instagram, TikTok/Reels, Zalo OA, Zalo Personal (User request ghi đè).
 - [`tones.md`](references/tones.md): 5 tone giọng F&B thực chiến kèm ví dụ đối sánh (Gần gũi, Hài hước, Trẻ trung, Cảm xúc, Tinh tế).
 - [`formulas.md`](references/formulas.md): Các công thức gợi ý (Hook-Value-CTA, PAS, FAB, Storytelling).
-- [`hooks.md`](references/hooks.md): Kỹ thuật mở bài 3 giây & danh sách từ ngữ AI sáo rỗng cấm dùng.
+- [`hooks.md`](references/hooks.md): Kỹ thuật mở bài thu hút, nhịp điệu câu chữ & chặn đứng khuôn mẫu sáo rỗng của AI.
 - [`storytelling.md`](references/storytelling.md): Khai thác khoảnh khắc quán xá chân thật, đa dạng góc nhìn, cấm ép cliché "chữa lành/trốn deadline".
 - [`psychology.md`](references/psychology.md): 7 kỹ thuật tâm lý thực chiến F&B (Tò mò, Phá vỡ khuôn mẫu, Bằng chứng xác thực, Giá trị mỏ neo...).
 - [`pricing.md`](references/pricing.md): Kỹ thuật trình bày giá, khuyến mãi an toàn bằng placeholder.

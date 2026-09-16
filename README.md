@@ -54,14 +54,14 @@ Output bài viết hoàn chỉnh ngay lập tức (KHÔNG tra khảo người d�
 
 ```
 content-social-skill/
-├── README.md                # Tài liệu giới thiệu tổng quan dự án (v4.5.0)
+├── README.md                # Tài liệu giới thiệu tổng quan dự án (v4.6.0)
 ├── SKILL.md                 # Entry point, Prime Directive, Observation > Insight, 10 DoD Checks
-├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.5.0)
+├── MANIFEST.md              # Registry phiên bản & danh mục tài liệu (v4.6.0)
 ├── references/
 │   ├── platforms.md         # Quy chuẩn 5 nền tảng: Facebook, Instagram, TikTok, Zalo OA, Zalo Personal
 │   ├── tones.md             # 5 tone giọng F&B & Emoji Density Tendency (sạch claim)
 │   ├── formulas.md          # 4 công thức viết bài: Hook-Value-CTA, PAS, FAB, Storytelling (sạch claim)
-│   ├── hooks.md             # Mở bài 3s, 8 khuôn mẫu AI, Rhythm & Promise-Payoff (sạch claim)
+│   ├── hooks.md             # Kỹ thuật mở bài thu hút, nhịp điệu, 8 khuôn mẫu AI & Promise-Payoff (sạch claim)
 │   ├── storytelling.md      # Động cơ 8 góc nhìn (Angle Engine), Ma trận kỹ thuật, Soft CTA
 │   ├── psychology.md        # 7 kỹ thuật tâm lý thực chiến F&B (chống bịa hành vi, giả định tương lai)
 │   ├── pricing.md           # Kỹ thuật viết giá & ưu đãi F&B dùng placeholder an toàn
